@@ -4,20 +4,13 @@
 <div id="error" />
 
 <script>
+	try {
+		bridge.send(JSON.stringify({ service: 'toast', method: 'toastMessage', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
 
-	 function something(){
-            bridge.send(JSON.stringify({ service: 'toast', method: 'toastMessage', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
-	 }
-
-	document.getElementById('container').innerHTML = Object.keys(window.bridge).join(', ')
-
-		try {
-			something()
-
-			document.getElementById('error').innerHTML = 'done'
-		} catch (error){
-			document.getElementById('error').innerHTML = error
-		}	
+		document.getElementById('error').innerHTML = 'done'
+	} catch (error){
+		document.getElementById('error').innerHTML = error
+	}	
 
 </script>
 
