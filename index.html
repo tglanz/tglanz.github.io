@@ -1,6 +1,7 @@
 <a href="https://x3y2.app.link/LalPs94WSB">the link</a>
 
 <div id="container" />
+<div id="error" />
 
 <script>
 
@@ -11,8 +12,14 @@
 	document.getElementById('container').innerHTML = Object.keys(window.bridge).join(', ')
 
 	setTimeout(function(){
-		something()	
-}, 2000)
+		try {
+			something()
+
+			document.getElementById('error').innerHTML - 'done'
+		} catch (error){
+			document.getElementById('error').innerHTML = error
+		}	
+	}, 2000)
 
 </script>
 
