@@ -11,15 +11,13 @@
 
 	document.getElementById('container').innerHTML = Object.keys(window.bridge).join(', ')
 
-	setTimeout(function(){
 		try {
 			something()
 
-			document.getElementById('error').innerHTML - 'done'
+			document.getElementById('error').innerHTML = 'done'
 		} catch (error){
 			document.getElementById('error').innerHTML = error
 		}	
-	}, 2000)
 
 </script>
 
