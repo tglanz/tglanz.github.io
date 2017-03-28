@@ -3,5 +3,16 @@
 <div id="container" />
 
 <script>
+
+	 function something(){
+            bridge.send(JSON.stringify({ service: 'toast', method: 'toastMessage', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
+	 }
+
 	document.getElementById('container').innerHTML = Object.keys(window.bridge).join(', ')
+
+	setTimeout(function(){
+		something()	
+}, 2000)
+
 </script>
+
