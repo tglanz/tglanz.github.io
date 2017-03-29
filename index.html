@@ -1,17 +1,44 @@
 <a href="https://x3y2.app.link/LalPs94WSB">https://x3y2.app.link/LalPs94WSB</a>
+<br />
 <a href="https://www.google.com">https://www.google.com</a>
+<br />
 <a href="http://www.google.com">http://www.google.com</a>
+<br />
+<a href="#" onclick="sendBridgeEvents(); return false;">sendBridgeEvents()</a>
 
 <div id="container" />
 <div id="error" />
 
 <script>
 
-	document.getElementById('container').innerHTML = Object.keys(window).sort()
+	function sendBridgeEvents() {
+		bridge.send(JSON.stringify({
+			service: 'startCallHandler',
+			method: 'startCall',
+			args: [],
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131',
+			isCancelled: true
+		}));		
+
+		bridge.send(JSON.stringify({
+			service: 'deviceAnalytics',
+			method: 'writeEvent',
+			args: [{ }],
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7132',
+			isCancelled: true
+		}));		
+
+		bridge.send(JSON.stringify({
+			service: "WebViewWalkthroughHandler",
+			method: "start",
+			args: [{ }],
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7133'
+		}))
+	}
+
+	document.getElementById('container').innerHTML = Object.keys(window).sort().join(', ')
 
 	try {
-		bridge.send(JSON.stringify({ service: 'startCallHandler', method: 'startCall', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
-
 		document.getElementById('error').innerHTML = 'done'
 	} catch (error){
 		document.getElementById('error').innerHTML = error
