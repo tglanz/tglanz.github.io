@@ -13,12 +13,22 @@
 <script>
 
 	function sendBridgeEvents() {
+
+		bridge.send(JSON.stringify({
+			service: 'startCallHandler',
+			method: 'startCall',
+			args: [],
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7132'
+		}));	
+
 		bridge.send(JSON.stringify({
 			service: 'commandDispatcher',
 			method: 'dispatchCommand',
 			args: [],
 			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131'
 		}));		
+
+
 
 		document.getElementById('logs').innerHTML = 'done';
 	}
