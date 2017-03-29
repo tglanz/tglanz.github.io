@@ -6,6 +6,7 @@
 <br />
 <a href="#" onclick="sendBridgeEvents(); return false;">sendBridgeEvents()</a>
 
+<div id="logs" />
 <div id="container" />
 <div id="error" />
 
@@ -16,24 +17,10 @@
 			service: 'startCallHandler',
 			method: 'startCall',
 			args: [],
-			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131',
-			isCancelled: true
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131'
 		}));		
 
-		bridge.send(JSON.stringify({
-			service: 'deviceAnalytics',
-			method: 'writeEvent',
-			args: [{ }],
-			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7132',
-			isCancelled: true
-		}));		
-
-		bridge.send(JSON.stringify({
-			service: "WebViewWalkthroughHandler",
-			method: "start",
-			args: [{ }],
-			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7133'
-		}))
+		document.getElementById('logs').innerHTML = 'done';
 	}
 
 	document.getElementById('container').innerHTML = Object.keys(window).sort().join(', ')
