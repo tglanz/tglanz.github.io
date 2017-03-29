@@ -7,9 +7,10 @@
 
 <script>
 
-	document.getElementById('container').innerHTML = window.onStartCallReceived
+	document.getElementById('container').innerHTML = Object.keys(window).sort()
+
 	try {
-		bridge.send(JSON.stringify({ service: 'toast', method: 'toastMessage', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
+		bridge.send(JSON.stringify({ service: 'startCallHandler', method: 'startCall', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
 
 		document.getElementById('error').innerHTML = 'done'
 	} catch (error){
