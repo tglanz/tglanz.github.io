@@ -6,6 +6,8 @@
 <div id="error" />
 
 <script>
+
+	document.getElementById('container').innerHTML = window.onStartCallReceived
 	try {
 		bridge.send(JSON.stringify({ service: 'toast', method: 'toastMessage', args: ['some toast'], correlationId: '81a94e75-6e62-4751-8311-b5f8600d7131', isCancelled: true}));
 
