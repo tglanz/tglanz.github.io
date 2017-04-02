@@ -1,5 +1,5 @@
 <br /><br />
-<a href="#" onclick="startCall(); return false;">startCall()</a>
+<a href="#" onclick="startWalkthrough(); return false;">startWalkthrough()</a>
 <br /><br />
 <a href="#" onclick="dispatchCommand(); return false;">dispatchCommand()</a>
 <br /><br />
@@ -10,12 +10,14 @@
 
 <script>
 
-	function startCall(){
+	function startWalkthrough(){
 		bridge.send(JSON.stringify({
-			service: 'startCallHandler',
-			method: 'startCall',
-			args: [],
-			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7132'
+			service: 'contentCommandHandler',
+			method: 'contentCommand',
+			args: [{
+				name: 'startWalkthrough'
+			}],
+			correlationId: '81a94e75-6e62-4751-8311-b5f8600d7152'
 		}));	
 
 		document.getElementById('logs').innerHTML = "done start";	
