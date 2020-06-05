@@ -55,3 +55,7 @@ enable a desired profile by running ```netctl start PROFILE_NAME```, but note th
 
 for some reason, the dns fails and it is because of some short circuit configuration at _/etc/nsswitch.conf_.
 at the line begining with _hosts:_, change _dns_ to be before _[!UNAVAIL=return]_
+
+## update system time
+
+```timedatectl set-ntp true```
