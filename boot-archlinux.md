@@ -8,6 +8,17 @@ __/sys/firmware/efi/efivars__
 
 ## configure wireless network
 
+### tl;dr
+
+- assume you wanna connect to _mynet_
+- add profile for netctl at _/etc/netctl_ named _mynet_
+- execute ```netctl start mynet```
+- verify connection by pinging to 8.8.8.8
+- edit _/etc/nsswitch.conf_ such that in the _hosts_ entry, _dns_ will appear before [!UNAVAIL=return]
+- verify dns by pinging to google.com
+
+### interfaces
+
 ```ip link list``` to display network interfaces
 
 detect you wireless interface, probably ```wlan0```
