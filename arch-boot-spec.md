@@ -105,6 +105,25 @@ ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
 hwclock --systohc
 ```
 
+set root passworf for linux installation
+
+```passwd```
+
 ## grub
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-mkconfig -o /boot/grub/grub.conf
+```
+
 ## finalize
-- 
+
+back to bootable environment
+
+```exit```
+
+unmount all partitions
+
+```umount -R /mnt```
+
+```reboot```
