@@ -23,13 +23,38 @@ check dns acquisition
 
 ## partition, filesystems and mount
 
+be careful, assume each step to erase all data on partition layout of the disk!
+
+make sure on which device you want to work on
+
+```lsblk```
+
+erase labels
+
+```wipefs -a /dev/sdb```
+
 partition scheme below
+
+> you can use ```fdisk``` or ```cfdisk``` for example
 
 partition | size  | type             | desc
 ----------|-------|------------------|----------------
-sdb1      | 512MB | EFI System       | boot partition
-sdb2      | 24GB  | Linux Swap       | swap partition
-sdb3      | rest  | Linux Filesystem | root partition
+sdb1      | 550MB | EFI System       | boot partition
+sdb2      | 24GB  | Linux swap       | swap partition
+sdb3      | 32GN  | Linux filesystem | root partition
+sdb4      | rest  | Linux filesystem | home partition
+
+make filesystems for the partitions
+
+```bash
+mkfs.fat -F32 /dev/sdb1
+
+mkswap /dev/sdb2
+swapon /dev/sdb2
+
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
+```
 
 ## archlinux installation
 ## installation setup
