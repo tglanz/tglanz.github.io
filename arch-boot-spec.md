@@ -22,6 +22,15 @@ check dns acquisition
 ```ping google.com```
 
 ## partition, filesystems and mount
+
+partition scheme below
+
+partition | size  | type             | desc
+----------|-------|------------------|----------------
+sdb1      | 512MB | EFI System       | boot partition
+sdb2      | 24GB  | Linux Swap       | swap partition
+sdb3      | rest  | Linux Filesystem | root partition
+
 ## archlinux installation
 ## installation setup
   - fstab
