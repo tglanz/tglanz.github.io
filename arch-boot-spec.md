@@ -9,7 +9,7 @@ i edit this file in parallel to the installation and learning process; if you wa
 
 ## connect to network
 
-```wifi-menu``` - follow instructions
+```wifi-menu``` and follow instructions
 
 check connectivity
 
@@ -54,6 +54,19 @@ swapon /dev/sdb2
 
 mkfs.ext4 /dev/sdb3
 mkfs.ext4 /dev/sdb4
+```
+
+mount partitions to filesystem
+
+```bash
+mount /dev/sdb3 /mnt
+
+mkdir /mnt/boot
+mkdir /mnt/boot/efi
+mkdir /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
 ```
 
 ## archlinux installation
