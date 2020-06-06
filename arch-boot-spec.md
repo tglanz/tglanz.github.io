@@ -81,10 +81,30 @@ pacstrap /mnt \
 ```
 
 ## installation setup
-  - fstab
-  - chroot
-  - locale
-  - timezone
+
+generate fstab
+
+```genfstab -U /mnt >> /mnt/etc/fstab```
+
+change root to installation
+
+```arch-chroot /mnt```
+
+edit file ```/etc/locale.gen``` and uncomment desired locale
+
+generate locale
+
+```locale-gen```
+
+```echo "LANG=en_US.UTF-8" > /etc/locale.conf```
+
+set timezone
+
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock --systohc
+```
+
 ## grub
 ## finalize
 - 
