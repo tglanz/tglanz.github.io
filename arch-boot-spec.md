@@ -3,7 +3,8 @@
 this is specific to my machine and software of choice
 - efi boot
 - disk at sdb 
-- netctl as network manager
+- netctl as network manager in boot environment
+- networkmanager as network manager in installation
 
 i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)
 
@@ -76,7 +77,7 @@ pacstrap /mnt \
     base base-devel \
     linux linux-firmware \
     grub efibootmgr \
-    netctl dialog \
+    networkmanager \
     vim elinks git
 ```
 
@@ -113,7 +114,7 @@ set root passworf for linux installation
 
 ```bash
 grub-install --target=x86_64-efi --efi-directory=/boot/efi
-grub-mkconfig -o /boot/grub/grub.conf
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ## finalize
