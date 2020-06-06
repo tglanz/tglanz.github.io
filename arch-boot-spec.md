@@ -70,6 +70,16 @@ mount /dev/sdb1 /mnt/boot/efi
 ```
 
 ## archlinux installation
+
+```bash
+pacstrap /mnt \
+    base base-devel \
+    linux linux-firmware \
+    grub efibootmgr \
+    netctl dialog \
+    vim elinks git
+```
+
 ## installation setup
   - fstab
   - chroot
