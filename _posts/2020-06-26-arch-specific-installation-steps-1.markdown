@@ -1,3 +1,13 @@
+---
+layout: post
+title: Archlinux installation steps
+subtitle:
+    Install archlinux on a uefi system with standard disk partitioning scheme
+date: 2020-06-26
+category: linux
+tags: tutorial linux archlinux
+---
+
 # arch boot spec
 
 this is specific to my machine and software of choice
@@ -42,8 +52,8 @@ partition | size  | type             | desc
 ----------|-------|------------------|----------------
 sdb1      | 550MB | EFI System       | boot partition
 sdb2      | 24GB  | Linux swap       | swap partition
-sdb3      | 32GN  | Linux filesystem | root partition
-sdb4      | rest  | Linux filesystem | home partition
+sdb3      | 32GN  | Linux filesystem  | root partition
+sdb4      | rest  | Linux filesystem  | home partition
 
 make filesystems for the partitions
 
