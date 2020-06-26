@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-26T18:01:20+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="http://localhost:4000/linux/2020/06/26/arch-specific-installation-steps-1.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>http://localhost:4000/linux/2020/06/26/arch-specific-installation-steps-1</id><content type="html" xml:base="http://localhost:4000/linux/2020/06/26/arch-specific-installation-steps-1.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
+
+&lt;p&gt;this is specific to my machine and software of choice&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;efi boot&lt;/li&gt;
+  &lt;li&gt;disk at sdb&lt;/li&gt;
+  &lt;li&gt;netctl as network manager in boot environment&lt;/li&gt;
+  &lt;li&gt;networkmanager as network manager in installation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)&lt;/p&gt;
+
+&lt;h2 id=&quot;connect-to-network&quot;&gt;connect to network&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wifi-menu&lt;/code&gt; and follow instructions&lt;/p&gt;
+
+&lt;p&gt;check connectivity&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ping 8.8.8.8&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/nsswitch.conf&lt;/code&gt;, at the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hosts&lt;/code&gt; entry, make sure &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dns&lt;/code&gt; is before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[!UNAVAIL=return]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;check dns acquisition&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ping google.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;partition-filesystems-and-mount&quot;&gt;partition, filesystems and mount&lt;/h2&gt;
+
+&lt;p&gt;be careful, assume each step to erase all data on partition layout of the disk!&lt;/p&gt;
+
+&lt;p&gt;make sure on which device you want to work on&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-lsblk```&quot;&gt;
+erase labels
+
+```wipefs -a /dev/sdb```
+
+partition scheme below
+
+&amp;gt; you can use ```fdisk``` or ```cfdisk``` for example
+
+partition | size  | type             | desc
+----------|-------|------------------|----------------
+sdb1      | 550MB | EFI System       | boot partition
+sdb2      | 24GB  | Linux swap       | swap partition
+sdb3      | 32GN  | Linux filesystem  | root partition
+sdb4      | rest  | Linux filesystem  | home partition
+
+make filesystems for the partitions
+
+```bash
+mkfs.fat -F32 /dev/sdb1
+
+mkswap /dev/sdb2
+swapon /dev/sdb2
+
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;mount partitions to filesystem&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mount /dev/sdb3 /mnt
+
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /mnt/boot
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /mnt/boot/efi
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;archlinux-installation&quot;&gt;archlinux installation&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pacstrap /mnt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    base base-devel &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    linux linux-firmware &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    grub efibootmgr &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    networkmanager &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    vim elinks git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installation-setup&quot;&gt;installation setup&lt;/h2&gt;
+
+&lt;p&gt;generate fstab&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;change root to installation&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arch-chroot /mnt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;edit file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/locale.gen&lt;/code&gt; and uncomment desired locale&lt;/p&gt;
+
+&lt;p&gt;generate locale&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-locale-gen```&quot;&gt;
+```echo &quot;LANG=en_US.UTF-8&quot; &amp;gt; /etc/locale.conf```
+
+set timezone
+
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock --systohc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;set root passworf for linux installation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-passwd```&quot;&gt;
+## grub
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-mkconfig -o /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;finalize&quot;&gt;finalize&lt;/h2&gt;
+
+&lt;p&gt;back to bootable environment&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exit&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;unmount all partitions&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;umount -R /mnt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reboot&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="tutorial" /><category term="linux" /><category term="archlinux" /><summary type="html">arch boot spec</summary></entry></feed>
