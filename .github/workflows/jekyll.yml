@@ -12,9 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
+    - name: checkout
+      users: actions/checkout@v2
+    - name: build jekyll in container
       run: |
         docker run \
         -v ${{ github.workspace }}/src/:/srv/jekyll/src -v ${{ github.workspace }}:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && cd src/ && bundle install && jekyll build -d ../_site --future"
+    - name: postmortem
+      if: ${{ failure() }}
+      run: |
+        find .
