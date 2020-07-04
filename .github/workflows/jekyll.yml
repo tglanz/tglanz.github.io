@@ -18,10 +18,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d site/ --future"
-    - name: move site to root
-      run: |
-        chmod -R 777 /srv/jekyll && mv ${{ github.workspace }}/site/* ${{ github.workspace }}/
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d site/ --future && move site/* /src/jekyll"
     - name: postmortem
       if: ${{ failure() || success() }}
       run: |
