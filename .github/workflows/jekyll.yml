@@ -22,4 +22,4 @@ jobs:
     - name: postmortem
       if: ${{ failure() || success() }}
       run: |
-        echo "finding: ${{ github.workspace }} && find ${{ github.workspace }}
+        echo "finding: ${{ github.workspace }} && find ${{ github.workspace }}"
