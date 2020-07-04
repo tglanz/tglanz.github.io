@@ -21,7 +21,7 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d site/ --future"
     - name: move site to root
       run: |
-        chmod -R 777 /src/jekyll && mv ${{ github.workspace }}/site/* ${{ github.workspace }}/
+        chmod -R 777 /srv/jekyll && mv ${{ github.workspace }}/site/* ${{ github.workspace }}/
     - name: postmortem
       if: ${{ failure() || success() }}
       run: |
