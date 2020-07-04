@@ -18,7 +18,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d site/ --future && move site/* /src/jekyll"
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d site/ --future && move site/* /srv/jekyll"
     - name: postmortem
       if: ${{ failure() || success() }}
       run: |
