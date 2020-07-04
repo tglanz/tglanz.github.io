@@ -17,9 +17,12 @@ jobs:
     - name: build jekyll in container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        -v ${{ github.workspace }}:/srv/jekyll \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install && jekyll build -s src/ -d _site/ --future"
+    - name: copy site to root
+      run: |
+        mv ${{ github.workspace }}/_site/* ${{ github.workspace }}/
     - name: postmortem
       if: ${{ failure() || success() }}
       run: |
-        echo "finding: ${{ github.workspace }} && find ${{ github.workspace }}"
+        echo "finding: ${{ github.workspace }}" && find ${{ github.workspace }}
