@@ -18,3 +18,6 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && cd src/ && bundle install && jekyll build -d .. --future"
+    - name: Post view
+      run: |
+        find .
