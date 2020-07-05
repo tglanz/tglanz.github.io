@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-06-26T18:32:52+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps-1.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps-1</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps-1.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-05T20:14:57+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
 
 &lt;p&gt;this is specific to my machine and software of choice&lt;/p&gt;
 &lt;ul&gt;
@@ -124,4 +124,18 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;umount -R /mnt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reboot&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="tutorial" /><category term="linux" /><category term="archlinux" /><summary type="html">arch boot spec</summary></entry></feed>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reboot&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="tutorial" /><category term="linux" /><category term="archlinux" /><summary type="html">arch boot spec</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/archlinux-256.png" /><media:content medium="image" url="/assets/archlinux-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn iso to device</title><link href="/misc/2020/06/26/burn-iso.html" rel="alternate" type="text/html" title="Burn iso to device" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/misc/2020/06/26/burn-iso</id><content type="html" xml:base="/misc/2020/06/26/burn-iso.html">&lt;h1 id=&quot;iso-burn&quot;&gt;iso burn&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;detect the device to burn to to using&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-lsblk```&quot;&gt;
+- carefully and surely execute
+
+```bash
+sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
+
+# example
+sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
+&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><category term="misc" /><category term="tutorial" /><summary type="html">iso burn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/iso-256.png" /><media:content medium="image" url="/assets/iso-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

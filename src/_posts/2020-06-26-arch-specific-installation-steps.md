@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Archlinux installation steps
+image: /assets/archlinux-256.png
 subtitle:
     Install archlinux on a uefi system with standard disk partitioning scheme
 date: 2020-06-26

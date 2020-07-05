@@ -17,23 +17,23 @@
     
     
 
-    <title>Archlinux installation steps | </title>
+    <title>Burn iso to device | </title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     
-        <meta name="keywords" content="tutorial, linux, archlinux">
+        <meta name="keywords" content="tutorial">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Archlinux installation steps | ">
+    <meta name="twitter:title" content="Burn iso to device | ">
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="twitter:image:src" content="/assets/img/blog-image.png">
+    <meta property="twitter:image:src" content="/assets/iso-256.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/linux/2020/06/26/arch-specific-installation-steps-1.html">
-    <meta property="og:title" content="Archlinux installation steps | ">
-    <meta property="og:image" content="/assets/img/blog-image.png">
+    <meta property="og:url" content="/misc/2020/06/26/burn-iso.html">
+    <meta property="og:title" content="Burn iso to device | ">
+    <meta property="og:image" content="/assets/iso-256.png">
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     <meta property="og:site_name" content="tglanz">
 
@@ -66,7 +66,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="/linux/2020/06/26/arch-specific-installation-steps-1.html">
+    <link rel="canonical" href="/misc/2020/06/26/burn-iso.html">
     <link rel="alternate" type="application/rss+xml" title="tglanz" href="/feed.xml" />
 
     <!-- Include extra styles -->
@@ -119,7 +119,19 @@
   
     
       <li>
+        <a href="/readings">Readings</a>
+      </li>
+    
+  
+    
+      <li>
         <a href="/about">About</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="/contact">Contact</a>
       </li>
     
   
@@ -152,11 +164,13 @@ June 26, 2020
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>2 min to read</span>
+                    <span>1 min to read</span>
                 </p>
-                <h1 class="post-title">Archlinux installation steps</h1>
-                <p class="post-subtitle">Install archlinux on a uefi system with standard disk partitioning scheme</p>
+                <h1 class="post-title">Burn iso to device</h1>
+                <p class="post-subtitle"></p>
 
+                
+                    <img src="/assets/iso-256.png" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -166,133 +180,22 @@ June 26, 2020
                 <!-- Add your table of contents here -->
 
 
-                <h1 id="arch-boot-spec">arch boot spec</h1>
+                <h1 id="iso-burn">iso burn</h1>
 
-<p>this is specific to my machine and software of choice</p>
 <ul>
-  <li>efi boot</li>
-  <li>disk at sdb</li>
-  <li>netctl as network manager in boot environment</li>
-  <li>networkmanager as network manager in installation</li>
+  <li>detect the device to burn to to using</li>
 </ul>
 
-<p>i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)</p>
-
-<h2 id="connect-to-network">connect to network</h2>
-
-<p><code class="language-plaintext highlighter-rouge">wifi-menu</code> and follow instructions</p>
-
-<p>check connectivity</p>
-
-<p><code class="language-plaintext highlighter-rouge">ping 8.8.8.8</code></p>
-
-<p>in <code class="language-plaintext highlighter-rouge">/etc/nsswitch.conf</code>, at the <code class="language-plaintext highlighter-rouge">hosts</code> entry, make sure <code class="language-plaintext highlighter-rouge">dns</code> is before <code class="language-plaintext highlighter-rouge">[!UNAVAIL=return]</code></p>
-
-<p>check dns acquisition</p>
-
-<p><code class="language-plaintext highlighter-rouge">ping google.com</code></p>
-
-<h2 id="partition-filesystems-and-mount">partition, filesystems and mount</h2>
-
-<p>be careful, assume each step to erase all data on partition layout of the disk!</p>
-
-<p>make sure on which device you want to work on</p>
-
 <pre><code class="language-lsblk```">
-erase labels
-
-```wipefs -a /dev/sdb```
-
-partition scheme below
-
-&gt; you can use ```fdisk``` or ```cfdisk``` for example
-
-partition | size  | type             | desc
-----------|-------|------------------|----------------
-sdb1      | 550MB | EFI System       | boot partition
-sdb2      | 24GB  | Linux swap       | swap partition
-sdb3      | 32GN  | Linux filesystem  | root partition
-sdb4      | rest  | Linux filesystem  | home partition
-
-make filesystems for the partitions
+- carefully and surely execute
 
 ```bash
-mkfs.fat -F32 /dev/sdb1
+sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
 
-mkswap /dev/sdb2
-swapon /dev/sdb2
-
-mkfs.ext4 /dev/sdb3
-mkfs.ext4 /dev/sdb4
+# example
+sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
 </code></pre>
 
-<p>mount partitions to filesystem</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mount /dev/sdb3 /mnt
-
-<span class="nb">mkdir</span> /mnt/boot
-<span class="nb">mkdir</span> /mnt/boot/efi
-<span class="nb">mkdir</span> /mnt/home
-
-mount /dev/sdb4 /mnt/home
-mount /dev/sdb1 /mnt/boot/efi
-</code></pre></div></div>
-
-<h2 id="archlinux-installation">archlinux installation</h2>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pacstrap /mnt <span class="se">\</span>
-    base base-devel <span class="se">\</span>
-    linux linux-firmware <span class="se">\</span>
-    grub efibootmgr <span class="se">\</span>
-    networkmanager <span class="se">\</span>
-    vim elinks git
-</code></pre></div></div>
-
-<h2 id="installation-setup">installation setup</h2>
-
-<p>generate fstab</p>
-
-<p><code class="language-plaintext highlighter-rouge">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></p>
-
-<p>change root to installation</p>
-
-<p><code class="language-plaintext highlighter-rouge">arch-chroot /mnt</code></p>
-
-<p>edit file <code class="language-plaintext highlighter-rouge">/etc/locale.gen</code> and uncomment desired locale</p>
-
-<p>generate locale</p>
-
-<pre><code class="language-locale-gen```">
-```echo "LANG=en_US.UTF-8" &gt; /etc/locale.conf```
-
-set timezone
-
-```bash
-ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
-hwclock --systohc
-</code></pre>
-
-<p>set root passworf for linux installation</p>
-
-<pre><code class="language-passwd```">
-## grub
-
-```bash
-grub-install --target=x86_64-efi --efi-directory=/boot/efi
-grub-mkconfig -o /boot/grub/grub.cfg
-</code></pre>
-
-<h2 id="finalize">finalize</h2>
-
-<p>back to bootable environment</p>
-
-<p><code class="language-plaintext highlighter-rouge">exit</code></p>
-
-<p>unmount all partitions</p>
-
-<p><code class="language-plaintext highlighter-rouge">umount -R /mnt</code></p>
-
-<p><code class="language-plaintext highlighter-rouge">reboot</code></p>
 
 
                 <!-- Pagination links -->
@@ -306,7 +209,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="2">
+            <div class="time-bar" data-minutes="1">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -326,13 +229,13 @@ grub-mkconfig -o /boot/grub/grub.cfg
         </div>
     </div>
     
-    <a href="" class="post-preview">
+    <a href="/linux/2020/06/26/arch-specific-installation-steps.html" class="post-preview">
         <div class="image">
             
-                <img src="/assets/img/off.jpg">
+                <img src="/assets/archlinux-256.png">
             
         </div>
-        <h3 class="title"></h3>
+        <h3 class="title">Archlinux installation steps</h3>
     </a>
 </div>
 
@@ -348,11 +251,11 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/linux/2020/06/26/arch-specific-installation-steps-1.html%20via%20&#64;&hashtags=tutorial,linux,archlinux,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/misc/2020/06/26/burn-iso.html%20via%20&#64;&hashtags=tutorial,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/linux/2020/06/26/arch-specific-installation-steps-1.html"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/misc/2020/06/26/burn-iso.html"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -391,7 +294,19 @@ grub-mkconfig -o /boot/grub/grub.cfg
   
     
       <li>
+        <a href="/readings">Readings</a>
+      </li>
+    
+  
+    
+      <li>
         <a href="/about">About</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="/contact">Contact</a>
       </li>
     
   
@@ -470,140 +385,29 @@ grub-mkconfig -o /boot/grub/grub.cfg
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "Archlinux installation steps",
-            "headline": "Install archlinux on a uefi system with standard disk partitioning scheme",
+            "name": "Burn iso to device",
+            "headline": "",
             "description": "",
-            "image": "",
-            "url": "/linux/2020/06/26/arch-specific-installation-steps-1.html",
-            "articleBody": "arch boot spec
-
-this is specific to my machine and software of choice
-
-  efi boot
-  disk at sdb
-  netctl as network manager in boot environment
-  networkmanager as network manager in installation
+            "image": "/assets/iso-256.png",
+            "url": "/misc/2020/06/26/burn-iso.html",
+            "articleBody": "iso burn
 
 
-i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)
-
-connect to network
-
-wifi-menu and follow instructions
-
-check connectivity
-
-ping 8.8.8.8
-
-in /etc/nsswitch.conf, at the hosts entry, make sure dns is before [!UNAVAIL=return]
-
-check dns acquisition
-
-ping google.com
-
-partition, filesystems and mount
-
-be careful, assume each step to erase all data on partition layout of the disk!
-
-make sure on which device you want to work on
+  detect the device to burn to to using
 
 
-erase labels
 
-```wipefs -a /dev/sdb```
-
-partition scheme below
-
-&amp;gt; you can use ```fdisk``` or ```cfdisk``` for example
-
-partition | size  | type             | desc
-----------|-------|------------------|----------------
-sdb1      | 550MB | EFI System       | boot partition
-sdb2      | 24GB  | Linux swap       | swap partition
-sdb3      | 32GN  | Linux filesystem  | root partition
-sdb4      | rest  | Linux filesystem  | home partition
-
-make filesystems for the partitions
+- carefully and surely execute
 
 ```bash
-mkfs.fat -F32 /dev/sdb1
+sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
 
-mkswap /dev/sdb2
-swapon /dev/sdb2
-
-mkfs.ext4 /dev/sdb3
-mkfs.ext4 /dev/sdb4
+# example
+sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
 
 
-mount partitions to filesystem
-
-mount /dev/sdb3 /mnt
-
-mkdir /mnt/boot
-mkdir /mnt/boot/efi
-mkdir /mnt/home
-
-mount /dev/sdb4 /mnt/home
-mount /dev/sdb1 /mnt/boot/efi
-
-
-archlinux installation
-
-pacstrap /mnt \
-    base base-devel \
-    linux linux-firmware \
-    grub efibootmgr \
-    networkmanager \
-    vim elinks git
-
-
-installation setup
-
-generate fstab
-
-genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
-
-change root to installation
-
-arch-chroot /mnt
-
-edit file /etc/locale.gen and uncomment desired locale
-
-generate locale
-
-
-```echo &quot;LANG=en_US.UTF-8&quot; &amp;gt; /etc/locale.conf```
-
-set timezone
-
-```bash
-ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
-hwclock --systohc
-
-
-set root passworf for linux installation
-
-
-## grub
-
-```bash
-grub-install --target=x86_64-efi --efi-directory=/boot/efi
-grub-mkconfig -o /boot/grub/grub.cfg
-
-
-finalize
-
-back to bootable environment
-
-exit
-
-unmount all partitions
-
-umount -R /mnt
-
-reboot
 ",
-            "wordcount": "365",
+            "wordcount": "36",
             "inLanguage": "",
             "dateCreated": "2020-06-26/",
             "datePublished": "2020-06-26/",
@@ -632,9 +436,9 @@ reboot
                 }
             },
             "mainEntityOfPage": "True",
-            "genre": "linux",
-            "articleSection": "linux",
-            "keywords": ["tutorial","linux","archlinux"]
+            "genre": "misc",
+            "articleSection": "misc",
+            "keywords": ["tutorial"]
         }
         </script>
     </body>
