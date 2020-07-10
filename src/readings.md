@@ -14,6 +14,7 @@ permalink: /readings/
 - [Graphs adjacency algorithms]()
 - [Hierarchical bit vectors](https://pdfs.semanticscholar.org/1137/5bc624d5b2a8cd5444e01dac8a836ed2ebde.pdf)
 - [Enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/patterns/messaging/)
+- [Crafting Interperters](https://craftinginterpreters.com/)
 
 ## ML
 
