@@ -8,13 +8,14 @@ permalink: /readings/
 
 ## Computer Science
 
-- [Data oriented design](http://www.dataorienteddesign.com/dodmain/)
 - [CSP](http://www.usingcsp.com/cspbook.pdf)
 - [Elements of statistical learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [Graphs adjacency algorithms]()
 - [Hierarchical bit vectors](https://pdfs.semanticscholar.org/1137/5bc624d5b2a8cd5444e01dac8a836ed2ebde.pdf)
-- [Enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/patterns/messaging/)
+- [Teach yourself programming in 10 years](http://norvig.com/21-days.html)
 - [Crafting Interperters](https://craftinginterpreters.com/)
+- [Data oriented design](http://www.dataorienteddesign.com/dodmain/)
+- [Enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/patterns/messaging/)
 
 ## ML
 
