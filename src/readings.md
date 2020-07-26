@@ -6,6 +6,8 @@ permalink: /readings/
 
 # Readings 
 
+- [Planks](/planks/)
+
 ## Computer Science
 
 - [CSP](http://www.usingcsp.com/cspbook.pdf)
