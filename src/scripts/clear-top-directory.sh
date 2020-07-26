@@ -17,6 +17,6 @@ for file_or_dir in $(ls $top_dir); do
         $top_dir/src)
             echo "  - skipping: $file_or_dir" ;;
         *) 
-            echo "  - deleting: $file_or_dir" ;; # && rm -rf $file_or_dir ;;
+            echo "  - deleting: $file_or_dir" && rm -rf $file_or_dir ;;
     esac
 done
