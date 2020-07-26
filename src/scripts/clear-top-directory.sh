@@ -11,11 +11,12 @@ echo "workspace
 
 echo "process"
 for file_or_dir in $(ls $top_dir); do
+    file_or_dir="$(realpath $top_dir/$file_or_dir)"
     case $file_or_dir in
         # add here exclusions for deletion
-        src)
+        $top_dir/src)
             echo "  - skipping: $file_or_dir" ;;
         *) 
-            echo "  - deleting: $file_or_dir" && rm -rf $file_or_dir ;;
+            echo "  - deleting: $file_or_dir" ;; # && rm -rf $file_or_dir ;;
     esac
 done
