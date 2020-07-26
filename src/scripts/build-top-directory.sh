@@ -22,3 +22,5 @@ echo "installing" && bundle install || func_error "failed to install"
 echo "building into $temp_static_dir" && bundle exec jekyll build -d $temp_static_dir || func_error "failed to build"
 echo "migrating from $temp_static_dir to $top_dir" && cp -r $temp_static_dir/* $top_dir || func_error "failed to migrate"
 echo "deleting $temp_static_dir" && rm -r $temp_static_dir || func_error "failed to delete"
+
+echo "removing $top_dir/scripts" && rm -r $top_dir/scripts || func_error "failed to delete"
