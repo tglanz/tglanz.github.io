@@ -3,6 +3,14 @@
   
   
     {
+      "title"    : "MariaDB Notes",
+      "tags"     : "notes, database, and mariadb",
+      "categories" : "mariadb",
+      "url"      : "/mariadb/2020/06/26/mariadb-notes.html",
+      "date"     : "06/26/2020"
+    } ,
+  
+    {
       "title"    : "Burn iso to device",
       "tags"     : "tutorial",
       "categories" : "misc",

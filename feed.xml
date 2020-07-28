@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-26T19:26:53+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T15:44:33+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
 
 &lt;p&gt;this is specific to my machine and software of choice&lt;/p&gt;
 &lt;ul&gt;
@@ -138,4 +138,57 @@ sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
 
 # example
 sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
-&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><category term="misc" /><category term="tutorial" /><summary type="html">iso burn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/iso-256.png" /><media:content medium="image" url="/assets/iso-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><category term="misc" /><category term="tutorial" /><summary type="html">iso burn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/iso-256.png" /><media:content medium="image" url="/assets/iso-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MariaDB Notes</title><link href="/mariadb/2020/06/26/mariadb-notes.html" rel="alternate" type="text/html" title="MariaDB Notes" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/mariadb/2020/06/26/mariadb-notes</id><content type="html" xml:base="/mariadb/2020/06/26/mariadb-notes.html">&lt;h1 id=&quot;mariadb-notes&quot;&gt;MariaDB Notes&lt;/h1&gt;
+
+&lt;p&gt;Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.&lt;/p&gt;
+
+&lt;h2 id=&quot;variables-inspection&quot;&gt;variables inspection&lt;/h2&gt;
+
+&lt;p&gt;run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysqladmin variables&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;notable-variablesconfigurations&quot;&gt;notable variables/configurations&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;data_dir&lt;/strong&gt; - the data directory&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;usually &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var/lib/mysql&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;lower_case_table_names&lt;/strong&gt; - as the name suggests, make all tables lower case.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;local_infile&lt;/strong&gt; - enable loading tables from local files.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;for commands such as: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysqlimport --local --fields-terminated-by=&quot;|&quot; -h localhost some-file.csv&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;configuration-files&quot;&gt;configuration files&lt;/h2&gt;
+
+&lt;p&gt;at least on the machine i am currently at, the root configuration is at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/my.cnf&lt;/code&gt;. in turn it includes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/my.cnf.d&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;in there, ill edit configurations in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/my.cnf.d/server.cnf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;for example; to have all tables names with lower case and enable local in files, ill add the following under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[mysqld]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;lower_case_table_names=1&lt;/li&gt;
+  &lt;li&gt;local_infile=1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;datadir-notes&quot;&gt;datadir notes&lt;/h2&gt;
+
+&lt;p&gt;we can check where it is configured to be at using the variables inspection above, but usually it is at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var/lib/mysql&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;it should be owned by the user/group running the process; those are usually mysql/mysql, but we can check this as well. assuming we start the process using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt;, open the service file, and check what are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Group&lt;/code&gt; configured to be. the service file on my machine is at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib/systemd/system/mariadb.service&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;complete-reboot&quot;&gt;complete reboot&lt;/h2&gt;
+
+&lt;p&gt;stop mariadb service - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemctl stop mariadb&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;delete contents of datadir -&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf /var/lib/mysql/*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;remake infrastructure files - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysql_install_db --user=mysql --ldata=/var/lib/mysql&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;when we need such a thing?
+for example; there are configurations that only apply on installation, such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lower_case_table_names&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="mariadb" /><category term="notes" /><category term="database" /><category term="mariadb" /><summary type="html">MariaDB Notes</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/mariadb-256.png" /><media:content medium="image" url="/assets/mariadb-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
