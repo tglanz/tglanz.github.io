@@ -37,15 +37,11 @@ check dns acquisition
 
 be careful, assume each step to erase all data on partition layout of the disk!
 
-make sure on which device you want to work on
+make sure on which device you want to work on, using ```lsblk```
 
-```lsblk```
+erase labels ```wipefs -a /dev/sdb```
 
-erase labels
-
-```wipefs -a /dev/sdb```
-
-partition scheme below
+example partition scheme below
 
 > you can use ```fdisk``` or ```cfdisk``` for example
 
@@ -53,7 +49,7 @@ partition | size  | type             | desc
 ----------|-------|------------------|----------------
 sdb1      | 550MB | EFI System       | boot partition
 sdb2      | 24GB  | Linux swap       | swap partition
-sdb3      | 32GN  | Linux filesystem  | root partition
+sdb3      | 32GB  | Linux filesystem  | root partition
 sdb4      | rest  | Linux filesystem  | home partition
 
 make filesystems for the partitions
@@ -89,37 +85,29 @@ pacstrap /mnt \
     linux linux-firmware \
     grub efibootmgr \
     networkmanager \
-    vim elinks git
+    vim git
 ```
 
 ## installation setup
 
-generate fstab
+generate fstab - ```genfstab -U /mnt >> /mnt/etc/fstab```
 
-```genfstab -U /mnt >> /mnt/etc/fstab```
-
-change root to installation
-
-```arch-chroot /mnt```
+change root to installation - ```arch-chroot /mnt```
 
 edit file ```/etc/locale.gen``` and uncomment desired locale
 
-generate locale
+generate locale - ```locale-gen```
 
-```locale-gen```
+add set language - ```echo "LANG=en_US.UTF-8" > /etc/locale.conf```
 
-```echo "LANG=en_US.UTF-8" > /etc/locale.conf```
-
-set timezone
+set timezone -
 
 ```bash
 ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
 hwclock --systohc
 ```
 
-set root passworf for linux installation
-
-```passwd```
+set root password for linux installation - ```passwd```
 
 ## grub
 

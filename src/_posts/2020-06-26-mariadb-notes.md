@@ -2,6 +2,7 @@
 layout: post
 title: MariaDB Notes
 image: /assets/mariadb-256.png
+optimized_image: /assets/mariadb-256-optimized.png 
 subtitle:
     Some notes for administrating stuff in MariaDB
 date: 2020-06-26
@@ -52,6 +53,8 @@ stop mariadb service - ```systemctl stop mariadb```
 delete contents of datadir -```rm -rf /var/lib/mysql/*```
 
 remake infrastructure files - ```mysql_install_db --user=mysql --ldata=/var/lib/mysql```
+
+start mariadb service - ```systemctl start mariadb```
 
 > when we need such a thing?
 > for example; there are configurations that only apply on installation, such as ```lower_case_table_names```
