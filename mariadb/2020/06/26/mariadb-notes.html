@@ -230,6 +230,8 @@ June 26, 2020
 
 <p>remake infrastructure files - <code class="language-plaintext highlighter-rouge">mysql_install_db --user=mysql --ldata=/var/lib/mysql</code></p>
 
+<p>start mariadb service - <code class="language-plaintext highlighter-rouge">systemctl start mariadb</code></p>
+
 <blockquote>
   <p>when we need such a thing?
 for example; there are configurations that only apply on installation, such as <code class="language-plaintext highlighter-rouge">lower_case_table_names</code></p>
@@ -478,12 +480,14 @@ delete contents of datadir -rm -rf /var/lib/mysql/*
 
 remake infrastructure files - mysql_install_db --user=mysql --ldata=/var/lib/mysql
 
+start mariadb service - systemctl start mariadb
+
 
   when we need such a thing?
 for example; there are configurations that only apply on installation, such as lower_case_table_names
 
 ",
-            "wordcount": "278",
+            "wordcount": "287",
             "inLanguage": "",
             "dateCreated": "2020-06-26/",
             "datePublished": "2020-06-26/",

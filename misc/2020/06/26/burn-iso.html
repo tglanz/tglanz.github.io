@@ -183,19 +183,20 @@ June 26, 2020
                 <h1 id="iso-burn">iso burn</h1>
 
 <ul>
-  <li>detect the device to burn to to using</li>
+  <li>
+    <p>detect the device to burn to to using <code class="language-plaintext highlighter-rouge">lsblk</code></p>
+  </li>
+  <li>
+    <p>carefully and surely execute</p>
+  </li>
 </ul>
 
-<pre><code class="language-lsblk```">
-- carefully and surely execute
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">dd </span><span class="nv">bs</span><span class="o">=</span>4M <span class="nv">conv</span><span class="o">=</span>fdatasync <span class="k">if</span><span class="o">=</span>your/iso/path <span class="nv">of</span><span class="o">=</span>device/identifier
+</code></pre></div></div>
 
-```bash
-sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
-
-# example
-sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
-</code></pre>
-
+<p><strong>example</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo dd </span><span class="nv">bs</span><span class="o">=</span>4M <span class="nv">conv</span><span class="o">=</span>fdatasync <span class="k">if</span><span class="o">=</span>~/Downloads/archlinux-2020.06.01-x86_64.iso <span class="nv">of</span><span class="o">=</span>/dev/sdc
+</code></pre></div></div>
 
 
                 <!-- Pagination links -->
@@ -232,7 +233,7 @@ sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/
     <a href="/mariadb/2020/06/26/mariadb-notes.html" class="post-preview">
         <div class="image">
             
-                <img src="/assets/mariadb-256.png">
+                <img src="/assets/mariadb-256-optimized.png">
             
         </div>
         <h3 class="title">MariaDB Notes</h3>
@@ -393,21 +394,22 @@ sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/
             "articleBody": "iso burn
 
 
-  detect the device to burn to to using
+  
+    detect the device to burn to to using lsblk
+  
+  
+    carefully and surely execute
+  
 
 
+dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
 
-- carefully and surely execute
 
-```bash
-sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
-
-# example
+example
 sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
 
-
 ",
-            "wordcount": "36",
+            "wordcount": "64",
             "inLanguage": "",
             "dateCreated": "2020-06-26/",
             "datePublished": "2020-06-26/",

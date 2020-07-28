@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T15:44:33+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T16:10:37+03:00</updated><id>/feed.xml</id><title type="html">tglanz</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Archlinux installation steps</title><link href="/linux/2020/06/26/arch-specific-installation-steps.html" rel="alternate" type="text/html" title="Archlinux installation steps" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/linux/2020/06/26/arch-specific-installation-steps</id><content type="html" xml:base="/linux/2020/06/26/arch-specific-installation-steps.html">&lt;h1 id=&quot;arch-boot-spec&quot;&gt;arch boot spec&lt;/h1&gt;
 
 &lt;p&gt;this is specific to my machine and software of choice&lt;/p&gt;
 &lt;ul&gt;
@@ -28,35 +28,63 @@
 
 &lt;p&gt;be careful, assume each step to erase all data on partition layout of the disk!&lt;/p&gt;
 
-&lt;p&gt;make sure on which device you want to work on&lt;/p&gt;
+&lt;p&gt;make sure on which device you want to work on, using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lsblk&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-lsblk```&quot;&gt;
-erase labels
+&lt;p&gt;erase labels &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wipefs -a /dev/sdb&lt;/code&gt;&lt;/p&gt;
 
-```wipefs -a /dev/sdb```
+&lt;p&gt;example partition scheme below&lt;/p&gt;
 
-partition scheme below
+&lt;blockquote&gt;
+  &lt;p&gt;you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fdisk&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cfdisk&lt;/code&gt; for example&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&amp;gt; you can use ```fdisk``` or ```cfdisk``` for example
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;partition&lt;/th&gt;
+      &lt;th&gt;size&lt;/th&gt;
+      &lt;th&gt;type&lt;/th&gt;
+      &lt;th&gt;desc&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdb1&lt;/td&gt;
+      &lt;td&gt;550MB&lt;/td&gt;
+      &lt;td&gt;EFI System&lt;/td&gt;
+      &lt;td&gt;boot partition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdb2&lt;/td&gt;
+      &lt;td&gt;24GB&lt;/td&gt;
+      &lt;td&gt;Linux swap&lt;/td&gt;
+      &lt;td&gt;swap partition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdb3&lt;/td&gt;
+      &lt;td&gt;32GB&lt;/td&gt;
+      &lt;td&gt;Linux filesystem&lt;/td&gt;
+      &lt;td&gt;root partition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdb4&lt;/td&gt;
+      &lt;td&gt;rest&lt;/td&gt;
+      &lt;td&gt;Linux filesystem&lt;/td&gt;
+      &lt;td&gt;home partition&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-partition | size  | type             | desc
-----------|-------|------------------|----------------
-sdb1      | 550MB | EFI System       | boot partition
-sdb2      | 24GB  | Linux swap       | swap partition
-sdb3      | 32GN  | Linux filesystem  | root partition
-sdb4      | rest  | Linux filesystem  | home partition
+&lt;p&gt;make filesystems for the partitions&lt;/p&gt;
 
-make filesystems for the partitions
-
-```bash
-mkfs.fat -F32 /dev/sdb1
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkfs.fat &lt;span class=&quot;nt&quot;&gt;-F32&lt;/span&gt; /dev/sdb1
 
 mkswap /dev/sdb2
 swapon /dev/sdb2
 
 mkfs.ext4 /dev/sdb3
 mkfs.ext4 /dev/sdb4
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;mount partitions to filesystem&lt;/p&gt;
 
@@ -77,42 +105,34 @@ mount /dev/sdb1 /mnt/boot/efi
     linux linux-firmware &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
     grub efibootmgr &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
     networkmanager &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-    vim elinks git
+    vim git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;installation-setup&quot;&gt;installation setup&lt;/h2&gt;
 
-&lt;p&gt;generate fstab&lt;/p&gt;
+&lt;p&gt;generate fstab - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;change root to installation&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arch-chroot /mnt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;change root to installation - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arch-chroot /mnt&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;edit file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/locale.gen&lt;/code&gt; and uncomment desired locale&lt;/p&gt;
 
-&lt;p&gt;generate locale&lt;/p&gt;
+&lt;p&gt;generate locale - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;locale-gen&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-locale-gen```&quot;&gt;
-```echo &quot;LANG=en_US.UTF-8&quot; &amp;gt; /etc/locale.conf```
+&lt;p&gt;add set language - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo &quot;LANG=en_US.UTF-8&quot; &amp;gt; /etc/locale.conf&lt;/code&gt;&lt;/p&gt;
 
-set timezone
+&lt;p&gt;set timezone -&lt;/p&gt;
 
-```bash
-ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
-hwclock --systohc
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sf&lt;/span&gt; /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock &lt;span class=&quot;nt&quot;&gt;--systohc&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;set root passworf for linux installation&lt;/p&gt;
+&lt;p&gt;set root password for linux installation - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;passwd&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-passwd```&quot;&gt;
-## grub
+&lt;h2 id=&quot;grub&quot;&gt;grub&lt;/h2&gt;
 
-```bash
-grub-install --target=x86_64-efi --efi-directory=/boot/efi
-grub-mkconfig -o /boot/grub/grub.cfg
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;grub-install &lt;span class=&quot;nt&quot;&gt;--target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;x86_64-efi &lt;span class=&quot;nt&quot;&gt;--efi-directory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/boot/efi
+grub-mkconfig &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; /boot/grub/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;finalize&quot;&gt;finalize&lt;/h2&gt;
 
@@ -127,18 +147,20 @@ grub-mkconfig -o /boot/grub/grub.cfg
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reboot&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="linux" /><category term="tutorial" /><category term="linux" /><category term="archlinux" /><summary type="html">arch boot spec</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/archlinux-256.png" /><media:content medium="image" url="/assets/archlinux-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Burn iso to device</title><link href="/misc/2020/06/26/burn-iso.html" rel="alternate" type="text/html" title="Burn iso to device" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/misc/2020/06/26/burn-iso</id><content type="html" xml:base="/misc/2020/06/26/burn-iso.html">&lt;h1 id=&quot;iso-burn&quot;&gt;iso burn&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;detect the device to burn to to using&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;detect the device to burn to to using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lsblk&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;carefully and surely execute&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-lsblk```&quot;&gt;
-- carefully and surely execute
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;dd &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;bs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4M &lt;span class=&quot;nv&quot;&gt;conv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;fdatasync &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;your/iso/path &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;device/identifier
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-```bash
-sudo dd bs=4M conv=fdatasync if=your/iso/path of=device/identifier
-
-# example
-sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/dev/sdc
-&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><category term="misc" /><category term="tutorial" /><summary type="html">iso burn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/iso-256.png" /><media:content medium="image" url="/assets/iso-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MariaDB Notes</title><link href="/mariadb/2020/06/26/mariadb-notes.html" rel="alternate" type="text/html" title="MariaDB Notes" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/mariadb/2020/06/26/mariadb-notes</id><content type="html" xml:base="/mariadb/2020/06/26/mariadb-notes.html">&lt;h1 id=&quot;mariadb-notes&quot;&gt;MariaDB Notes&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo dd &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;bs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4M &lt;span class=&quot;nv&quot;&gt;conv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;fdatasync &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;~/Downloads/archlinux-2020.06.01-x86_64.iso &lt;span class=&quot;nv&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/dev/sdc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="misc" /><category term="tutorial" /><summary type="html">iso burn</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/iso-256.png" /><media:content medium="image" url="/assets/iso-256.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MariaDB Notes</title><link href="/mariadb/2020/06/26/mariadb-notes.html" rel="alternate" type="text/html" title="MariaDB Notes" /><published>2020-06-26T00:00:00+03:00</published><updated>2020-06-26T00:00:00+03:00</updated><id>/mariadb/2020/06/26/mariadb-notes</id><content type="html" xml:base="/mariadb/2020/06/26/mariadb-notes.html">&lt;h1 id=&quot;mariadb-notes&quot;&gt;MariaDB Notes&lt;/h1&gt;
 
 &lt;p&gt;Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.&lt;/p&gt;
 
@@ -187,6 +209,8 @@ sudo dd bs=4M conv=fdatasync if=~/Downloads/archlinux-2020.06.01-x86_64.iso of=/
 &lt;p&gt;delete contents of datadir -&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf /var/lib/mysql/*&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;remake infrastructure files - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysql_install_db --user=mysql --ldata=/var/lib/mysql&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;start mariadb service - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemctl start mariadb&lt;/code&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;when we need such a thing?
