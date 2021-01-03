@@ -17,23 +17,23 @@
     
     
 
-    <title>MariaDB Notes | </title>
+    <title>Emacs Cheatsheet | </title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     
-        <meta name="keywords" content="notes, database, mariadb">
+        <meta name="keywords" content="tutorial, emacs, editor">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MariaDB Notes | ">
+    <meta name="twitter:title" content="Emacs Cheatsheet | ">
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="twitter:image:src" content="/assets/mariadb-256.png">
+    <meta property="twitter:image:src" content="/assets/emacs-256.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/mariadb/2020/06/26/mariadb-notes.html">
-    <meta property="og:title" content="MariaDB Notes | ">
-    <meta property="og:image" content="/assets/mariadb-256.png">
+    <meta property="og:url" content="/emacs/2019/08/03/emacs-cheetsheet.html">
+    <meta property="og:title" content="Emacs Cheatsheet | ">
+    <meta property="og:image" content="/assets/emacs-256.png">
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     <meta property="og:site_name" content="tglanz">
 
@@ -66,7 +66,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="/mariadb/2020/06/26/mariadb-notes.html">
+    <link rel="canonical" href="/emacs/2019/08/03/emacs-cheetsheet.html">
     <link rel="alternate" type="application/rss+xml" title="tglanz" href="/feed.xml" />
 
     <!-- Include extra styles -->
@@ -155,22 +155,22 @@
                 <p class="post-info">
                     
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="2020-06-26T00:00:00+03:00">
+                        <time class="date" datetime="2019-08-03T00:00:00+03:00">
                             
 
 
-June 26, 2020
+August 3, 2019
 
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>1 min to read</span>
                 </p>
-                <h1 class="post-title">MariaDB Notes</h1>
-                <p class="post-subtitle">Some notes for administrating stuff in MariaDB</p>
+                <h1 class="post-title">Emacs Cheatsheet</h1>
+                <p class="post-subtitle">Emacs basic stuff which i pick up along the way</p>
 
                 
-                    <img src="/assets/mariadb-256.png" alt="Featured image" class="post-cover">
+                    <img src="/assets/emacs-256.png" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -180,62 +180,96 @@ June 26, 2020
                 <!-- Add your table of contents here -->
 
 
-                <h1 id="mariadb-notes">MariaDB Notes</h1>
+                <h1 id="overview">overview</h1>
 
-<p>Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.</p>
+<p>some tasks or workflows are very mature through emacs and less on other enviornments, for example using clojure repl, editing latex files, scheme work etc…</p>
 
-<h2 id="variables-inspection">variables inspection</h2>
+<p>created this file because i use vim in my day to i keep forgetting basic emacs stuff</p>
 
-<p>run <code class="highlighter-rouge">mysqladmin variables</code></p>
+<h1 id="emacs">emacs</h1>
 
-<h2 id="notable-variablesconfigurations">notable variables/configurations</h2>
+<h4 id="open-emacs-in-the-terminal-emulator">open emacs in the terminal emulator</h4>
 
-<p><strong>data_dir</strong> - the data directory</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>emacs -nw
+</code></pre></div></div>
 
-<blockquote>
-  <p>usually <code class="highlighter-rouge">/var/lib/mysql</code></p>
-</blockquote>
+<h4 id="configuration-path">configuration path</h4>
 
-<p><strong>lower_case_table_names</strong> - as the name suggests, make all tables lower case.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/emacs.d/
+</code></pre></div></div>
 
-<p><strong>local_infile</strong> - enable loading tables from local files.</p>
+<h1 id="help">help</h1>
 
-<blockquote>
-  <p>for commands such as: <code class="highlighter-rouge">mysqlimport --local --fields-terminated-by="|" -h localhost some-file.csv</code></p>
-</blockquote>
+<p>It’s important to know how to get help and use the documentations within emacs</p>
 
-<h2 id="configuration-files">configuration files</h2>
+<p>Enter tutorial</p>
 
-<p>at least on the machine i am currently at, the root configuration is at <code class="highlighter-rouge">/etc/my.cnf</code>. in turn it includes <code class="highlighter-rouge">/etc/my.cnf.d</code>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-h t
+</code></pre></div></div>
 
-<p>in there, ill edit configurations in <code class="highlighter-rouge">/etc/my.cnf.d/server.cnf</code>.</p>
+<p>Enter package documentation</p>
 
-<p>for example; to have all tables names with lower case and enable local in files, ill add the following under <code class="highlighter-rouge">[mysqld]</code></p>
-<ul>
-  <li>lower_case_table_names=1</li>
-  <li>local_infile=1</li>
-</ul>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-h i d m {package}
+</code></pre></div></div>
 
-<h2 id="datadir-notes">datadir notes</h2>
+<h1 id="basic-keys">basic keys</h1>
 
-<p>we can check where it is configured to be at using the variables inspection above, but usually it is at <code class="highlighter-rouge">/var/lib/mysql</code>.</p>
+<h2 id="core">core</h2>
 
-<p>it should be owned by the user/group running the process; those are usually mysql/mysql, but we can check this as well. assuming we start the process using <code class="highlighter-rouge">systemd</code>, open the service file, and check what are the <code class="highlighter-rouge">User</code> and <code class="highlighter-rouge">Group</code> configured to be. the service file on my machine is at <code class="highlighter-rouge">/usr/lib/systemd/system/mariadb.service</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x C-x        exit
+C-g            abort command
+</code></pre></div></div>
 
-<h2 id="complete-reboot">complete reboot</h2>
+<h2 id="navigation">navigation</h2>
 
-<p>stop mariadb service - <code class="highlighter-rouge">systemctl stop mariadb</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-l     Center text around the cursor
 
-<p>delete contents of datadir -<code class="highlighter-rouge">rm -rf /var/lib/mysql/*</code></p>
+C-v     Scroll to next screenful
+M-v     Scroll to previous screenful
 
-<p>remake infrastructure files - <code class="highlighter-rouge">mysql_install_db --user=mysql --ldata=/var/lib/mysql</code></p>
+M-f     Move forward a word
+M-b     Move backward a word
 
-<p>start mariadb service - <code class="highlighter-rouge">systemctl start mariadb</code></p>
+C-n     Move to next line
+C-p     Move to previous line
 
-<blockquote>
-  <p>when we need such a thing?
-for example; there are configurations that only apply on installation, such as <code class="highlighter-rouge">lower_case_table_names</code></p>
-</blockquote>
+C-a     Move to beginning of line
+C-e     Move to end of line
+
+M-a     Move back to beginning of sentence
+M-e     Move forward to end of sentence
+
+M-&lt;     Move to beginning of the document
+M-&gt;     Move to end of the document
+
+C-s     Initiate search mode
+</code></pre></div></div>
+
+<h2 id="windowing">windowing</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-x 1   Delete all windows except focused
+C-x 2   Split current window horizontally
+C-x 3   Split current window verticall
+C-x o   Move to other window
+</code></pre></div></div>
+
+<h2 id="editing">editing</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-k     Delete from cursor to end of line
+M-k     Delete from cursor to end of sentence
+C-_     Undo
+C-w     Cut selected region
+M-w     Copy selected region
+C-y     Paste
+</code></pre></div></div>
+
+<h2 id="files-and-buffers">files and buffers</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-s         Save current file
+C-x k       Kill buffer
+C-x b       Switch to buffer
+C-x C-b     Lits buffers
+</code></pre></div></div>
 
 
                 <!-- Pagination links -->
@@ -269,13 +303,13 @@ for example; there are configurations that only apply on installation, such as <
         </div>
     </div>
     
-    <a href="/linux/2020/06/26/arch-install.html" class="post-preview">
+    <a href="/2019/08/03/quick-references.html" class="post-preview">
         <div class="image">
             
-                <img src="/assets/archlinux-256.png">
+                <img src="/assets/quick-reference-256.png">
             
         </div>
-        <h3 class="title">Archlinux installation steps</h3>
+        <h3 class="title">Quick References</h3>
     </a>
 </div>
 
@@ -291,11 +325,11 @@ for example; there are configurations that only apply on installation, such as <
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/mariadb/2020/06/26/mariadb-notes.html%20via%20&#64;&hashtags=notes,database,mariadb,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/emacs/2019/08/03/emacs-cheetsheet.html%20via%20&#64;&hashtags=tutorial,emacs,editor,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/mariadb/2020/06/26/mariadb-notes.html"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/emacs/2019/08/03/emacs-cheetsheet.html"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -425,73 +459,107 @@ for example; there are configurations that only apply on installation, such as <
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "MariaDB Notes",
-            "headline": "Some notes for administrating stuff in MariaDB",
+            "name": "Emacs Cheatsheet",
+            "headline": "Emacs basic stuff which i pick up along the way",
             "description": "",
-            "image": "/assets/mariadb-256.png",
-            "url": "/mariadb/2020/06/26/mariadb-notes.html",
-            "articleBody": "MariaDB Notes
+            "image": "/assets/emacs-256.png",
+            "url": "/emacs/2019/08/03/emacs-cheetsheet.html",
+            "articleBody": "overview
 
-Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.
+some tasks or workflows are very mature through emacs and less on other enviornments, for example using clojure repl, editing latex files, scheme work etc…
 
-variables inspection
+created this file because i use vim in my day to i keep forgetting basic emacs stuff
 
-run mysqladmin variables
+emacs
 
-notable variables/configurations
+open emacs in the terminal emulator
 
-data_dir - the data directory
-
-
-  usually /var/lib/mysql
+emacs -nw
 
 
-lower_case_table_names - as the name suggests, make all tables lower case.
+configuration path
 
-local_infile - enable loading tables from local files.
-
-
-  for commands such as: mysqlimport --local --fields-terminated-by=&quot;|&quot; -h localhost some-file.csv
+~/emacs.d/
 
 
-configuration files
+help
 
-at least on the machine i am currently at, the root configuration is at /etc/my.cnf. in turn it includes /etc/my.cnf.d.
+It’s important to know how to get help and use the documentations within emacs
 
-in there, ill edit configurations in /etc/my.cnf.d/server.cnf.
+Enter tutorial
 
-for example; to have all tables names with lower case and enable local in files, ill add the following under [mysqld]
-
-  lower_case_table_names=1
-  local_infile=1
+C-h t
 
 
-datadir notes
+Enter package documentation
 
-we can check where it is configured to be at using the variables inspection above, but usually it is at /var/lib/mysql.
-
-it should be owned by the user/group running the process; those are usually mysql/mysql, but we can check this as well. assuming we start the process using systemd, open the service file, and check what are the User and Group configured to be. the service file on my machine is at /usr/lib/systemd/system/mariadb.service
-
-complete reboot
-
-stop mariadb service - systemctl stop mariadb
-
-delete contents of datadir -rm -rf /var/lib/mysql/*
-
-remake infrastructure files - mysql_install_db --user=mysql --ldata=/var/lib/mysql
-
-start mariadb service - systemctl start mariadb
+C-h i d m {package}
 
 
-  when we need such a thing?
-for example; there are configurations that only apply on installation, such as lower_case_table_names
+basic keys
+
+core
+
+C-x C-x        exit
+C-g            abort command
+
+
+navigation
+
+C-l     Center text around the cursor
+
+C-v     Scroll to next screenful
+M-v     Scroll to previous screenful
+
+M-f     Move forward a word
+M-b     Move backward a word
+
+C-n     Move to next line
+C-p     Move to previous line
+
+C-a     Move to beginning of line
+C-e     Move to end of line
+
+M-a     Move back to beginning of sentence
+M-e     Move forward to end of sentence
+
+M-&amp;lt;     Move to beginning of the document
+M-&amp;gt;     Move to end of the document
+
+C-s     Initiate search mode
+
+
+windowing
+
+C-x 1   Delete all windows except focused
+C-x 2   Split current window horizontally
+C-x 3   Split current window verticall
+C-x o   Move to other window
+
+
+editing
+
+C-k     Delete from cursor to end of line
+M-k     Delete from cursor to end of sentence
+C-_     Undo
+C-w     Cut selected region
+M-w     Copy selected region
+C-y     Paste
+
+
+files and buffers
+
+C-s         Save current file
+C-x k       Kill buffer
+C-x b       Switch to buffer
+C-x C-b     Lits buffers
 
 ",
-            "wordcount": "270",
+            "wordcount": "294",
             "inLanguage": "",
-            "dateCreated": "2020-06-26/",
-            "datePublished": "2020-06-26/",
-            "dateModified": "2020-06-26/",
+            "dateCreated": "2019-08-03/",
+            "datePublished": "2019-08-03/",
+            "dateModified": "2019-08-03/",
             "author": {
                 "@type": "Person",
                 "name": "",
@@ -516,9 +584,9 @@ for example; there are configurations that only apply on installation, such as l
                 }
             },
             "mainEntityOfPage": "True",
-            "genre": "mariadb",
-            "articleSection": "mariadb",
-            "keywords": ["notes","database","mariadb"]
+            "genre": "emacs",
+            "articleSection": "emacs",
+            "keywords": ["tutorial","emacs","editor"]
         }
         </script>
     </body>

@@ -17,23 +17,23 @@
     
     
 
-    <title>MariaDB Notes | </title>
+    <title>Archlinux installation steps | </title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     
-        <meta name="keywords" content="notes, database, mariadb">
+        <meta name="keywords" content="tutorial, linux, archlinux">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MariaDB Notes | ">
+    <meta name="twitter:title" content="Archlinux installation steps | ">
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <meta property="twitter:image:src" content="/assets/mariadb-256.png">
+    <meta property="twitter:image:src" content="/assets/archlinux-256.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/mariadb/2020/06/26/mariadb-notes.html">
-    <meta property="og:title" content="MariaDB Notes | ">
-    <meta property="og:image" content="/assets/mariadb-256.png">
+    <meta property="og:url" content="/linux/2020/06/26/arch-install.html">
+    <meta property="og:title" content="Archlinux installation steps | ">
+    <meta property="og:image" content="/assets/archlinux-256.png">
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
     <meta property="og:site_name" content="tglanz">
 
@@ -66,7 +66,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="/mariadb/2020/06/26/mariadb-notes.html">
+    <link rel="canonical" href="/linux/2020/06/26/arch-install.html">
     <link rel="alternate" type="application/rss+xml" title="tglanz" href="/feed.xml" />
 
     <!-- Include extra styles -->
@@ -164,13 +164,13 @@ June 26, 2020
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>1 min to read</span>
+                    <span>2 min to read</span>
                 </p>
-                <h1 class="post-title">MariaDB Notes</h1>
-                <p class="post-subtitle">Some notes for administrating stuff in MariaDB</p>
+                <h1 class="post-title">Archlinux installation steps</h1>
+                <p class="post-subtitle">Install archlinux on a uefi system with standard disk partitioning scheme</p>
 
                 
-                    <img src="/assets/mariadb-256.png" alt="Featured image" class="post-cover">
+                    <img src="/assets/archlinux-256.png" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -180,62 +180,153 @@ June 26, 2020
                 <!-- Add your table of contents here -->
 
 
-                <h1 id="mariadb-notes">MariaDB Notes</h1>
+                <h1 id="arch-boot-spec">arch boot spec</h1>
 
-<p>Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.</p>
-
-<h2 id="variables-inspection">variables inspection</h2>
-
-<p>run <code class="highlighter-rouge">mysqladmin variables</code></p>
-
-<h2 id="notable-variablesconfigurations">notable variables/configurations</h2>
-
-<p><strong>data_dir</strong> - the data directory</p>
-
-<blockquote>
-  <p>usually <code class="highlighter-rouge">/var/lib/mysql</code></p>
-</blockquote>
-
-<p><strong>lower_case_table_names</strong> - as the name suggests, make all tables lower case.</p>
-
-<p><strong>local_infile</strong> - enable loading tables from local files.</p>
-
-<blockquote>
-  <p>for commands such as: <code class="highlighter-rouge">mysqlimport --local --fields-terminated-by="|" -h localhost some-file.csv</code></p>
-</blockquote>
-
-<h2 id="configuration-files">configuration files</h2>
-
-<p>at least on the machine i am currently at, the root configuration is at <code class="highlighter-rouge">/etc/my.cnf</code>. in turn it includes <code class="highlighter-rouge">/etc/my.cnf.d</code>.</p>
-
-<p>in there, ill edit configurations in <code class="highlighter-rouge">/etc/my.cnf.d/server.cnf</code>.</p>
-
-<p>for example; to have all tables names with lower case and enable local in files, ill add the following under <code class="highlighter-rouge">[mysqld]</code></p>
+<p>this is specific to my machine and software of choice</p>
 <ul>
-  <li>lower_case_table_names=1</li>
-  <li>local_infile=1</li>
+  <li>efi boot</li>
+  <li>disk at sdb</li>
+  <li>netctl as network manager in boot environment</li>
+  <li>networkmanager as network manager in installation</li>
 </ul>
 
-<h2 id="datadir-notes">datadir notes</h2>
+<p>i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)</p>
 
-<p>we can check where it is configured to be at using the variables inspection above, but usually it is at <code class="highlighter-rouge">/var/lib/mysql</code>.</p>
+<h2 id="connect-to-network">connect to network</h2>
 
-<p>it should be owned by the user/group running the process; those are usually mysql/mysql, but we can check this as well. assuming we start the process using <code class="highlighter-rouge">systemd</code>, open the service file, and check what are the <code class="highlighter-rouge">User</code> and <code class="highlighter-rouge">Group</code> configured to be. the service file on my machine is at <code class="highlighter-rouge">/usr/lib/systemd/system/mariadb.service</code></p>
+<p><code class="highlighter-rouge">wifi-menu</code> and follow instructions</p>
 
-<h2 id="complete-reboot">complete reboot</h2>
+<p>check connectivity</p>
 
-<p>stop mariadb service - <code class="highlighter-rouge">systemctl stop mariadb</code></p>
+<p><code class="highlighter-rouge">ping 8.8.8.8</code></p>
 
-<p>delete contents of datadir -<code class="highlighter-rouge">rm -rf /var/lib/mysql/*</code></p>
+<p>in <code class="highlighter-rouge">/etc/nsswitch.conf</code>, at the <code class="highlighter-rouge">hosts</code> entry, make sure <code class="highlighter-rouge">dns</code> is before <code class="highlighter-rouge">[!UNAVAIL=return]</code></p>
 
-<p>remake infrastructure files - <code class="highlighter-rouge">mysql_install_db --user=mysql --ldata=/var/lib/mysql</code></p>
+<p>check dns acquisition</p>
 
-<p>start mariadb service - <code class="highlighter-rouge">systemctl start mariadb</code></p>
+<p><code class="highlighter-rouge">ping google.com</code></p>
+
+<h2 id="partition-filesystems-and-mount">partition, filesystems and mount</h2>
+
+<p>be careful, assume each step to erase all data on partition layout of the disk!</p>
+
+<p>make sure on which device you want to work on, using <code class="highlighter-rouge">lsblk</code></p>
+
+<p>erase labels <code class="highlighter-rouge">wipefs -a /dev/sdb</code></p>
+
+<p>example partition scheme below</p>
 
 <blockquote>
-  <p>when we need such a thing?
-for example; there are configurations that only apply on installation, such as <code class="highlighter-rouge">lower_case_table_names</code></p>
+  <p>you can use <code class="highlighter-rouge">fdisk</code> or <code class="highlighter-rouge">cfdisk</code> for example</p>
 </blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th>partition</th>
+      <th>size</th>
+      <th>type</th>
+      <th>desc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sdb1</td>
+      <td>550MB</td>
+      <td>EFI System</td>
+      <td>boot partition</td>
+    </tr>
+    <tr>
+      <td>sdb2</td>
+      <td>24GB</td>
+      <td>Linux swap</td>
+      <td>swap partition</td>
+    </tr>
+    <tr>
+      <td>sdb3</td>
+      <td>32GB</td>
+      <td>Linux filesystem</td>
+      <td>root partition</td>
+    </tr>
+    <tr>
+      <td>sdb4</td>
+      <td>rest</td>
+      <td>Linux filesystem</td>
+      <td>home partition</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>make filesystems for the partitions</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkfs.fat <span class="nt">-F32</span> /dev/sdb1
+
+mkswap /dev/sdb2
+swapon /dev/sdb2
+
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
+</code></pre></div></div>
+
+<p>mount partitions to filesystem</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mount /dev/sdb3 /mnt
+
+<span class="nb">mkdir</span> /mnt/boot
+<span class="nb">mkdir</span> /mnt/boot/efi
+<span class="nb">mkdir</span> /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
+</code></pre></div></div>
+
+<h2 id="archlinux-installation">archlinux installation</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pacstrap /mnt <span class="se">\</span>
+    base base-devel <span class="se">\</span>
+    linux linux-firmware <span class="se">\</span>
+    grub efibootmgr <span class="se">\</span>
+    networkmanager <span class="se">\</span>
+    vim git
+</code></pre></div></div>
+
+<h2 id="installation-setup">installation setup</h2>
+
+<p>generate fstab - <code class="highlighter-rouge">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code></p>
+
+<p>change root to installation - <code class="highlighter-rouge">arch-chroot /mnt</code></p>
+
+<p>edit file <code class="highlighter-rouge">/etc/locale.gen</code> and uncomment desired locale</p>
+
+<p>generate locale - <code class="highlighter-rouge">locale-gen</code></p>
+
+<p>add set language - <code class="highlighter-rouge">echo "LANG=en_US.UTF-8" &gt; /etc/locale.conf</code></p>
+
+<p>set timezone -</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ln</span> <span class="nt">-sf</span> /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock <span class="nt">--systohc</span>
+</code></pre></div></div>
+
+<p>set root password for linux installation - <code class="highlighter-rouge">passwd</code></p>
+
+<h2 id="grub">grub</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grub-install <span class="nt">--target</span><span class="o">=</span>x86_64-efi <span class="nt">--efi-directory</span><span class="o">=</span>/boot/efi
+grub-mkconfig <span class="nt">-o</span> /boot/grub/grub.cfg
+</code></pre></div></div>
+
+<h2 id="finalize">finalize</h2>
+
+<p>back to bootable environment</p>
+
+<p><code class="highlighter-rouge">exit</code></p>
+
+<p>unmount all partitions</p>
+
+<p><code class="highlighter-rouge">umount -R /mnt</code></p>
+
+<p><code class="highlighter-rouge">reboot</code></p>
 
 
                 <!-- Pagination links -->
@@ -249,7 +340,7 @@ for example; there are configurations that only apply on installation, such as <
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="1">
+            <div class="time-bar" data-minutes="2">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -269,13 +360,13 @@ for example; there are configurations that only apply on installation, such as <
         </div>
     </div>
     
-    <a href="/linux/2020/06/26/arch-install.html" class="post-preview">
+    <a href="/misc/2020/06/26/burn-iso.html" class="post-preview">
         <div class="image">
             
-                <img src="/assets/archlinux-256.png">
+                <img src="/assets/iso-256.png">
             
         </div>
-        <h3 class="title">Archlinux installation steps</h3>
+        <h3 class="title">Burn iso to device</h3>
     </a>
 </div>
 
@@ -291,11 +382,11 @@ for example; there are configurations that only apply on installation, such as <
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/mariadb/2020/06/26/mariadb-notes.html%20via%20&#64;&hashtags=notes,database,mariadb,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/linux/2020/06/26/arch-install.html%20via%20&#64;&hashtags=tutorial,linux,archlinux,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/mariadb/2020/06/26/mariadb-notes.html"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=/linux/2020/06/26/arch-install.html"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -425,69 +516,160 @@ for example; there are configurations that only apply on installation, such as <
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "MariaDB Notes",
-            "headline": "Some notes for administrating stuff in MariaDB",
+            "name": "Archlinux installation steps",
+            "headline": "Install archlinux on a uefi system with standard disk partitioning scheme",
             "description": "",
-            "image": "/assets/mariadb-256.png",
-            "url": "/mariadb/2020/06/26/mariadb-notes.html",
-            "articleBody": "MariaDB Notes
+            "image": "/assets/archlinux-256.png",
+            "url": "/linux/2020/06/26/arch-install.html",
+            "articleBody": "arch boot spec
 
-Everything is well documented in the MySQL/MariaDB documentations, but i’ll gather some stuff here which I frequently encounter.
+this is specific to my machine and software of choice
 
-variables inspection
-
-run mysqladmin variables
-
-notable variables/configurations
-
-data_dir - the data directory
+  efi boot
+  disk at sdb
+  netctl as network manager in boot environment
+  networkmanager as network manager in installation
 
 
-  usually /var/lib/mysql
+i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)
+
+connect to network
+
+wifi-menu and follow instructions
+
+check connectivity
+
+ping 8.8.8.8
+
+in /etc/nsswitch.conf, at the hosts entry, make sure dns is before [!UNAVAIL=return]
+
+check dns acquisition
+
+ping google.com
+
+partition, filesystems and mount
+
+be careful, assume each step to erase all data on partition layout of the disk!
+
+make sure on which device you want to work on, using lsblk
+
+erase labels wipefs -a /dev/sdb
+
+example partition scheme below
 
 
-lower_case_table_names - as the name suggests, make all tables lower case.
-
-local_infile - enable loading tables from local files.
+  you can use fdisk or cfdisk for example
 
 
-  for commands such as: mysqlimport --local --fields-terminated-by=&quot;|&quot; -h localhost some-file.csv
+
+  
+    
+      partition
+      size
+      type
+      desc
+    
+  
+  
+    
+      sdb1
+      550MB
+      EFI System
+      boot partition
+    
+    
+      sdb2
+      24GB
+      Linux swap
+      swap partition
+    
+    
+      sdb3
+      32GB
+      Linux filesystem
+      root partition
+    
+    
+      sdb4
+      rest
+      Linux filesystem
+      home partition
+    
+  
 
 
-configuration files
+make filesystems for the partitions
 
-at least on the machine i am currently at, the root configuration is at /etc/my.cnf. in turn it includes /etc/my.cnf.d.
+mkfs.fat -F32 /dev/sdb1
 
-in there, ill edit configurations in /etc/my.cnf.d/server.cnf.
+mkswap /dev/sdb2
+swapon /dev/sdb2
 
-for example; to have all tables names with lower case and enable local in files, ill add the following under [mysqld]
-
-  lower_case_table_names=1
-  local_infile=1
-
-
-datadir notes
-
-we can check where it is configured to be at using the variables inspection above, but usually it is at /var/lib/mysql.
-
-it should be owned by the user/group running the process; those are usually mysql/mysql, but we can check this as well. assuming we start the process using systemd, open the service file, and check what are the User and Group configured to be. the service file on my machine is at /usr/lib/systemd/system/mariadb.service
-
-complete reboot
-
-stop mariadb service - systemctl stop mariadb
-
-delete contents of datadir -rm -rf /var/lib/mysql/*
-
-remake infrastructure files - mysql_install_db --user=mysql --ldata=/var/lib/mysql
-
-start mariadb service - systemctl start mariadb
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
 
 
-  when we need such a thing?
-for example; there are configurations that only apply on installation, such as lower_case_table_names
+mount partitions to filesystem
 
+mount /dev/sdb3 /mnt
+
+mkdir /mnt/boot
+mkdir /mnt/boot/efi
+mkdir /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
+
+
+archlinux installation
+
+pacstrap /mnt \
+    base base-devel \
+    linux linux-firmware \
+    grub efibootmgr \
+    networkmanager \
+    vim git
+
+
+installation setup
+
+generate fstab - genfstab -U /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
+
+change root to installation - arch-chroot /mnt
+
+edit file /etc/locale.gen and uncomment desired locale
+
+generate locale - locale-gen
+
+add set language - echo &quot;LANG=en_US.UTF-8&quot; &amp;gt; /etc/locale.conf
+
+set timezone -
+
+ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock --systohc
+
+
+set root password for linux installation - passwd
+
+grub
+
+grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-mkconfig -o /boot/grub/grub.cfg
+
+
+finalize
+
+back to bootable environment
+
+exit
+
+unmount all partitions
+
+umount -R /mnt
+
+reboot
 ",
-            "wordcount": "270",
+            "wordcount": "385",
             "inLanguage": "",
             "dateCreated": "2020-06-26/",
             "datePublished": "2020-06-26/",
@@ -516,9 +698,9 @@ for example; there are configurations that only apply on installation, such as l
                 }
             },
             "mainEntityOfPage": "True",
-            "genre": "mariadb",
-            "articleSection": "mariadb",
-            "keywords": ["notes","database","mariadb"]
+            "genre": "linux",
+            "articleSection": "linux",
+            "keywords": ["tutorial","linux","archlinux"]
         }
         </script>
     </body>

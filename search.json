@@ -2,4 +2,44 @@
   
   
   
+    {
+      "title"    : "Burn iso to device",
+      "tags"     : "tutorial",
+      "categories" : "misc",
+      "url"      : "/misc/2020/06/26/burn-iso.html",
+      "date"     : "06/26/2020"
+    } ,
+  
+    {
+      "title"    : "Archlinux installation steps",
+      "tags"     : "tutorial, linux, and archlinux",
+      "categories" : "linux",
+      "url"      : "/linux/2020/06/26/arch-install.html",
+      "date"     : "06/26/2020"
+    } ,
+  
+    {
+      "title"    : "MariaDB Notes",
+      "tags"     : "notes, database, and mariadb",
+      "categories" : "mariadb",
+      "url"      : "/mariadb/2020/06/26/mariadb-notes.html",
+      "date"     : "06/26/2020"
+    } ,
+  
+    {
+      "title"    : "Quick References",
+      "tags"     : "",
+      "categories" : "",
+      "url"      : "/2019/08/03/quick-references.html",
+      "date"     : "08/03/2019"
+    } ,
+  
+    {
+      "title"    : "Emacs Cheatsheet",
+      "tags"     : "tutorial, emacs, and editor",
+      "categories" : "emacs",
+      "url"      : "/emacs/2019/08/03/emacs-cheetsheet.html",
+      "date"     : "08/03/2019"
+    } 
+  
 ]
