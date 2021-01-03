@@ -35,8 +35,8 @@ linkedin_username: tal-glanzman
 
 # Build settings
 theme: jekflix 
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 show_hero: false
 show_time_bar: true
