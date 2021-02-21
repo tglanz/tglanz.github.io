@@ -8,6 +8,7 @@ permalink: /readings/
 
 ## Computer Science
 
+- [SICP](https://books.google.co.il/books/about/Structure_and_Interpretation_of_Computer.html?id=MXZQAwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
 - [CSP](http://www.usingcsp.com/cspbook.pdf)
 - [Elements of statistical learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - [Graphs adjacency algorithms]()
