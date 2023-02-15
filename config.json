@@ -1,0 +1,26 @@
+{
+  "site": {
+    "homePath": "site/"
+  },
+  "headline": {
+    "title": "Tal Glanzman",
+    "subtitle": "v0"
+  },
+  "social": {
+    "linkedin": "https://il.linkedin.com/in/tal-glanzman",
+    "github": "https://github.com/tglanz"
+  },
+  "content": {
+    "path": "content",
+    "showUntagged": false,
+    "showUncategorized": false
+  },
+  "nav": [
+    { "title": "Home", "target": "/" },
+    { "title": "Advanced CS", "nav": [
+      { "title": "Linear Programming", "target": "/_articles/advanced-cs/linear-programming" },
+      { "title": "Expanders", "target": "/_articles/advanced-cs/expanders" }
+    ]},
+    { "title": "About", "target": "/_articles/about" }
+  ]
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  
+  height: 100%;
+}
+
+div#__next {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  @apply text-blue-800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+summary {
+  cursor: pointer;
+}

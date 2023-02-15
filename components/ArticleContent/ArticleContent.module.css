@@ -1,0 +1,70 @@
+.md {
+}
+
+.md * {
+  font-family: sans;
+}
+
+.md h1 {
+  @apply py-2 text-4xl;
+}
+
+.md h2 {
+  @apply py-2 text-3xl;
+
+}
+
+.md h3 {
+  @apply py-2 text-2xl font-bold;
+}
+
+.md h4 {
+  @apply py-2 text-xl underline;
+}
+
+.md h5 {
+
+}
+
+.md h6 {
+  @apply text-sm;
+}
+
+.md li p {
+  display: inline-block;
+}
+
+.md blockquote {
+  @apply p-2 pl-8 italic bg-neutral-100;
+}
+
+.md table {
+  @apply my-8 w-full border-collapse shadow-md shadow-neutral-400;
+}
+
+.md table thead {
+  @apply font-bold;
+}
+
+.md table th {
+  @apply px-4 py-2;
+}
+
+.md table td {
+  @apply px-4 py-2 border-t-2;
+}
+
+.md ol {
+  @apply list-decimal list-inside ml-8;
+}
+
+.md ul {
+  @apply list-disc list-inside ml-8;
+}
+
+.md code,
+.md ol,
+.md ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
