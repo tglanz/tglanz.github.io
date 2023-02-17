@@ -1,9 +1,9 @@
 ---
 title: Elasticsearch, Reference Queries
 categories:
-- elasticsearch
+- Elasticsearch
 tags:
-- elasticsearch
+- Elastissearch
 weight: 10
 ---
 

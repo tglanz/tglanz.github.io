@@ -1,7 +1,7 @@
 ---
 title: Notes
 categories:
-- kubernetes
+- Kubernetes
 ---
 
 ## Cert Manager ClusterIssuer fails to connect to webhook

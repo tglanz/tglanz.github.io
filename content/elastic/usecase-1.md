@@ -1,10 +1,10 @@
 ---
 title: Elasticsearch, Usecase 1, Simple rollover
 categories:
-- elasticsearch
+- Elasticsearch
 tags:
-- elasticsearch
-- ilm
+- Elasticsearch
+- ILM
 weight: 100
 ---
 
