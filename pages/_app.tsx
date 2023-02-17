@@ -12,7 +12,6 @@ import SearchIndex from '../lib/search-index';
 const EmptySearchIndex = new SearchIndex([]);
 
 function App({ Component, pageProps }: AppProps) {
-
   const [searchIndex, setSearchIndex] = useState(EmptySearchIndex);
 
   return (

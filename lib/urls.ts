@@ -5,3 +5,4 @@ export const taxonomyArticles = (taxonomy: string, value: string) => url(home(),
 export const tagArticles = (tag: string) => taxonomyArticles('tags', tag);
 export const categroyArticles = (category: string) => taxonomyArticles('categories', category);
 export const article = (articleId: string) => url(home(), '_articles', articleId);
+export const search = (searchQuery: string) => url(home(), `_search?query=${searchQuery}`);

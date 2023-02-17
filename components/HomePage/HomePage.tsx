@@ -7,9 +7,6 @@ import * as urls from '../../lib/urls';
 
 import useConfig from "../utils/useConfig";
 import { useContext, useEffect } from "react";
-import { SearchIndexContext } from "../utils/searchIndexContext";
-import SearchIndex from "../../lib/search-index";
-import SearchBox from "../SearchBox/SearchBox";
 import Layout from "../Layout/Layout";
 
 interface Props {
@@ -40,9 +37,6 @@ const TaxonmiesContainer: React.FC<{ title: string }> = ({ title, children }) =>
 const HomePage = ({ content }: Props) => {
   const config = useConfig();
 
-  const searchIndexContext = useContext(SearchIndexContext);
-  useEffect(() => searchIndexContext.set(new SearchIndex(content.articles)), [])
-
   return (
     <Layout.Main>
       <div className="m-4 flex flex-col items-center">
@@ -67,14 +61,6 @@ const HomePage = ({ content }: Props) => {
             key => urls.tagArticles(key)
           )} />
         </TaxonmiesContainer>
-
-        <p>Todos</p>
-        <ul>
-          <li>Bread crumbs</li>
-          <li>Article Content style</li>
-          <li>General style</li>
-          <li>Content arrangement</li>
-        </ul>
       </div>
     </Layout.Main>
   );

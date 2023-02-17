@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { ChangeEvent, ChangeEventHandler, FormEvent, useContext, useEffect, useState } from "react";
 import { debounceTime, filter, map, Subject } from "rxjs";
 import { Article } from "../../lib/article";
 import { SearchIndexContext } from "../utils/searchIndexContext";
@@ -6,7 +6,7 @@ import { FaSearch } from 'react-icons/fa';
 import classNames from "classnames";
 import Link from "next/link";
 import * as urls from '../../lib/urls';
-import { Router } from "next/router";
+import { Router, useRouter } from "next/router";
 
 interface Props {
 }
@@ -34,46 +34,30 @@ const CandidateList = ({ candidates }: CandidateListProps) => {
 }
 
 const SearchBox = ({ }: Props) => {
-  const searchIndex = useContext(SearchIndexContext).get()
+  const router = useRouter();
+  const [value, setValue] = useState("");
 
-  const [searchTerm, setSearchTerm] = useState<string>("");
-  const [candidates, setCandidates] = useState<Article[]>([]);
-
-  const termChangeSubject = new Subject<string>();
-  const handleTermChange = (newTerm: string) => {
-    setSearchTerm(newTerm);
-    termChangeSubject.next(newTerm);
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setValue(e.target.value);
   }
 
-  useEffect(() => {
-    Router.events.on('routeChangeComplete', () => {
-      handleTermChange("");
-    })
-  }, [handleTermChange])
-
-  termChangeSubject
-    .pipe(
-      debounceTime(50),
-      map(term => searchIndex.searchArticles(term, 10))
-    )
-    .subscribe(articles => {
-      setCandidates(articles);
-    });
-
-  if (searchIndex.indexedArticlesCount === 0) {
-    return <></>;
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log({ value });
+    router.push(urls.search(value));
   }
 
   return (
     <div>
-      <div className="flex flex-row items-center gap-2 justify-center">
-        <input type="search"
-          value={searchTerm}
-          className="border border-black pl-2 text-center"
-          placeholder="Search (WIP)"
-          onChange={e => handleTermChange(e.target.value)} />
-      </div>
-      <CandidateList candidates={candidates} />
+
+      <form
+          action="/_search" autoComplete="off"
+          className="flex flex-col justify-center items-center"
+          onSubmit={handleSubmit}
+          >
+        <input className="text-input" type="text" name="query" placeholder="Search" onChange={handleChange} />
+        <input className="button" type="submit" value="Search" hidden />
+      </form>
     </div>
   );
 };

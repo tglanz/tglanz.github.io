@@ -2,6 +2,7 @@ import Headline from '../Headline';
 
 import useConfig from "../utils/useConfig";
 import Nav from '../Nav';
+import SearchBox from '../SearchBox/SearchBox';
 
 const SideBar = () => {
   const config = useConfig();
@@ -14,8 +15,14 @@ const SideBar = () => {
         <span className="text-lg">{config.headline.subtitle}</span>
       </div>
 
+      
+
       <div className='mt-6'>
         <Nav />
+      </div>
+
+      <div className='mt-6'>
+        <SearchBox />
       </div>
     </nav>
   );

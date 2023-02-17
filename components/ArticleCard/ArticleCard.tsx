@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
-import { Article } from "../../lib/article";
+import { ArticleInfo } from "../../lib/article";
 
 import * as urls from '../../lib/urls';
 
 export interface Props {
-  article: Article
+  articleInfo: ArticleInfo
 }
 
 const Container: React.FC<{ href: string }> = ({ href, children }) => (
@@ -38,26 +38,28 @@ const TaxonomyValues: React.FC<{ taxonomy: string, values: string[] }> = ({ taxo
 )
 
 function ArticleCard(props: Props) {
-  const { article } = props;
+  const { articleInfo } = props;
+
+  const { id, metadata } = articleInfo;
 
   return (
     <div>
-      <Link className="text-2xl font-bold" href={urls.article(article.id)}>
-        {article.metadata.title}
+      <Link className="text-2xl font-bold" href={urls.article(id)}>
+        {metadata.title}
       </Link>
 
-      {article.metadata.description
-        ? <p className="font-sans">{article.metadata.description}</p>
+      {metadata.description
+        ? <p className="font-sans">{metadata.description}</p>
         : undefined}
 
       <div className="mb-2" />
 
-      {article.metadata.categories.length > 0
-        ? <TaxonomyValues taxonomy="Categories" values={article.metadata.categories} />
+      {metadata.categories.length > 0
+        ? <TaxonomyValues taxonomy="Categories" values={metadata.categories} />
         : undefined}
 
-      {article.metadata.tags.length > 0
-        ? <TaxonomyValues taxonomy="Tags" values={article.metadata.tags} />
+      {metadata.tags.length > 0
+        ? <TaxonomyValues taxonomy="Tags" values={metadata.tags} />
         : undefined}
     </div>
   )

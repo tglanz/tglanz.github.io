@@ -16,9 +16,13 @@ div#__next {
 }
 
 a {
-  color: inherit;
   text-decoration: underline;
   @apply text-blue-800;
+}
+
+a:has(> *) {
+  text-decoration: none;
+  color: inherit;
 }
 
 * {
@@ -27,4 +31,19 @@ a {
 
 summary {
   cursor: pointer;
+}
+
+/* text inputs */
+
+.text-input {
+  @apply p-2;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* button */
+.button {
+  border: 1px solid black;
 }

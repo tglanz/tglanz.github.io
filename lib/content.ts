@@ -1,4 +1,4 @@
-import { aggregateMetadata, Article, MetadataAggregation } from './article';
+import { aggregateMetadata, Article, ArticleInfo, MetadataAggregation, readArticleInfo } from './article';
 import { readArticle } from './article';
 
 import * as path from 'path';
@@ -7,6 +7,14 @@ import SearchIndex from './search-index';
 
 export interface Content {
   articles: Article[],
+  metadataAggregation: {
+    tags: MetadataAggregation,
+    categories: MetadataAggregation
+  },
+}
+
+export interface ContentInfo {
+  articleInfos: ArticleInfo[],
   metadataAggregation: {
     tags: MetadataAggregation,
     categories: MetadataAggregation
@@ -36,4 +44,13 @@ export async function readContent(directoryPath: string) {
   const metadataAggregation = aggregateMetadata(articles);
 
   return { articles, metadataAggregation };
+}
+
+export async function readContentInfo(directoryPath: string) {
+  const files = await getFilesRecursivesly(directoryPath);
+  const articleInfos = await Promise.all(files.map(readArticleInfo));
+
+  const metadataAggregation = aggregateMetadata(articleInfos);
+
+  return { articleInfos, metadataAggregation };
 }

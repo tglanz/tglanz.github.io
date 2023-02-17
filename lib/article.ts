@@ -36,10 +36,13 @@ export interface ArticleContent {
   html: string,
 }
 
-export interface Article {
+export interface ArticleInfo {
   id: string,
   filePath: string,
   metadata: ArticleMetadata,
+}
+
+export interface Article extends ArticleInfo {
   content: ArticleContent
 }
 
@@ -49,28 +52,12 @@ function createArticleIdFromFilePath(filePath: string) {
   return encodeURI(id);
 }
 
-export async function readArticle(filePath: string): Promise<Article> {
-  const fileBaseName = path.basename(filePath).replace(/(\.[^\.]+)$/, '')
-  const articleContents = await fs.readFile(filePath);
+function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInfo {
   const articleMatter = matter(articleContents);
-
-  const processedContent = await unified()
-    .use(remarkParse)
-    .use(remarkGfm)
-    .use(remarkRehype)
-    .use(rehypeHighlight)
-    .use(rehypeDocument)
-    .use(rehypeFormat)
-    .use(rehypeStringify)
-    .process(articleMatter.content);
-
-  const contentHtml = processedContent.toString()
 
   const matterData = articleMatter.data;
 
   matterDataRules.apply(matterData,
-    // matterDataRules.defaultTitle(fileBaseName[0].toUpperCase() + fileBaseName.substring(1)),
-    // i'd rather not set a default title to allow articles without titles
     matterDataRules.defaultTitle(null),
     matterDataRules.defaultCategories(config.content.showUncategorized ? ["Uncategories"] : []),
     matterDataRules.defaultTags(config.content.showUntagged ? ["[Untagged]"] : []),
@@ -89,6 +76,36 @@ export async function readArticle(filePath: string): Promise<Article> {
     id: metadata.permalink || createArticleIdFromFilePath(filePath),
     filePath,
     metadata,
+  };
+}
+
+// Read only the core information of the articles - Imporantly, no content.
+// Use it to reduce Processing/Space times.
+export async function readArticleInfo(filePath: string): Promise<ArticleInfo> {
+  const articleContents = await fs.readFile(filePath);
+  return parseArticleInfo(filePath, articleContents);
+}
+
+export async function readArticle(filePath: string): Promise<Article> {
+  const articleContents = await fs.readFile(filePath);
+  const articleInfo = parseArticleInfo(filePath, articleContents);
+
+  const articleMatter = matter(articleContents);
+
+  const processedContent = await unified()
+    .use(remarkParse)
+    .use(remarkGfm)
+    .use(remarkRehype)
+    .use(rehypeHighlight)
+    .use(rehypeDocument)
+    .use(rehypeFormat)
+    .use(rehypeStringify)
+    .process(articleMatter.content);
+
+  const contentHtml = processedContent.toString()
+
+  return {
+    ...articleInfo,
     content: {
       raw: articleMatter.content,
       html: contentHtml,
@@ -96,7 +113,7 @@ export async function readArticle(filePath: string): Promise<Article> {
   };
 }
 
-export function aggregateMetadata(articles: Article[]) {
+export function aggregateMetadata(articles: ArticleInfo[]) {
   let categories: MetadataAggregation = {};
   let tags: MetadataAggregation = {};
 

@@ -1,5 +1,11 @@
+/**
+ * Cache the content.
+ * 
+ * Even if we didn't cache it wouldn't have affect on the actual site.
+ * The only effect is on NextJS build times.
+ */
 import path from 'path';
-import { readContent } from './content';
+import { readContent, readContentInfo } from './content';
 
 import config from '../config.json';
 
@@ -20,3 +26,4 @@ function lazyEvaluator<T>(asyncProvider: AsyncProvider<T>): AsyncProvider<T> {
 }
 
 export const getContent = lazyEvaluator(async () => readContent(ContentDirectory));
+export const getContentInfo = lazyEvaluator(async () => readContentInfo(ContentDirectory));
