@@ -2,7 +2,7 @@
 title: Emacs Cheatsheet
 date: 2019-08-03
 categories:
-  - Cheatsheets
+  - Cheatsheet
 tags:
   - Emacs
 ---

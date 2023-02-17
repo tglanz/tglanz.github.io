@@ -1,5 +1,11 @@
 ---
 title: Vagrant over libvirt on Archlinux
+Categories:
+- Archlinux
+tags:
+- Linux
+- Archlinux
+- Vagrant
 ---
 
 # The tools
