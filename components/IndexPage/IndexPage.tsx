@@ -104,11 +104,11 @@ const IndexPage = ({ contentInfo }: Props) => {
   // Group by title
   useEffect(() => {
     const newGroups = groupBy(
-      articleInfo => {
-        const title = articleInfo.metadata.title
+      article => {
+        const title = article.metadata.title
         return title ? title[0].toUpperCase() : UNTITLED;
       },
-      contentInfo.articleInfos);
+      contentInfo.articles);
 
     if (!config.index.showUntitled) {
       delete newGroups[UNTITLED];
@@ -121,14 +121,14 @@ const IndexPage = ({ contentInfo }: Props) => {
   // Group by categories
   useEffect(() => {
     const newGroups = groupByMany(
-      articleInfo => {
-        if (articleInfo.metadata.categories?.length > 0) {
-          return articleInfo.metadata.categories
+      article => {
+        if (article.metadata.categories?.length > 0) {
+          return article.metadata.categories
         }
 
         return [UNCATEGORIZED];
       },
-      contentInfo.articleInfos);
+      contentInfo.articles);
 
     if (!config.index.showUncategorized) {
       delete newGroups[UNCATEGORIZED];
@@ -141,14 +141,14 @@ const IndexPage = ({ contentInfo }: Props) => {
   // Group by tagged
   useEffect(() => {
     const newGroups = groupByMany(
-      articleInfo => {
-        if (articleInfo.metadata.tags?.length > 0) {
-          return articleInfo.metadata.tags
+      article => {
+        if (article.metadata.tags?.length > 0) {
+          return article.metadata.tags
         }
 
         return [UNTAGGED];
       },
-      contentInfo.articleInfos);
+      contentInfo.articles);
 
     if (!config.index.showUntagged) {
       delete newGroups[UNTAGGED];

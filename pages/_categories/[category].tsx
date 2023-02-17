@@ -1,11 +1,11 @@
 import { NextPage } from "next";
 import ArticleListPage from "../../components/ArticleListPage/ArticleListPage";
-import { Article } from "../../lib/article";
-import { getContent } from "../../lib/content-cache";
+import { ArticleInfo } from "../../lib/article";
+import { getContent, getContentInfo } from "../../lib/content-cache";
 
 interface Props {
   category: string,
-  articles: Article[]
+  articles: ArticleInfo[]
 }
 
 interface Params {
@@ -16,7 +16,7 @@ interface Params {
 
 export async function getStaticPaths() {
 
-  const content = await getContent();
+  const content = await getContentInfo();
 
   const categories = Array.from(new Set(content.articles
     .flatMap(article => article.metadata.categories))
@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async ({ params }: Params) => {
   const {category} = params;
-  const content = await getContent();
+  const content = await getContentInfo();
   const articles = content.articles
     .filter(article => article.metadata.categories.includes(category));
 

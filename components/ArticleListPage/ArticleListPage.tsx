@@ -1,4 +1,4 @@
-import { Article } from "../../lib/article";
+import { ArticleInfo } from "../../lib/article";
 import ArticleCard from "../ArticleCard/ArticleCard";
 import Headline from "../Headline";
 import Layout from "../Layout/Layout";
@@ -6,7 +6,7 @@ import Layout from "../Layout/Layout";
 export interface Props {
   title: string,
   subtitle: string,
-  articles: Article[]
+  articles: ArticleInfo[]
 }
 
 const ArticleListPage = ({ title, subtitle, articles }: Props) => (
@@ -18,7 +18,7 @@ const ArticleListPage = ({ title, subtitle, articles }: Props) => (
     {
       articles.map((article, index) => (
         <div key={index} className="my-8">
-          <ArticleCard article={article} />
+          <ArticleCard articleInfo={article} />
         </div>
       ))
     }

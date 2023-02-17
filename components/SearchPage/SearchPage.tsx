@@ -28,7 +28,7 @@ const SearchPage = ({ contentInfo, initialQuery }: Props) => {
   }, [initialQuery]);
 
   useEffect(() => {
-    const newSearchIndex = new SearchIndex(contentInfo.articleInfos);
+    const newSearchIndex = new SearchIndex(contentInfo.articles);
     setSearchIndex(newSearchIndex);
   }, [contentInfo]);
 

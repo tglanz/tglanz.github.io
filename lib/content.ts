@@ -14,7 +14,7 @@ export interface Content {
 }
 
 export interface ContentInfo {
-  articleInfos: ArticleInfo[],
+  articles: ArticleInfo[],
   metadataAggregation: {
     tags: MetadataAggregation,
     categories: MetadataAggregation
@@ -37,7 +37,7 @@ async function getFilesRecursivesly(directoryPath: string): Promise<string[]> {
   return ans;
 }
 
-export async function readContent(directoryPath: string) {
+export async function readContent(directoryPath: string): Promise<Content> {
   const files = await getFilesRecursivesly(directoryPath);
   const articles = await Promise.all(files.map(readArticle));
 
@@ -46,11 +46,11 @@ export async function readContent(directoryPath: string) {
   return { articles, metadataAggregation };
 }
 
-export async function readContentInfo(directoryPath: string) {
+export async function readContentInfo(directoryPath: string): Promise<ContentInfo> {
   const files = await getFilesRecursivesly(directoryPath);
-  const articleInfos = await Promise.all(files.map(readArticleInfo));
+  const articles = await Promise.all(files.map(readArticleInfo));
 
-  const metadataAggregation = aggregateMetadata(articleInfos);
+  const metadataAggregation = aggregateMetadata(articles);
 
-  return { articleInfos, metadataAggregation };
+  return { articles, metadataAggregation };
 }
