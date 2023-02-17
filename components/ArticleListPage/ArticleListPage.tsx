@@ -17,7 +17,7 @@ const ArticleListPage = ({ title, subtitle, articles }: Props) => (
     <Layout.Main>
     {
       articles.map((article, index) => (
-        <div key={index} className="my-8">
+        <div key={index} className="mt-8">
           <ArticleCard articleInfo={article} />
         </div>
       ))
