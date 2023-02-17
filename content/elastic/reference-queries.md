@@ -15,7 +15,8 @@ Count docs in ```some-index```
 
 Find min of ```field-a``` and max of ```field-b``` in ```some-index```
 
-```POST some-index/_search
+```
+POST some-index/_search
 {
   "size": 0,
   "aggs": {
@@ -35,7 +36,8 @@ Find min of ```field-a``` and max of ```field-b``` in ```some-index```
 
 Delete by query - where ```x = 1```.
 
-```POST some-index/_delete_by_query
+```
+POST some-index/_delete_by_query
 {
   "query": {
     "match": {
@@ -43,5 +45,4 @@ Delete by query - where ```x = 1```.
     }
   }
 }
-
-
+```

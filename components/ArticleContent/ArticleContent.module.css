@@ -30,6 +30,10 @@
   @apply text-sm;
 }
 
+.md p {
+  @apply mt-8;
+}
+
 .md li p {
   display: inline-block;
 }
@@ -39,7 +43,7 @@
 }
 
 .md table {
-  @apply mt-8 w-full border-collapse shadow-md shadow-neutral-400;
+  @apply my-8 w-full border-collapse shadow-md shadow-neutral-400;
 }
 
 .md table thead {
