@@ -1,5 +1,8 @@
 ---
 title: Pacman
+tags:
+- Notes
+- Archlinux
 ---
 
 # Pacman
