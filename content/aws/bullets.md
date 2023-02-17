@@ -1,7 +1,7 @@
 ---
-title: Aws, Bullets 
+title: AWS, Bullets 
 categories:
-  - Aws
+- AWS
 ---
 
 # Available Storage Types

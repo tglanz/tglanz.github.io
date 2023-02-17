@@ -1,7 +1,7 @@
 ---
-title: Aws, Best practices
+title: AWS, Best practices
 categories:
-  - Aws
+  - AWS
 ---
 
 ### Do not use the root acount for any task that is not required to be performed by a root user

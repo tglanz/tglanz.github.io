@@ -1,7 +1,7 @@
 ---
 title: Services
 categories:
-    - Aws
+- AWS
 ---
 
 # S3

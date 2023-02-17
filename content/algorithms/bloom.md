@@ -2,7 +2,8 @@
 title: Bloom Filter
 description: Illustrate the Bloomfilter data structure
 categories:
-  - Algorithms
+- Algorithms
+- Probabalistic Datastructures
 tags:
 ---
 

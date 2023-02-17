@@ -1,6 +1,9 @@
 ---
+title: AWS, Kinesis
 categories:
-- Aws
+- AWS
+tags:
+- Cheatsheet
 ---
 
 List streams

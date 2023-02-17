@@ -1,7 +1,7 @@
 ---
-title: Aws, The cli
+title: AWS, The cli
 categories:
-  - Aws
+- AWS
 weight: 2
 ---
 
