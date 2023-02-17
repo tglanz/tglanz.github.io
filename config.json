@@ -3,17 +3,21 @@
     "title": "Tal Glanzman",
     "subtitle": "Software Engineer"
   },
+  "index": {
+    "showUntitled": true,
+    "showUntagged": true,
+    "showUncategorized": true
+  },
   "social": {
     "linkedin": "https://il.linkedin.com/in/tal-glanzman",
     "github": "https://github.com/tglanz"
   },
   "content": {
-    "path": "content",
-    "showUntagged": false,
-    "showUncategorized": false
+    "path": "content"
   },
   "nav": [
     { "title": "Home", "target": "/" },
+    { "title": "Index", "target": "/_index" },
     { "title": "About", "target": "/_articles/about" }
   ]
 }

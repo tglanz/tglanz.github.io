@@ -33,13 +33,14 @@
 
 .container > header {
   grid-area: header;
+  box-sizing: border-box;
   @apply p-4;
-  @apply border;
+  @apply border-b;
 }
 
 .container > main {
   grid-area: main;
-
+  box-sizing: border-box;
   @apply p-8;
 
   max-width: 90%;
@@ -59,4 +60,5 @@
 
 .container > nav {
   grid-area: nav;
+  box-sizing: border-box;
 }

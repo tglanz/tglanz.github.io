@@ -8,6 +8,7 @@ import * as urls from '../../lib/urls';
 import useConfig from "../utils/useConfig";
 import { useContext, useEffect } from "react";
 import Layout from "../Layout/Layout";
+import Link from "next/link";
 
 interface Props {
   content: Content
@@ -38,9 +39,17 @@ const HomePage = ({ content }: Props) => {
   const config = useConfig();
 
   return (
-    <Layout.Main>
-      <div className="m-4 flex flex-col items-center">
-        {/* <img src="/logo.png"></img>
+    <>
+      <Layout.Header>
+        <Headline title="Home" />
+      </Layout.Header>
+      <Layout.Main>
+        <p>
+          Is this still relevant? You could just use the&nbsp;
+          <Link href="/_index">Index Page</Link>
+        </p>
+        <div className="m-4 flex flex-col items-center">
+          {/* <img src="/logo.png"></img>
 
         <Headline
           title={config.headline.title}
@@ -48,21 +57,22 @@ const HomePage = ({ content }: Props) => {
 
         <SearchBox /> */}
 
-        <TaxonmiesContainer title="Categories">
-          <TaxonomyList items={createTaxonomyListItems(
-            content.metadataAggregation.categories,
-            key => urls.categroyArticles(key)
-          )} />
-        </TaxonmiesContainer>
+          <TaxonmiesContainer title="Categories">
+            <TaxonomyList items={createTaxonomyListItems(
+              content.metadataAggregation.categories,
+              key => urls.categroyArticles(key)
+            )} />
+          </TaxonmiesContainer>
 
-        <TaxonmiesContainer title="Tags">
-          <TaxonomyList items={createTaxonomyListItems(
-            content.metadataAggregation.tags,
-            key => urls.tagArticles(key)
-          )} />
-        </TaxonmiesContainer>
-      </div>
-    </Layout.Main>
+          <TaxonmiesContainer title="Tags">
+            <TaxonomyList items={createTaxonomyListItems(
+              content.metadataAggregation.tags,
+              key => urls.tagArticles(key)
+            )} />
+          </TaxonmiesContainer>
+        </div>
+      </Layout.Main>
+    </>
   );
 };
 

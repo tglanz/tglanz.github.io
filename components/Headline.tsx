@@ -1,6 +1,6 @@
 interface Props {
   title: string,
-  subtitle: string
+  subtitle?: string
 }
 
 const Headline = ({ title, subtitle }: Props) => {

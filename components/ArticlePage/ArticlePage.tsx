@@ -22,9 +22,13 @@ const ArticlePage = ({ article }: Props) => {
 
   return (
     <>
-      { article.metadata.title && <Layout.Header>
+      {/* { article.metadata.title && <Layout.Header>
         <Headline title={article.metadata.title} subtitle={""} />
-      </Layout.Header> }
+      </Layout.Header> } */}
+
+      <Layout.Header>
+        <Headline title={article.metadata.title || article.id} subtitle={""} />
+      </Layout.Header>
 
       <Layout.Main>
         {article.metadata.description

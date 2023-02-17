@@ -59,8 +59,8 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
 
   matterDataRules.apply(matterData,
     matterDataRules.defaultTitle(null),
-    matterDataRules.defaultCategories(config.content.showUncategorized ? ["Uncategories"] : []),
-    matterDataRules.defaultTags(config.content.showUntagged ? ["[Untagged]"] : []),
+    // matterDataRules.defaultCategories(config.content.showUncategorized ? ["[Uncategorized]"] : []),
+    // matterDataRules.defaultTags(config.content.showUntagged ? ["[Untagged]"] : []),
   )
  
   const metadata: ArticleMetadata = {

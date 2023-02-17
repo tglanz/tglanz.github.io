@@ -46,4 +46,17 @@ summary {
 /* button */
 .button {
   border: 1px solid black;
+  cursor: pointer;
+  transition: all 200ms;
+  min-width: 120px;
+  text-align: center;
+  @apply p-2 pb-1 pt-1;
+}
+
+.button:hover {
+  @apply bg-blue-100;
+}
+
+.button.selected {
+  @apply bg-blue-200;
 }
