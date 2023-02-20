@@ -12,6 +12,8 @@ import rehypeDocument from 'rehype-document';
 import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
 import rehypeHighlight from 'rehype-highlight';
+import rehypeSlug from 'rehype-slug';
+import rehypeToc, { HtmlElementNode, TextNode } from 'rehype-toc';
 import remarkGfm from 'remark-gfm';
 
 export interface MetadataAggregationStats {
@@ -98,6 +100,14 @@ export async function readArticle(filePath: string): Promise<Article> {
     .use(remarkRehype)
     .use(rehypeHighlight)
     .use(rehypeDocument)
+    .use(rehypeSlug)
+    .use(rehypeToc, {
+      nav: true,
+      headings: ["h1", "h2"],
+      cssClasses: {
+        toc: "toc",
+      }
+    })
     .use(rehypeFormat)
     .use(rehypeStringify)
     .process(articleMatter.content);

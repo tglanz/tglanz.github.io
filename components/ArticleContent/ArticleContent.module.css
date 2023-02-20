@@ -76,3 +76,12 @@
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+.md :global(.toc)::before {
+  content: "TOC";
+  @apply text-4xl;
+}
+
+.md :global(.toc ol) {
+  list-style-type: none;
+}
