@@ -18,6 +18,9 @@
   "nav": [
     { "title": "Home", "target": "/" },
     { "title": "Index", "target": "/_index" },
+    { "title": "Computer Science", "nav": [
+      { "title": "Linear Programming", "target": "/_articles/computer-science/linear-programming" }
+    ]},
     { "title": "About", "target": "/_articles/about" }
   ]
 }
