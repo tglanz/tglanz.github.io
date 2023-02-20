@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  word-break: break-word;
+}
+
 div#__next {
   height: 100%;
 }
@@ -59,4 +63,8 @@ summary {
 
 .button.selected {
   @apply bg-blue-200;
+}
+
+div.table-container {
+  overflow-x: scroll;
 }

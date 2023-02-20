@@ -40,11 +40,11 @@
 .container > main {
   grid-area: main;
   box-sizing: border-box;
-  @apply p-8;
-
-  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+
+  padding: 0;
+  max-width: 90%;
 }
 
 @media only screen and (min-width: 600px) {

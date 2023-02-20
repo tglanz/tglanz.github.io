@@ -13,6 +13,7 @@ import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeSlug from 'rehype-slug';
+import rehypeWrapAll from 'rehype-wrap-all';
 import rehypeToc, { HtmlElementNode, TextNode } from 'rehype-toc';
 import remarkGfm from 'remark-gfm';
 
@@ -64,7 +65,7 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
     // matterDataRules.defaultCategories(config.content.showUncategorized ? ["[Uncategorized]"] : []),
     // matterDataRules.defaultTags(config.content.showUntagged ? ["[Untagged]"] : []),
   )
- 
+
   const metadata: ArticleMetadata = {
     title: matterData.title,
     description: matterData.description || null,
@@ -98,6 +99,10 @@ export async function readArticle(filePath: string): Promise<Article> {
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
+    .use(rehypeWrapAll, {
+      selector: "table",
+      wrapper: "div.table-container",
+    })
     .use(rehypeHighlight)
     .use(rehypeDocument)
     .use(rehypeSlug)
@@ -129,12 +134,12 @@ export function aggregateMetadata(articles: ArticleInfo[]) {
 
   articles.forEach(article => {
     article.metadata.categories.forEach(category => {
-      categories[category] = categories[category] || {count: 0};
+      categories[category] = categories[category] || { count: 0 };
       categories[category].count += 1;
     });
 
     article.metadata.tags.forEach(tag => {
-      tags[tag] = tags[tag] || {count: 0};
+      tags[tag] = tags[tag] || { count: 0 };
       tags[tag].count += 1;
     });
   });
