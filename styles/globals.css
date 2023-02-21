@@ -68,3 +68,10 @@ summary {
 div.table-container {
   overflow-x: scroll;
 }
+
+/* katex */
+
+span.katex-html {
+  /* don't break equations */
+  display: inline-block;
+}
