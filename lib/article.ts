@@ -29,7 +29,7 @@ export interface ArticleMetadata {
   title: string,
   description?: string,
   priority: number,
-  permalink?: string,
+  toc: boolean,
   tags: string[],
   categories: string[],
 }
@@ -69,14 +69,14 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
   const metadata: ArticleMetadata = {
     title: matterData.title,
     description: matterData.description || null,
-    permalink: matterData.permalink || null,
     priority: matterData.priority || 0,
     tags: matterData.tags || [],
     categories: matterData.categories || [],
+    toc: matterData.toc == false ? false : true, // take into account that other or even empty strings
   }
 
   return {
-    id: metadata.permalink || createArticleIdFromFilePath(filePath),
+    id: createArticleIdFromFilePath(filePath),
     filePath,
     metadata,
   };
@@ -95,7 +95,9 @@ export async function readArticle(filePath: string): Promise<Article> {
 
   const articleMatter = matter(articleContents);
 
-  const processedContent = await unified()
+  const builder = unified();
+
+  builder
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
@@ -105,17 +107,23 @@ export async function readArticle(filePath: string): Promise<Article> {
     })
     .use(rehypeHighlight)
     .use(rehypeDocument)
-    .use(rehypeSlug)
-    .use(rehypeToc, {
+    .use(rehypeSlug);
+
+  if (articleInfo.metadata.toc) {
+    builder.use(rehypeToc, {
       nav: true,
       headings: ["h1", "h2"],
       cssClasses: {
         toc: "toc",
       }
-    })
+    });
+  }
+
+  builder 
     .use(rehypeFormat)
-    .use(rehypeStringify)
-    .process(articleMatter.content);
+    .use(rehypeStringify);
+  
+  const processedContent = await builder.process(articleMatter.content);
 
   const contentHtml = processedContent.toString()
 

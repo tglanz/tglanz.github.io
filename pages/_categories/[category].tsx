@@ -34,7 +34,8 @@ export const getStaticProps = async ({ params }: Params) => {
   const {category} = params;
   const content = await getContentInfo();
   const articles = content.articles
-    .filter(article => article.metadata.categories.includes(category));
+    .filter(article => article.metadata.categories.includes(category))
+    .sort((a, b) => a.metadata.priority - b.metadata.priority);
 
   return {
     props: {
