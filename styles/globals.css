@@ -75,3 +75,53 @@ span.katex-html {
   /* don't break equations */
   display: inline-block;
 }
+
+/* hints */
+
+p.hint.tip::before {
+  content: "";
+  background-image: url('/icons/exclamation-mark.svg');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+  @apply mr-1;
+  @apply bg-green-300;
+  border-radius: 8px;
+}
+
+p.hint.warn::before {
+  content: "";
+  background-image: url('/icons/question-mark.svg');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+  @apply mr-1;
+  @apply bg-yellow-300;
+  border-radius: 8px;
+}
+
+p.hint.error::before {
+  content: "";
+  background-image: url('/icons/x-mark.svg');
+  background-size: 1em 1em;
+  width: 1em;
+  height: 1em;
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+  @apply mr-1;
+  @apply bg-red-300;
+  border-radius: 8px;
+}

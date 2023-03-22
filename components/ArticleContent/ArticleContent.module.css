@@ -3,6 +3,9 @@
 
 .md * {
   font-family: sans;
+
+  /* this prevents items from overflowing horizontally */ 
+  max-width: 100vw;
 }
 
 .md h1 {
@@ -84,4 +87,10 @@
 
 .md :global(.toc ol) {
   list-style-type: none;
+}
+
+.md pre {
+  margin: 0;
+  padding: 0;
+  position: relative;
 }

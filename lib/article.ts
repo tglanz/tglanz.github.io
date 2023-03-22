@@ -8,6 +8,9 @@ import * as matterDataRules from './matter-data-rules';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
+import remarkMermaid from 'remark-mermaidjs';
+import remarkHint from 'remark-hint';
+import remarkPlantUML from '@akebifiky/remark-simple-plantuml'
 import rehypeDocument from 'rehype-document';
 import rehypeFormat from 'rehype-format';
 import rehypeStringify from 'rehype-stringify';
@@ -96,16 +99,24 @@ export async function readArticle(filePath: string): Promise<Article> {
   const articleMatter = matter(articleContents);
 
   const builder = unified();
-
+  
   builder
     .use(remarkParse)
     .use(remarkGfm)
+    .use(remarkPlantUML)
+    .use(remarkHint)
     .use(remarkRehype)
     .use(rehypeWrapAll, {
       selector: "table",
       wrapper: "div.table-container",
     })
-    .use(rehypeHighlight)
+    // .use(rehypeWrapAll, {
+    //   selector: "pre",
+    //   wrapper: "div.pre-container",
+    // })
+    .use(rehypeHighlight, {
+      ignoreMissing: true,
+    })
     .use(rehypeDocument)
     .use(rehypeSlug);
 
@@ -119,7 +130,7 @@ export async function readArticle(filePath: string): Promise<Article> {
     });
   }
 
-  builder 
+  builder
     .use(rehypeFormat)
     .use(rehypeStringify);
   

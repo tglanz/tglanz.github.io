@@ -7,7 +7,7 @@ import type { AppProps } from 'next/app'
 
 import { SearchIndexContext } from '../components/utils/searchIndexContext';
 import Layout from '../components/Layout/Layout'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import SearchIndex from '../lib/search-index';
 
 const EmptySearchIndex = new SearchIndex([]);
