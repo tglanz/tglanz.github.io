@@ -110,3 +110,11 @@ def MinValue(game, state, player) -> (utility, action):
     MaxValue(game, game.Result(state, a), player) foreach a in Actions(state)
 
 ```
+
+## More than 2 agents
+
+TODO
+
+## Alpha-Beta pruning
+
+TODO
