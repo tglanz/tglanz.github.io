@@ -1,0 +1,11 @@
+{
+    "plantuml.render": "Local",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "content/intro-to-ai/bayesian-networks.md",
+        }
+    ]
+}

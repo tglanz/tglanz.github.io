@@ -7,6 +7,8 @@ tags:
 - Probability
 ---
 
+**NOTE**: Need to continue this.
+
 ## Definition
 
 A **Bayesian Network (BN)** is a data structure that represents dependencies among different Random Variables. BNs represent the full joint distribution concisely which leads to more efficient query inferences.
