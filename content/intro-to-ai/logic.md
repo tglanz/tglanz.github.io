@@ -106,8 +106,8 @@ The resolution rule states the following:
 
 $$
     \frac
-    {l_1 \lor l_2 \lor ... \lor l_i \lor ... \lor l_n ~~,~~ A \lor \neg l_i}
-    {l_1 \lor l_2 \lor ... \lor l_{i-1} \lor l_{i+1} \lor ... \lor l_n \lor A }
+    {l_1 \lor l_2 \lor ... \lor l_i \lor ... \lor l_n \~,\~ A \lor \neg l_i}
+    {l_1 \lor l_2 \lor ... \lor l_{i-1} \lor l_{i+1} \lor ... \lor l_n \lor A}
 $$
 
 Where $A$ is a disjunction of other literals.
@@ -115,7 +115,7 @@ Where $A$ is a disjunction of other literals.
 For example:
 
 $$
-    \frac{P \lor Q ~~,~~ \neg P \lor R}{Q \lor R} 
+    \frac{P \lor Q \~,\~ \neg P \lor R}{Q \lor R} 
 $$
 
 Notice that this important rule operates only on disjunctions. However, our sentences can be in an arbitrary form. We find that every KB is equivalent to another KB that is in a very specific form known as "conjunctive normal form" - In this form, we can easily apply the resolution rule.
@@ -137,8 +137,7 @@ $$
     P \Leftrightarrow Q \lor R
 $$
 
-1. Bidirectional elimination: $(P \Rightarrow Q \lor R) \land (Q \lor R\
- \Rightarrow P)$
+1. Bidirectional elimination: $(P \Rightarrow Q \lor R) \land (Q \lor R \Rightarrow P)$
 2. Implication elimination of the left hand conjugate: $(\neg P \lor Q \lor R) \land (Q \lor R \Rightarrow P)$
 3. Implication elimination of the right hand conjugate: $(\neg P \lor Q \lor R) \land (\neg (Q \lor R) \lor P)$
 4. Move negation inwards (apply de-morgan at the right-hand side): $(\neg P \lor Q \lor R) \land ((\neg Q \land \neg R) \lor P)$
