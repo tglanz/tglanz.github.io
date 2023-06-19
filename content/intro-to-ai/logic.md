@@ -70,10 +70,10 @@ They are (unsuprisingly) defined by the truth table:
 
 The following **Logical Equivalences** hold:
 
-> Notation note: that we use $\cdot$ and $+$ as placeholders for when equivalence holds both for $\land$ and $\lor$. i.e. read $\alpha \cdot \beta$ as $\alpha \land \beta$ and also $\alpha \lor \beta$. When we use both $\cdot$ and $+$, it means we can use both interchangebly.
+> Regardig the notation below, note that we use $\cdot$ and $+$ as placeholders for when equivalence holds both for $\land$ and $\lor$. i.e. read $\alpha \cdot \beta$ as $\alpha \land \beta$ and also $\alpha \lor \beta$. When we use both $\cdot$ and $+$, it means we can use both interchangebly.
 
 - **Commutativity**: $\alpha \cdot \beta \equiv \beta \cdot \alpha$ 
-- **Associativity** operators, meaning that $((\alpha \cdot \beta)  \cdot \gamma) \equiv (\alpha \cdot (\beta \cdot \gamma))$
+- **Associativity** meaning that $((\alpha \cdot \beta)  \cdot \gamma) \equiv (\alpha \cdot (\beta \cdot \gamma))$
 - **Double Negation**: $\neg (\neg \alpha) \equiv \alpha$
 - **Contraposition**: $\alpha \Rightarrow \beta \equiv \neg \beta \Rightarrow \neg \alpha$
   - This equivalence is frequently used in mathematical proofs and is the basis of "proof by contradiction"
@@ -84,7 +84,7 @@ The following **Logical Equivalences** hold:
 
 ## Inference
 
-A commonly, sound rule that is used to derive sentences is known as **Modus \alphaonens** rule:
+A commonly, sound rule that is used to derive sentences is known as **Modus Ponens** rule:
 
 $$
     \frac{\alpha \Rightarrow \beta, \alpha}{\beta}
