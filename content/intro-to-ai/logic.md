@@ -193,7 +193,33 @@ Because we reached a contradiction, we deduce that the KB entails $\neg Q$.
 
 Think of it, how complex are the sentences that we could express via Propositional Logic? It turns out that we can formalize a logic language that is far more expressive than it.
 
-**First Order Logic** is a 
+**First Order Logic (FOL)** is a logic formulation that includes objects and their relations to one another.
+
+FOL is a bit closer to natural language. In natural language, we can speak about objects such as a "Chair" or a "Pen". We can also talk about the relations between objects for example: "Pen is on Chair". Lastly, we can map objects to other objects as in "Leg of the Chair", kind of like functions.
+
+FOL builds on top of those concepts. Its components are:
+
+- **Truth Values (Booleans)** False and True
+- **Logical Operators** are the same logical operators we saw in propositional logic including the **Equal** operator $=$
+- **Terms (or Objects)** are the constants
+- **Variables** are placeholders for Terms
+- **Quantifiers**
+  - **Universal quantifier** (Forall) $\forall x B$ whether the boolean expression $B$ holds for every possible instantiation of the variable $x$
+  - **Existential quantifier** (Exists) $\exists x B$ whether the boolean expression $B$ holds for some possible instantiation of the variable $x$
+- **Relations (or Predicates)** are mappings from tuples of Terms to a Boolean
+- **Functions** are mappings from Term to Term
+
+For clarity, we defined the booleans separately from the predicates. To be more accurate, $True$ and $False$ are also defined as predicates (that always return the same value).
+
+A sentence in FOL is either an **Atomic Sentence** or a **Complex Sentence**.
+
+An atomic sentence is either a Term or a Predicate.
+
+A complex sentence is either an application of multiple sentences using logical operators or a quantified variable followed by a sentence.
+
+## Logical Inference
+
+We won't go over the details about what logical inference is since we already covered it in the section about propositional logic. We will focus on the techniques that are related to FOL.
 
 # Examples from Exercises
 

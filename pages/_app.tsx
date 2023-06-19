@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'katex/dist/katex.min.css';
+import '../styles/customize-katex.css';
 // import 'https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0';
 import 'highlight.js/styles/sunburst.css';
 
