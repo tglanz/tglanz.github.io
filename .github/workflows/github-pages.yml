@@ -9,10 +9,13 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  build-next-legacy:
 
     name: Build and Deploy
     runs-on: ubuntu-latest
+
+    defaults:
+      working-directory: next-legacy
 
     steps:
     - name: Checkout repository
@@ -23,7 +26,6 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name: Build the site
-      working-directory: next-legacy
       run: |
         npm install
         npm run build
