@@ -1,6 +1,6 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and deploy the site at next-legacy/out/ to github pages (gh-pages branch)
 name: Github Pages
-run-name: "Github Pages: ${{ github.event.client_payload.message }}"
+run-name: "Github Pages: ${{ github.event.head_commit.message }}"
 
 on:
   push:
