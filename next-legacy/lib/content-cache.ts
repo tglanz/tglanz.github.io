@@ -9,7 +9,7 @@ import { readContent, readContentInfo } from './content';
 
 import config from '../config.json';
 
-const CACHE_ENABLED = false;
+const CACHE_ENABLED = true;
 
 const ContentDirectory = path.join(process.cwd(), config.content.path);
 
