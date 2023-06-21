@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container > :global(.link) {
+  min-width: 40px;
+  text-align: center;
+}
+
+.container > :global(.link):after {
+  content: "";
+  border-radius: var(--border-radius-medium);
+  display: block;
+  height: var(--border-width-medium);
+  width: 0px;
+  margin: auto;
+  background-color: var(--border-color-main);
+  transition-property: width;
+  transition-duration: 0.2s;
+}
+
+.container > :global(.link:hover):after{
+  width: 100%;
+}
+
+
+.container > :global(.link.active):after{
+  width: 100%;
+}
+

@@ -1,0 +1,14 @@
+.body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* big screens */
+@media only screen and (min-width: 600px) {
+  .body {
+    max-width: 600px;
+    margin: auto;
+    padding: var(--padding-large) 0;
+  }
+}

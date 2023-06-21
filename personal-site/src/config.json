@@ -1,0 +1,27 @@
+{
+  "headline": {
+    "title": "Tal Glanzman",
+    "subtitle": "Software Engineer",
+    "description": "I create software"
+  },
+  "index": {
+    "showUntitled": true,
+    "showUntagged": true,
+    "showUncategorized": true
+  },
+  "social": {
+    "linkedin": "https://il.linkedin.com/in/tal-glanzman",
+    "github": "https://github.com/tglanz"
+  },
+  "content": {
+    "path": "../content"
+  },
+  "nav": [
+    { "title": "Home", "target": "/" },
+    { "title": "Index", "target": "/_index" },
+    { "title": "Computer Science", "nav": [
+      { "title": "Linear Programming", "target": "/_articles/computer-science/linear-programming" }
+    ]},
+    { "title": "About", "target": "/_articles/about" }
+  ]
+}
