@@ -7,6 +7,7 @@
 .container > :global(.link) {
   min-width: 40px;
   text-align: center;
+  color: inherit;
 }
 
 .container > :global(.link):after {

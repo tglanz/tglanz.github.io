@@ -1,0 +1,17 @@
+.container {
+}
+
+.groups {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.group {
+}
+
+.groupTitle {
+  text-align: center;
+  font-size: var(--font-size-large);
+}
