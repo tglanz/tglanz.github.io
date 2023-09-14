@@ -21,15 +21,65 @@ We will use many practical examples and uses of this method which we will link t
 
 Before we continue we need to review some basic probability concepts.
 
+### Definition
+
 A **probability space** is a triplet $(\Omega, \Sigma, Pr)$ where
 
 1. $\Omega$ is a non-empty set known as the **sample space**. It represents all possible outcomes of some experiment.
-  - We will limit ourselves to a finite sample space.
-2. $\Sigma$ is the collection of subsets of $\Omega$ which is closed under the **complement ($'$)**, **union ($\cup$)** and **intersection ($\cap$)** operations.
-  - An element $A \in \Sigma$ is called an **event**.
-3. $Pr : \Sigma \rightarrow [0, 1]$ is a function with the following properties:
-  - $Pr(\Omega) = 1$
-  - $\forall A, B \in \Sigma ; A \cap B = \phi \implies Pr(A) + Pr(B) = Pr(A \cup B)$
-  - $\forall \omega \in \Omega ; $  we will denote $Pr(\omega) = Pr(\\{\omega\\})$
+    - We will limit ourselves to a finite sample space.
 
-  > Methematically, a probability space is a measure space with the measure function over $\Omega$ where $\Sigma$ is the $\sigma$-algebra over $\Omega$ and $Pr$ is the measure of the space such that $Pr(\Omega) = 1$.
+2. $\Sigma$ is the collection of subsets of $\Omega$ which is closed under the **complement ($x'$)**, **union ($x \cup y$)** and **intersection ($x \cap y$)** operations.
+    - An element $A \in \Sigma$ is called an **event**.
+
+3. $Pr : \Sigma \rightarrow [0, 1]$ is a function with the following properties:
+    - $Pr(\Omega) = 1$
+    - $\forall A, B \in \Sigma ; A \cap B = \phi \implies Pr(A) + Pr(B) = Pr(A \cup B)$
+    - $\forall \omega \in \Omega ; $  we will denote $Pr(\omega) = Pr(\\{\omega\\})$
+
+> Methematically, a probability space is a measure space with the measure function over $\Omega$ where $\Sigma$ is the $\sigma$-algebra over $\Omega$ and $Pr$ is the measure of the space such that $Pr(\Omega) = 1$.
+
+### Union Bound
+
+The measue function is sub-additive with respect to the union operation. Meaning, every two events $A, B$ satisfies $Pr(A \cup B) \leq Pr(A) + Pr(B)$.
+
+It makes sense, if the two events are not disjointed, the intersection part must be calculated once, not twice as is calculated in $Pr(A) + $Pr(B)$.
+
+More generally, the **Union Bound** theorem states that for any set of events $\\{ A_i \\}$ it holds that:
+
+$$
+  Pr(\bigcup_i A_i) \leq \sum_i Pr(A_i)
+$$
+
+### Conditional Probability
+
+The probability of some event $A$, given that we know that the event $B$ happened is called the **conditional probability of $A$ given $B$** and is notated and given by
+
+$$
+  Pr(A | B) = \frac{Pr(A \cap B)}{Pr(B)}
+$$
+
+This definition is intuitive. The probability $A$ happens given $B$ happens is firstly at the intersection between them. Then, we scale this probability of the intersection to limit ourselves to the "world" of $B$ only.
+
+Another variant of this definition is known as the **product rule**:
+
+$$
+  Pr(A \cap B) = Pr(A | B) Pr(B)
+$$
+
+Let's see an example - Consider the experiment of rolling a six-sided die and let $A$ be the event that the number $2$ was thrown and $B$ the event that an even number was thrown. Formally, $A = \\{ 2 \\}, B = \\{2, 4, 6 \\}$. It is obvious that $Pr(A) = \frac{1}{6}$ and $Pr(B) = \frac{3}{6} = \frac{1}{2}$. Intuitively, the probability that $A$ given $B$ is $\frac{1}{3}$ since if we know an even number was rolled it means that one of three numbers 2, 4 and 6 were rolled - from those, the probability that 2 was rolled is $\frac{1}{3}$. We can verify the intuition using the formula: $Pr(A | B) = \frac{Pr(A \cap B)}{Pr(B)} = \frac{\frac{1}{6}}{\frac{1}{2}} = \frac{1}{3}$.
+
+Now, what happens when what we know about $B$ doesn't affect $A$? For example, consider $A$ to be the result of a die roll and $B$ the event that it is Sunday - the result of the roll is not affected by the day of week at all. Such events are called **independent**, let's define it:
+
+Two events $A$ and $B$ such that $Pr(A | B) = Pr(A)$ are said to be **independent**.
+
+For two independent events $A$ and $B$ we can see that:
+
+$$
+    Pr(A) = Pr(A | B) = \frac{Pr(A \cap B)}{Pr(B)} \implies Pr(A)Pr(B) = Pr(A \cap B)
+$$
+
+Using a bit of algebra, we can get the **very** important rule, **Bayes Rule** which states that if we can always invert the conditional causality:
+
+$$
+    Pr(A | B) = \frac{Pr(B | A) Pr(A)}{Pr(B)}
+$$

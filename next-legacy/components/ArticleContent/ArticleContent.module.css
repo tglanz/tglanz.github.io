@@ -11,16 +11,16 @@
 }
 
 .md h1 {
-  @apply py-2 text-4xl;
+  @apply mt-12 py-2 text-4xl;
 }
 
 .md h2 {
-  @apply py-2 text-3xl;
+  @apply mt-12 py-2 text-3xl;
 
 }
 
 .md h3 {
-  @apply py-2 text-2xl font-bold;
+  @apply mt-6 py-2 text-2xl font-bold;
 }
 
 .md h4 {

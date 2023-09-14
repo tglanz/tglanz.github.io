@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "watch": "next-remote-watch --root . content/",
+    "watch": "next-remote-watch --root . ../content/",
     "build": "next build",
     "export": "next export",
     "start": "next start",
