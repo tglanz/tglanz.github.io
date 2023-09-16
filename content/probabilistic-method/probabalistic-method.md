@@ -1,5 +1,6 @@
 ---
 title: The Probabilistic Method
+weight: 1
 categories:
 - Computer Science
 - Probabilistic Method
@@ -17,11 +18,9 @@ In essence, the method shows that the probability that some object with the desi
 
 We will use many practical examples and uses of this method which we will link to throughout this page.
 
-# Probability Background
+# Basic definitions and results
 
-Before we continue we need to review some basic probability concepts.
-
-### Definition
+Before we continue we need to review the definition of probability spaces.
 
 A **probability space** is a triplet $(\Omega, \Sigma, Pr)$ where
 
@@ -38,7 +37,7 @@ A **probability space** is a triplet $(\Omega, \Sigma, Pr)$ where
 
 > Methematically, a probability space is a measure space with the measure function over $\Omega$ where $\Sigma$ is the $\sigma$-algebra over $\Omega$ and $Pr$ is the measure of the space such that $Pr(\Omega) = 1$.
 
-### Union Bound
+## Union Bound
 
 The measue function is sub-additive with respect to the union operation. Meaning, every two events $A, B$ satisfies $Pr(A \cup B) \leq Pr(A) + Pr(B)$.
 
@@ -50,7 +49,7 @@ $$
   Pr(\bigcup_i A_i) \leq \sum_i Pr(A_i)
 $$
 
-### Conditional Probability
+## Conditional Probability
 
 The probability of some event $A$, given that we know that the event $B$ happened is called the **conditional probability of $A$ given $B$** and is notated and given by
 
@@ -78,8 +77,38 @@ $$
     Pr(A) = Pr(A | B) = \frac{Pr(A \cap B)}{Pr(B)} \implies Pr(A)Pr(B) = Pr(A \cap B)
 $$
 
-Using a bit of algebra, we can get the **very** important rule, **Bayes Rule** which states that if we can always invert the conditional causality:
+We can generalize this and get the important claim.
+
+For every set of pair-wise independent events $\\{ A_i \\}$ it holds true that:
+
+$$
+   Pr(\bigcap_i A_i) = \prod_i Pr(A_i)
+$$
+
+## Bayes rule
+
+Although we won't use it much here, it is important to show a straight-forward result which stems from the definitions of conditional probability.
+
+Using a bit of algebra, we can get the **very** important rule, **Bayes Rule** which states that we can always invert the conditional causality:
 
 $$
     Pr(A | B) = \frac{Pr(B | A) Pr(A)}{Pr(B)}
 $$
+
+# Probabilistic method - Union bound and Intersection of independent events
+
+Up until now we saw only basic results which we are all familiar with. Although basic, they provide provide the basic and most common tools for the probabilistic method. Usually the way we will use them is as follows.
+
+Assume we want to bound the probability of some event $A$ which we cannot calculate the probability of directly because it is somewhat complex.
+
+Represent the $A$ as smaller, usually simpler events $A_i$ such that $A = \bigcup_i A_i$. From the union bound we know that $Pr(A) \leq \sum_ Pr(A_i)$.
+
+Usually we will now be able to calculate $A_i$ directly. We will break such events even further such that $A_i = \bigcup B_{ij}$ where $\\{ B_{ij} \\}$ is a set of pair-wise independent events. It is immediately follows by the intersection of independent event rule that $Pr(A_i) = \prod_j Pr(B_{ij})$.
+
+Finally we can conclude that $Pr(A) \leq \sum_i \prod_j Pr(B_{ij})$.
+
+Usually, we will see that the probabilities of the smaller events are similar to each other.
+
+## Examples
+
+- [Hypergraph 2 Coloring](../hypergraph-2coloring)
