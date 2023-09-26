@@ -1,6 +1,6 @@
 ---
 title: The Probabilistic Method
-weight: 1
+priority: 1
 categories:
 - Computer Science
 - Probabilistic Method
@@ -112,3 +112,4 @@ Usually, we will see that the probabilities of the smaller events are similar to
 ## Examples
 
 - [Hypergraph 2 Coloring](../hypergraph-2coloring)
+- [Coupons Collector 1](../coupons-collector-v1)

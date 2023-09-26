@@ -1,6 +1,6 @@
 ---
 title: Hypergraph 2 Coloring
-weight: 2
+priority: 32
 categories:
 - Computer Science
 - Probabilistic Method
