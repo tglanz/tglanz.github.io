@@ -113,3 +113,138 @@ Usually, we will see that the probabilities of the smaller events are similar to
 
 - [Hypergraph 2 Coloring](../hypergraph-2coloring)
 - [Coupons Collector 1](../coupons-collector-v1)
+
+# Random Variables
+
+Another basic object in probability theory is the **Random Variable**. A random variable $X$ is a function that assigns a real number for each element in the sample space, $X : \Omega \rightarrow \mathbb{R}$.
+
+All of the possible inputs and outputs of a random variable is known as it's distribution: $\{ (\omega, X(\omega)) | \omega \in \Omega \}$.
+
+Let's think of the experiment of rolling a fair dice. The sample space is $\Omega = \{ 1, 2, 3, 4, 5, 6 \}$.
+
+Let's define the random variable $X(\omega) = 1 ~if~ \omega \leq 2 ~and~ 0 ~otherwise~$. Meaning, $X$ is 1 if the outcome is $1$ or $2$, otherwise it's zero. $X$'s distribution is $A = \{ (1, 1), (2, 1), (3, 0), (4, 0), (5, 0), (6, 0) \}$. What is the probability for the event that $X = 1$? Combinatorically, we calculate that $Pr(X = 1) = \frac{|\{\omega | X(\omega) = 1 \}|}{|A|} = \frac{2}{6} = \frac{1}{3}$. This is rather intuitive, we know that a third of the outcomes are less than or equal to 2.
+
+Let's define another random variable $Y(\omega) = \omega \cdot 2$. The range of $Y$ is $D = \{ 2, 4, 6, 8, 10, 12 \}$. What is the probability that $Y$ gets the value $4$? Again, combinatorically we see that $Pr(Y=4) = \frac{|\{\omega | Y(\omega) = 2\}|}{|D|}=\frac{1}{6}$. In fact, that is true for all $d \in D$ that $Pr(Y = d) = \frac{1}{6}$!
+
+The random variables $X$ and $Y$ exhibit different, yet common distribution patterns. $X$ behaves like a predicate - it get's the value 1 if some condition holds or 0 if it doesn't. Therefore, the probability of $\{ X = 1 \}$ is the probability of the condition to be true. $Y$ is simple, the probability for it to achieve any value is the same probability - specifically, it is exactly $\frac{1}{|Range(Y)|}$.
+
+$X$'s distribution is known as the **Bernoulli** distribution with probability $p = \frac{1}{3}$. Usually, the Bernoulli distribution with probability $p$ is notated by $B(p)$. We notate the fact that $X$'s distribution is $B(\frac{1}{3})$ by $X \sim B(\frac{1}{3})$.
+
+$Y$'s distribution is known as the **Uniform** distribution with $n = 6$. Simlirarly, we notate $Y \sim Uniform(6)$.
+
+## Expectancy
+
+The **Expectency** of a random variable is the value we would expect the random variable to achieve. For any random variable $V$ we define its expectency by:
+
+$$
+  \mathbb{E}(V) := \sum_{v \in Range(V)} vPr(V=v) = \sum_{\omega \in \Omega}Pr(\omega)V(\omega)
+$$
+
+Let's calculate the expectencies of $X$ and $Y$ from the previous section:
+- $\mathbb{E}(X) = Pr(1)X(1) + Pr(2)X(2) + Pr(3)X(3) + ... + Pr(6)X(6) = \frac{1}{6} \cdot 1+\frac{1}{6} \cdot 1 + \frac{1}{6} \cdot 0 + ... + \frac{1}{6} \cdot 0 = 
+\frac{2}{6} = \frac{1}{3}$
+  - Not coincidently, the expectancy is exactly the probability $p = \frac{1}{3}$
+- $\mathbb{E}(Y) = \sum_{\omega \in \{1, 2, 3, 4, 5, 6\}} Pr(\omega)Y(\omega) = \sum_{\omega \in \{1, 2, 3, 4, 5, 6\}} \frac{1}{6} (\omega \cdot 2) = \frac{\sum_{\omega \in \{1, 2, 3, 4, 5, 6\}} \omega \cdot 2}{6} = 8$
+  - Not coincidently, the expectancy is exactly the average of the possible values
+
+The expectancy has an important characteristic, known as the **Linearity of expectation**: For any two random variables $V, U$ and two real numbers $\alpha, \beta$:
+
+$$
+  \mathbb{\mathbb{E}(\alpha U + \beta V)} = \alpha \mathbb{E}(U) + \beta \mathbb{E}(V)
+$$
+
+This doesn't seems much but it is. As we know from theoretical math, the less constraints a theorem has the more powerful and robust it is. This is the case for the linearity of expectation - It holds for **any** two random variables, now small print, that's it.
+
+## Variance
+
+Observe the two uniform distributions $\{ 0, 100 \}$ and $\{ 49, 51 \}$. Both of their expectancies are 50 but they are inherently different with respect to the distance of the values from it. A measurement for how far the values spread within the distribution is known as the **Variance**.
+
+How will we define the variance then?
+
+- The first idea is to subtract the random variable from it's expectency and take the expectancy of that. i.e., for the random variable $U$ it's variance could have been defined by (but it isn't): $\mathbb{E}(U - \mathbb{E}(U))$. The problem with this definition is that it is analytically hard to work with. When is it negative vs. positive?
+- The second idea is to improve upon the previous one by taking the absolute value and measure the distance of the random variable from it's expectancy. i.e. for the random variable $U$ it's variance could be defined by (but it isn't): $\mathbb{E}(|U - \mathbb{E}(U)|)$. The main reason which because it isn't a good definition is because the function of the absolute value is not differentiable at $0$. You may ask how differentiation has anything to do with random variables? Well, recall that random variables are just functions from the probability space. The probability space can also be continuous (we don't use it here though).
+
+> As pointed out, we can define probability spaces as continuous spaces. In our case, we say that the random variables are **Discrete** rather than **Continuous**. Roughly the extention to the continous case is straight forward and all we need to do is use integration instead of summation for the respective definitions (which makes the computations harder but the theory itself is not much more complex).
+
+We define the variance of a random variable $U$ to be the expectancy of the squared distance from it's expectancy:
+
+$$
+  Var(U) := \mathbb{E}((U - \mathbb{E}(U))^2)
+$$
+
+Let's try to expand upon it a bit:
+
+$$
+  Var(U) = \mathbb{E}((U - \mathbb{E}(U))^2) = \mathbb{E}(U^2 -2U\mathbb{E}(U) + \mathbb{E}(U)^2)
+$$
+
+By linearity of expectation we get that:
+$$
+  Var(U) = \mathbb{E}(U^2) - 2\mathbb{E}(U)\mathbb{E}(\mathbb{E}(U))+\mathbb{E}(U)^2
+$$
+
+The expectancy itself is a real number, so the expectancy of an expectancy is itself:
+$$
+  Var(U) = \mathbb{E}(U^2) - 2\mathbb{E}(U)^2 + \mathbb{E}(U)^2
+$$
+
+And we will get a useful formula for calculating the variance:
+$$
+  Var(U) = \mathbb{E}(U^2) - \mathbb{E}(U)^2
+$$
+
+The variance is **not linear**. But we can say something about the variance of sums.
+
+For **mutually independent** random variables $\{ U_i \}$ the variance of the sum is the sum of the variances: $Var(\sum U_i) = \sum Var(U_i)$.
+
+So what about variables that are not necessarily mutually independent? The variance of the sum can be expressed as:
+
+$$
+  Var(\sum U_i) = \sum Var(U_i) + \sum_{i \neq j}Cov(U_i, U_j)
+$$
+
+Where $Cov(U, V)$ is the **Covariance** of $U$ and $V$ and it is defined by:
+
+$$
+  Cov(U, V) := \mathbb{E}((U - \mathbb{E}(U))(V - \mathbb{E}(V)))
+$$
+
+> Formula of the variance of the sums can be easily reached by straight forward computations according to the expectancy definition
+
+A formula for calculating the covariance is given by:
+
+$$
+  Cov(U, V) = \mathbb{E}(UV) - \mathbb{E}(U)\mathbb{E}(V)
+$$
+
+> We reach this formula just by expanding the definition
+
+## Common Distributions
+
+We previously saw 2 different common distributions. Let's cover them more generally.
+
+### Bernoulli Distribution
+
+The **Bernoulli** distribution is notated by $B(p)$. It models a single trial that can either **succeed** with probability $p$ in which case the value of the random variable is 1 or **fail** with probability $1 - p$ in which case the value of the random variable is 0.
+
+A random variable $X \sim B(p)$ is also called an **Indicator**.
+
+#### Expectancy
+
+The expectancy is given by $\mathbb{E}(X) = p$.
+
+*Proof*
+
+$$
+  \mathbb{E}(X \sim B(p)) = 1 \cdot Pr(X=1) + 0 \cdot Pr(X=0) = Pr(X = 1) = p
+$$
+
+#### Variance
+
+The variance is given by $Var(X) = p(1 - p)$.
+
+*Proof*
+
+$$
+  Var(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2 = p - p^2 = p(1 - p)
+$$
