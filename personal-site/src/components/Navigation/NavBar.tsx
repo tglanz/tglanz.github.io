@@ -5,7 +5,8 @@ import styles from "./NavBar.module.css"
 
 const Routes = [
   { href: "/", text: "Home" },
-  { href: "/blog", text: "Blog" },
+  { href: "/categories", text: "Categories" },
+  { href: "/articles", text: "All" },
   { href: "/about", text: "About" },
 ];
 

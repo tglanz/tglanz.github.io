@@ -4,16 +4,31 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --padding-large: 20px;
+  --padding-medium: 14px;
+  --padding-small: 8px;
   --margin-small: 4px;
   --margin-medium: 8px;
   --margin-large: 16px;
+  --margin-xlarge: 22px;
+  --margin-xxlarge: 26px;
 
   --border-radius-medium: 4px;
-  --border-color-main: blue;
+  --border-color-main: darkgray;
+  --border-color-dimmed: lightgray;
+  --border-width-small: 1px;
   --border-width-medium: 2px;
+  --border-width-large: 4px;
 
   --font-size-largest: 32px;
   --font-size-large: 24px;
+  --font-size-medium: 18px;
+
+  --text-color-main: black;
+
+  --text-color-dimmed: #232323;
+  --bg-color-dimmed: lightgray;
+
+  --box-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 * {
@@ -31,3 +46,7 @@ body {
 a {
   text-decoration: none;
 }
+
+@import url(../styles/headings.css);
+@import url(../styles/ul.css);
+@import url(../styles/katex.css);
