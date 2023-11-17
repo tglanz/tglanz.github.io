@@ -1,0 +1,176 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/4e35fc7145142800.css","style",{"crossOrigin":""}]
+0:["F5wa6sU7YK9iajx6_K5OJ",[[["",{"children":["articles",{"children":[["slug","posts/kafka","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"kafka\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4e35fc7145142800.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/4bccb028aebe19da.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-99393772be94611b.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/kafka","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"kafka\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bccb028aebe19da.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/kafka","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],"ArticleContent"]
+e:Tfc3,
+# Overview
+
+## What is kafka?
+
+> Kafka is a streamsing platform for ingesting, storing, accessing and processing streams of data
+
+# High level concepts
+
+## Communication model
+
+On the contrary of a **Directed Communication** where every service is aware of the other process to send messages to, kafka provides a centralized hub in which processes can send and receieve messages without being aware of each other. Such communication model is known as the **Publish/Subscribe** model which enhance the decoupling between different processes.
+
+> Of course those are not termed by kafka
+
+> Recall the different communication formalization according the sync/async and persistent/transient dimensions. Kafka fills conforms to the asynchronous and persisted model. This is unintuitive since this model is usually used for classical **Queues** rather than **Pubsubs**.
+
+## Core components
+
+A **Topic** is a named stream of data (/ channel - CSP?).
+
+**Producer**s are processes that publish data to a Topic.
+
+**Consumer**s are processes that subscribe to data in one or more Topics.
+
+A **Consumer Group** is a set of Consumers that work together as a group.
+
+## Storage
+
+### Commit Log
+
+A **Commit Log** is an append only data structure which contain an *Ordered Sequence* of events (/records)
+
+- Records in the log are immutable
+- Records are ordered and their ordinal is known as their **Offset**
+
+> It is very similiar to existing transaction logs (Redo Log especially) which can be found in classical Relational Databases.
+
+> To gain perspectives we can find similiarities to STM concurrency mode, Redux stores etc...
+
+### Partitions
+
+In order to provide distribution capabilities, there is no 1 to 1 correlation of Topic to Log since then each Topic would need to be stored on a single machine. Rather, a Topic is broken into smaller units called **Partitions**.
+
+Effectively, every Partition is a single Log. Such model allows kafka to distribute a Topic with N partitions to at most N workers and we can have K Consumers under the same Consumer Group sharing the load of consumption as long as LEQ(K, N). If K>N than it means that some consumers will be idle.
+
+It makes sense from a technical POV. Kafka simply assigns a Partition to a Consumer.
+
+- If the number of Consumers is less than the number of Partitions, by the pigenhole principle there is at least a single Consumers that is assigned with more than one partition
+- If the number of Consumers is greather than the number of Partitions, there cannot be a surjective mapping from the Partitions the Consumers
+
+### Event
+
+A unit of data in a Topic has many interchangeable names - Event, Message, Record. We favour the term Event.
+
+> Out of the kafka scope, events in the fotware world are *Entities* that desribe something that *happened in the past*. Therefore, event are past tense verbse. Well, it is the same in kafka
+
+An **Event** is a timestamped key-value pair the records something that happened.
+
+Event is composed of **Headers**, **Keys**, a **Timestamp** and a **Value**. We will cover some of those at a later time but for a very brief overview
+
+**Headers** contain optional metadata about the Event. One can use them to annotate, monitor and audit and Event. This is very like HTTP headers.
+
+**Keys** are optional values that affect how data is distributed accross partitions (Again, this is known concept, think of Partition Keys and partitioning schemes in different distributed systems). We will explore this concept independently.
+
+**Timestamp** holds information about when the thing that happened hapenned. There are multiple semantics of time we can speak of - When the Event created? When was it ingested? When was it processed? This is a whole topic of it's own which we will explore independantly.
+
+**Value** is the content of the message. Practically this is just a byte array and should be serialized according to the application.
+
+## The Cluster
+
+TODO: cover concepts below
+
+**Broker** TODO
+
+**Replication** TODO
+
+**Leader** TODO
+
+**Follower** TODO
+f:T1938,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#overview">Overview</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#what-is-kafka">What is kafka?</a></li>
+          </ol>
+        </li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#high-level-concepts">High level concepts</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#communication-model">Communication model</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#core-components">Core components</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#storage">Storage</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#the-cluster">The Cluster</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="overview">Overview</h1>
+    <h2 id="what-is-kafka">What is kafka?</h2>
+    <blockquote>
+      <p>Kafka is a streamsing platform for ingesting, storing, accessing and processing streams of data</p>
+    </blockquote>
+    <h1 id="high-level-concepts">High level concepts</h1>
+    <h2 id="communication-model">Communication model</h2>
+    <p>On the contrary of a <strong>Directed Communication</strong> where every service is aware of the other process to send messages to, kafka provides a centralized hub in which processes can send and receieve messages without being aware of each other. Such communication model is known as the <strong>Publish/Subscribe</strong> model which enhance the decoupling between different processes.</p>
+    <blockquote>
+      <p>Of course those are not termed by kafka</p>
+    </blockquote>
+    <blockquote>
+      <p>Recall the different communication formalization according the sync/async and persistent/transient dimensions. Kafka fills conforms to the asynchronous and persisted model. This is unintuitive since this model is usually used for classical <strong>Queues</strong> rather than <strong>Pubsubs</strong>.</p>
+    </blockquote>
+    <h2 id="core-components">Core components</h2>
+    <p>A <strong>Topic</strong> is a named stream of data (/ channel - CSP?).</p>
+    <p><strong>Producer</strong>s are processes that publish data to a Topic.</p>
+    <p><strong>Consumer</strong>s are processes that subscribe to data in one or more Topics.</p>
+    <p>A <strong>Consumer Group</strong> is a set of Consumers that work together as a group.</p>
+    <h2 id="storage">Storage</h2>
+    <h3 id="commit-log">Commit Log</h3>
+    <p>A <strong>Commit Log</strong> is an append only data structure which contain an <em>Ordered Sequence</em> of events (/records)</p>
+    <ul>
+      <li>Records in the log are immutable</li>
+      <li>Records are ordered and their ordinal is known as their <strong>Offset</strong></li>
+    </ul>
+    <blockquote>
+      <p>It is very similiar to existing transaction logs (Redo Log especially) which can be found in classical Relational Databases.</p>
+    </blockquote>
+    <blockquote>
+      <p>To gain perspectives we can find similiarities to STM concurrency mode, Redux stores etc...</p>
+    </blockquote>
+    <h3 id="partitions">Partitions</h3>
+    <p>In order to provide distribution capabilities, there is no 1 to 1 correlation of Topic to Log since then each Topic would need to be stored on a single machine. Rather, a Topic is broken into smaller units called <strong>Partitions</strong>.</p>
+    <p>Effectively, every Partition is a single Log. Such model allows kafka to distribute a Topic with N partitions to at most N workers and we can have K Consumers under the same Consumer Group sharing the load of consumption as long as LEQ(K, N). If K>N than it means that some consumers will be idle.</p>
+    <p>It makes sense from a technical POV. Kafka simply assigns a Partition to a Consumer.</p>
+    <ul>
+      <li>If the number of Consumers is less than the number of Partitions, by the pigenhole principle there is at least a single Consumers that is assigned with more than one partition</li>
+      <li>If the number of Consumers is greather than the number of Partitions, there cannot be a surjective mapping from the Partitions the Consumers</li>
+    </ul>
+    <h3 id="event">Event</h3>
+    <p>A unit of data in a Topic has many interchangeable names - Event, Message, Record. We favour the term Event.</p>
+    <blockquote>
+      <p>Out of the kafka scope, events in the fotware world are <em>Entities</em> that desribe something that <em>happened in the past</em>. Therefore, event are past tense verbse. Well, it is the same in kafka</p>
+    </blockquote>
+    <p>An <strong>Event</strong> is a timestamped key-value pair the records something that happened.</p>
+    <p>Event is composed of <strong>Headers</strong>, <strong>Keys</strong>, a <strong>Timestamp</strong> and a <strong>Value</strong>. We will cover some of those at a later time but for a very brief overview</p>
+    <p><strong>Headers</strong> contain optional metadata about the Event. One can use them to annotate, monitor and audit and Event. This is very like HTTP headers.</p>
+    <p><strong>Keys</strong> are optional values that affect how data is distributed accross partitions (Again, this is known concept, think of Partition Keys and partitioning schemes in different distributed systems). We will explore this concept independently.</p>
+    <p><strong>Timestamp</strong> holds information about when the thing that happened hapenned. There are multiple semantics of time we can speak of - When the Event created? When was it ingested? When was it processed? This is a whole topic of it's own which we will explore independantly.</p>
+    <p><strong>Value</strong> is the content of the message. Practically this is just a byte array and should be serialized according to the application.</p>
+    <h2 id="the-cluster">The Cluster</h2>
+    <p>TODO: cover concepts below</p>
+    <p><strong>Broker</strong> TODO</p>
+    <p><strong>Replication</strong> TODO</p>
+    <p><strong>Leader</strong> TODO</p>
+    <p><strong>Follower</strong> TODO</p>
+  </body>
+</html>
+a:["$","div",null,{"children":[["$","h1",null,{"children":"Kafka"}],"$undefined",["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
+9:null

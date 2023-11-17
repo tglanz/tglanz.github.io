@@ -1,0 +1,265 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/4e35fc7145142800.css","style",{"crossOrigin":""}]
+0:["F5wa6sU7YK9iajx6_K5OJ",[[["",{"children":["articles",{"children":[["slug","posts/archlinux-installation-guide","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"archlinux-installation-guide\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4e35fc7145142800.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/4bccb028aebe19da.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-99393772be94611b.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/archlinux-installation-guide","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"archlinux-installation-guide\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bccb028aebe19da.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/archlinux-installation-guide","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],"ArticleContent"]
+e:T99c,
+# arch boot spec
+
+this is specific to my machine and software of choice
+- efi boot
+- disk at sdb 
+- netctl as network manager in boot environment
+- networkmanager as network manager in installation
+
+i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)
+
+## connect to network
+
+```wifi-menu``` and follow instructions
+
+check connectivity
+
+```ping 8.8.8.8```
+
+in ```/etc/nsswitch.conf```, at the ```hosts``` entry, make sure ```dns``` is before ```[!UNAVAIL=return]```
+
+check dns acquisition
+
+```ping google.com```
+
+## partition, filesystems and mount
+
+be careful, assume each step to erase all data on partition layout of the disk!
+
+make sure on which device you want to work on, using ```lsblk```
+
+erase labels ```wipefs -a /dev/sdb```
+
+example partition scheme below
+
+> you can use ```fdisk``` or ```cfdisk``` for example
+
+partition | size  | type             | desc
+----------|-------|------------------|----------------
+sdb1      | 550MB | EFI System       | boot partition
+sdb2      | 24GB  | Linux swap       | swap partition
+sdb3      | 32GB  | Linux filesystem  | root partition
+sdb4      | rest  | Linux filesystem  | home partition
+
+make filesystems for the partitions
+
+```bash
+mkfs.fat -F32 /dev/sdb1
+
+mkswap /dev/sdb2
+swapon /dev/sdb2
+
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
+```
+
+mount partitions to filesystem
+
+```bash
+mount /dev/sdb3 /mnt
+
+mkdir /mnt/boot
+mkdir /mnt/boot/efi
+mkdir /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
+```
+
+## archlinux installation
+
+```bash
+pacstrap /mnt \
+    base base-devel \
+    linux linux-firmware \
+    grub efibootmgr \
+    networkmanager \
+    vim git
+```
+
+## installation setup
+
+generate fstab - ```genfstab -U /mnt >> /mnt/etc/fstab```
+
+change root to installation - ```arch-chroot /mnt```
+
+edit file ```/etc/locale.gen``` and uncomment desired locale
+
+generate locale - ```locale-gen```
+
+add set language - ```echo "LANG=en_US.UTF-8" > /etc/locale.conf```
+
+set timezone -
+
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock --systohc
+```
+
+set root password for linux installation - ```passwd```
+
+## grub
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+## finalize
+
+back to bootable environment
+
+```exit```
+
+unmount all partitions
+
+```umount -R /mnt```
+
+```reboot```
+f:T14f4,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#arch-boot-spec">arch boot spec</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#connect-to-network">connect to network</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#partition-filesystems-and-mount">partition, filesystems and mount</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#archlinux-installation">archlinux installation</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#installation-setup">installation setup</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#grub">grub</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#finalize">finalize</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="arch-boot-spec">arch boot spec</h1>
+    <p>this is specific to my machine and software of choice</p>
+    <ul>
+      <li>efi boot</li>
+      <li>disk at sdb</li>
+      <li>netctl as network manager in boot environment</li>
+      <li>networkmanager as network manager in installation</li>
+    </ul>
+    <p>i edit this file in parallel to the installation and learning process; if you want to do this as well, install git from the boot environment (or use elinks to view the file through github)</p>
+    <h2 id="connect-to-network">connect to network</h2>
+    <p><code>wifi-menu</code> and follow instructions</p>
+    <p>check connectivity</p>
+    <p><code>ping 8.8.8.8</code></p>
+    <p>in <code>/etc/nsswitch.conf</code>, at the <code>hosts</code> entry, make sure <code>dns</code> is before <code>[!UNAVAIL=return]</code></p>
+    <p>check dns acquisition</p>
+    <p><code>ping google.com</code></p>
+    <h2 id="partition-filesystems-and-mount">partition, filesystems and mount</h2>
+    <p>be careful, assume each step to erase all data on partition layout of the disk!</p>
+    <p>make sure on which device you want to work on, using <code>lsblk</code></p>
+    <p>erase labels <code>wipefs -a /dev/sdb</code></p>
+    <p>example partition scheme below</p>
+    <blockquote>
+      <p>you can use <code>fdisk</code> or <code>cfdisk</code> for example</p>
+    </blockquote>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>partition</th>
+            <th>size</th>
+            <th>type</th>
+            <th>desc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>sdb1</td>
+            <td>550MB</td>
+            <td>EFI System</td>
+            <td>boot partition</td>
+          </tr>
+          <tr>
+            <td>sdb2</td>
+            <td>24GB</td>
+            <td>Linux swap</td>
+            <td>swap partition</td>
+          </tr>
+          <tr>
+            <td>sdb3</td>
+            <td>32GB</td>
+            <td>Linux filesystem</td>
+            <td>root partition</td>
+          </tr>
+          <tr>
+            <td>sdb4</td>
+            <td>rest</td>
+            <td>Linux filesystem</td>
+            <td>home partition</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>make filesystems for the partitions</p>
+    <pre><code class="hljs language-bash">mkfs.fat -F32 /dev/sdb1
+
+mkswap /dev/sdb2
+swapon /dev/sdb2
+
+mkfs.ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb4
+</code></pre>
+    <p>mount partitions to filesystem</p>
+    <pre><code class="hljs language-bash">mount /dev/sdb3 /mnt
+
+<span class="hljs-built_in">mkdir</span> /mnt/boot
+<span class="hljs-built_in">mkdir</span> /mnt/boot/efi
+<span class="hljs-built_in">mkdir</span> /mnt/home
+
+mount /dev/sdb4 /mnt/home
+mount /dev/sdb1 /mnt/boot/efi
+</code></pre>
+    <h2 id="archlinux-installation">archlinux installation</h2>
+    <pre><code class="hljs language-bash">pacstrap /mnt \
+    base base-devel \
+    linux linux-firmware \
+    grub efibootmgr \
+    networkmanager \
+    vim git
+</code></pre>
+    <h2 id="installation-setup">installation setup</h2>
+    <p>generate fstab - <code>genfstab -U /mnt >> /mnt/etc/fstab</code></p>
+    <p>change root to installation - <code>arch-chroot /mnt</code></p>
+    <p>edit file <code>/etc/locale.gen</code> and uncomment desired locale</p>
+    <p>generate locale - <code>locale-gen</code></p>
+    <p>add set language - <code>echo "LANG=en_US.UTF-8" > /etc/locale.conf</code></p>
+    <p>set timezone -</p>
+    <pre><code class="hljs language-bash"><span class="hljs-built_in">ln</span> -sf /usr/share/zoneinfo/Asia/Jerusalem /etc/localtime
+hwclock --systohc
+</code></pre>
+    <p>set root password for linux installation - <code>passwd</code></p>
+    <h2 id="grub">grub</h2>
+    <pre><code class="hljs language-bash">grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-mkconfig -o /boot/grub/grub.cfg
+</code></pre>
+    <h2 id="finalize">finalize</h2>
+    <p>back to bootable environment</p>
+    <p><code>exit</code></p>
+    <p>unmount all partitions</p>
+    <p><code>umount -R /mnt</code></p>
+    <p><code>reboot</code></p>
+  </body>
+</html>
+a:["$","div",null,{"children":[["$","h1",null,{"children":"Archlinux Installation Guide"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Archlinux","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Archlinux"}]}],["$","$Lb","1",{"href":"/tags/Linux","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Linux"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
+9:null

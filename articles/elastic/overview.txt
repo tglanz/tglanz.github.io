@@ -1,0 +1,622 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/4e35fc7145142800.css","style",{"crossOrigin":""}]
+0:["F5wa6sU7YK9iajx6_K5OJ",[[["",{"children":["articles",{"children":[["slug","elastic/overview","c"],{"children":["__PAGE__?{\"slug\":[\"elastic\",\"overview\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4e35fc7145142800.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/4bccb028aebe19da.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-99393772be94611b.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","elastic/overview","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"elastic\",\"overview\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bccb028aebe19da.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","elastic/overview","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],"ArticleContent"]
+e:T2117,
+Concepts and examples to get reminded of once in a whilei
+
+## What is Elasticsearch 
+
+_Elasticsearch_ is a distributed search and analytics engine, providing a _near real-time_ search for a large array of data types, structured or un-structured.
+
+Some of the usecases
+- Backend for search boxes
+- Metrics and Log analysis
+
+Elasticsearch uses _Apache Lucene_ under the hood as it's underlying search engine.
+
+## Documents & Indices
+
+Technically, and I quote - "Elasticsearch is a distributed documented store". It serializes any kind of structure into JSON documents. In an Elasticsearch cluster, the documents are distributed accross multiple nodes and are accessible from any (really?) of the nodes.
+
+__TODO__ Are the documents distributed accross all nodes, or a part of the cluster? It actually seems unreasonable to me that it is a full replication.
+
+Elasticsearch maintains an _Inverted Index_ to provide fast search capabilities on all of a document's fields (They say that a document is fully searchable within 1 sec). Practically, the index is the data structure the collects multiple documents and provides fast access to them according to search criteria.
+
+We can think of the model as such
+```
+Field
+    key: String
+    value: Any
+
+Document
+    fields: Field[]
+
+Index
+    documents: Document[]
+```
+
+By default, Elasticsearch index all fields in all documents, and it has different mehcanisms to index different data types.
+
+## Search & Aggregations
+
+Elasticsearch provides a REST API that supports
+- Structured queries -  Queries that are structurely similiar to SQL queries
+- Full text queries - Queries that return all documents that match the query, sorted by relevance
+- Complex queries - A combination of the above
+
+Elasticsearch can maintain aggregations of the data enabling us to analyze summaries providing insights regarding metrics, patterns and trends. For example, we can query for
+- Total numbers that match X
+- The average that match Y
+
+Furthermore, aggregations can operate alongside the search requests, meaning that we can gain aggregative information for all search results.
+
+### cat API
+
+The ```_cat``` endpoint provides "Compact and Aligned Text" meaning, a general, __consumed by humans__ information.
+
+Get the list of cat APIs
+
+    /_cat
+
+Get information about indices using [cat indices API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-indices.html)
+
+    /_cat/indices
+    /_cat/indices/_all
+    /_cat/indices?format=json
+    /_cat/indices/my-index
+    /_cat/indices/my-index?format=json
+
+### search API
+
+The ```<target>/_search``` endpoint provides searching functionality.
+
+The ```<target>``` parameter is optional and is a comma seperated list indicating data streams, indices and aliases to search. It supports wildcards (*).
+
+There are many query parameters that affects how the search is being performed and how the results are being returned. We won't list them all here but here is a small list that give a vibe on the kind of possible parameters
+
+- q(string) - The query. Note that it can alternetively be provided through the body
+- explain(boolean) - If true, returns a defailed information about the score computation  
+- timeout(time units) - Sets the timeout for the request  
+- from(integer) - Starting document offset  
+- size(integer) - Number of hits to return  
+
+The body also contains important information the important one is the "query" field.
+
+### shards
+
+Show shards
+
+    /_cat/shards
+    /_cat/shards?h=index,shard
+
+### Usage
+
+#### Basics, insert and retrieve documents
+
+Assume the scenario with indices ```tglanzma-small-1,2,3``` and a document model
+
+```
+{
+    _id: string
+    x: string
+    y: string
+    z: number
+    tags: string[]
+}
+```
+
+To add documents to and index we use the [Index API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html). For example
+
+```
+PUT tglanzma-small-1/_doc/1
+{
+  "x": "x of 1",
+  "y": "y of 1",
+  "z": 1,
+  "tags": [
+    "first tag of 1",
+    "second tag of 1"
+  ]
+}
+```
+
+To get a specific document by it's id we use the [Document's Get API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html). For example
+
+```
+GET tglanzma-small-1/_doc/1
+```
+
+To get multiple documents by their ids, use the [Multi get API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-multi-get.html). For example
+
+```
+GET _mget
+{
+  "docs": [{
+    "_index": "tglanzma-small-1",
+    "_id": 1
+  }, {
+    "_index": "tglanzma-small-1",
+    "_id": 2
+  }]
+}
+```
+
+### Searching an index
+
+To search for documents we use the [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html).
+
+To search for all documents within a specific index
+
+```
+GET tglanzma-small-1/_search
+```
+
+To specify exactly what fields we want returned from each document we will use the ```_source``` parameter, as so
+
+```
+GET tglanzma-small-1/_search
+{
+  "_source": [
+    "x",
+    "y"
+  ]
+}
+```
+
+To specify the search query we use the ```query``` parameter. This is a query object and we specify it using the [Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html).
+
+The Query DSL is an AST defined as
+
+```
+Query := Leaf | Compound
+Compound := [Compound | Leaf]
+```
+
+
+Search documents where ```x === x of 1``` we use the [Match phrase query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase.html)
+
+```
+GET tglanzma-small-1/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+For a fuzzy search, we use the [Match query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html).
+
+```
+GET tglanzma-small-1/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+The returned documents might not have an exact match because we fuzzy searched. Each document is assigned with a score determining how close it is to a full match. We can control the minimum we want using the ```min_score``` parameter
+
+```
+GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+The [Boolean query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html) matches boolean combinations over documents.
+
+The ```must``` acts as an AND operator and the ```should``` acts as an OR operator. Intuitively, the ```must_not``` acts as negation.
+
+To search for query that have either ```x = x of 1``` and ```y = y of 1``` we use the ```must``` query
+
+```
+GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        },
+        {
+          "match_phrase": {
+            "y": "y of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+To search for query that have either ```x = x of 1``` or ```y = y of 2``` we use the ```should``` query
+
+```
+GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        },
+        {
+          "match_phrase": {
+            "y": "y of 2"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+As mentioned, compound queries are recursively defined so we can compose combinations. For example, to match documents where (```x = x of 1``` AND ```y = y of 1```) OR (```x = x of 2``` AND ```y = y of 2```)
+
+```
+GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "bool": {
+            "must": [
+              {
+                "match_phrase": {
+                  "x": "x of 1"
+                }
+              },
+              {
+                "match_phrase": {
+                  "y": "y of 1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "must": [
+              {
+                "match_phrase": {
+                  "x": "x of 2"
+                }
+              },
+              {
+                "match_phrase": {
+                  "y": "y of 2"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+f:T299e,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#what-is-elasticsearch">What is Elasticsearch</a></li>
+        <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#documents--indices">Documents &#x26; Indices</a></li>
+        <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#search--aggregations">Search &#x26; Aggregations</a></li>
+      </ol>
+    </nav>
+    <p>Concepts and examples to get reminded of once in a whilei</p>
+    <h2 id="what-is-elasticsearch">What is Elasticsearch</h2>
+    <p><em>Elasticsearch</em> is a distributed search and analytics engine, providing a <em>near real-time</em> search for a large array of data types, structured or un-structured.</p>
+    <p>Some of the usecases</p>
+    <ul>
+      <li>Backend for search boxes</li>
+      <li>Metrics and Log analysis</li>
+    </ul>
+    <p>Elasticsearch uses <em>Apache Lucene</em> under the hood as it's underlying search engine.</p>
+    <h2 id="documents--indices">Documents &#x26; Indices</h2>
+    <p>Technically, and I quote - "Elasticsearch is a distributed documented store". It serializes any kind of structure into JSON documents. In an Elasticsearch cluster, the documents are distributed accross multiple nodes and are accessible from any (really?) of the nodes.</p>
+    <p><strong>TODO</strong> Are the documents distributed accross all nodes, or a part of the cluster? It actually seems unreasonable to me that it is a full replication.</p>
+    <p>Elasticsearch maintains an <em>Inverted Index</em> to provide fast search capabilities on all of a document's fields (They say that a document is fully searchable within 1 sec). Practically, the index is the data structure the collects multiple documents and provides fast access to them according to search criteria.</p>
+    <p>We can think of the model as such</p>
+    <pre><code>Field
+    key: String
+    value: Any
+
+Document
+    fields: Field[]
+
+Index
+    documents: Document[]
+</code></pre>
+    <p>By default, Elasticsearch index all fields in all documents, and it has different mehcanisms to index different data types.</p>
+    <h2 id="search--aggregations">Search &#x26; Aggregations</h2>
+    <p>Elasticsearch provides a REST API that supports</p>
+    <ul>
+      <li>Structured queries - Queries that are structurely similiar to SQL queries</li>
+      <li>Full text queries - Queries that return all documents that match the query, sorted by relevance</li>
+      <li>Complex queries - A combination of the above</li>
+    </ul>
+    <p>Elasticsearch can maintain aggregations of the data enabling us to analyze summaries providing insights regarding metrics, patterns and trends. For example, we can query for</p>
+    <ul>
+      <li>Total numbers that match X</li>
+      <li>The average that match Y</li>
+    </ul>
+    <p>Furthermore, aggregations can operate alongside the search requests, meaning that we can gain aggregative information for all search results.</p>
+    <h3 id="cat-api">cat API</h3>
+    <p>The <code>_cat</code> endpoint provides "Compact and Aligned Text" meaning, a general, <strong>consumed by humans</strong> information.</p>
+    <p>Get the list of cat APIs</p>
+    <pre><code>/_cat
+</code></pre>
+    <p>Get information about indices using <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-indices.html">cat indices API</a></p>
+    <pre><code>/_cat/indices
+/_cat/indices/_all
+/_cat/indices?format=json
+/_cat/indices/my-index
+/_cat/indices/my-index?format=json
+</code></pre>
+    <h3 id="search-api">search API</h3>
+    <p>The <code>&#x3C;target>/_search</code> endpoint provides searching functionality.</p>
+    <p>The <code>&#x3C;target></code> parameter is optional and is a comma seperated list indicating data streams, indices and aliases to search. It supports wildcards (*).</p>
+    <p>There are many query parameters that affects how the search is being performed and how the results are being returned. We won't list them all here but here is a small list that give a vibe on the kind of possible parameters</p>
+    <ul>
+      <li>q(string) - The query. Note that it can alternetively be provided through the body</li>
+      <li>explain(boolean) - If true, returns a defailed information about the score computation</li>
+      <li>timeout(time units) - Sets the timeout for the request</li>
+      <li>from(integer) - Starting document offset</li>
+      <li>size(integer) - Number of hits to return</li>
+    </ul>
+    <p>The body also contains important information the important one is the "query" field.</p>
+    <h3 id="shards">shards</h3>
+    <p>Show shards</p>
+    <pre><code>/_cat/shards
+/_cat/shards?h=index,shard
+</code></pre>
+    <h3 id="usage">Usage</h3>
+    <h4 id="basics-insert-and-retrieve-documents">Basics, insert and retrieve documents</h4>
+    <p>Assume the scenario with indices <code>tglanzma-small-1,2,3</code> and a document model</p>
+    <pre><code>{
+    _id: string
+    x: string
+    y: string
+    z: number
+    tags: string[]
+}
+</code></pre>
+    <p>To add documents to and index we use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html">Index API</a>. For example</p>
+    <pre><code>PUT tglanzma-small-1/_doc/1
+{
+  "x": "x of 1",
+  "y": "y of 1",
+  "z": 1,
+  "tags": [
+    "first tag of 1",
+    "second tag of 1"
+  ]
+}
+</code></pre>
+    <p>To get a specific document by it's id we use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html">Document's Get API</a>. For example</p>
+    <pre><code>GET tglanzma-small-1/_doc/1
+</code></pre>
+    <p>To get multiple documents by their ids, use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-multi-get.html">Multi get API</a>. For example</p>
+    <pre><code>GET _mget
+{
+  "docs": [{
+    "_index": "tglanzma-small-1",
+    "_id": 1
+  }, {
+    "_index": "tglanzma-small-1",
+    "_id": 2
+  }]
+}
+</code></pre>
+    <h3 id="searching-an-index">Searching an index</h3>
+    <p>To search for documents we use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html">Search API</a>.</p>
+    <p>To search for all documents within a specific index</p>
+    <pre><code>GET tglanzma-small-1/_search
+</code></pre>
+    <p>To specify exactly what fields we want returned from each document we will use the <code>_source</code> parameter, as so</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "_source": [
+    "x",
+    "y"
+  ]
+}
+</code></pre>
+    <p>To specify the search query we use the <code>query</code> parameter. This is a query object and we specify it using the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html">Query DSL</a>.</p>
+    <p>The Query DSL is an AST defined as</p>
+    <pre><code>Query := Leaf | Compound
+Compound := [Compound | Leaf]
+</code></pre>
+    <p>Search documents where <code>x === x of 1</code> we use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase.html">Match phrase query</a></p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+    <p>For a fuzzy search, we use the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html">Match query</a>.</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+    <p>The returned documents might not have an exact match because we fuzzy searched. Each document is assigned with a score determining how close it is to a full match. We can control the minimum we want using the <code>min_score</code> parameter</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "x": "x of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+    <p>The <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html">Boolean query</a> matches boolean combinations over documents.</p>
+    <p>The <code>must</code> acts as an AND operator and the <code>should</code> acts as an OR operator. Intuitively, the <code>must_not</code> acts as negation.</p>
+    <p>To search for query that have either <code>x = x of 1</code> and <code>y = y of 1</code> we use the <code>must</code> query</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        },
+        {
+          "match_phrase": {
+            "y": "y of 1"
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+    <p>To search for query that have either <code>x = x of 1</code> or <code>y = y of 2</code> we use the <code>should</code> query</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match_phrase": {
+            "x": "x of 1"
+          }
+        },
+        {
+          "match_phrase": {
+            "y": "y of 2"
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+    <p>As mentioned, compound queries are recursively defined so we can compose combinations. For example, to match documents where (<code>x = x of 1</code> AND <code>y = y of 1</code>) OR (<code>x = x of 2</code> AND <code>y = y of 2</code>)</p>
+    <pre><code>GET tglanzma-small-1/_search
+{
+  "min_score": 0.6,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "bool": {
+            "must": [
+              {
+                "match_phrase": {
+                  "x": "x of 1"
+                }
+              },
+              {
+                "match_phrase": {
+                  "y": "y of 1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "must": [
+              {
+                "match_phrase": {
+                  "x": "x of 2"
+                }
+              },
+              {
+                "match_phrase": {
+                  "y": "y of 2"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+</code></pre>
+  </body>
+</html>
+a:["$","div",null,{"children":[["$","h1",null,{"children":"Elasticsearch Notes"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Elasticsearch","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Elasticsearch"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
+9:null

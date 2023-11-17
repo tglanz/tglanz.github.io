@@ -1,0 +1,264 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/4e35fc7145142800.css","style",{"crossOrigin":""}]
+0:["F5wa6sU7YK9iajx6_K5OJ",[[["",{"children":["articles",{"children":[["slug","aws/services","c"],{"children":["__PAGE__?{\"slug\":[\"aws\",\"services\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4e35fc7145142800.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/4bccb028aebe19da.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-99393772be94611b.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","aws/services","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"aws\",\"services\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4bccb028aebe19da.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","aws/services","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-2e651ae38096a6f7.js"],"ArticleContent"]
+e:T6eb,
+# S3
+
+- Object-Based, Serverless, Unlimited storage service
+- Data is replicated across at least 3 AZs which ensures 99.99% __Availability__ and 11' 9s of __Durability__
+- Objects contain data and can have size for 0 Byts to 5 Terabytes
+- Buckets names are unique globally and contain either Objects or Folders (which in turn contain Objects)
+
+- __Lifecycle Management__ is a mechanism to delete/move objects between __Storage Classes__ based on schedule or some criteria
+
+[Exampro Cheatsheet](https://youtu.be/Ia-UEYYR44s?t=3524)
+
+Types of Replication
+- Cross-Region Replication (CRR) - Bucket is **asynchronously** replicated to another region
+- Same-Region Replication (SRR) - Bucket is **asynchronously** replicated to the same region
+
+# Snowball
+
+- Snowball
+- Snoball Edge
+- Snowmobile
+
+# VPC
+
+- VPC Peering
+- Route Tables
+- Internet Gateway
+- Bastion / Jumpbox
+- Direct Connect
+
+## VPC Endpoints
+
+- Interface Endpoints
+- Gateway Endpoints
+
+## VPC Flow Logs
+
+# NACL
+
+# Security Groups 
+
+# NAT
+
+# IAM
+
+# COGNITO
+
+# DNS
+
+# Route 53
+
+# EC2
+
+## EC2 Pricing
+
+## AMI
+
+## Auto Scaling Groups
+
+## ELB
+
+# EFS
+
+# EBS
+
+# Cloud Front
+
+# Aurora
+
+# Redshift
+
+# DynamoDB
+
+# CloudFormation
+
+# CloudWatch
+
+# CloudTrail
+
+# Lambda
+
+# SQS
+
+# SNS
+
+# ElasticCache
+
+# High Availability
+
+# Elastic Beanstalk
+
+# Kinesis
+
+Realtime processing platform.
+
+# Storage Gateway
+
+Provides on-premise storage access to cloud storage.
+
+Practically you install a VM on the on-premise host which will can be connected as NFS/SMB.
+
+Storage Types
+- S3 File Gateway
+- FSx File Gateway
+- Tape Gateway
+- Volume Gateway
+
+Modes
+- Gateway Stored - Access data in the VM and synchronously get data from remote
+- Cached Stored - Frequently accessed data is cached at the VM and data is invalidated asynchronously
+f:T1cdc,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#s3">S3</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#snowball">Snowball</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#vpc">VPC</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#vpc-endpoints">VPC Endpoints</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#vpc-flow-logs">VPC Flow Logs</a></li>
+          </ol>
+        </li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#nacl">NACL</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#security-groups">Security Groups</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#nat">NAT</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#iam">IAM</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#cognito">COGNITO</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#dns">DNS</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#route-53">Route 53</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#ec2">EC2</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#ec2-pricing">EC2 Pricing</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#ami">AMI</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#auto-scaling-groups">Auto Scaling Groups</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#elb">ELB</a></li>
+          </ol>
+        </li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#efs">EFS</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#ebs">EBS</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#cloud-front">Cloud Front</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#aurora">Aurora</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#redshift">Redshift</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#dynamodb">DynamoDB</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#cloudformation">CloudFormation</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#cloudwatch">CloudWatch</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#cloudtrail">CloudTrail</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#lambda">Lambda</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#sqs">SQS</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#sns">SNS</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#elasticcache">ElasticCache</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#high-availability">High Availability</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#elastic-beanstalk">Elastic Beanstalk</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#kinesis">Kinesis</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#storage-gateway">Storage Gateway</a></li>
+      </ol>
+    </nav>
+    <h1 id="s3">S3</h1>
+    <ul>
+      <li>
+        <p>Object-Based, Serverless, Unlimited storage service</p>
+      </li>
+      <li>
+        <p>Data is replicated across at least 3 AZs which ensures 99.99% <strong>Availability</strong> and 11' 9s of <strong>Durability</strong></p>
+      </li>
+      <li>
+        <p>Objects contain data and can have size for 0 Byts to 5 Terabytes</p>
+      </li>
+      <li>
+        <p>Buckets names are unique globally and contain either Objects or Folders (which in turn contain Objects)</p>
+      </li>
+      <li>
+        <p><strong>Lifecycle Management</strong> is a mechanism to delete/move objects between <strong>Storage Classes</strong> based on schedule or some criteria</p>
+      </li>
+    </ul>
+    <p><a href="https://youtu.be/Ia-UEYYR44s?t=3524">Exampro Cheatsheet</a></p>
+    <p>Types of Replication</p>
+    <ul>
+      <li>Cross-Region Replication (CRR) - Bucket is <strong>asynchronously</strong> replicated to another region</li>
+      <li>Same-Region Replication (SRR) - Bucket is <strong>asynchronously</strong> replicated to the same region</li>
+    </ul>
+    <h1 id="snowball">Snowball</h1>
+    <ul>
+      <li>Snowball</li>
+      <li>Snoball Edge</li>
+      <li>Snowmobile</li>
+    </ul>
+    <h1 id="vpc">VPC</h1>
+    <ul>
+      <li>VPC Peering</li>
+      <li>Route Tables</li>
+      <li>Internet Gateway</li>
+      <li>Bastion / Jumpbox</li>
+      <li>Direct Connect</li>
+    </ul>
+    <h2 id="vpc-endpoints">VPC Endpoints</h2>
+    <ul>
+      <li>Interface Endpoints</li>
+      <li>Gateway Endpoints</li>
+    </ul>
+    <h2 id="vpc-flow-logs">VPC Flow Logs</h2>
+    <h1 id="nacl">NACL</h1>
+    <h1 id="security-groups">Security Groups</h1>
+    <h1 id="nat">NAT</h1>
+    <h1 id="iam">IAM</h1>
+    <h1 id="cognito">COGNITO</h1>
+    <h1 id="dns">DNS</h1>
+    <h1 id="route-53">Route 53</h1>
+    <h1 id="ec2">EC2</h1>
+    <h2 id="ec2-pricing">EC2 Pricing</h2>
+    <h2 id="ami">AMI</h2>
+    <h2 id="auto-scaling-groups">Auto Scaling Groups</h2>
+    <h2 id="elb">ELB</h2>
+    <h1 id="efs">EFS</h1>
+    <h1 id="ebs">EBS</h1>
+    <h1 id="cloud-front">Cloud Front</h1>
+    <h1 id="aurora">Aurora</h1>
+    <h1 id="redshift">Redshift</h1>
+    <h1 id="dynamodb">DynamoDB</h1>
+    <h1 id="cloudformation">CloudFormation</h1>
+    <h1 id="cloudwatch">CloudWatch</h1>
+    <h1 id="cloudtrail">CloudTrail</h1>
+    <h1 id="lambda">Lambda</h1>
+    <h1 id="sqs">SQS</h1>
+    <h1 id="sns">SNS</h1>
+    <h1 id="elasticcache">ElasticCache</h1>
+    <h1 id="high-availability">High Availability</h1>
+    <h1 id="elastic-beanstalk">Elastic Beanstalk</h1>
+    <h1 id="kinesis">Kinesis</h1>
+    <p>Realtime processing platform.</p>
+    <h1 id="storage-gateway">Storage Gateway</h1>
+    <p>Provides on-premise storage access to cloud storage.</p>
+    <p>Practically you install a VM on the on-premise host which will can be connected as NFS/SMB.</p>
+    <p>Storage Types</p>
+    <ul>
+      <li>S3 File Gateway</li>
+      <li>FSx File Gateway</li>
+      <li>Tape Gateway</li>
+      <li>Volume Gateway</li>
+    </ul>
+    <p>Modes</p>
+    <ul>
+      <li>Gateway Stored - Access data in the VM and synchronously get data from remote</li>
+      <li>Cached Stored - Frequently accessed data is cached at the VM and data is invalidated asynchronously</li>
+    </ul>
+  </body>
+</html>
+a:["$","div",null,{"children":[["$","h1",null,{"children":"Services"}],"$undefined",["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
+9:null
