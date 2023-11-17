@@ -12,3 +12,7 @@
     padding: var(--padding-large) 0;
   }
 }
+
+.main {
+  margin-top: var(--margin-xxlarge);
+}

@@ -27,8 +27,7 @@ export default async function Articles(_props: Props) {
 
   return (
     <div>
-
-      <h3>Articles</h3>
+      <h2>Articles</h2>
       <ul>
         {
           articles.map((article, idx) => (

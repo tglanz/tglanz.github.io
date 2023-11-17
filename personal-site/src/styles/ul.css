@@ -1,8 +1,0 @@
-ul {
-    list-style-type: disc;
-    padding: 0 var(--padding-large);
-}
-
-ul > li {
-    margin: var(--margin-medium) var(--margin-medium);
-}

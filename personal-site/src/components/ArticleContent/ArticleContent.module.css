@@ -61,31 +61,13 @@
     border-top: var(--border-width-small) solid var(--border-color-dimmed)
 }
 
-.md ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-    margin-left: var(--margin-large);
-}
-
-.md ul {
-    list-style-type: decimal;
-    list-style-position: inside;
-    margin-left: var(--margin-large);
-}
-
-.md code,
-.md ol,
-.md ul {
+.md code {
     margin: var(--margin-xlarge) 0;
 }
 
 .md :global(.toc)::before {
     content: "Table of contents";
-    font-size: var(--font-size-large);
-}
-
-.md :global(.toc ol) {
-    list-style-type: none;
+    font-size: var(--font-size-medium);
 }
 
 .md pre {

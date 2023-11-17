@@ -11,6 +11,7 @@ h1 {
     font-size: var(--font-size-largest);
     margin: var(--margin-large) 0;
     margin-top: var(--margin-xxlarge);
+    border-bottom: 1px solid var(--border-color-dimmed);
 }
 
 h2 {

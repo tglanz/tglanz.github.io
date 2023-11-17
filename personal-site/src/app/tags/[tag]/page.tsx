@@ -4,7 +4,7 @@ import * as urls from "@/lib/urls";
 import Link from "next/link";
 
 export interface Params {
-  category: string;
+  tag: string;
 }
 
 export interface Props {
@@ -12,19 +12,19 @@ export interface Props {
 }
 
 export const metadata = {
-  title: "Categories",
+  title: "Tag",
 }
 
 export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
-  const categories = Object.keys(contentInfo.metadataAggregation.categories);
-  return categories.map(category => ({ category }));
+  const tags = Object.keys(contentInfo.metadataAggregation.tags);
+  return tags.map(tag => ({ tag }));
 }
 
-async function getCategoryArticleInfos(category: string) {
+async function getTagArticleInfos(tag: string) {
   const contentInfo = await getContentInfo();
   const articles = contentInfo.articles
-    .filter(article => article.metadata.categories?.includes(category))
+    .filter(article => article.metadata.tags?.includes(tag))
   return articles;
 }
 
@@ -38,13 +38,13 @@ function ArticleListItem({ article }: { article: ArticleInfo }) {
   );
 }
 
-export default async function Category(props: Props) {
-  const category = decodeURIComponent(props.params.category);
-  const articles = await getCategoryArticleInfos(category);
+export default async function Tag(props: Props) {
+  const tag = decodeURIComponent(props.params.tag);
+  const articles = await getTagArticleInfos(tag);
 
   return (
     <div>
-      <h2>Category: {category}</h2>
+      <h2>Tag: {tag}</h2>
 
       <ul>
         {

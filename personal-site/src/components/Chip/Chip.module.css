@@ -1,0 +1,14 @@
+.container {
+    background-color: var(--bg-color-dimmed);
+    color: var(--text-color-main);
+    font-size: var(--font-size-small);
+    padding: var(--padding-xsmall) var(--padding-medium);
+
+    border-radius: 100px;
+
+    box-shadow: var(--box-shadow-md);
+}
+
+.container:hover {
+    color: var(--text-color-secondary);
+}

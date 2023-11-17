@@ -11,7 +11,7 @@ export default async function Categories() {
 
   return (
     <div>
-      <h3>Categories</h3>
+      <h2>Categories</h2>
       <ul>
       {
         groups.map(group => (

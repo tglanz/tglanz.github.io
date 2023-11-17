@@ -3,9 +3,12 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+  --padding-xlarge: 24px;
   --padding-large: 20px;
   --padding-medium: 14px;
   --padding-small: 8px;
+  --padding-xsmall: 4px;
+  
   --margin-small: 4px;
   --margin-medium: 8px;
   --margin-large: 16px;
@@ -22,6 +25,7 @@
   --font-size-largest: 32px;
   --font-size-large: 24px;
   --font-size-medium: 18px;
+  --font-size-small: 12px;
 
   --text-color-main: black;
 
@@ -48,5 +52,5 @@ a {
 }
 
 @import url(../styles/headings.css);
-@import url(../styles/ul.css);
+@import url(../styles/lists.css);
 @import url(../styles/katex.css);
