@@ -1,6 +1,6 @@
 import styles from './Chip.module.css';
 
-export interface Chip {
+export interface Props {
     value: string;
 }
 
