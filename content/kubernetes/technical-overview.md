@@ -4,7 +4,7 @@ categories:
   - Kubernetes
 tags:
   - Kubernetes
-weight: 1
+priority: 1
 ---
 
 ## Application packaging

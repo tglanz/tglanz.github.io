@@ -4,7 +4,7 @@ categories:
   - Kubernetes
 tags:
   - Kubernetes
-weight: 3 
+priority: 3 
 ---
 
 # Services 

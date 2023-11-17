@@ -2,7 +2,7 @@
 title: Model Refinement Steps 
 categories:
   - Domain Driven Design
-weight: 3 
+priority: 3 
 ---
 
 # Distinguishing Entities and Value Objects

@@ -1,4 +1,4 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and deploy the site at next-legacy/out/ to github pages (gh-pages branch)
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and deploy the site at personal-site/out/ to github pages (gh-pages branch)
 name: Github Pages
 run-name: "Github Pages: ${{ github.event.head_commit.message }}"
 
@@ -10,14 +10,14 @@ permissions:
   contents: write
 
 jobs:
-  build-next-legacy:
+  build:
 
     name: Build and Deploy
     runs-on: ubuntu-latest
 
     defaults:
       run:
-        working-directory: next-legacy
+        working-directory: personal-site 
 
     steps:
     - name: Checkout repository
@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-        cache-dependency-path: next-legacy/package-lock.json
+        cache-dependency-path: personal-site/package-lock.json
     - name: Build the site
       run: |
         npm install
@@ -37,4 +37,4 @@ jobs:
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: next-legacy/out
+        folder: personal-site/out

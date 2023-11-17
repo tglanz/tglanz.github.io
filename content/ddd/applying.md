@@ -2,7 +2,7 @@
 title: Applying
 categories:
   - Domain Driven Design
-weight: 4
+priority: 4
 ---
 
 ## Identify the possible Subdomains

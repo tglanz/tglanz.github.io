@@ -4,7 +4,7 @@ categories:
   - Kubernetes
 tags:
   - Kubernetes
-weight: 4 
+priority: 4 
 ---
 
 Kubernetes abstracts the storage through a __plugin layer__. The plugin layer is the interface that connects external storage with Kubernetes. The layer can mediate between any kind of storage, be it file based, bloc of object based, on-prem or cloud.

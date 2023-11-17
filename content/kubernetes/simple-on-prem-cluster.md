@@ -4,7 +4,7 @@ categories:
     - Kubernetes
 tags:
     - Kubernetes
-weight: 999
+priority: 999
 ---
 
 # Kubes

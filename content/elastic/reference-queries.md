@@ -4,7 +4,7 @@ categories:
 - Elasticsearch
 tags:
 - Elastissearch
-weight: 10
+priority: 10
 ---
 
 # Reference Queries

@@ -2,7 +2,7 @@
 title: Tactical Design
 categories:
   - Domain Driven Design
-weight: 2
+priority: 2
 ---
 
 # Entities

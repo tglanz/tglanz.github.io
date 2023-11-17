@@ -4,7 +4,7 @@ categories:
   - Kubernetes
 tags:
   - Kubernetes
-weight: 2
+priority: 2
 ---
 
 # Deployments

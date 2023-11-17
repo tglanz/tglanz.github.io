@@ -5,7 +5,7 @@ categories:
     - Notes
 tags:
     - Elasticsearch
-weight: 1
+priority: 1
 ---
 
 Concepts and examples to get reminded of once in a whilei

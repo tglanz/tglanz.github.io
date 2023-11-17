@@ -4,7 +4,7 @@ categories:
   - Kubernetes
 tags:
   - Kubernetes
-weight: 4 
+priority: 4 
 ---
 
 # Service Discovery

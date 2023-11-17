@@ -2,7 +2,7 @@
 title: AWS, The cli
 categories:
 - AWS
-weight: 2
+priority: 2
 ---
 
 The _aws cli_ is a utility that captures all of the administration capabilities with aws.

@@ -5,7 +5,7 @@ categories:
 tags:
 - Elasticsearch
 - ILM
-weight: 100
+priority: 100
 ---
 
 # Use case
