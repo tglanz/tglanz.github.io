@@ -22,7 +22,7 @@ export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
   return contentInfo.articles
     .map(article => ({
-      articleId: article.id.split('/'),
+      slug: article.id.split('/'),
     }));
 }
 
