@@ -1,4 +1,3 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and deploy the site at personal-site/out/ to github pages (gh-pages branch)
 name: Github Pages
 run-name: "Github Pages: ${{ github.event.head_commit.message }}"
 
@@ -32,7 +31,6 @@ jobs:
       run: |
         npm install
         npm run build
-        npm run export
         touch out/.nojekyll
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@v4
