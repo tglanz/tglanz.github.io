@@ -29,23 +29,25 @@ export interface MetadataAggregation {
 }
 
 export interface ArticleMetadata {
-  title: string,
-  description?: string,
-  priority: number,
-  toc: boolean,
-  tags: string[],
-  categories: string[],
+  title: string;
+  description?: string;
+  priority: number;
+  toc: boolean;
+  tags: string[];
+  categories: string[];
+  highlight: boolean;
+  thumbnail?: string;
 }
 
 export interface ArticleContent {
-  raw: string,
-  html: string,
+  raw: string;
+  html: string;
 }
 
 export interface ArticleInfo {
-  id: string,
-  filePath: string,
-  metadata: ArticleMetadata,
+  id: string;
+  filePath: string;
+  metadata: ArticleMetadata;
 }
 
 export interface Article extends ArticleInfo {
@@ -76,6 +78,8 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
     tags: matterData.tags || [],
     categories: matterData.categories || [],
     toc: matterData.toc == false ? false : true, // take into account that other or even empty strings
+    highlight: matterData.highlight === true, // any other value than true is false
+    thumbnail: matterData.thumbnail, // any other value than true is false
   }
 
   return {

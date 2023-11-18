@@ -1,5 +1,9 @@
 ---
 title: The Probabilistic Method
+highlight: true
+thumbnail: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fdie&psig=AOvVaw3HreZfo95Ndf1NW1J8PNUp&ust=1700382776099000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDY4s6RzYIDFQAAAAAdAAAAABAD
+description: |
+  A powerful set of tools to solve combinatorical problems
 priority: 1
 categories:
 - Computer Science

@@ -1,11 +1,18 @@
 .container {
   height: 100%;
   display: grid;
-  grid-template-rows: 10% auto 1fr;
+  grid-template-rows: 10% auto 10% auto 1fr;
+  grid-template-areas:
+    ". . ."
+    "headline headline headline"
+    ". . ."
+    ". highlights ."
+    "footer footer footer"
+  ;
 }
 
 .headline {
-  grid-row: 2;
+  grid-area: headline;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,4 +31,8 @@
 
 .headline > :global(.description) {
   margin-top: var(--margin-large);
+}
+
+.highlights {
+  grid-area: highlights;
 }

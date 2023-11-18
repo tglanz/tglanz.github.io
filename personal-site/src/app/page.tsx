@@ -1,3 +1,4 @@
+import Highlights from "@/components/Highlights/Highlights";
 import styles from "./page.module.css"
 
 import config from "@/config.json";
@@ -18,10 +19,16 @@ function Headline() {
   );
 }
 
-export default function Home() {
+export default async function Home() {
+
+
   return (
     <div className={styles.container}>
       <Headline />
+
+      <div className={styles.highlights}>
+        <Highlights limit={3} />
+      </div>
     </div>
   )
 }

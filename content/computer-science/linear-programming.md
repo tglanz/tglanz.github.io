@@ -1,5 +1,8 @@
 ---
 title: Linear Programming
+highlight: true
+description: |
+  Linear programming is a powerful optimization technique of costrained goals using tools from linear algebra
 ---
 
 # Introduction
