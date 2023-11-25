@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/a34a5d4c0484a85d.css","style",{"crossOrigin":""}]
-0:["oGRHUn4V4k-_bxZAQes3i",[[["",{"children":["articles",{"children":[["slug","posts/kafka","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"kafka\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a34a5d4c0484a85d.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["obYTNHwPJvxFuauN4rjk2",[[["",{"children":["articles",{"children":[["slug","posts/kafka","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"kafka\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a34a5d4c0484a85d.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-a31886c3387a77ea.js"],""]
 7:I[6954,[],""]
