@@ -19,7 +19,7 @@ export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
   const categories = Object.keys(contentInfo.metadataAggregation.categories);
   // hack
-  return categories.map(category => ({ category: encodeURIComponent(encodeURIComponent(category)) }));
+  return categories.map(category => ({ category: encodeURIComponent(category) }));
 }
 
 async function getCategoryArticleInfos(category: string) {

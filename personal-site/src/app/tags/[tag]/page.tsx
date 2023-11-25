@@ -18,7 +18,7 @@ export const metadata = {
 export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
   const tags = Object.keys(contentInfo.metadataAggregation.tags);
-  return tags.map(tag => ({ tag: encodeURIComponent(encodeURIComponent(tag)) }));
+  return tags.map(tag => ({ tag: encodeURIComponent(tag) }));
 }
 
 async function getTagArticleInfos(tag: string) {
