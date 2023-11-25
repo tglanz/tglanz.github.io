@@ -4,6 +4,8 @@ import Link from "next/link";
 
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 
+const ICON_SIZE = 25;
+
 import styles from "./Footer.module.css";
 
 const IconLink = ({href, children}: {href: string, children: React.ReactNode}) => (
@@ -16,10 +18,10 @@ export default function Footer(){
   return (
     <div className={styles.container}>
       <IconLink href={config.social.linkedin}>
-        <FaLinkedin />
+        <FaLinkedin size={25} />
       </IconLink>
       <IconLink href={config.social.github}>
-        <FaGithub />
+        <FaGithub size={25} />
       </IconLink>
     </div>
   );

@@ -41,7 +41,9 @@ export default async function Highlights(props: Props) {
     const highlights = getHighlights(contentInfo, props.limit);
     return (
         <div>
-            Spotlight
+            <p>Spotlight</p>
+
+            <small>Random content</small>
 
             <div className={styles.cards}>
             {

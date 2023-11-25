@@ -26,9 +26,9 @@ export default async function Home() {
     <div className={styles.container}>
       <Headline />
 
-      <div className={styles.highlights}>
-        <Highlights limit={3} />
-      </div>
+      { config.highlights.enabled && <div className={styles.highlights}>
+        <Highlights limit={config.highlights.count} />
+      </div> }
     </div>
   )
 }

@@ -13,6 +13,10 @@
     "linkedin": "https://il.linkedin.com/in/tal-glanzman",
     "github": "https://github.com/tglanz"
   },
+  "highlights": {
+    "enabled": true,
+    "count": 2
+  },
   "content": {
     "path": "../content"
   }
