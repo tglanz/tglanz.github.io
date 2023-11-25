@@ -2,6 +2,7 @@ import { getContentInfo } from "@/lib/content-cache";
 import * as urls from "@/lib/urls";
 import Link from "next/link";
 
+
 export default async function Categories() {
 
   let contentInfo = await getContentInfo();
