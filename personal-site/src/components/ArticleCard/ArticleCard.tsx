@@ -14,7 +14,7 @@ export default function ArticleCard(props: Props) {
         <Link href={urls.article(article.id)}>
             <div className={styles.container}>
                 <h3>{article.metadata.title}</h3>
-                <p>{article.metadata.description}</p>
+                <p className={styles.description}>{article.metadata.description}</p>
             </div>
         </Link>
     );

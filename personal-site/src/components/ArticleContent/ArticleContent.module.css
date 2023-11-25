@@ -1,5 +1,4 @@
 .md {
-    max-width: 100vw;
     padding: 0;
 }
 
@@ -41,9 +40,11 @@
 }
 
 .md table {
+    display: block;
     margin: var(--margin-large);
-    width: 100%;
+    width: calc(100% - 2*var(--margin-large));
     border-collapse: collapse;
+    overflow-x: scroll;
     /* shadow */
     box-shadow: var(--box-shadow-md);
 }

@@ -1,5 +1,8 @@
 .container {
-    width: 30rem;
     padding: var(--padding-xlarge);
     box-shadow: var(--box-shadow-md);
+}
+
+.container > .description {
+    line-break: loose;
 }

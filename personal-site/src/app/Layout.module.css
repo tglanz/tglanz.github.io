@@ -1,18 +1,19 @@
 .body {
+  width: 100vw;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  padding: 0 var(--padding-xlarge);
 }
 
-/* big screens */
-@media only screen and (min-width: 600px) {
-  .body {
-    max-width: max(600px, 50vw);
-    margin: auto;
-    padding: var(--padding-large) 0;
-  }
+/* mobile screens */
+@media only screen and (max-width: 768px) {
 }
 
 .main {
   margin-top: var(--margin-xxlarge);
+}
+
+.body > .header {
+  padding: var(--padding-xlarge) 0;
 }

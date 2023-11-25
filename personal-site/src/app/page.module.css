@@ -3,12 +3,19 @@
   display: grid;
   grid-template-rows: 10% auto 10% auto 1fr;
   grid-template-areas:
-    ". . ."
-    "headline headline headline"
-    ". . ."
-    ". highlights ."
-    "footer footer footer"
+    "."
+    "headline"
+    "."
+    "highlights"
+    "footer"
   ;
+}
+
+/* mobile screens */
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: 5% auto 10% auto 1fr;
+  }
 }
 
 .headline {

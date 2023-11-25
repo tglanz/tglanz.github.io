@@ -3,8 +3,7 @@ import Taxonomy from "@/components/Taxonomy/Taxonomy";
 import { Article } from "@/lib/article";
 import { getContent, getContentInfo } from "@/lib/content-cache";
 
-import * as urls from '@/lib/urls';
-import Link from "next/link";
+import styles from './article-page.module.css';
 
 export interface Params {
   slug: string[];
@@ -37,7 +36,7 @@ export default async function Article(props: Props) {
   const article = await findArticle(slug);
 
   return (
-    <div>
+    <div className={styles.container}>
       <h1>{article.metadata.title}</h1>
       <Taxonomy taxonomy="tags" article={article} />
       <ArticleContent content={article.content}/>
