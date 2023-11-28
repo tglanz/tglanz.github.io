@@ -19,7 +19,7 @@ export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
   const categories = Object.keys(contentInfo.metadataAggregation.categories);
   // hack
-  return categories.map(category => ({ category: encodeURIComponent(category) }));
+  return categories.map(category => ({ category: encodeURIComponent(category.replaceAll(" ", "_")) }));
 }
 
 async function getCategoryArticleInfos(category: string) {
@@ -40,7 +40,7 @@ function ArticleListItem({ article }: { article: ArticleInfo }) {
 }
 
 export default async function Category(props: Props) {
-  const category = decodeURIComponent(props.params.category);
+  const category = decodeURIComponent(props.params.category).replaceAll("_", " ");
   const articles = await getCategoryArticleInfos(category);
 
   return (

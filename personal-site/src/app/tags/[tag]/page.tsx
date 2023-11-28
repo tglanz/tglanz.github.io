@@ -18,7 +18,7 @@ export const metadata = {
 export async function generateStaticParams() {
   const contentInfo = await getContentInfo();
   const tags = Object.keys(contentInfo.metadataAggregation.tags);
-  return tags.map(tag => ({ tag: encodeURIComponent(tag) }));
+  return tags.map(tag => ({ tag: encodeURIComponent(tag.replaceAll(" ", "_")) }));
 }
 
 async function getTagArticleInfos(tag: string) {
@@ -39,7 +39,7 @@ function ArticleListItem({ article }: { article: ArticleInfo }) {
 }
 
 export default async function Tag(props: Props) {
-  const tag = decodeURIComponent(props.params.tag);
+  const tag = decodeURIComponent(props.params.tag).replaceAll("_", " ");
   const articles = await getTagArticleInfos(tag);
 
   return (
