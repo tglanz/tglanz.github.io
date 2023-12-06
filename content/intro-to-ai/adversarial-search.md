@@ -1,7 +1,6 @@
 ---
 title: Adversarial Search 
 priority: 4
-highlight: true
 toc: false
 description: Search algorithms in a competitive environment
 categories:

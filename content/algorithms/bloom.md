@@ -1,7 +1,6 @@
 ---
 title: Bloom Filter
 description: Illustrate the Bloomfilter data structure
-highlight: true
 categories:
 - Algorithms
 - Probabalistic Datastructures

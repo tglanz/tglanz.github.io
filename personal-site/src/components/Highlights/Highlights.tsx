@@ -33,7 +33,9 @@ function getHighlights(contentInfo: ContentInfo, limit: number): ArticleInfo[] {
         .filter(article => article.metadata.highlight);
     const count = Math.min(highlighed.length, limit);
     const randoms = getRandoms(count, 0, highlighed.length);
-    return highlighed.filter((_, index) => randoms.has(index));
+    return highlighed
+        .filter((_, index) => randoms.has(index))
+        .sort((a, b) => b.metadata.contentLength - a.metadata.contentLength);
 }
 
 export default async function Highlights(props: Props) {
@@ -41,9 +43,7 @@ export default async function Highlights(props: Props) {
     const highlights = getHighlights(contentInfo, props.limit);
     return (
         <div>
-            <p>Spotlight</p>
-
-            <small>Random content</small>
+            <p className={styles.title}>Highlights</p>
 
             <div className={styles.cards}>
             {

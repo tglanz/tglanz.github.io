@@ -4,7 +4,6 @@ description: |
   Efficient data structure tjat represents Random Variables dependencies
 categories:
 - Intro to AI
-highlight: true
 tags:
 - AI
 - Probability

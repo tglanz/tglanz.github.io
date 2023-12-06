@@ -37,6 +37,7 @@ export interface ArticleMetadata {
   categories: string[];
   highlight: boolean;
   thumbnail?: string;
+  contentLength: number;
 }
 
 export interface ArticleContent {
@@ -80,6 +81,7 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
     toc: matterData.toc == false ? false : true, // take into account that other or even empty strings
     highlight: matterData.highlight === true, // any other value than true is false
     thumbnail: matterData.thumbnail, // any other value than true is false
+    contentLength: articleMatter.content.length,
   }
 
   return {

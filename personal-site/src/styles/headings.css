@@ -23,7 +23,6 @@ h2 {
 h3 {
     font-size: var(--font-size-medium);
     margin: var(--margin-large) 0;
-    margin-top: var(--margin-xxlarge);
     color: var(--text-color-dimmed);
     font-style: italic;
 }

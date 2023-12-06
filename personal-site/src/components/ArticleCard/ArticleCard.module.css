@@ -1,5 +1,5 @@
 .container {
-    padding: var(--padding-xlarge);
+    padding: var(--padding-medium);
     box-shadow: var(--box-shadow-md);
 }
 

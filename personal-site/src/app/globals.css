@@ -3,6 +3,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+  --padding-xxlarge: 26px;
   --padding-xlarge: 24px;
   --padding-large: 20px;
   --padding-medium: 14px;
