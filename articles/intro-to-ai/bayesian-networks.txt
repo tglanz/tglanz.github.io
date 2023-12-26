@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/c96322cf68b97bcb.css","style",{"crossOrigin":""}]
-0:["vOWxB7fr8CJz95CP-ApyM",[[["",{"children":["articles",{"children":[["slug","intro-to-ai/bayesian-networks","c"],{"children":["__PAGE__?{\"slug\":[\"intro-to-ai\",\"bayesian-networks\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c96322cf68b97bcb.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["hUvN5OeZkDZr3qcNo0Lea",[[["",{"children":["articles",{"children":[["slug","intro-to-ai/bayesian-networks","c"],{"children":["__PAGE__?{\"slug\":[\"intro-to-ai\",\"bayesian-networks\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c96322cf68b97bcb.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-ce4e325d1f63f2a3.js"],""]
 7:I[6954,[],""]
@@ -100,7 +100,7 @@ P(X_i | X_1, ..., X_{i-1}) = P(X_i | Parents(X_1, ..., X_{i-1}))
 $$
 
 We get this by enforcing **topological ordering** and linking nodes to their parents in such a way that they are conditionally independent of any other node given their parents.  
-f:T1688,<!doctype html>
+f:T168c,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -122,7 +122,7 @@ f:T1688,<!doctype html>
     <h2 id="example">Example</h2>
     <p>Let's consider the following scenario. A burglary alarm in Paul's home can be set off by small earthquakes. Paul has two neighbors: Nina and Lei - they promised Paul to call him when they hear the alarm. Nina is very alert but Lei is always busy and is more likely not to hear Paul's alarm. Given a call, what is the probability of a burglary?</p>
     <p>Below is a BN describing the scenario:</p>
-    <img src="https://www.plantuml.com/plantuml/png/IybCBqeio51mLwZcKW22QjV4efACmjB4x5GT1QVIelISnABAMWLTEmL782lN6gm8p0I9LVkaPZedvkGKwoZuPUObWfcrrbor0000">
+    <img src="https://www.plantuml.com/plantuml/png/IybCBqeio51mLwZcKb1GKAXsJImgoIWiJSnErL5mAYrApqaiggnLqBLJSCn9BCgr1Yi2Cq5YrJwfcSw9EJd5EWf-cNc9O6QjDLSj0000">
     <p>And the CPT tables:</p>
     <div class="table-container">
       <table>

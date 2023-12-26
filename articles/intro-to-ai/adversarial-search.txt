@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/c96322cf68b97bcb.css","style",{"crossOrigin":""}]
-0:["vOWxB7fr8CJz95CP-ApyM",[[["",{"children":["articles",{"children":[["slug","intro-to-ai/adversarial-search","c"],{"children":["__PAGE__?{\"slug\":[\"intro-to-ai\",\"adversarial-search\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c96322cf68b97bcb.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["hUvN5OeZkDZr3qcNo0Lea",[[["",{"children":["articles",{"children":[["slug","intro-to-ai/adversarial-search","c"],{"children":["__PAGE__?{\"slug\":[\"intro-to-ai\",\"adversarial-search\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c96322cf68b97bcb.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-ce4e325d1f63f2a3.js"],""]
 7:I[6954,[],""]
@@ -152,7 +152,7 @@ f:T1766,<!doctype html>
     </ul>
     <p>Like many other search problems, $S_0$, <em>Actions</em> and <em>Result</em> define a <strong>state space graph</strong> - A graph where the vertices are states and the edges are the moves. We can impose a <strong>search tree</strong> in order to determine what action to take by searching the graph. We define the complete <strong>game tree</strong> as the tree as the search tree that investigate every possible action for every possible state up to terminals.</p>
     <p>Take a look at the example search tree below. Note that by convention we will symbolize the MAX player with a triangle and the MIN player with an inverted triangle.</p>
-    <img src="https://www.plantuml.com/plantuml/png/RT3T2e8m6CRnOtSLkm69rc4grFp-k8BmOAkXWeXeTHBTUqxAzDrxDFZpOmyRgGRHrpIYBsATw6MiHQ_S-z28hcfLIQpphpNTSvKvddqy1yZ58T8YfCL8Iv2M8Yr3MewqmcpwDsoRJizlXLIjwmXdV4Xlx-pquPN7B-00C0Xy00v_e7zt4i4YfB4nWn001a44m6Q3Qn4lucfip201W46G0h3PyBN85d4pDcQG0y0WA01ORRp91m00">
+    <img src="https://www.plantuml.com/plantuml/png/RT1B2eCm58NXiLb5DX1Aqs6ZKD_F5OY3s0OLH4JRJahtNYAjrPix2lnyvC0bpIJ7baRqHQmBBUTMZig-JvqScbvLn79_hHkUc-pXsSTpW7mS8Yr2Meoq16afqZAavKWhpAQlmHXrQTdBMlMsa69-rCvH7FJZLESly03W4FW0dFv0NvSn6goYDZOM40B08OW0s6ruMiIhk1eR2qW0u12a0EmsV2soLToCZGNa07082W0s6s_o0G00">
     <h2 id="the-minimax-search-algorithm">The Minimax search algorithm</h2>
     <p>Both MAX and MIN playes aim to optimize their decisions throughout the game. Every action MAX makes MIN also makes an action! MAX cannot hope for MIN to blunder - He needs to find a sequence of actions that will maximize the score assuming MIN tries to minimize the score.</p>
     <p>The search approach we take is to keep track of the score after each decision in the tree. Decisions made by MAX aim to increase the score while decisions made by MIN aim to decrease the score - Practically we will run a DFS variant, tracking and modifying the score accordingly. This algorithm is called <strong>minimax search</strong>.</p>
