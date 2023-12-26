@@ -115,8 +115,8 @@ Usually, we will see that the probabilities of the smaller events are similar to
 
 ## Examples
 
-- [Hypergraph 2 Coloring](../hypergraph-2coloring)
-- [Coupons Collector 1](../coupons-collector-v1)
+- [Hypergraph 2 Coloring](./hypergraph-2coloring)
+- [Coupons Collector 1](./coupons-collector-v1)
 
 # Random Variables
 
