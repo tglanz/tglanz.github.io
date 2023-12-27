@@ -39,7 +39,8 @@ async function getFilesRecursivesly(directoryPath: string): Promise<string[]> {
 
 export async function readContent(directoryPath: string): Promise<Content> {
   const files = await getFilesRecursivesly(directoryPath);
-  const articles = await Promise.all(files.map(readArticle));
+  const articles = (await Promise.all(files.map(readArticle)))
+    .filter(article => !article.metadata.hide);
 
   const metadataAggregation = aggregateMetadata(articles);
 
@@ -48,7 +49,9 @@ export async function readContent(directoryPath: string): Promise<Content> {
 
 export async function readContentInfo(directoryPath: string): Promise<ContentInfo> {
   const files = await getFilesRecursivesly(directoryPath);
-  const articles = await Promise.all(files.map(readArticleInfo));
+  const articles = (await Promise.all(files.map(readArticleInfo)))
+    .filter(article => !article.metadata.hide);
+  console.log(JSON.stringify(articles.find(a => a.id === 'pdes/references'), null, 4));
 
   const metadataAggregation = aggregateMetadata(articles);
 

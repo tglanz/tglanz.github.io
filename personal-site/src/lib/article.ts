@@ -34,6 +34,7 @@ export interface ArticleMetadata {
   priority: number;
   toc: boolean;
   tags: string[];
+  hide: boolean;
   categories: string[];
   highlight: boolean;
   thumbnail?: string;
@@ -79,6 +80,7 @@ function parseArticleInfo(filePath: string, articleContents: Buffer): ArticleInf
     tags: matterData.tags || [],
     categories: matterData.categories || [],
     toc: matterData.toc == false ? false : true, // take into account that other or even empty strings
+    hide: matterData.hide == true ? true : false,
     highlight: matterData.highlight === true, // any other value than true is false
     thumbnail: matterData.thumbnail, // any other value than true is false
     contentLength: articleMatter.content.length,
