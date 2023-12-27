@@ -51,7 +51,6 @@ export async function readContentInfo(directoryPath: string): Promise<ContentInf
   const files = await getFilesRecursivesly(directoryPath);
   const articles = (await Promise.all(files.map(readArticleInfo)))
     .filter(article => !article.metadata.hide);
-  console.log(JSON.stringify(articles.find(a => a.id === 'pdes/references'), null, 4));
 
   const metadataAggregation = aggregateMetadata(articles);
 
