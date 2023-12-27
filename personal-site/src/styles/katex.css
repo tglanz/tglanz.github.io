@@ -2,3 +2,7 @@
     overflow: auto hidden;
     font-size: 0.9em;
 }
+
+.katex-display>.katex>.katex-html>.tag {
+  margin-right: 2px;
+}
