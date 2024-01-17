@@ -1,0 +1,562 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/e00e692bf1805b67.css","style",{"crossOrigin":""}]
+0:["BVblrCxPt0iK31SuDDoKX",[[["",{"children":["articles",{"children":[["slug","posts/linear-programming","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"linear-programming\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e00e692bf1805b67.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-02616b701f03301a.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/linear-programming","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"linear-programming\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/linear-programming","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T30e8,
+# Introduction
+
+Before we define what Linear Programming is, let's take a look at an example:
+
+Assume we want to make a diet. Our job is to prepare meals would to minimize the amount of calories that we consume while consuming at least $60gr$ of protein, $70gr$ fat and $350gr$ of carbon.
+
+Every ingredient contain a certain amount of calories, protein, fat and carbons. For simplicity, let's assume we have 3 ingredients at our disposal:
+
+Ingredient | Calories | Protein | Fat | Carbons
+-----------|----------|---------|-----|----------
+1          | 50       | 4       | 10  | 25
+2          | 30       | 5       | 4   | 32
+3          | 60       | 8       | 7   | 12
+
+We can compose a meal using the above ingredient however we like. Let $x_1, x_2$ and $x_3$ be the number of units we use for ingredients $1,2$ and $3$ accordingly.
+
+Our objective is to minimize the expression
+$$ 50x_1 + 30x_2 + 60x_2 $$
+
+Under the constraint that we cannot pick a negative number of ingredients
+$$ x_1, x_2, x_3 \geq 0 $$
+
+And under the minimum Protein consumption constraint
+$$ 4x_1 + 5x_2 + 8x_3 \geq 60 $$
+
+And under the minimum Fat consumption constraint
+$$ 10x_1 + 4x_2 + 7x_3 \geq 70 $$
+
+And under the minimum Carbons consumption constraint
+$$ 25x_1 + 32x_2 + 12x_3 \geq 350 $$
+
+More compactly, we can write it as a minimization problem subject to a system of linear inequalities
+
+\begin{align*}
+minimize~    & 50x_1 + 30x_2 + 60x_3 & \\\\
+subject~ to~ & 4x_1 + 5x_2 + 8x_3 &\geq 60 \\\\
+             & 10x_1 + 4x_2 + 7x_3 &\geq 70 \\\\
+             & 25x_1 + 32x_2 + 12x_3 &\geq 350 \\\\
+             & x_1, x_2, x_3 &\geq 0 \\\\
+\end{align*}
+
+We have defined a Linear Program (LP) of **3 variables**, **6 constraints** and an **objective function**. The cosntraints $x_1, x_2, x_3 \geq 0$ are called non-negativity constraints. The set of points $\\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \\}$ that fulfills the constraints is the set of **feasible solutions** or the **feasible region**. The feasible solution subset of points that achieve a minimum for the objective function are called **optimal solutions**.
+
+# Linear Programs
+
+> A solid understanding of Linear Algebra is assumed
+
+A **Linear Programming Problem / Linear Program (LP)** is an optimization problem in which we search a minimum/maximum for a linear objective function subected to constraints that are either linear equalities or linear in-equalities.
+
+A LP can be represented in **matrix form**. Let 
+- $x \in \mathbb{R}^n$ be the **variables vector**
+- $c \in \mathbb{R}^n$ be the **cost vector**
+- $A \in \mathbb{R}^{n \times m}$ be the **constraints matrix**
+- $b \in \mathbb{R}^m$
+
+We can now write a LP as:
+
+\begin{align*}
+min/max~ &\langle c, x \rangle \\\\
+s.t~ & Ax &\lesseqgtr b \\\\
+     & x &\lessgtr 0 \\\\
+\end{align*}
+
+> From now on, we will allow ourselves focus on either minimization or maximization problems - Those are completely analogue to each other (simply by negation).
+
+## Geometric Intuition
+
+Recall that a hyperplane $H$ in $\mathbb{R}^n$ is a set of the form $H = \\{ x \in \mathbb{R}^n : \langle c, x \rangle = w \\}$ for some $c \in \mathbb{R}^n$ and $w \in \mathbb{R}$. The hyperplane $H$ splits the space into two half-spaces $H^+ = \\{ x \in \mathbb{R}^n : \langle c, x \rangle \geq w \\}$ and $H^- = \\{ x \in \mathbb{R}^n : \langle c, x \rangle \leq w \\}$.
+
+Thus, the **feasible region** is at the intersection of one of the two half-spaces each constraint (as a hyperplane) defines. This intersection is a **[convex polytop](https://en.wikipedia.org/wiki/Convex_polytope)**.
+
+An optimal $x$ for the objective function $\langle c, x \rangle$ is equivalent for finding a supporting hyperplane for the polytop with a normal $c$.
+
+## Common Forms
+
+Because general form a LP have no coherent structure they makes them hard to work with. As a result, common forms for linear programs has been formulated.
+
+### LP in Standard Form (LPS)
+
+In LPS, The constraints are all equalities and the variables are all non-negative:
+
+\begin{align*}
+min~ &\langle c, x \rangle \\\\
+s.t~ & Ax &= b \\\\
+     & x &\geq 0 \\\\
+\end{align*}
+
+### LP in Canonized Form (LPC)
+
+In LPC, The constraints are all *geq* in minimization problems, *leq* in maximization problems  and the variables are all non-negative:
+
+\begin{align*}
+min~ &\langle c, x \rangle \\\\
+s.t~ & Ax &\geq b \\\\
+     & x &\geq 0 \\\\
+\end{align*}
+
+### Convert between commonn forms
+
+The above forms are equivalent and can be converted from one to another in **Polynomial Time**.
+
+To get a LPS from given a general LP
+
+1. *Get rid of variables without non-negativity constraints:* Replace all variables $x_i$ that doesn't have non-negativity constraints with 2 **dummy variables** $x_i^+$ and $x_i^-$. Set $x_i = x_i^+ - x_i^-$ and add the constraints $x_i^+, x_i^- \geq 0$.
+2. *Replace in-equality constraints with equality constraints:* For every constraint of the form $A^ix \geq b_i$ add a **dummy variable** $s_i$ and replace the constraint with the constraints $A^ix - s_i = 0$ and $s_i = 0$.
+
+To get a LPC from a given LPS
+
+1. *Replace equality constraints as in-equality:* Replace every constraint of the for $A^ix = b_i$ with $A^ix \geq b_i$ and $(-A^i)x \geq -b_i$.
+
+**For Example**, lets start from the given LP in general form:
+
+\begin{align*}
+min~ & x_1 + x_2 + 2x_3 \\\\
+s.t~ & 3x_1 + 2x_2 + x_3 &= 1 \\\\
+     & 5x_1 + x_2 - x_3 &\geq 3  \\\\
+     & x_1 \geq 0 \\\\
+     & x_2 \leq 0 \\\\
+\end{align*}
+
+To convert it to a LPS we first need to get rid of the variables without non-negativity constraints: $x_2, x_3$. Write $x_2 = x_2^+ - x_2^-$ and $x_3 = x_3^+ - x_3^-$, then add the constraints $x_2^+, x_2^-, x_3^+, x_3^- \geq 0$.
+
+\begin{align*}
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &\geq 3  \\\\
+     & x_2^+ - x_2^- &\leq 0 \\\\
+     & x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
+\end{align*}
+
+Now we need to make all of the constraints to be equalities. Introduce the slack variables $s_2, s_3$ and write the program as:
+
+\begin{align*}
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &= 3  \\\\
+     & x_2^+ - x_2^- + s_3 &= 0 \\\\
+     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+\end{align*}
+
+We got a LPS! Notice though that we multiplied the number of variables.
+
+Now, to get a LPC we need to double each constraint:
+
+\begin{align*}
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &\geq 1 \\\\
+     & -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &\geq -1 \\\\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &\geq 3  \\\\
+     & -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &\geq -3  \\\\
+     & x_2^+ - x_2^- + s_3 &\geq 0 \\\\
+     & -x_2^+ + x_2^- - s_3 &\geq 0 \\\\
+     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+\end{align*}
+
+## Solution Set
+
+Now, we should ask ourselves whether a LP has an optimal solution? If it does, is it single?
+
+As we will see, all of the following scenarios are possible:
+- **No feasible solutions**. A LP with no feasible solutions is called **infeasible** and a LP with at least one feasible solution is called **feasibble**
+- **No optimal solution**
+- **Infinite number of optimal solutions**
+- **Unique optimal solution**
+
+### No feasible solutions
+
+When the feasible region is empty there cannot be any feasible solution (and no optimal solution).
+
+For example, below is a LP with feasible region $\phi$:
+
+\begin{align*}
+max~ & x_1 + x_2 \\\\
+s.t~ & 2x_1 - x_2 \geq 2 \\\\
+     & x_1 - x_2 \leq 1 \\\\
+     & x_1, x_2 \geq 0 \\\\
+\end{align*}
+
+> TODO: graphics
+
+### No optimal solution
+
+When the linear system is consistent, the objective function can be unbounded with respect to it's constraint. In this case, there are infinitely many feasible solutions - none of them is optimal (since we can always find a better one).
+
+Geometrically speaking, this case arises when the feasible region is an unbounded polytop.
+
+\begin{align*}
+max~ & x_1 + x_2 \\\\
+s.t~ & 2x_1 - x_2 \leq 2 \\\\
+     & x_1 - x_2 \geq 1 \\\\
+     & x_1, x_2 \geq 0 \\\\
+\end{align*}
+
+> TODO: graphics
+
+### Infinite number of optimal solutions
+
+When the objective function is bounded with respect to it's constraints, the set of feasible solutions is finite - Hence, we can find an optimal solution. The optimal solution is not necessarily unique.
+
+Infinite number of optimial solutions arise when the polytop is not bounded but the set of optimal solutions is the same as one of the polytop's edges.
+
+\begin{align*}
+max~ & x_1 + x_2 \\\\
+s.t~ & 2x_1 - x_2 \leq 2 \\\\
+     & x_1 - x_2 \geq 1 \\\\
+     & x_1 + x_2 \leq 3 \\\\
+     & x_1, x_2 \geq 0 \\\\
+\end{align*}
+
+> TODO: graphics
+
+### Unique optimal solution
+
+Because the polytop is convex, a supporting hyperplane can intersect at either infinitely many points or at one. In case there are feasible solutions but not infinitely many optimal solutions, there can only be a single unique optimal solution.
+
+# Geometry and Algebra of Linear Programs
+
+The main theorem we will present here roughly states that if a LP has an optimal solution, it must also have an optimal solution at one of it's corners.
+
+Besides proving it, There are two difficulties in this statement:
+- What exactly is a polytop's corner?
+- How can we algebraicly define a corner?
+
+## Corner definitions
+
+We will show multiple definitions for a corner and prove that they are equivalent - Two of those definitions are geometric in nature and one is algebraic. Using those definition we will be ready to prove the above statement.
+
+### Vertex
+
+Given a polytop $P$, a corner is a point $v$ that is a unique optimal solution a LP of the form $\min \{ \langle c, x \rangle : x \in P \}$ (for the minimization problem). For any other point $x \in P$ different from $v$, it will be true that $\langle c, v \rangle < \langle c, x \rangle$.
+
+This leads us to our first definition:
+
+A **vertex** is a point $v \in P$ if there exists $c \in \mathbb{R}^n$ such that $\langle c, v \rangle < \langle c, x \rangle$ forall $x \not = v$.
+
+Another intuition for this definition is that there exist a supporting hyperplane that touches $P$ only at $v$.
+
+### Extreme Point
+
+The following definition for a corner is also geometrically intuitive - No corner is on the line between any two points in $P$.
+
+A **convex combination** of the vectors $v_1, v_2, ..., v_d$ is a linear combination $\sum_{i=1}^{m} \alpha_i v_i$ such that $\sum_{i=1}^{m} \alpha_i = 1$.
+
+An **extreme point** is a point $v \in P$ that cannot be represented as a convex combination in $P$.
+
+Meaning, $v \in P$ is an extreme point if there are no other two points $x, y \in P$ and $\lambda \in [0, 1]$ such that $v = \lambda x + (1 - \lambda)y$.
+
+It is interesting to note (although not very necessary), that in a convex polytop, all points are a convex combination of it's extreme points.
+
+### Basic Feasible Solution
+
+The above definitions are geometric in nature. Can we check for all supporting hyperplanes? How about all possible convex combinations?
+
+For algorithmic purposes we need an algebraic definition. It turns out that we can characterize a corner using the system of constraints the defines the polytop.
+
+Given a point $v$, we say that a constraint (in the system that defines $P$) is a **tight constraint** if it holds for $v$ as an equality.
+
+Using tight constraints, we give the following definition:
+
+Let $P \in \mathbb{R}^n$ be a polytop. A point $v \in \mathbb{R}^n$ is called a **basic solution** of the system that defines $P$ if there are $n$ tight constraints such that $v$ is a unique solution for the corresponding linear system of equations.
+
+If also $v \in P$, $v$ is called **basic feasible solution (bfs)**.
+
+Although algebraic, this definition also have a geometric meaning. Basic solutions are points that are on the intersection of the hyperplanes defined by $n$ equations for the corresponding constraints, that has linearly independent coefficient vectors. It is not mandatory that such points are in the feasible region but if they are, they are called basic feasible solutions.
+
+The following claim holds: Given a system of linear constraints that defines the polytop $P$, a point $v$ is a bfs if and only if the linear system of equation that is constructed by all of $v$'s tight constraints, there are $n$ equations with linearly independent vectors of coefficients.f:T435f,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#introduction">Introduction</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#linear-programs">Linear Programs</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#geometric-intuition">Geometric Intuition</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#common-forms">Common Forms</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#solution-set">Solution Set</a></li>
+          </ol>
+        </li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#geometry-and-algebra-of-linear-programs">Geometry and Algebra of Linear Programs</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#corner-definitions">Corner definitions</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="introduction">Introduction</h1>
+    <p>Before we define what Linear Programming is, let's take a look at an example:</p>
+    <p>Assume we want to make a diet. Our job is to prepare meals would to minimize the amount of calories that we consume while consuming at least $60gr$ of protein, $70gr$ fat and $350gr$ of carbon.</p>
+    <p>Every ingredient contain a certain amount of calories, protein, fat and carbons. For simplicity, let's assume we have 3 ingredients at our disposal:</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Calories</th>
+            <th>Protein</th>
+            <th>Fat</th>
+            <th>Carbons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>50</td>
+            <td>4</td>
+            <td>10</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>30</td>
+            <td>5</td>
+            <td>4</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>60</td>
+            <td>8</td>
+            <td>7</td>
+            <td>12</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We can compose a meal using the above ingredient however we like. Let $x_1, x_2$ and $x_3$ be the number of units we use for ingredients $1,2$ and $3$ accordingly.</p>
+    <p>
+      Our objective is to minimize the expression
+      $$ 50x_1 + 30x_2 + 60x_2 $$
+    </p>
+    <p>
+      Under the constraint that we cannot pick a negative number of ingredients
+      $$ x_1, x_2, x_3 \geq 0 $$
+    </p>
+    <p>
+      And under the minimum Protein consumption constraint
+      $$ 4x_1 + 5x_2 + 8x_3 \geq 60 $$
+    </p>
+    <p>
+      And under the minimum Fat consumption constraint
+      $$ 10x_1 + 4x_2 + 7x_3 \geq 70 $$
+    </p>
+    <p>
+      And under the minimum Carbons consumption constraint
+      $$ 25x_1 + 32x_2 + 12x_3 \geq 350 $$
+    </p>
+    <p>More compactly, we can write it as a minimization problem subject to a system of linear inequalities</p>
+    <p>
+      \begin{align*}
+      minimize~ &#x26; 50x_1 + 30x_2 + 60x_3 &#x26; \\
+      subject~ to~ &#x26; 4x_1 + 5x_2 + 8x_3 &#x26;\geq 60 \\
+      &#x26; 10x_1 + 4x_2 + 7x_3 &#x26;\geq 70 \\
+      &#x26; 25x_1 + 32x_2 + 12x_3 &#x26;\geq 350 \\
+      &#x26; x_1, x_2, x_3 &#x26;\geq 0 \\
+      \end{align*}
+    </p>
+    <p>We have defined a Linear Program (LP) of <strong>3 variables</strong>, <strong>6 constraints</strong> and an <strong>objective function</strong>. The cosntraints $x_1, x_2, x_3 \geq 0$ are called non-negativity constraints. The set of points $\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \}$ that fulfills the constraints is the set of <strong>feasible solutions</strong> or the <strong>feasible region</strong>. The feasible solution subset of points that achieve a minimum for the objective function are called <strong>optimal solutions</strong>.</p>
+    <h1 id="linear-programs">Linear Programs</h1>
+    <blockquote>
+      <p>A solid understanding of Linear Algebra is assumed</p>
+    </blockquote>
+    <p>A <strong>Linear Programming Problem / Linear Program (LP)</strong> is an optimization problem in which we search a minimum/maximum for a linear objective function subected to constraints that are either linear equalities or linear in-equalities.</p>
+    <p>A LP can be represented in <strong>matrix form</strong>. Let</p>
+    <ul>
+      <li>$x \in \mathbb{R}^n$ be the <strong>variables vector</strong></li>
+      <li>$c \in \mathbb{R}^n$ be the <strong>cost vector</strong></li>
+      <li>$A \in \mathbb{R}^{n \times m}$ be the <strong>constraints matrix</strong></li>
+      <li>$b \in \mathbb{R}^m$</li>
+    </ul>
+    <p>We can now write a LP as:</p>
+    <p>
+      \begin{align*}
+      min/max~ &#x26;\langle c, x \rangle \\
+      s.t~ &#x26; Ax &#x26;\lesseqgtr b \\
+      &#x26; x &#x26;\lessgtr 0 \\
+      \end{align*}
+    </p>
+    <blockquote>
+      <p>From now on, we will allow ourselves focus on either minimization or maximization problems - Those are completely analogue to each other (simply by negation).</p>
+    </blockquote>
+    <h2 id="geometric-intuition">Geometric Intuition</h2>
+    <p>Recall that a hyperplane $H$ in $\mathbb{R}^n$ is a set of the form $H = \{ x \in \mathbb{R}^n : \langle c, x \rangle = w \}$ for some $c \in \mathbb{R}^n$ and $w \in \mathbb{R}$. The hyperplane $H$ splits the space into two half-spaces $H^+ = \{ x \in \mathbb{R}^n : \langle c, x \rangle \geq w \}$ and $H^- = \{ x \in \mathbb{R}^n : \langle c, x \rangle \leq w \}$.</p>
+    <p>Thus, the <strong>feasible region</strong> is at the intersection of one of the two half-spaces each constraint (as a hyperplane) defines. This intersection is a <strong><a href="https://en.wikipedia.org/wiki/Convex_polytope">convex polytop</a></strong>.</p>
+    <p>An optimal $x$ for the objective function $\langle c, x \rangle$ is equivalent for finding a supporting hyperplane for the polytop with a normal $c$.</p>
+    <h2 id="common-forms">Common Forms</h2>
+    <p>Because general form a LP have no coherent structure they makes them hard to work with. As a result, common forms for linear programs has been formulated.</p>
+    <h3 id="lp-in-standard-form-lps">LP in Standard Form (LPS)</h3>
+    <p>In LPS, The constraints are all equalities and the variables are all non-negative:</p>
+    <p>
+      \begin{align*}
+      min~ &#x26;\langle c, x \rangle \\
+      s.t~ &#x26; Ax &#x26;= b \\
+      &#x26; x &#x26;\geq 0 \\
+      \end{align*}
+    </p>
+    <h3 id="lp-in-canonized-form-lpc">LP in Canonized Form (LPC)</h3>
+    <p>In LPC, The constraints are all <em>geq</em> in minimization problems, <em>leq</em> in maximization problems and the variables are all non-negative:</p>
+    <p>
+      \begin{align*}
+      min~ &#x26;\langle c, x \rangle \\
+      s.t~ &#x26; Ax &#x26;\geq b \\
+      &#x26; x &#x26;\geq 0 \\
+      \end{align*}
+    </p>
+    <h3 id="convert-between-commonn-forms">Convert between commonn forms</h3>
+    <p>The above forms are equivalent and can be converted from one to another in <strong>Polynomial Time</strong>.</p>
+    <p>To get a LPS from given a general LP</p>
+    <ol>
+      <li><em>Get rid of variables without non-negativity constraints:</em> Replace all variables $x_i$ that doesn't have non-negativity constraints with 2 <strong>dummy variables</strong> $x_i^+$ and $x_i^-$. Set $x_i = x_i^+ - x_i^-$ and add the constraints $x_i^+, x_i^- \geq 0$.</li>
+      <li><em>Replace in-equality constraints with equality constraints:</em> For every constraint of the form $A^ix \geq b_i$ add a <strong>dummy variable</strong> $s_i$ and replace the constraint with the constraints $A^ix - s_i = 0$ and $s_i = 0$.</li>
+    </ol>
+    <p>To get a LPC from a given LPS</p>
+    <ol>
+      <li><em>Replace equality constraints as in-equality:</em> Replace every constraint of the for $A^ix = b_i$ with $A^ix \geq b_i$ and $(-A^i)x \geq -b_i$.</li>
+    </ol>
+    <p><strong>For Example</strong>, lets start from the given LP in general form:</p>
+    <p>
+      \begin{align*}
+      min~ &#x26; x_1 + x_2 + 2x_3 \\
+      s.t~ &#x26; 3x_1 + 2x_2 + x_3 &#x26;= 1 \\
+      &#x26; 5x_1 + x_2 - x_3 &#x26;\geq 3 \\
+      &#x26; x_1 \geq 0 \\
+      &#x26; x_2 \leq 0 \\
+      \end{align*}
+    </p>
+    <p>To convert it to a LPS we first need to get rid of the variables without non-negativity constraints: $x_2, x_3$. Write $x_2 = x_2^+ - x_2^-$ and $x_3 = x_3^+ - x_3^-$, then add the constraints $x_2^+, x_2^-, x_3^+, x_3^- \geq 0$.</p>
+    <p>
+      \begin{align*}
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1 \\
+      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &#x26;\geq 3 \\
+      &#x26; x_2^+ - x_2^- &#x26;\leq 0 \\
+      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
+      \end{align*}
+    </p>
+    <p>Now we need to make all of the constraints to be equalities. Introduce the slack variables $s_2, s_3$ and write the program as:</p>
+    <p>
+      \begin{align*}
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1 \\
+      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;= 3 \\
+      &#x26; x_2^+ - x_2^- + s_3 &#x26;= 0 \\
+      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+      \end{align*}
+    </p>
+    <p>We got a LPS! Notice though that we multiplied the number of variables.</p>
+    <p>Now, to get a LPC we need to double each constraint:</p>
+    <p>
+      \begin{align*}
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;\geq 1 \\
+      &#x26; -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &#x26;\geq -1 \\
+      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;\geq 3 \\
+      &#x26; -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &#x26;\geq -3 \\
+      &#x26; x_2^+ - x_2^- + s_3 &#x26;\geq 0 \\
+      &#x26; -x_2^+ + x_2^- - s_3 &#x26;\geq 0 \\
+      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+      \end{align*}
+    </p>
+    <h2 id="solution-set">Solution Set</h2>
+    <p>Now, we should ask ourselves whether a LP has an optimal solution? If it does, is it single?</p>
+    <p>As we will see, all of the following scenarios are possible:</p>
+    <ul>
+      <li><strong>No feasible solutions</strong>. A LP with no feasible solutions is called <strong>infeasible</strong> and a LP with at least one feasible solution is called <strong>feasibble</strong></li>
+      <li><strong>No optimal solution</strong></li>
+      <li><strong>Infinite number of optimal solutions</strong></li>
+      <li><strong>Unique optimal solution</strong></li>
+    </ul>
+    <h3 id="no-feasible-solutions">No feasible solutions</h3>
+    <p>When the feasible region is empty there cannot be any feasible solution (and no optimal solution).</p>
+    <p>For example, below is a LP with feasible region $\phi$:</p>
+    <p>
+      \begin{align*}
+      max~ &#x26; x_1 + x_2 \\
+      s.t~ &#x26; 2x_1 - x_2 \geq 2 \\
+      &#x26; x_1 - x_2 \leq 1 \\
+      &#x26; x_1, x_2 \geq 0 \\
+      \end{align*}
+    </p>
+    <blockquote>
+      <p>TODO: graphics</p>
+    </blockquote>
+    <h3 id="no-optimal-solution">No optimal solution</h3>
+    <p>When the linear system is consistent, the objective function can be unbounded with respect to it's constraint. In this case, there are infinitely many feasible solutions - none of them is optimal (since we can always find a better one).</p>
+    <p>Geometrically speaking, this case arises when the feasible region is an unbounded polytop.</p>
+    <p>
+      \begin{align*}
+      max~ &#x26; x_1 + x_2 \\
+      s.t~ &#x26; 2x_1 - x_2 \leq 2 \\
+      &#x26; x_1 - x_2 \geq 1 \\
+      &#x26; x_1, x_2 \geq 0 \\
+      \end{align*}
+    </p>
+    <blockquote>
+      <p>TODO: graphics</p>
+    </blockquote>
+    <h3 id="infinite-number-of-optimal-solutions">Infinite number of optimal solutions</h3>
+    <p>When the objective function is bounded with respect to it's constraints, the set of feasible solutions is finite - Hence, we can find an optimal solution. The optimal solution is not necessarily unique.</p>
+    <p>Infinite number of optimial solutions arise when the polytop is not bounded but the set of optimal solutions is the same as one of the polytop's edges.</p>
+    <p>
+      \begin{align*}
+      max~ &#x26; x_1 + x_2 \\
+      s.t~ &#x26; 2x_1 - x_2 \leq 2 \\
+      &#x26; x_1 - x_2 \geq 1 \\
+      &#x26; x_1 + x_2 \leq 3 \\
+      &#x26; x_1, x_2 \geq 0 \\
+      \end{align*}
+    </p>
+    <blockquote>
+      <p>TODO: graphics</p>
+    </blockquote>
+    <h3 id="unique-optimal-solution">Unique optimal solution</h3>
+    <p>Because the polytop is convex, a supporting hyperplane can intersect at either infinitely many points or at one. In case there are feasible solutions but not infinitely many optimal solutions, there can only be a single unique optimal solution.</p>
+    <h1 id="geometry-and-algebra-of-linear-programs">Geometry and Algebra of Linear Programs</h1>
+    <p>The main theorem we will present here roughly states that if a LP has an optimal solution, it must also have an optimal solution at one of it's corners.</p>
+    <p>Besides proving it, There are two difficulties in this statement:</p>
+    <ul>
+      <li>What exactly is a polytop's corner?</li>
+      <li>How can we algebraicly define a corner?</li>
+    </ul>
+    <h2 id="corner-definitions">Corner definitions</h2>
+    <p>We will show multiple definitions for a corner and prove that they are equivalent - Two of those definitions are geometric in nature and one is algebraic. Using those definition we will be ready to prove the above statement.</p>
+    <h3 id="vertex">Vertex</h3>
+    <p>Given a polytop $P$, a corner is a point $v$ that is a unique optimal solution a LP of the form $\min { \langle c, x \rangle : x \in P }$ (for the minimization problem). For any other point $x \in P$ different from $v$, it will be true that $\langle c, v \rangle &#x3C; \langle c, x \rangle$.</p>
+    <p>This leads us to our first definition:</p>
+    <p>A <strong>vertex</strong> is a point $v \in P$ if there exists $c \in \mathbb{R}^n$ such that $\langle c, v \rangle &#x3C; \langle c, x \rangle$ forall $x \not = v$.</p>
+    <p>Another intuition for this definition is that there exist a supporting hyperplane that touches $P$ only at $v$.</p>
+    <h3 id="extreme-point">Extreme Point</h3>
+    <p>The following definition for a corner is also geometrically intuitive - No corner is on the line between any two points in $P$.</p>
+    <p>A <strong>convex combination</strong> of the vectors $v_1, v_2, ..., v_d$ is a linear combination $\sum_{i=1}^{m} \alpha_i v_i$ such that $\sum_{i=1}^{m} \alpha_i = 1$.</p>
+    <p>An <strong>extreme point</strong> is a point $v \in P$ that cannot be represented as a convex combination in $P$.</p>
+    <p>Meaning, $v \in P$ is an extreme point if there are no other two points $x, y \in P$ and $\lambda \in [0, 1]$ such that $v = \lambda x + (1 - \lambda)y$.</p>
+    <p>It is interesting to note (although not very necessary), that in a convex polytop, all points are a convex combination of it's extreme points.</p>
+    <h3 id="basic-feasible-solution">Basic Feasible Solution</h3>
+    <p>The above definitions are geometric in nature. Can we check for all supporting hyperplanes? How about all possible convex combinations?</p>
+    <p>For algorithmic purposes we need an algebraic definition. It turns out that we can characterize a corner using the system of constraints the defines the polytop.</p>
+    <p>Given a point $v$, we say that a constraint (in the system that defines $P$) is a <strong>tight constraint</strong> if it holds for $v$ as an equality.</p>
+    <p>Using tight constraints, we give the following definition:</p>
+    <p>Let $P \in \mathbb{R}^n$ be a polytop. A point $v \in \mathbb{R}^n$ is called a <strong>basic solution</strong> of the system that defines $P$ if there are $n$ tight constraints such that $v$ is a unique solution for the corresponding linear system of equations.</p>
+    <p>If also $v \in P$, $v$ is called <strong>basic feasible solution (bfs)</strong>.</p>
+    <p>Although algebraic, this definition also have a geometric meaning. Basic solutions are points that are on the intersection of the hyperplanes defined by $n$ equations for the corresponding constraints, that has linearly independent coefficient vectors. It is not mandatory that such points are in the feasible region but if they are, they are called basic feasible solutions.</p>
+    <p>The following claim holds: Given a system of linear constraints that defines the polytop $P$, a point $v$ is a bfs if and only if the linear system of equation that is constructed by all of $v$'s tight constraints, there are $n$ equations with linearly independent vectors of coefficients.</p>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Linear Programming"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Linear_Programming","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Linear Programming"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

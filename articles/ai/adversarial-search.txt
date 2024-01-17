@@ -1,0 +1,196 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/e00e692bf1805b67.css","style",{"crossOrigin":""}]
+0:["BVblrCxPt0iK31SuDDoKX",[[["",{"children":["articles",{"children":[["slug","ai/adversarial-search","c"],{"children":["__PAGE__?{\"slug\":[\"ai\",\"adversarial-search\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e00e692bf1805b67.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-02616b701f03301a.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","ai/adversarial-search","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"ai\",\"adversarial-search\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","ai/adversarial-search","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T1276,
+A **competitive environment** is a multi-agent environment in which two or more adversarial agents have coflicting goals. There are multiple ways we can view a such environments, Here we will model adversarial agents with the techniques of adversarial game-tree search. 
+
+To introduce the topic we will restrict ourselves to **Two-player zero-sum games**.
+
+## Two-player zero-sum games
+
+A game is said to be 
+
+- _Deterministic_ if every action leads to a deterministic state.
+- With _Perfect Information_ if it's a _fully observable_ environment. Meaning, every player can see the entire state.
+- _Zero-Sum_ when there are zero points alloted to the game at initialization and players gain points by taking them from other players. There is no "win-win" situation.
+- _Turn Making_ if only a single player can make a move in each state, alternatively.
+
+A **two-player zero-sum game** is a deterministic, two-player, turn-making, zero-sum game with perfect information.
+
+We will name the two adversaries **MAX** and **MIN**.
+
+Formally we define the game with the following elements:
+
+- $S_0$ is the **initial state**.
+- _ToMove(s)_ is the player to make the move in state s.
+- _Actions(s)_ is the set of legal moves in state s.
+- _Result(s, a)_ is the **transition model** which defines the resulting state of state s after action a.
+- _IsTerminal(s)_ is the **terminal test** indicating whether s is a terminal state.
+- _Utility(s, p)_ is the **utility function** which defines the value assigned to player p if the game terminated in the terminal state s. This function is also known as **objective function** or **payoff function**
+
+Like many other search problems, $S_0$, _Actions_ and _Result_ define a **state space graph** - A graph where the vertices are states and the edges are the moves. We can impose a **search tree** in order to determine what action to take by searching the graph. We define the complete **game tree** as the tree as the search tree that investigate every possible action for every possible state up to terminals.
+
+Take a look at the example search tree below. Note that by convention we will symbolize the MAX player with a triangle and the MIN player with an inverted triangle.
+
+```plantuml
+
+graph G {
+	A [shape=triangle]
+	B [shape=invtriangle]
+	C [shape=invtriangle]
+	D [shape=invtriangle]
+	E [shape=triangle]
+	F [shape=triangle]
+	G [shape=triangle]
+	H [shape=triangle]
+	I [shape=triangle]
+	J [shape=triangle]
+	K [shape=triangle]
+	L [shape=triangle]
+	M [shape=triangle]
+
+	A -- B [label=<a<sub>1</sub>>];
+	A -- C [label=<a<sub>2</sub>>];
+	A -- D [label=<a<sub>3</sub>>];
+
+	B -- E [label=<b<sub>1</sub>>];
+	B -- F [label=<b<sub>2</sub>>];
+	B -- G [label=<b<sub>3</sub>>];
+
+	C -- H [label=<c<sub>1</sub>>];
+	C -- I [label=<c<sub>2</sub>>];
+	C -- J [label=<c<sub>3</sub>>];
+
+	D -- K [label=<d<sub>1</sub>>];
+	D -- L [label=<d<sub>2</sub>>];
+	D -- M [label=<d<sub>3</sub>>];
+}
+
+```
+
+## The Minimax search algorithm
+
+Both MAX and MIN playes aim to optimize their decisions throughout the game. Every action MAX makes MIN also makes an action! MAX cannot hope for MIN to blunder - He needs to find a sequence of actions that will maximize the score assuming MIN tries to minimize the score.
+
+The search approach we take is to keep track of the score after each decision in the tree. Decisions made by MAX aim to increase the score while decisions made by MIN aim to decrease the score - Practically we will run a DFS variant, tracking and modifying the score accordingly. This algorithm is called **minimax search**.
+
+Formally:
+
+\begin{align*}
+Minmax(s) =& & \\\\
+  & Utility(s, MAX) & if ~ IsTerminal(s) \\\\
+  & \max_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
+  & \min_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
+\end{align*}
+
+Just computing the Minimax is not enought. Remember, we needed a search algorithm to tell MAX what is his optimal action to take. For this purpose, we need to keep track of the optimal move when computing the Minimax.
+
+```python
+def MinimaxSearch(game, state) -> action \\\\
+  player = game.ToMove(state)
+  value, move = MaxValue(game, state, player)
+  return move
+
+def MaxValue(game, state, player) -> (utility, action):
+  if game.IsTerminal(state):
+    return game.Utility(state, player), null
+
+  return (utility, action) that maximizes
+    MinValue(game, game.Result(state, a), player) foreach a in Actions(state)
+
+def MinValue(game, state, player) -> (utility, action):
+  if game.IsTerminal(state):
+    return game.Utility(state, player), null
+
+  return (utility, action) that minimizes 
+    MaxValue(game, game.Result(state, a), player) foreach a in Actions(state)
+
+```
+
+## More than 2 agents
+
+TODO
+
+## Alpha-Beta pruning
+
+TODO
+f:T1766,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <p>A <strong>competitive environment</strong> is a multi-agent environment in which two or more adversarial agents have coflicting goals. There are multiple ways we can view a such environments, Here we will model adversarial agents with the techniques of adversarial game-tree search.</p>
+    <p>To introduce the topic we will restrict ourselves to <strong>Two-player zero-sum games</strong>.</p>
+    <h2 id="two-player-zero-sum-games">Two-player zero-sum games</h2>
+    <p>A game is said to be</p>
+    <ul>
+      <li><em>Deterministic</em> if every action leads to a deterministic state.</li>
+      <li>With <em>Perfect Information</em> if it's a <em>fully observable</em> environment. Meaning, every player can see the entire state.</li>
+      <li><em>Zero-Sum</em> when there are zero points alloted to the game at initialization and players gain points by taking them from other players. There is no "win-win" situation.</li>
+      <li><em>Turn Making</em> if only a single player can make a move in each state, alternatively.</li>
+    </ul>
+    <p>A <strong>two-player zero-sum game</strong> is a deterministic, two-player, turn-making, zero-sum game with perfect information.</p>
+    <p>We will name the two adversaries <strong>MAX</strong> and <strong>MIN</strong>.</p>
+    <p>Formally we define the game with the following elements:</p>
+    <ul>
+      <li>$S_0$ is the <strong>initial state</strong>.</li>
+      <li><em>ToMove(s)</em> is the player to make the move in state s.</li>
+      <li><em>Actions(s)</em> is the set of legal moves in state s.</li>
+      <li><em>Result(s, a)</em> is the <strong>transition model</strong> which defines the resulting state of state s after action a.</li>
+      <li><em>IsTerminal(s)</em> is the <strong>terminal test</strong> indicating whether s is a terminal state.</li>
+      <li><em>Utility(s, p)</em> is the <strong>utility function</strong> which defines the value assigned to player p if the game terminated in the terminal state s. This function is also known as <strong>objective function</strong> or <strong>payoff function</strong></li>
+    </ul>
+    <p>Like many other search problems, $S_0$, <em>Actions</em> and <em>Result</em> define a <strong>state space graph</strong> - A graph where the vertices are states and the edges are the moves. We can impose a <strong>search tree</strong> in order to determine what action to take by searching the graph. We define the complete <strong>game tree</strong> as the tree as the search tree that investigate every possible action for every possible state up to terminals.</p>
+    <p>Take a look at the example search tree below. Note that by convention we will symbolize the MAX player with a triangle and the MIN player with an inverted triangle.</p>
+    <img src="https://www.plantuml.com/plantuml/png/RT1B2eCm58NXiLb5DX1Aqs6ZKD_F5OY3s0OLH4JRJahtNYAjrPix2lnyvC0bpIJ7baRqHQmBBUTMZig-JvqScbvLn79_hHkUc-pXsSTpW7mS8Yr2Meoq16afqZAavKWhpAQlmHXrQTdBMlMsa69-rCvH7FJZLESly03W4FW0dFv0NvSn6goYDZOM40B08OW0s6ruMiIhk1eR2qW0u12a0EmsV2soLToCZGNa07082W0s6s_o0G00">
+    <h2 id="the-minimax-search-algorithm">The Minimax search algorithm</h2>
+    <p>Both MAX and MIN playes aim to optimize their decisions throughout the game. Every action MAX makes MIN also makes an action! MAX cannot hope for MIN to blunder - He needs to find a sequence of actions that will maximize the score assuming MIN tries to minimize the score.</p>
+    <p>The search approach we take is to keep track of the score after each decision in the tree. Decisions made by MAX aim to increase the score while decisions made by MIN aim to decrease the score - Practically we will run a DFS variant, tracking and modifying the score accordingly. This algorithm is called <strong>minimax search</strong>.</p>
+    <p>Formally:</p>
+    <p>
+      \begin{align*}
+      Minmax(s) =&#x26; &#x26; \\
+      &#x26; Utility(s, MAX) &#x26; if ~ IsTerminal(s) \\
+      &#x26; \max_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX \\
+      &#x26; \min_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX \\
+      \end{align*}
+    </p>
+    <p>Just computing the Minimax is not enought. Remember, we needed a search algorithm to tell MAX what is his optimal action to take. For this purpose, we need to keep track of the optimal move when computing the Minimax.</p>
+    <pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">MinimaxSearch</span>(<span class="hljs-params">game, state</span>) -> action \\\\
+  player = game.ToMove(state)
+  value, move = MaxValue(game, state, player)
+  <span class="hljs-keyword">return</span> move
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">MaxValue</span>(<span class="hljs-params">game, state, player</span>) -> (utility, action):
+  <span class="hljs-keyword">if</span> game.IsTerminal(state):
+    <span class="hljs-keyword">return</span> game.Utility(state, player), null
+
+  <span class="hljs-keyword">return</span> (utility, action) that maximizes
+    MinValue(game, game.Result(state, a), player) foreach a <span class="hljs-keyword">in</span> Actions(state)
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">MinValue</span>(<span class="hljs-params">game, state, player</span>) -> (utility, action):
+  <span class="hljs-keyword">if</span> game.IsTerminal(state):
+    <span class="hljs-keyword">return</span> game.Utility(state, player), null
+
+  <span class="hljs-keyword">return</span> (utility, action) that minimizes 
+    MaxValue(game, game.Result(state, a), player) foreach a <span class="hljs-keyword">in</span> Actions(state)
+
+</code></pre>
+    <h2 id="more-than-2-agents">More than 2 agents</h2>
+    <p>TODO</p>
+    <h2 id="alpha-beta-pruning">Alpha-Beta pruning</h2>
+    <p>TODO</p>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Adversarial Search"}],"$undefined",["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

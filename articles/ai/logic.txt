@@ -1,0 +1,482 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/e00e692bf1805b67.css","style",{"crossOrigin":""}]
+0:["BVblrCxPt0iK31SuDDoKX",[[["",{"children":["articles",{"children":[["slug","ai/logic","c"],{"children":["__PAGE__?{\"slug\":[\"ai\",\"logic\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e00e692bf1805b67.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-02616b701f03301a.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e66fe9 Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","ai/logic","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"ai\",\"logic\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","ai/logic","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T291f,
+# Logic 
+
+**Logic** is the field of knowledge representation and reasoning about this knowledge according to some **Possible World** also known as a **Model**. There are different types of logic formulizations such as **Propositional Logic** and **First Order Logic**, each of which can represent different information.
+
+Formally, each logic defines its **Syntax**, which is the specification of how we express **Sentences**. In addition to syntax, the logic also defines its **Semantics** which specify the meaning of those sentences - it assigns a **Truth Value** to each sentence according to the model.
+
+A set of sentences is known as a **Knowledge Base**. The set of sentences that are given to us and assumed true are known as **Axioms**.
+
+If a given sentence $\alpha$ is true in some model $m$ we say that **$\alpha$ is satisfied by the model $m$**. We will denote $M(\alpha)$ to be the set of all models that satisfy $\alpha$.
+
+**Reasoning** is the process of understanding the entailment between sentences. Given the sentences $\alpha$ and $\beta$, we say that $\alpha$ entails the sentence $\beta$ if and only if $M(\alpha) \subseteq M(\beta)$, meaning that every model $m$ that satisfies $\alpha$ also satisfies $\beta$. We denote entailment by $\alpha \models \beta$.
+
+## Logical Inference
+
+Given a knowledge base $KB$, we want to derive new sentences - such a process is called **Logical Inference**. The algorithm we choose to derive new sentences can be arbitrary, but what's the point? We say that an inference algorithm is **Sound** if and only if it derives entailed sentences.
+
+For example, consider the following axioms:
+
+- Some dogs are black
+- Every dog is an animal
+
+Using some inference algorithm, we can infer the sentence: "Every animal is black" - but we know this is wrong, our algorithm is unsound.
+
+Another algorithm can infer the sentence: "Some animals are black" which is sound.
+
+Lastly, consider an inference algorithm that did not produce any sentence. If we desire to logically infer new sentences from the KB, such an algorithm is undesirable. This leads us to the second categorization of inference algorithms:
+
+Inference algorithms that can derive any sentence that is entailed are called **Complete**.
+
+Ideal inference algorithms are both complete and sound. Such algorithms can derive all entailed sentences, and all derived sentences are entailed.
+
+# Propositional Logic
+
+The first logic we will explore is the **Propositional Logic**.
+
+In this logic's syntax, each sentence is either an **Atomic Sentence** or a **Complex Sentence**.
+
+An atomic sentence consists of a **Proposition** - a symbol that can take a boolean value.
+
+A complex sentence is constructed of multiple sentences using **Parentheses** and **Logical Operators**.
+
+Parentheses, as commonly used, specify the precedence of operations.
+
+Logical operators operate on sentences and return a boolean value. The logical operators are:
+
+- The **negation (not)** unary operator $\neg$
+- The **conjunction (and)** binary operator $\land$
+- The **disjunction (or)** binary operator $\lor$
+- The **implication (implies)** binary operator $\Rightarrow$
+- The **biconditional (if and only if)** binary operator $\Leftrightarrow$
+
+They are (unsuprisingly) defined by the truth table:
+
+| $P$ | $Q$ | $\neg P$ | $P \land Q$ | $P \lor Q$ | $P \Rightarrow Q$ | $P \Leftrightarrow A$ |
+|-|-|-|-|-|-|-|
+|F|F|T|F|F|T|T|
+|F|T|T|F|T|T|F|
+|T|F|F|F|T|F|F|
+|T|T|F|T|T|T|T|
+
+The following **Logical Equivalences** hold:
+
+> Regardig the notation below, note that we use $\cdot$ and $+$ as placeholders for when equivalence holds both for $\land$ and $\lor$. i.e. read $\alpha \cdot \beta$ as $\alpha \land \beta$ and also $\alpha \lor \beta$. When we use both $\cdot$ and $+$, it means we can use both interchangebly.
+
+- **Commutativity**: $\alpha \cdot \beta \equiv \beta \cdot \alpha$ 
+- **Associativity** meaning that $((\alpha \cdot \beta)  \cdot \gamma) \equiv (\alpha \cdot (\beta \cdot \gamma))$
+- **Double Negation**: $\neg (\neg \alpha) \equiv \alpha$
+- **Contraposition**: $\alpha \Rightarrow \beta \equiv \neg \beta \Rightarrow \neg \alpha$
+  - This equivalence is frequently used in mathematical proofs and is the basis of "proof by contradiction"
+- **Implication Elimination**: $\alpha \Rightarrow \beta \equiv \neg \alpha \lor \beta$
+- **Bidirectional Elimination**: $\alpha \Leftrightarrow \beta \equiv (\alpha \Rightarrow \beta) \land (\beta \Rightarrow \alpha))$
+- **Demorgan**: $\neg (\alpha \cdot \beta) \equiv \neg \alpha \cdot \neg \beta$
+- **Distributivity** $(\alpha \cdot (\beta + \gamma)) \equiv (\alpha \cdot \beta) + (\alpha \cdot \gamma)$
+
+## Inference
+
+A commonly, sound rule that is used to derive sentences is known as **Modus Ponens** rule:
+
+$$
+    \frac{\alpha \Rightarrow \beta, \alpha}{\beta}
+$$
+
+Read it as: "If we know that $\alpha$ implies $\beta$ and we also know that $\alpha$, we derive that $\beta$".
+
+Another sound rule is quite intuitive and is known as **And Elimination**:
+
+$$
+    \frac{\alpha \land \beta}{\alpha}
+$$
+
+As additional sound inference rules, we can use all of the known equivalences.
+
+The last sound rule we will show is the **Resolution Rule**. This is an important rule that is used by a complete and sound inference algorithm known as the **Resultion Inference Algorithm** which we will see later.
+
+The resolution rule states the following:
+
+$$
+    \frac
+    {l_1 \lor l_2 \lor ... \lor l_i \lor ... \lor l_n \~,\~ A \lor \neg l_i}
+    {l_1 \lor l_2 \lor ... \lor l_{i-1} \lor l_{i+1} \lor ... \lor l_n \lor A}
+$$
+
+Where $A$ is a disjunction of other literals.
+
+For example:
+
+$$
+    \frac{P \lor Q \~,\~ \neg P \lor R}{Q \lor R} 
+$$
+
+Notice that this important rule operates only on disjunctions. However, our sentences can be in an arbitrary form. We find that every KB is equivalent to another KB that is in a very specific form known as "conjunctive normal form" - In this form, we can easily apply the resolution rule.
+
+## Conjunctive Normal Form (CNF)
+
+A **Clause** is a disjunction of literals. We say that a sentence that is expressed by a conjunction of clauses is in a **Conjunctive Normal Form**.
+
+We already know how to transform a KB to a CNF - using the known equivalences!
+
+1. Eliminate bidirectional sentences
+2. Eliminate implications sentences
+3. Move negations inwards to literals mostly using double negation and de-morgan rules
+4. Apply distribution rules
+
+Let's see an example and convert the following sentence to CNF:
+
+$$
+    P \Leftrightarrow Q \lor R
+$$
+
+1. Bidirectional elimination: $(P \Rightarrow Q \lor R) \land (Q \lor R \Rightarrow P)$
+2. Implication elimination of the left hand conjugate: $(\neg P \lor Q \lor R) \land (Q \lor R \Rightarrow P)$
+3. Implication elimination of the right hand conjugate: $(\neg P \lor Q \lor R) \land (\neg (Q \lor R) \lor P)$
+4. Move negation inwards (apply de-morgan at the right-hand side): $(\neg P \lor Q \lor R) \land ((\neg Q \land \neg R) \lor P)$
+5. Distribute $\lor$ over $\land$ at the right-hand side: $(\neg P \lor Q \lor R) \land (\neg Q \lor P) \land (\neg R \lor P)$
+
+And that's it, we have a sentence in CNF form.
+
+## The Resolution Algorithm
+
+The **Resolution Algorithm** is sound and complete (will not show this here).
+
+Given a KB $K$, we show that $K \models \alpha$ by proving that $K \land \neg \alpha$ is a contradiction (proof by contradiction).
+
+1. We add $\neg \alpha$ to the KB
+2. Convert the KB to CNF form
+3. As long as we can apply the resolution rule, apply it
+    - If the derived sentence is non-empty, add it to the KB if it is doesn't exist there already
+    - Else, because this sentence is a contradiction (empty) we have reached a contradiction in the KB because of $\neg \alpha$ - Answer: the KB entails $\alpha$
+4. No contradiction occurred - Answer: The KB does not entail $\alpha$
+
+### Example
+
+Assume the initial KB 
+
+- $P \Leftrightarrow Q \lor R$
+- $\neg P$
+
+And let's say we want to prove that $\neg Q$.
+
+**Add the negation of $\neg Q$ to the KB**
+
+- $P \Leftrightarrow Q \lor R$
+- $\neg P$
+- $Q$
+
+**Convert to CNF**
+
+1. $\neg P \lor Q \lor R$
+2. $\neg Q \lor P$
+3. $\neg R \lor P$
+4. $\neg P$
+5. $Q$
+
+**Repeatedly apply the Resolution Rule**
+
+6. (5, 2): $P$
+7. (6, 4): $\phi$
+
+Because we reached a contradiction, we deduce that the KB entails $\neg Q$.
+
+# First Order Logic
+
+Think of it, how complex are the sentences that we could express via Propositional Logic? It turns out that we can formalize a logic language that is far more expressive than it.
+
+**First Order Logic (FOL)** is a logic formulation that includes objects and their relations to one another.
+
+FOL is a bit closer to natural language. In natural language, we can speak about objects such as a "Chair" or a "Pen". We can also talk about the relations between objects for example: "Pen is on Chair". Lastly, we can map objects to other objects as in "Leg of the Chair", kind of like functions.
+
+FOL builds on top of those concepts. Its components are:
+
+- **Truth Values (Booleans)** False and True
+- **Logical Operators** are the same logical operators we saw in propositional logic including the **Equal** operator $=$
+- **Terms (or Objects)** are the constants
+- **Variables** are placeholders for Terms
+- **Quantifiers**
+  - **Universal quantifier** (Forall) $\forall x B$ whether the boolean expression $B$ holds for every possible instantiation of the variable $x$
+  - **Existential quantifier** (Exists) $\exists x B$ whether the boolean expression $B$ holds for some possible instantiation of the variable $x$
+- **Relations (or Predicates)** are mappings from tuples of Terms to a Boolean
+- **Functions** are mappings from Term to Term
+
+For clarity, we defined the booleans separately from the predicates. To be more accurate, $True$ and $False$ are also defined as predicates (that always return the same value).
+
+A sentence in FOL is either an **Atomic Sentence** or a **Complex Sentence**.
+
+An atomic sentence is either a Term or a Predicate.
+
+A complex sentence is either an application of multiple sentences using logical operators or a quantified variable followed by a sentence.
+
+## Logical Inference
+
+We won't go over the details about what logical inference is since we already covered it in the section about propositional logic. We will focus on the techniques that are related to FOL.
+
+# Examples from Exercises
+
+## Propositional Logic
+
+## First Order Logic
+
+# Hebrew Appendix
+
+- Entailement - נביעה לוגית
+- Sound - נאות
+- Complete - שלם
+- Proposition - פסוק
+f:T3917,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1 id="logic">Logic</h1>
+    <p><strong>Logic</strong> is the field of knowledge representation and reasoning about this knowledge according to some <strong>Possible World</strong> also known as a <strong>Model</strong>. There are different types of logic formulizations such as <strong>Propositional Logic</strong> and <strong>First Order Logic</strong>, each of which can represent different information.</p>
+    <p>Formally, each logic defines its <strong>Syntax</strong>, which is the specification of how we express <strong>Sentences</strong>. In addition to syntax, the logic also defines its <strong>Semantics</strong> which specify the meaning of those sentences - it assigns a <strong>Truth Value</strong> to each sentence according to the model.</p>
+    <p>A set of sentences is known as a <strong>Knowledge Base</strong>. The set of sentences that are given to us and assumed true are known as <strong>Axioms</strong>.</p>
+    <p>If a given sentence $\alpha$ is true in some model $m$ we say that <strong>$\alpha$ is satisfied by the model $m$</strong>. We will denote $M(\alpha)$ to be the set of all models that satisfy $\alpha$.</p>
+    <p><strong>Reasoning</strong> is the process of understanding the entailment between sentences. Given the sentences $\alpha$ and $\beta$, we say that $\alpha$ entails the sentence $\beta$ if and only if $M(\alpha) \subseteq M(\beta)$, meaning that every model $m$ that satisfies $\alpha$ also satisfies $\beta$. We denote entailment by $\alpha \models \beta$.</p>
+    <h2 id="logical-inference">Logical Inference</h2>
+    <p>Given a knowledge base $KB$, we want to derive new sentences - such a process is called <strong>Logical Inference</strong>. The algorithm we choose to derive new sentences can be arbitrary, but what's the point? We say that an inference algorithm is <strong>Sound</strong> if and only if it derives entailed sentences.</p>
+    <p>For example, consider the following axioms:</p>
+    <ul>
+      <li>Some dogs are black</li>
+      <li>Every dog is an animal</li>
+    </ul>
+    <p>Using some inference algorithm, we can infer the sentence: "Every animal is black" - but we know this is wrong, our algorithm is unsound.</p>
+    <p>Another algorithm can infer the sentence: "Some animals are black" which is sound.</p>
+    <p>Lastly, consider an inference algorithm that did not produce any sentence. If we desire to logically infer new sentences from the KB, such an algorithm is undesirable. This leads us to the second categorization of inference algorithms:</p>
+    <p>Inference algorithms that can derive any sentence that is entailed are called <strong>Complete</strong>.</p>
+    <p>Ideal inference algorithms are both complete and sound. Such algorithms can derive all entailed sentences, and all derived sentences are entailed.</p>
+    <h1 id="propositional-logic">Propositional Logic</h1>
+    <p>The first logic we will explore is the <strong>Propositional Logic</strong>.</p>
+    <p>In this logic's syntax, each sentence is either an <strong>Atomic Sentence</strong> or a <strong>Complex Sentence</strong>.</p>
+    <p>An atomic sentence consists of a <strong>Proposition</strong> - a symbol that can take a boolean value.</p>
+    <p>A complex sentence is constructed of multiple sentences using <strong>Parentheses</strong> and <strong>Logical Operators</strong>.</p>
+    <p>Parentheses, as commonly used, specify the precedence of operations.</p>
+    <p>Logical operators operate on sentences and return a boolean value. The logical operators are:</p>
+    <ul>
+      <li>The <strong>negation (not)</strong> unary operator $\neg$</li>
+      <li>The <strong>conjunction (and)</strong> binary operator $\land$</li>
+      <li>The <strong>disjunction (or)</strong> binary operator $\lor$</li>
+      <li>The <strong>implication (implies)</strong> binary operator $\Rightarrow$</li>
+      <li>The <strong>biconditional (if and only if)</strong> binary operator $\Leftrightarrow$</li>
+    </ul>
+    <p>They are (unsuprisingly) defined by the truth table:</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>$P$</th>
+            <th>$Q$</th>
+            <th>$\neg P$</th>
+            <th>$P \land Q$</th>
+            <th>$P \lor Q$</th>
+            <th>$P \Rightarrow Q$</th>
+            <th>$P \Leftrightarrow A$</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>F</td>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The following <strong>Logical Equivalences</strong> hold:</p>
+    <blockquote>
+      <p>Regardig the notation below, note that we use $\cdot$ and $+$ as placeholders for when equivalence holds both for $\land$ and $\lor$. i.e. read $\alpha \cdot \beta$ as $\alpha \land \beta$ and also $\alpha \lor \beta$. When we use both $\cdot$ and $+$, it means we can use both interchangebly.</p>
+    </blockquote>
+    <ul>
+      <li><strong>Commutativity</strong>: $\alpha \cdot \beta \equiv \beta \cdot \alpha$</li>
+      <li><strong>Associativity</strong> meaning that $((\alpha \cdot \beta) \cdot \gamma) \equiv (\alpha \cdot (\beta \cdot \gamma))$</li>
+      <li><strong>Double Negation</strong>: $\neg (\neg \alpha) \equiv \alpha$</li>
+      <li><strong>Contraposition</strong>: $\alpha \Rightarrow \beta \equiv \neg \beta \Rightarrow \neg \alpha$
+        <ul>
+          <li>This equivalence is frequently used in mathematical proofs and is the basis of "proof by contradiction"</li>
+        </ul>
+      </li>
+      <li><strong>Implication Elimination</strong>: $\alpha \Rightarrow \beta \equiv \neg \alpha \lor \beta$</li>
+      <li><strong>Bidirectional Elimination</strong>: $\alpha \Leftrightarrow \beta \equiv (\alpha \Rightarrow \beta) \land (\beta \Rightarrow \alpha))$</li>
+      <li><strong>Demorgan</strong>: $\neg (\alpha \cdot \beta) \equiv \neg \alpha \cdot \neg \beta$</li>
+      <li><strong>Distributivity</strong> $(\alpha \cdot (\beta + \gamma)) \equiv (\alpha \cdot \beta) + (\alpha \cdot \gamma)$</li>
+    </ul>
+    <h2 id="inference">Inference</h2>
+    <p>A commonly, sound rule that is used to derive sentences is known as <strong>Modus Ponens</strong> rule:</p>
+    <p>
+      $$
+      \frac{\alpha \Rightarrow \beta, \alpha}{\beta}
+      $$
+    </p>
+    <p>Read it as: "If we know that $\alpha$ implies $\beta$ and we also know that $\alpha$, we derive that $\beta$".</p>
+    <p>Another sound rule is quite intuitive and is known as <strong>And Elimination</strong>:</p>
+    <p>
+      $$
+      \frac{\alpha \land \beta}{\alpha}
+      $$
+    </p>
+    <p>As additional sound inference rules, we can use all of the known equivalences.</p>
+    <p>The last sound rule we will show is the <strong>Resolution Rule</strong>. This is an important rule that is used by a complete and sound inference algorithm known as the <strong>Resultion Inference Algorithm</strong> which we will see later.</p>
+    <p>The resolution rule states the following:</p>
+    <p>
+      $$
+      \frac
+      {l_1 \lor l_2 \lor ... \lor l_i \lor ... \lor l_n ~,~ A \lor \neg l_i}
+      {l_1 \lor l_2 \lor ... \lor l_{i-1} \lor l_{i+1} \lor ... \lor l_n \lor A}
+      $$
+    </p>
+    <p>Where $A$ is a disjunction of other literals.</p>
+    <p>For example:</p>
+    <p>
+      $$
+      \frac{P \lor Q ~,~ \neg P \lor R}{Q \lor R}
+      $$
+    </p>
+    <p>Notice that this important rule operates only on disjunctions. However, our sentences can be in an arbitrary form. We find that every KB is equivalent to another KB that is in a very specific form known as "conjunctive normal form" - In this form, we can easily apply the resolution rule.</p>
+    <h2 id="conjunctive-normal-form-cnf">Conjunctive Normal Form (CNF)</h2>
+    <p>A <strong>Clause</strong> is a disjunction of literals. We say that a sentence that is expressed by a conjunction of clauses is in a <strong>Conjunctive Normal Form</strong>.</p>
+    <p>We already know how to transform a KB to a CNF - using the known equivalences!</p>
+    <ol>
+      <li>Eliminate bidirectional sentences</li>
+      <li>Eliminate implications sentences</li>
+      <li>Move negations inwards to literals mostly using double negation and de-morgan rules</li>
+      <li>Apply distribution rules</li>
+    </ol>
+    <p>Let's see an example and convert the following sentence to CNF:</p>
+    <p>
+      $$
+      P \Leftrightarrow Q \lor R
+      $$
+    </p>
+    <ol>
+      <li>Bidirectional elimination: $(P \Rightarrow Q \lor R) \land (Q \lor R \Rightarrow P)$</li>
+      <li>Implication elimination of the left hand conjugate: $(\neg P \lor Q \lor R) \land (Q \lor R \Rightarrow P)$</li>
+      <li>Implication elimination of the right hand conjugate: $(\neg P \lor Q \lor R) \land (\neg (Q \lor R) \lor P)$</li>
+      <li>Move negation inwards (apply de-morgan at the right-hand side): $(\neg P \lor Q \lor R) \land ((\neg Q \land \neg R) \lor P)$</li>
+      <li>Distribute $\lor$ over $\land$ at the right-hand side: $(\neg P \lor Q \lor R) \land (\neg Q \lor P) \land (\neg R \lor P)$</li>
+    </ol>
+    <p>And that's it, we have a sentence in CNF form.</p>
+    <h2 id="the-resolution-algorithm">The Resolution Algorithm</h2>
+    <p>The <strong>Resolution Algorithm</strong> is sound and complete (will not show this here).</p>
+    <p>Given a KB $K$, we show that $K \models \alpha$ by proving that $K \land \neg \alpha$ is a contradiction (proof by contradiction).</p>
+    <ol>
+      <li>We add $\neg \alpha$ to the KB</li>
+      <li>Convert the KB to CNF form</li>
+      <li>As long as we can apply the resolution rule, apply it
+        <ul>
+          <li>If the derived sentence is non-empty, add it to the KB if it is doesn't exist there already</li>
+          <li>Else, because this sentence is a contradiction (empty) we have reached a contradiction in the KB because of $\neg \alpha$ - Answer: the KB entails $\alpha$</li>
+        </ul>
+      </li>
+      <li>No contradiction occurred - Answer: The KB does not entail $\alpha$</li>
+    </ol>
+    <h3 id="example">Example</h3>
+    <p>Assume the initial KB</p>
+    <ul>
+      <li>$P \Leftrightarrow Q \lor R$</li>
+      <li>$\neg P$</li>
+    </ul>
+    <p>And let's say we want to prove that $\neg Q$.</p>
+    <p><strong>Add the negation of $\neg Q$ to the KB</strong></p>
+    <ul>
+      <li>$P \Leftrightarrow Q \lor R$</li>
+      <li>$\neg P$</li>
+      <li>$Q$</li>
+    </ul>
+    <p><strong>Convert to CNF</strong></p>
+    <ol>
+      <li>$\neg P \lor Q \lor R$</li>
+      <li>$\neg Q \lor P$</li>
+      <li>$\neg R \lor P$</li>
+      <li>$\neg P$</li>
+      <li>$Q$</li>
+    </ol>
+    <p><strong>Repeatedly apply the Resolution Rule</strong></p>
+    <ol start="6">
+      <li>(5, 2): $P$</li>
+      <li>(6, 4): $\phi$</li>
+    </ol>
+    <p>Because we reached a contradiction, we deduce that the KB entails $\neg Q$.</p>
+    <h1 id="first-order-logic">First Order Logic</h1>
+    <p>Think of it, how complex are the sentences that we could express via Propositional Logic? It turns out that we can formalize a logic language that is far more expressive than it.</p>
+    <p><strong>First Order Logic (FOL)</strong> is a logic formulation that includes objects and their relations to one another.</p>
+    <p>FOL is a bit closer to natural language. In natural language, we can speak about objects such as a "Chair" or a "Pen". We can also talk about the relations between objects for example: "Pen is on Chair". Lastly, we can map objects to other objects as in "Leg of the Chair", kind of like functions.</p>
+    <p>FOL builds on top of those concepts. Its components are:</p>
+    <ul>
+      <li><strong>Truth Values (Booleans)</strong> False and True</li>
+      <li><strong>Logical Operators</strong> are the same logical operators we saw in propositional logic including the <strong>Equal</strong> operator $=$</li>
+      <li><strong>Terms (or Objects)</strong> are the constants</li>
+      <li><strong>Variables</strong> are placeholders for Terms</li>
+      <li><strong>Quantifiers</strong>
+        <ul>
+          <li><strong>Universal quantifier</strong> (Forall) $\forall x B$ whether the boolean expression $B$ holds for every possible instantiation of the variable $x$</li>
+          <li><strong>Existential quantifier</strong> (Exists) $\exists x B$ whether the boolean expression $B$ holds for some possible instantiation of the variable $x$</li>
+        </ul>
+      </li>
+      <li><strong>Relations (or Predicates)</strong> are mappings from tuples of Terms to a Boolean</li>
+      <li><strong>Functions</strong> are mappings from Term to Term</li>
+    </ul>
+    <p>For clarity, we defined the booleans separately from the predicates. To be more accurate, $True$ and $False$ are also defined as predicates (that always return the same value).</p>
+    <p>A sentence in FOL is either an <strong>Atomic Sentence</strong> or a <strong>Complex Sentence</strong>.</p>
+    <p>An atomic sentence is either a Term or a Predicate.</p>
+    <p>A complex sentence is either an application of multiple sentences using logical operators or a quantified variable followed by a sentence.</p>
+    <h2 id="logical-inference-1">Logical Inference</h2>
+    <p>We won't go over the details about what logical inference is since we already covered it in the section about propositional logic. We will focus on the techniques that are related to FOL.</p>
+    <h1 id="examples-from-exercises">Examples from Exercises</h1>
+    <h2 id="propositional-logic-1">Propositional Logic</h2>
+    <h2 id="first-order-logic-1">First Order Logic</h2>
+    <h1 id="hebrew-appendix">Hebrew Appendix</h1>
+    <ul>
+      <li>Entailement - נביעה לוגית</li>
+      <li>Sound - נאות</li>
+      <li>Complete - שלם</li>
+      <li>Proposition - פסוק</li>
+    </ul>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Logic"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Logic","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Logic"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
