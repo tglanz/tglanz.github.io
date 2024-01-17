@@ -2,8 +2,9 @@
 title: AWS, Kinesis
 categories:
 - AWS
+- Notes
 tags:
-- Cheatsheet
+- Notes
 ---
 
 List streams

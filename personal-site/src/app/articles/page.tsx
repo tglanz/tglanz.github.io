@@ -23,7 +23,7 @@ export default async function Articles(_props: Props) {
 
   let contentInfo = await getContentInfo();
   const articles = contentInfo.articles
-    .sort((a, b) => a.metadata.title.localeCompare(b.metadata.title));
+    .sort((a, b) => a.metadata.title?.localeCompare(b.metadata.title));
 
   return (
     <div>

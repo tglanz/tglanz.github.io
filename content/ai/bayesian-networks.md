@@ -3,7 +3,8 @@ title: Bayesian Networks
 description: |
   Efficient data structure tjat represents Random Variables dependencies
 categories:
-- Intro to AI
+- Computer Science
+- AI
 tags:
 - AI
 - Probability

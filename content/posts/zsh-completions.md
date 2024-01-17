@@ -1,5 +1,7 @@
 ---
 title: ZSH completions
+categories:
+- Notes
 tags:
 - Notes
 ---

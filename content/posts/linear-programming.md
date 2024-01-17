@@ -1,6 +1,11 @@
 ---
 title: Linear Programming
 highlight: true
+categories:
+- Computer Science
+- Algorithms
+tags:
+- Linear Programming
 description: |
   Linear programming is a powerful optimization technique of costrained goals using tools from linear algebra
 ---

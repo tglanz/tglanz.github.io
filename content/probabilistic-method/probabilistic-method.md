@@ -8,6 +8,7 @@ priority: 1
 categories:
 - Computer Science
 - Probabilistic Method
+- Algorithms
 tags:
 - Probabilistic Method
 - Probability

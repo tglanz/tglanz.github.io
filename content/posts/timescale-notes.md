@@ -1,7 +1,14 @@
 ---
-title: Timescale
+title: Timescale Notes
+categories:
+- Databases
+- Notes
 tags:
-  - Notes
+- Notes
+- TimescaleDB
+- PostgreSQL
+- Databases
+- Timeseries
 ---
 
 Timescale is a time series optimized system built on top of posgres.

@@ -2,8 +2,8 @@
 title: Hypergraph 2 Coloring
 priority: 32
 categories:
-- Computer Science
 - Probabilistic Method
+- Algorithms
 tags:
 - Probabilistic Method
 - Probability

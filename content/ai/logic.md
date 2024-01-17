@@ -3,7 +3,8 @@ title: Logic
 priority: 200
 toc: false
 categories:
-- Intro to AI 
+- Computer Science
+- AI 
 tags:
 - Logic
 ---

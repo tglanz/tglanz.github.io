@@ -1,6 +1,7 @@
 const url = (...values: string[]) => values.join("/");
 
 export const home = () => "/";
+export const academic = () => url('/academic');
 export const tag = (tag: string) => url('/tags', tag.replaceAll(" ", "_"));
 export const categories = () => url('/categories');
 export const category = (category: string) => url('/categories', category.replaceAll(" ", "_"));

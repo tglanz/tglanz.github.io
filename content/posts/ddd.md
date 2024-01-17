@@ -1,23 +1,22 @@
 ---
-title: Tactical Design
-categories:
-  - Domain Driven Design
-priority: 2
+title: DDD Notes
 ---
 
-# Entities
+# Tactical Design
+
+## Entities
 
 Entities are the building blocks of the model.
 
 Entities are differentiated by their Id, not by their attributes.
 
-# Value Objects
+## Value Objects
 
 Value objects are differentiated by their attributes and contain no Id.
 
 Value objects should be able to implemented in an immutable fashion.
 
-# Services
+## Services
 
 In the exact same words
 
@@ -28,7 +27,7 @@ Characterisitcs of a good SERVICE
 1. The interface is defined in terms of other elements of the domain model
 1. The operation is stateless
 
-# Aggregates
+## Aggregates
 
 In the exact same words
 
@@ -40,7 +39,7 @@ The **boundary** delineate objects within the AGGREGATE.
 
 The **root** is a *single*, *specific* ENTITY that the outside can hold references to.
 
-# Factories
+## Factories
 
 In the exact same words
 
@@ -50,10 +49,36 @@ While every ENTITY has a constructor receiving it's idetity, FACTORIES will prov
 
 FACTORIES are responsible for ensuring that all invariants are met for the AGGREGATE's objects.
 
-# Repositories
+## Repositories
 
 In the exact same words
 
 > A REPOSITORY represents all objects of a certain type as a conceptual set (usually emulated).
 
 The REPOSITORIES act like collections but they often provide additional query mechanisms/options.
+
+# Model Refinement
+
+## Distinguishing Entities and Value Objects
+
+Consider each object in turn and try to identify an identity.
+
+Consider
+- How to track the entity?
+- Are to instances with same values are the same?
+- Can it exist without some parent object?
+
+## Designing Associations
+
+Specify traversal directions.
+
+Consider
+- How the is application used?
+
+Avoid
+- Bi-Directional associations
+
+## Identifying Aggregate Boundaries
+## Selecting Repositories
+## Walking through scenarios
+## Iterate

@@ -3,7 +3,8 @@ title: Smart Agents
 priority: 1
 toc: false
 categories:
-- Intro to AI 
+- Computer Science
+- AI 
 ---
 
 # Smart Agents 

@@ -1,12 +1,17 @@
 ---
 title: Physics Informed Neural Networks
 categories:
+- Computer Science
+- AI
 - PDEs
 priority: 10
 toc: false
 tags:
-- pdes
-- ml
+- PDEs 
+- AI
+- Physics
+- Neural Networks
+- Deep Learning
 description: |
   Neural networks that respects physics
 ---

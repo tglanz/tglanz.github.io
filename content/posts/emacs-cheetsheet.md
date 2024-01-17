@@ -2,9 +2,11 @@
 title: Emacs Cheatsheet
 date: 2019-08-03
 categories:
-  - Cheatsheet
+- Cheatsheets
+- Notes
 tags:
-  - Emacs
+- Emacs
+- Editors
 ---
 
 # Overview 

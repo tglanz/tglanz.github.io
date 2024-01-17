@@ -4,7 +4,8 @@ priority: 4
 toc: false
 description: Search algorithms in a competitive environment
 categories:
-- Intro to AI 
+- Computer Science
+- AI 
 ---
 
 A **competitive environment** is a multi-agent environment in which two or more adversarial agents have coflicting goals. There are multiple ways we can view a such environments, Here we will model adversarial agents with the techniques of adversarial game-tree search. 

@@ -2,8 +2,8 @@
 title: Coupons Collector 1
 priority: 35
 categories:
-- Computer Science
 - Probabilistic Method
+- Algorithms
 tags:
 - Probabilistic Method
 - Probability

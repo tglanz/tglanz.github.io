@@ -1,0 +1,33 @@
+
+.container .items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin-large);
+}
+
+.container .items .item {
+    display: flex;
+    flex-direction: column;
+
+    & .title {
+        font-size: 1.2rem;
+    }
+
+    & .description {
+        font-style: italic;
+    }
+
+    & .links {
+        display: flex;
+        flex-direction: row;
+        gap: var(--margin-medium);
+
+        & :not(.link:last-of-type)::after {
+            content: ", ";
+        }
+
+        & .link:hover {
+            text-decoration: underline;
+        }
+    }
+}

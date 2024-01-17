@@ -6,6 +6,7 @@ import * as urls from "@/lib/urls";
 
 const Routes = [
   { href: urls.home(), text: "Home" },
+  { href: urls.academic(), text: "Academic Work" },
   { href: urls.categories(), text: "Categories" },
   { href: urls.articles(), text: "All" },
   { href: urls.article('about'), text: "About" },

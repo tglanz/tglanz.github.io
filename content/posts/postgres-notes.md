@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Postgres Notes
 date: 2020-09-12
 categories:
-  - Notes
-  - Databases
+- Notes
+- Databases
 tags:
-  - PostgreSQL
+- Databases
+- PostgreSQL
 ---
 
 Within the REPL, all buit-in commands are prefixed with ```\```. For example;

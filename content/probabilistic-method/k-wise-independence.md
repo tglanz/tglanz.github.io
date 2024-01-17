@@ -2,6 +2,7 @@
 title: k-Wise independence
 toc: false
 categories:
+- Computer Science
 - Probabilistic Method
 tags:
 - Probabilistic Method

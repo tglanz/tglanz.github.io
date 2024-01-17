@@ -1,11 +1,11 @@
 ---
-title: Helm Cheatsheet
+title: Helm Notes
 categories:
-- helm
+- Notes
 tags:
-- helm
-- kubernetes
-- cheetsheet
+- Helm
+- Kubernetes
+- Notes
 ---
 
 # 

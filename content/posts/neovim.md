@@ -1,7 +1,7 @@
 ---
-title: Neovim
+title: Neovim Notes
 categories:
-- Neovim
+- Notes
 tags:
 - Neovim
 - Editors
