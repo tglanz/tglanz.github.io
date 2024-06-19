@@ -1,6 +1,15 @@
 ---
 title: Quantum References
-...
+description: |
+  Scatterred References
+
+categories:
+- Computer Science
+- Quantum Computing
+
+tags:
+- Quantum Computing
+---
 
 ### Foundational papers
 
