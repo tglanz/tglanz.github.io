@@ -1,5 +1,5 @@
 ---
-title: General
+title: Timeseries anomaly detection
 description: |
   General stuff, references and terms. This is temporary and only an initiation of this topic
 categories:
