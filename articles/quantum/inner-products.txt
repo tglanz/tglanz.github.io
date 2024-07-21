@@ -1,0 +1,300 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/8de0e5cdd54a87d1.css","style",{"crossOrigin":""}]
+0:["wfNOmortDuTv56DR7M5VM",[[["",{"children":["articles",{"children":[["slug","quantum/inner-products","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"inner-products\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8de0e5cdd54a87d1.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-20881daac4d91a26.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_aaf875 Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","quantum/inner-products","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"quantum\",\"inner-products\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","quantum/inner-products","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:Te85,
+The inner product is a known topic. Here we will illustrate it from a different perspective, of the quantum computing.
+
+Given the two kets:
+$$
+\ket\psi = \begin{pmatrix}
+\alpha_1 \\
+\vdots \\
+\alpha_n
+\end{pmatrix}
+~~and~~
+\ket\phi = \begin{pmatrix}
+\beta_1 \\
+\vdots \\
+\beta_n
+\end{pmatrix}
+$$
+
+The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
+$$
+\braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
+\beta_1 \\
+\vdots \\
+\beta_n
+\end{pmatrix}
+=
+\sum_{i=1}^n \overline{\alpha_i} \beta_i
+$$
+
+### With basis vectors
+
+Looking at it using basis vectors $\ket{a}$ and $\ket{b}$.
+
+Given the vetors
+$$
+\ket{\phi} = \sum_{a \in \Sigma} \alpha_a \ket{a} ~~and~~ 
+\ket{\psi} = \sum_{b \in \Gamma} \beta_b \ket{b} 
+$$
+
+We have that
+$$
+\braket{\psi|\phi} =
+(\sum_{a \in \Sigma} \overline{\alpha_a} \bra{a}) (\sum_{b \in \Gamma} \beta_b \ket{b}) =
+\sum_{a \in \Sigma} \sum_{b \in \Gamma} \overline{\alpha_a} \beta_b \braket{a | b} = 
+\sum_{a \in \Sigma} \overline{\alpha_a} \beta_a
+$$
+
+where the last equality stems from the orhogonality of the vectors.
+
+### Euclidean Norm
+
+The Euclidean Norm is the Norm induced from the inner product.
+
+Given the vector
+$$
+\ket{\psi} = \sum_{a \in \Sigma} \alpha_a \ket{a}
+$$
+
+The **Euclidean Norm** is defined by
+$$
+||\ket{\psi}|| =
+\sqrt{ \braket{\psi|\psi} } =
+\sqrt{\sum_{a \in \Sigma} \overline{\alpha_a} \alpha_a} =
+\sqrt{\sum_{a \in \Sigma} |\alpha_a|^2}
+$$
+
+### Properties of the inner product
+
+**Conjugate Symmetry**
+
+For any two vectors $\ket{\psi}$ and $\ket{\phi}$ it holds that
+$$
+\braket{\psi | \phi} = \overline{\braket{\phi | \psi}}
+$$
+
+**Linearity in the second argument**
+$$
+\bra{\psi}(\alpha_1\ket{\phi_1} + \alpha_2\ket{\phi_2}) =
+\alpha_1\braket{\psi|\phi_1} + \alpha_2\braket{\psi|\phi_2}
+$$
+
+**Conjugate linearity in the first argument**
+$$
+\braket{(\beta_1 \ket{\psi_1} + \beta_2 \ket{\psi_2}) |\phi} =
+\braket{(\overline{\beta_1} \bra{\psi_1} + \overline{\beta_2} \bra{\psi_2}) |\phi} =
+\overline{\beta_1} \braket{\psi_1|\phi} + \overline{\beta_2} \braket{\psi_2|\phi} 
+$$
+
+### The cauchy schwartz inequality
+
+A very important inequality the correlates between the inner product and the norm.
+
+For every $\ket{\psi}$ and $\ket{\phi}$:
+$$
+\lvert \braket{\psi|\phi} \rvert \leq \lVert \ket{\psi} \rVert \cdot \lVert \ket{\phi} \rVert
+$$
+
+The equality achieved iff the vectors are linearly dependant.
+
+### Orthogonality and Orthonormality
+
+The vectors $\ket{\psi}$ and $\ket{\phi}$ are said to be orthogonal iff 
+$$
+\braket{\psi|\phi} = 0
+$$
+
+In general, a set of vectors $\{ \ket{\psi_1}, ..., \ket{\psi_m} \}$ is said to be **orgthogonal** iff al possible pairs are orthogonals
+$$
+\braket{\psi_j|\psi_k} = 0 ~~~~ \forall j \neq k
+$$
+
+If in addition, the vectors in the set are unit vectors (norm 1) then the set is said to be **orthonormal** and it will be true that
+$$
+\braket{\psi_j|\psi_k} = \begin{cases}
+1 & j \neq k \\
+0 & j = k
+\end{cases}
+$$
+
+An **orthonormal basis** is an orthonormal basis that forms a basis to the space.
+
+It is widely known (e.g. through Grahm Schmidt process) that any orthonormal set can be extended to an orthonormal basis.
+
+#### Examples
+
+The set $\{ \ket{+}, \ket{-} \}$ is an orthonormal basis for the 2-dimensional space corresponding to a single qubit.
+
+The bell basis is an orthonormal set for the 4-dimensional space corresponding to two qubits.
+
+#### Orthonormality and Unitary matrices
+
+The following facts for a square matrix $\mathcal{U}$ are equivalent
+
+- $\mathcal{U}$ is unitary (i.e. $\mathcal{U}^\dagger \mathcal{U} = 1 = \mathcal{U}\mathcal{U}^\dagger$)
+- The rows of $\mathcal{U}$ form an orthonormal basis
+- The columns of $\mathcal{U}$ form an orthonormal basisf:T16cc,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1-vdots-beta_nendpmatrix">The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
+$$
+\braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
+\beta_1 \
+\vdots \
+\beta_n
+\end{pmatrix}</a></li>
+      </ol>
+    </nav>
+    <p>The inner product is a known topic. Here we will illustrate it from a different perspective, of the quantum computing.</p>
+    <p>
+      Given the two kets:
+      $$
+      \ket\psi = \begin{pmatrix}
+      \alpha_1 \
+      \vdots \
+      \alpha_n
+      \end{pmatrix}
+      <del>and</del>
+      \ket\phi = \begin{pmatrix}
+      \beta_1 \
+      \vdots \
+      \beta_n
+      \end{pmatrix}
+      $$
+    </p>
+    <h1 id="the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1-vdots-beta_nendpmatrix">
+      The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
+      $$
+      \braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
+      \beta_1 \
+      \vdots \
+      \beta_n
+      \end{pmatrix}
+    </h1>
+    <p>
+      \sum_{i=1}^n \overline{\alpha_i} \beta_i
+      $$
+    </p>
+    <h3 id="with-basis-vectors">With basis vectors</h3>
+    <p>Looking at it using basis vectors $\ket{a}$ and $\ket{b}$.</p>
+    <p>
+      Given the vetors
+      $$
+      \ket{\phi} = \sum_{a \in \Sigma} \alpha_a \ket{a} <del>and</del>
+      \ket{\psi} = \sum_{b \in \Gamma} \beta_b \ket{b}
+      $$
+    </p>
+    <p>
+      We have that
+      $$
+      \braket{\psi|\phi} =
+      (\sum_{a \in \Sigma} \overline{\alpha_a} \bra{a}) (\sum_{b \in \Gamma} \beta_b \ket{b}) =
+      \sum_{a \in \Sigma} \sum_{b \in \Gamma} \overline{\alpha_a} \beta_b \braket{a | b} =
+      \sum_{a \in \Sigma} \overline{\alpha_a} \beta_a
+      $$
+    </p>
+    <p>where the last equality stems from the orhogonality of the vectors.</p>
+    <h3 id="euclidean-norm">Euclidean Norm</h3>
+    <p>The Euclidean Norm is the Norm induced from the inner product.</p>
+    <p>
+      Given the vector
+      $$
+      \ket{\psi} = \sum_{a \in \Sigma} \alpha_a \ket{a}
+      $$
+    </p>
+    <p>
+      The <strong>Euclidean Norm</strong> is defined by
+      $$
+      ||\ket{\psi}|| =
+      \sqrt{ \braket{\psi|\psi} } =
+      \sqrt{\sum_{a \in \Sigma} \overline{\alpha_a} \alpha_a} =
+      \sqrt{\sum_{a \in \Sigma} |\alpha_a|^2}
+      $$
+    </p>
+    <h3 id="properties-of-the-inner-product">Properties of the inner product</h3>
+    <p><strong>Conjugate Symmetry</strong></p>
+    <p>
+      For any two vectors $\ket{\psi}$ and $\ket{\phi}$ it holds that
+      $$
+      \braket{\psi | \phi} = \overline{\braket{\phi | \psi}}
+      $$
+    </p>
+    <p>
+      <strong>Linearity in the second argument</strong>
+      $$
+      \bra{\psi}(\alpha_1\ket{\phi_1} + \alpha_2\ket{\phi_2}) =
+      \alpha_1\braket{\psi|\phi_1} + \alpha_2\braket{\psi|\phi_2}
+      $$
+    </p>
+    <p>
+      <strong>Conjugate linearity in the first argument</strong>
+      $$
+      \braket{(\beta_1 \ket{\psi_1} + \beta_2 \ket{\psi_2}) |\phi} =
+      \braket{(\overline{\beta_1} \bra{\psi_1} + \overline{\beta_2} \bra{\psi_2}) |\phi} =
+      \overline{\beta_1} \braket{\psi_1|\phi} + \overline{\beta_2} \braket{\psi_2|\phi}
+      $$
+    </p>
+    <h3 id="the-cauchy-schwartz-inequality">The cauchy schwartz inequality</h3>
+    <p>A very important inequality the correlates between the inner product and the norm.</p>
+    <p>
+      For every $\ket{\psi}$ and $\ket{\phi}$:
+      $$
+      \lvert \braket{\psi|\phi} \rvert \leq \lVert \ket{\psi} \rVert \cdot \lVert \ket{\phi} \rVert
+      $$
+    </p>
+    <p>The equality achieved iff the vectors are linearly dependant.</p>
+    <h3 id="orthogonality-and-orthonormality">Orthogonality and Orthonormality</h3>
+    <p>
+      The vectors $\ket{\psi}$ and $\ket{\phi}$ are said to be orthogonal iff
+      $$
+      \braket{\psi|\phi} = 0
+      $$
+    </p>
+    <p>
+      In general, a set of vectors ${ \ket{\psi_1}, ..., \ket{\psi_m} }$ is said to be <strong>orgthogonal</strong> iff al possible pairs are orthogonals
+      $$
+      \braket{\psi_j|\psi_k} = 0 ~~~~ \forall j \neq k
+      $$
+    </p>
+    <p>
+      If in addition, the vectors in the set are unit vectors (norm 1) then the set is said to be <strong>orthonormal</strong> and it will be true that
+      $$
+      \braket{\psi_j|\psi_k} = \begin{cases}
+      1 &#x26; j \neq k \
+      0 &#x26; j = k
+      \end{cases}
+      $$
+    </p>
+    <p>An <strong>orthonormal basis</strong> is an orthonormal basis that forms a basis to the space.</p>
+    <p>It is widely known (e.g. through Grahm Schmidt process) that any orthonormal set can be extended to an orthonormal basis.</p>
+    <h4 id="examples">Examples</h4>
+    <p>The set ${ \ket{+}, \ket{-} }$ is an orthonormal basis for the 2-dimensional space corresponding to a single qubit.</p>
+    <p>The bell basis is an orthonormal set for the 4-dimensional space corresponding to two qubits.</p>
+    <h4 id="orthonormality-and-unitary-matrices">Orthonormality and Unitary matrices</h4>
+    <p>The following facts for a square matrix $\mathcal{U}$ are equivalent</p>
+    <ul>
+      <li>$\mathcal{U}$ is unitary (i.e. $\mathcal{U}^\dagger \mathcal{U} = 1 = \mathcal{U}\mathcal{U}^\dagger$)</li>
+      <li>The rows of $\mathcal{U}$ form an orthonormal basis</li>
+      <li>The columns of $\mathcal{U}$ form an orthonormal basis</li>
+    </ul>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Inner products in Quantum Computing"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Quantum_Computing","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Quantum Computing"}]}],["$","$Lb","1",{"href":"/tags/Quantum","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Quantum"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

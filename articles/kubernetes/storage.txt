@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/8de0e5cdd54a87d1.css","style",{"crossOrigin":""}]
-0:["PwLf35PnxKSKCh4Uv7Bnr",[[["",{"children":["articles",{"children":[["slug","kubernetes/storage","c"],{"children":["__PAGE__?{\"slug\":[\"kubernetes\",\"storage\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8de0e5cdd54a87d1.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["wfNOmortDuTv56DR7M5VM",[[["",{"children":["articles",{"children":[["slug","kubernetes/storage","c"],{"children":["__PAGE__?{\"slug\":[\"kubernetes\",\"storage\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8de0e5cdd54a87d1.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-20881daac4d91a26.js"],""]
 7:I[6954,[],""]
