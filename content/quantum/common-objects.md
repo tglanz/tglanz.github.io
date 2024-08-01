@@ -2,7 +2,6 @@
 title: Common objects in Quantum Computing
 tags:
 - Quantum Computing
-- Quantum
 categories:
 - Quantum Computing
 ---
@@ -60,7 +59,7 @@ $$
 **Pauli-Y** is denoted by $Y$ and defined by the matrix below. Intuitively, it is a mirroring along the $Y$ axis.
 $$
 Y = \begin{bmatrix}
-0 & i \\
+0 & -i \\
 i & 0
 \end{bmatrix}
 $$

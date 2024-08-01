@@ -1,8 +1,8 @@
 ---
-title: Inner products in Quantum Computing
+title: Inner products in Quantum Mechanics
 tags:
+- Quantum Mechanics
 - Quantum Computing
-- Quantum
 categories:
 - Quantum Computing
 ---
