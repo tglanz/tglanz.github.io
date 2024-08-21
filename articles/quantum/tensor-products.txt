@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","quantum/tensor-products","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"tensor-products\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","quantum/tensor-products","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"tensor-products\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -29,29 +29,15 @@ Explicitly:
 
 $$
 \begin{pmatrix}
-\alpha_1 \\
-\vdots \\
-\alpha_m
+\alpha_1\\\\\vdots\\\\\alpha_m
 \end{pmatrix}
 \otimes
 \begin{pmatrix}
-\beta_1 \\
-\vdots \\
-\beta_k
+\beta_1\\\\\vdots\\\\\beta_k
 \end{pmatrix}
 =
 \begin{pmatrix}
-\alpha_1 \beta_1 \\
-\vdots \\
-\alpha_1 \beta_k \\
-\alpha_2 \beta_1 \\
-\vdots \\
-\alpha_2 \beta_k \\
-\vdots \\
-\alpha_m \beta_1 \\
-\vdots \\
-\alpha_m \beta_k \\
-
+\alpha_1 \beta_1\\\\\vdots\\\\\alpha_1 \beta_k\\\\\alpha_2 \beta_1\\\\\vdots\\\\\alpha_2 \beta_k\\\\\vdots\\\\\alpha_m \beta_1\\\\\vdots\\\\\alpha_m \beta_k\\\\
 \end{pmatrix}
 $$
 
@@ -112,27 +98,15 @@ $$
 
 $$
 \begin{pmatrix}
-\alpha_{11} & \cdots & \alpha_{1m} \\
-\vdots & \ddots & \vdots \\
-\alpha_{m1} & \cdots & \alpha_{mm} \\
-\end{pmatrix}
+\alpha_{11} & \cdots & \alpha_{1m}\\\\\vdots & \ddots & \vdots\\\\\alpha_{m1} & \cdots & \alpha_{mm}\\\\\end{pmatrix}
 \otimes
 \begin{pmatrix}
-\beta_{11} & \cdots & \beta_{1k} \\
-\vdots & \ddots & \vdots \\
-\beta_{k1} & \cdots & \beta_{kk} \\
-\end{pmatrix}
+\beta_{11} & \cdots & \beta_{1k}\\\\\vdots & \ddots & \vdots\\\\\beta_{k1} & \cdots & \beta_{kk}\\\\\end{pmatrix}
 =
 \begin{pmatrix}
-\alpha_{11}\beta_{11} & \cdots & \alpha_{11}\beta_{1k} & & & \alpha_{1m}\beta_{1k} & \cdots & \alpha_{11}\beta_{1k} & & \\
-\vdots & \ddots & \vdots & &  \cdots & \vdots & \ddots & \vdots \\
-\alpha_{11}\beta_{k1} & \ldots & \alpha_{11}\beta_{kk} & & & \alpha_{1m}\beta_{k1} & \ldots & \alpha_{1m}\beta_{kk} & & \\
-& \vdots & & &\ddots & & \vdots \\
-\alpha_{m1}\beta_{11} & \cdots & \alpha_{m1}\beta_{1k} & & & \alpha_{mm}\beta_{1k} & \cdots & \alpha_{mm}\beta_{1k} & & \\
-\vdots & \ddots & \vdots & &  \cdots & \vdots & \ddots & \vdots \\
-\alpha_{m1}\beta_{k1} & \ldots & \alpha_{m1}\beta_{kk} & & & \alpha_{mm}\beta_{k1} & \ldots & \alpha_{mm}\beta_{kk} & &
+\alpha_{11}\beta_{11} & \cdots & \alpha_{11}\beta_{1k} & & & \alpha_{1m}\beta_{1k} & \cdots & \alpha_{11}\beta_{1k} & &\\\\\vdots & \ddots & \vdots & &  \cdots & \vdots & \ddots & \vdots\\\\\alpha_{11}\beta_{k1} & \ldots & \alpha_{11}\beta_{kk} & & & \alpha_{1m}\beta_{k1} & \ldots & \alpha_{1m}\beta_{kk} & &\\\\& \vdots & & &\ddots & & \vdots\\\\\alpha_{m1}\beta_{11} & \cdots & \alpha_{m1}\beta_{1k} & & & \alpha_{mm}\beta_{1k} & \cdots & \alpha_{mm}\beta_{1k} & &\\\\\vdots & \ddots & \vdots & &  \cdots & \vdots & \ddots & \vdots\\\\\alpha_{m1}\beta_{k1} & \ldots & \alpha_{m1}\beta_{kk} & & & \alpha_{mm}\beta_{k1} & \ldots & \alpha_{mm}\beta_{kk} & &
 \end{pmatrix}
-$$f:T16f7,<!doctype html>
+$$f:T1619,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -142,34 +116,24 @@ $$f:T16f7,<!doctype html>
     <nav class="toc">
       <ol class="toc-level toc-level-1">
         <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#tensor-product-of-vectors">Tensor product of vectors</a></li>
-        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#beginpmatrixalpha_1-vdots-alpha_mendpmatrixotimesbeginpmatrixbeta_1-vdots-beta_kendpmatrix">$$
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#beginpmatrixalpha_1vdotsalpha_mendpmatrixotimesbeginpmatrixbeta_1vdotsbeta_kendpmatrix">$$
 \begin{pmatrix}
-\alpha_1 \
-\vdots \
-\alpha_m
+\alpha_1\\\vdots\\\alpha_m
 \end{pmatrix}
 \otimes
 \begin{pmatrix}
-\beta_1 \
-\vdots \
-\beta_k
+\beta_1\\\vdots\\\beta_k
 \end{pmatrix}</a>
           <ol class="toc-level toc-level-2">
             <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#tensor-product-of-matrices">Tensor product of matrices</a></li>
           </ol>
         </li>
-        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#beginpmatrixalpha_11--cdots--alpha_1m-vdots--ddots--vdots-alpha_m1--cdots--alpha_mm-endpmatrixotimesbeginpmatrixbeta_11--cdots--beta_1k-vdots--ddots--vdots-beta_k1--cdots--beta_kk-endpmatrix">$$
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#beginpmatrixalpha_11--cdots--alpha_1mvdots--ddots--vdotsalpha_m1--cdots--alpha_mmendpmatrixotimesbeginpmatrixbeta_11--cdots--beta_1kvdots--ddots--vdotsbeta_k1--cdots--beta_kkendpmatrix">$$
 \begin{pmatrix}
-\alpha_{11} &#x26; \cdots &#x26; \alpha_{1m} \
-\vdots &#x26; \ddots &#x26; \vdots \
-\alpha_{m1} &#x26; \cdots &#x26; \alpha_{mm} \
-\end{pmatrix}
+\alpha_{11} &#x26; \cdots &#x26; \alpha_{1m}\\\vdots &#x26; \ddots &#x26; \vdots\\\alpha_{m1} &#x26; \cdots &#x26; \alpha_{mm}\\\end{pmatrix}
 \otimes
 \begin{pmatrix}
-\beta_{11} &#x26; \cdots &#x26; \beta_{1k} \
-\vdots &#x26; \ddots &#x26; \vdots \
-\beta_{k1} &#x26; \cdots &#x26; \beta_{kk} \
-\end{pmatrix}</a></li>
+\beta_{11} &#x26; \cdots &#x26; \beta_{1k}\\\vdots &#x26; \ddots &#x26; \vdots\\\beta_{k1} &#x26; \cdots &#x26; \beta_{kk}\\\end{pmatrix}</a></li>
       </ol>
     </nav>
     <h2 id="tensor-product-of-vectors">Tensor product of vectors</h2>
@@ -187,34 +151,19 @@ $$f:T16f7,<!doctype html>
       $$
     </p>
     <p>Explicitly:</p>
-    <h1 id="beginpmatrixalpha_1-vdots-alpha_mendpmatrixotimesbeginpmatrixbeta_1-vdots-beta_kendpmatrix">
+    <h1 id="beginpmatrixalpha_1vdotsalpha_mendpmatrixotimesbeginpmatrixbeta_1vdotsbeta_kendpmatrix">
       $$
       \begin{pmatrix}
-      \alpha_1 \
-      \vdots \
-      \alpha_m
+      \alpha_1\\\vdots\\\alpha_m
       \end{pmatrix}
       \otimes
       \begin{pmatrix}
-      \beta_1 \
-      \vdots \
-      \beta_k
+      \beta_1\\\vdots\\\beta_k
       \end{pmatrix}
     </h1>
     <p>
       \begin{pmatrix}
-      \alpha_1 \beta_1 \
-      \vdots \
-      \alpha_1 \beta_k \
-      \alpha_2 \beta_1 \
-      \vdots \
-      \alpha_2 \beta_k \
-      \vdots \
-      \alpha_m \beta_1 \
-      \vdots \
-      \alpha_m \beta_k \
-    </p>
-    <p>
+      \alpha_1 \beta_1\\\vdots\\\alpha_1 \beta_k\\\alpha_2 \beta_1\\\vdots\\\alpha_2 \beta_k\\\vdots\\\alpha_m \beta_1\\\vdots\\\alpha_m \beta_k\\
       \end{pmatrix}
       $$
     </p>
@@ -270,29 +219,17 @@ $$f:T16f7,<!doctype html>
       M \otimes N = \sum_{a, b \in \Sigma} \sum_{c, d \in \Gamma} \alpha_{ab} \beta_{cd} \ket{ac} \bra{bd}
       $$
     </p>
-    <h1 id="beginpmatrixalpha_11--cdots--alpha_1m-vdots--ddots--vdots-alpha_m1--cdots--alpha_mm-endpmatrixotimesbeginpmatrixbeta_11--cdots--beta_1k-vdots--ddots--vdots-beta_k1--cdots--beta_kk-endpmatrix">
+    <h1 id="beginpmatrixalpha_11--cdots--alpha_1mvdots--ddots--vdotsalpha_m1--cdots--alpha_mmendpmatrixotimesbeginpmatrixbeta_11--cdots--beta_1kvdots--ddots--vdotsbeta_k1--cdots--beta_kkendpmatrix">
       $$
       \begin{pmatrix}
-      \alpha_{11} &#x26; \cdots &#x26; \alpha_{1m} \
-      \vdots &#x26; \ddots &#x26; \vdots \
-      \alpha_{m1} &#x26; \cdots &#x26; \alpha_{mm} \
-      \end{pmatrix}
+      \alpha_{11} &#x26; \cdots &#x26; \alpha_{1m}\\\vdots &#x26; \ddots &#x26; \vdots\\\alpha_{m1} &#x26; \cdots &#x26; \alpha_{mm}\\\end{pmatrix}
       \otimes
       \begin{pmatrix}
-      \beta_{11} &#x26; \cdots &#x26; \beta_{1k} \
-      \vdots &#x26; \ddots &#x26; \vdots \
-      \beta_{k1} &#x26; \cdots &#x26; \beta_{kk} \
-      \end{pmatrix}
+      \beta_{11} &#x26; \cdots &#x26; \beta_{1k}\\\vdots &#x26; \ddots &#x26; \vdots\\\beta_{k1} &#x26; \cdots &#x26; \beta_{kk}\\\end{pmatrix}
     </h1>
     <p>
       \begin{pmatrix}
-      \alpha_{11}\beta_{11} &#x26; \cdots &#x26; \alpha_{11}\beta_{1k} &#x26; &#x26; &#x26; \alpha_{1m}\beta_{1k} &#x26; \cdots &#x26; \alpha_{11}\beta_{1k} &#x26; &#x26; \
-      \vdots &#x26; \ddots &#x26; \vdots &#x26; &#x26; \cdots &#x26; \vdots &#x26; \ddots &#x26; \vdots \
-      \alpha_{11}\beta_{k1} &#x26; \ldots &#x26; \alpha_{11}\beta_{kk} &#x26; &#x26; &#x26; \alpha_{1m}\beta_{k1} &#x26; \ldots &#x26; \alpha_{1m}\beta_{kk} &#x26; &#x26; \
-      &#x26; \vdots &#x26; &#x26; &#x26;\ddots &#x26; &#x26; \vdots \
-      \alpha_{m1}\beta_{11} &#x26; \cdots &#x26; \alpha_{m1}\beta_{1k} &#x26; &#x26; &#x26; \alpha_{mm}\beta_{1k} &#x26; \cdots &#x26; \alpha_{mm}\beta_{1k} &#x26; &#x26; \
-      \vdots &#x26; \ddots &#x26; \vdots &#x26; &#x26; \cdots &#x26; \vdots &#x26; \ddots &#x26; \vdots \
-      \alpha_{m1}\beta_{k1} &#x26; \ldots &#x26; \alpha_{m1}\beta_{kk} &#x26; &#x26; &#x26; \alpha_{mm}\beta_{k1} &#x26; \ldots &#x26; \alpha_{mm}\beta_{kk} &#x26; &#x26;
+      \alpha_{11}\beta_{11} &#x26; \cdots &#x26; \alpha_{11}\beta_{1k} &#x26; &#x26; &#x26; \alpha_{1m}\beta_{1k} &#x26; \cdots &#x26; \alpha_{11}\beta_{1k} &#x26; &#x26;\\\vdots &#x26; \ddots &#x26; \vdots &#x26; &#x26; \cdots &#x26; \vdots &#x26; \ddots &#x26; \vdots\\\alpha_{11}\beta_{k1} &#x26; \ldots &#x26; \alpha_{11}\beta_{kk} &#x26; &#x26; &#x26; \alpha_{1m}\beta_{k1} &#x26; \ldots &#x26; \alpha_{1m}\beta_{kk} &#x26; &#x26;\\&#x26; \vdots &#x26; &#x26; &#x26;\ddots &#x26; &#x26; \vdots\\\alpha_{m1}\beta_{11} &#x26; \cdots &#x26; \alpha_{m1}\beta_{1k} &#x26; &#x26; &#x26; \alpha_{mm}\beta_{1k} &#x26; \cdots &#x26; \alpha_{mm}\beta_{1k} &#x26; &#x26;\\\vdots &#x26; \ddots &#x26; \vdots &#x26; &#x26; \cdots &#x26; \vdots &#x26; \ddots &#x26; \vdots\\\alpha_{m1}\beta_{k1} &#x26; \ldots &#x26; \alpha_{m1}\beta_{kk} &#x26; &#x26; &#x26; \alpha_{mm}\beta_{k1} &#x26; \ldots &#x26; \alpha_{mm}\beta_{kk} &#x26; &#x26;
       \end{pmatrix}
       $$
     </p>

@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","posts/linear-programming","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"linear-programming\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","posts/linear-programming","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"linear-programming\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -10,7 +10,7 @@ c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.
 4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
 9:null
 d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
-e:T30e8,
+e:T308a,
 # Introduction
 
 Before we define what Linear Programming is, let's take a look at an example:
@@ -45,12 +45,7 @@ $$ 25x_1 + 32x_2 + 12x_3 \geq 350 $$
 More compactly, we can write it as a minimization problem subject to a system of linear inequalities
 
 \begin{align*}
-minimize~    & 50x_1 + 30x_2 + 60x_3 & \\\\
-subject~ to~ & 4x_1 + 5x_2 + 8x_3 &\geq 60 \\\\
-             & 10x_1 + 4x_2 + 7x_3 &\geq 70 \\\\
-             & 25x_1 + 32x_2 + 12x_3 &\geq 350 \\\\
-             & x_1, x_2, x_3 &\geq 0 \\\\
-\end{align*}
+minimize~    & 50x_1 + 30x_2 + 60x_3 &\\\\subject~ to~ & 4x_1 + 5x_2 + 8x_3 &\geq 60\\\\             & 10x_1 + 4x_2 + 7x_3 &\geq 70\\\\             & 25x_1 + 32x_2 + 12x_3 &\geq 350\\\\             & x_1, x_2, x_3 &\geq 0\\\\\end{align*}
 
 We have defined a Linear Program (LP) of **3 variables**, **6 constraints** and an **objective function**. The cosntraints $x_1, x_2, x_3 \geq 0$ are called non-negativity constraints. The set of points $\\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \\}$ that fulfills the constraints is the set of **feasible solutions** or the **feasible region**. The feasible solution subset of points that achieve a minimum for the objective function are called **optimal solutions**.
 
@@ -69,10 +64,7 @@ A LP can be represented in **matrix form**. Let
 We can now write a LP as:
 
 \begin{align*}
-min/max~ &\langle c, x \rangle \\\\
-s.t~ & Ax &\lesseqgtr b \\\\
-     & x &\lessgtr 0 \\\\
-\end{align*}
+min/max~ &\langle c, x \rangle\\\\s.t~ & Ax &\lesseqgtr b\\\\     & x &\lessgtr 0\\\\\end{align*}
 
 > From now on, we will allow ourselves focus on either minimization or maximization problems - Those are completely analogue to each other (simply by negation).
 
@@ -93,20 +85,14 @@ Because general form a LP have no coherent structure they makes them hard to wor
 In LPS, The constraints are all equalities and the variables are all non-negative:
 
 \begin{align*}
-min~ &\langle c, x \rangle \\\\
-s.t~ & Ax &= b \\\\
-     & x &\geq 0 \\\\
-\end{align*}
+min~ &\langle c, x \rangle\\\\s.t~ & Ax &= b\\\\     & x &\geq 0\\\\\end{align*}
 
 ### LP in Canonized Form (LPC)
 
 In LPC, The constraints are all *geq* in minimization problems, *leq* in maximization problems  and the variables are all non-negative:
 
 \begin{align*}
-min~ &\langle c, x \rangle \\\\
-s.t~ & Ax &\geq b \\\\
-     & x &\geq 0 \\\\
-\end{align*}
+min~ &\langle c, x \rangle\\\\s.t~ & Ax &\geq b\\\\     & x &\geq 0\\\\\end{align*}
 
 ### Convert between commonn forms
 
@@ -124,31 +110,18 @@ To get a LPC from a given LPS
 **For Example**, lets start from the given LP in general form:
 
 \begin{align*}
-min~ & x_1 + x_2 + 2x_3 \\\\
-s.t~ & 3x_1 + 2x_2 + x_3 &= 1 \\\\
-     & 5x_1 + x_2 - x_3 &\geq 3  \\\\
-     & x_1 \geq 0 \\\\
-     & x_2 \leq 0 \\\\
-\end{align*}
+min~ & x_1 + x_2 + 2x_3\\\\s.t~ & 3x_1 + 2x_2 + x_3 &= 1\\\\     & 5x_1 + x_2 - x_3 &\geq 3 \\\\     & x_1 \geq 0\\\\     & x_2 \leq 0\\\\\end{align*}
 
 To convert it to a LPS we first need to get rid of the variables without non-negativity constraints: $x_2, x_3$. Write $x_2 = x_2^+ - x_2^-$ and $x_3 = x_3^+ - x_3^-$, then add the constraints $x_2^+, x_2^-, x_3^+, x_3^- \geq 0$.
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &\geq 3  \\\\
-     & x_2^+ - x_2^- &\leq 0 \\\\
-     & x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\\\s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1\\\\     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &\geq 3 \\\\     & x_2^+ - x_2^- &\leq 0\\\\     & x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
 \end{align*}
 
 Now we need to make all of the constraints to be equalities. Introduce the slack variables $s_2, s_3$ and write the program as:
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &= 3  \\\\
-     & x_2^+ - x_2^- + s_3 &= 0 \\\\
-     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\\\s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1\\\\     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &= 3 \\\\     & x_2^+ - x_2^- + s_3 &= 0\\\\     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
 \end{align*}
 
 We got a LPS! Notice though that we multiplied the number of variables.
@@ -156,14 +129,7 @@ We got a LPS! Notice though that we multiplied the number of variables.
 Now, to get a LPC we need to double each constraint:
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &\geq 1 \\\\
-     & -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &\geq -1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &\geq 3  \\\\
-     & -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &\geq -3  \\\\
-     & x_2^+ - x_2^- + s_3 &\geq 0 \\\\
-     & -x_2^+ + x_2^- - s_3 &\geq 0 \\\\
-     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\\\s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &\geq 1\\\\     & -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &\geq -1\\\\     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &\geq 3 \\\\     & -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &\geq -3 \\\\     & x_2^+ - x_2^- + s_3 &\geq 0\\\\     & -x_2^+ + x_2^- - s_3 &\geq 0\\\\     & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
 \end{align*}
 
 ## Solution Set
@@ -183,11 +149,7 @@ When the feasible region is empty there cannot be any feasible solution (and no 
 For example, below is a LP with feasible region $\phi$:
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \geq 2 \\\\
-     & x_1 - x_2 \leq 1 \\\\
-     & x_1, x_2 \geq 0 \\\\
-\end{align*}
+max~ & x_1 + x_2\\\\s.t~ & 2x_1 - x_2 \geq 2\\\\     & x_1 - x_2 \leq 1\\\\     & x_1, x_2 \geq 0\\\\\end{align*}
 
 > TODO: graphics
 
@@ -198,11 +160,7 @@ When the linear system is consistent, the objective function can be unbounded wi
 Geometrically speaking, this case arises when the feasible region is an unbounded polytop.
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \leq 2 \\\\
-     & x_1 - x_2 \geq 1 \\\\
-     & x_1, x_2 \geq 0 \\\\
-\end{align*}
+max~ & x_1 + x_2\\\\s.t~ & 2x_1 - x_2 \leq 2\\\\     & x_1 - x_2 \geq 1\\\\     & x_1, x_2 \geq 0\\\\\end{align*}
 
 > TODO: graphics
 
@@ -213,12 +171,7 @@ When the objective function is bounded with respect to it's constraints, the set
 Infinite number of optimial solutions arise when the polytop is not bounded but the set of optimal solutions is the same as one of the polytop's edges.
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \leq 2 \\\\
-     & x_1 - x_2 \geq 1 \\\\
-     & x_1 + x_2 \leq 3 \\\\
-     & x_1, x_2 \geq 0 \\\\
-\end{align*}
+max~ & x_1 + x_2\\\\s.t~ & 2x_1 - x_2 \leq 2\\\\     & x_1 - x_2 \geq 1\\\\     & x_1 + x_2 \leq 3\\\\     & x_1, x_2 \geq 0\\\\\end{align*}
 
 > TODO: graphics
 
@@ -276,7 +229,7 @@ If also $v \in P$, $v$ is called **basic feasible solution (bfs)**.
 
 Although algebraic, this definition also have a geometric meaning. Basic solutions are points that are on the intersection of the hyperplanes defined by $n$ equations for the corresponding constraints, that has linearly independent coefficient vectors. It is not mandatory that such points are in the feasible region but if they are, they are called basic feasible solutions.
 
-The following claim holds: Given a system of linear constraints that defines the polytop $P$, a point $v$ is a bfs if and only if the linear system of equation that is constructed by all of $v$'s tight constraints, there are $n$ equations with linearly independent vectors of coefficients.f:T435f,<!doctype html>
+The following claim holds: Given a system of linear constraints that defines the polytop $P$, a point $v$ is a bfs if and only if the linear system of equation that is constructed by all of $v$'s tight constraints, there are $n$ equations with linearly independent vectors of coefficients.f:T4208,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -364,12 +317,7 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>More compactly, we can write it as a minimization problem subject to a system of linear inequalities</p>
     <p>
       \begin{align*}
-      minimize~ &#x26; 50x_1 + 30x_2 + 60x_3 &#x26; \\
-      subject~ to~ &#x26; 4x_1 + 5x_2 + 8x_3 &#x26;\geq 60 \\
-      &#x26; 10x_1 + 4x_2 + 7x_3 &#x26;\geq 70 \\
-      &#x26; 25x_1 + 32x_2 + 12x_3 &#x26;\geq 350 \\
-      &#x26; x_1, x_2, x_3 &#x26;\geq 0 \\
-      \end{align*}
+      minimize~ &#x26; 50x_1 + 30x_2 + 60x_3 &#x26;\\subject~ to~ &#x26; 4x_1 + 5x_2 + 8x_3 &#x26;\geq 60\\ &#x26; 10x_1 + 4x_2 + 7x_3 &#x26;\geq 70\\ &#x26; 25x_1 + 32x_2 + 12x_3 &#x26;\geq 350\\ &#x26; x_1, x_2, x_3 &#x26;\geq 0\\\end{align*}
     </p>
     <p>We have defined a Linear Program (LP) of <strong>3 variables</strong>, <strong>6 constraints</strong> and an <strong>objective function</strong>. The cosntraints $x_1, x_2, x_3 \geq 0$ are called non-negativity constraints. The set of points $\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \}$ that fulfills the constraints is the set of <strong>feasible solutions</strong> or the <strong>feasible region</strong>. The feasible solution subset of points that achieve a minimum for the objective function are called <strong>optimal solutions</strong>.</p>
     <h1 id="linear-programs">Linear Programs</h1>
@@ -387,10 +335,7 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>We can now write a LP as:</p>
     <p>
       \begin{align*}
-      min/max~ &#x26;\langle c, x \rangle \\
-      s.t~ &#x26; Ax &#x26;\lesseqgtr b \\
-      &#x26; x &#x26;\lessgtr 0 \\
-      \end{align*}
+      min/max~ &#x26;\langle c, x \rangle\\s.t~ &#x26; Ax &#x26;\lesseqgtr b\\ &#x26; x &#x26;\lessgtr 0\\\end{align*}
     </p>
     <blockquote>
       <p>From now on, we will allow ourselves focus on either minimization or maximization problems - Those are completely analogue to each other (simply by negation).</p>
@@ -405,19 +350,13 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>In LPS, The constraints are all equalities and the variables are all non-negative:</p>
     <p>
       \begin{align*}
-      min~ &#x26;\langle c, x \rangle \\
-      s.t~ &#x26; Ax &#x26;= b \\
-      &#x26; x &#x26;\geq 0 \\
-      \end{align*}
+      min~ &#x26;\langle c, x \rangle\\s.t~ &#x26; Ax &#x26;= b\\ &#x26; x &#x26;\geq 0\\\end{align*}
     </p>
     <h3 id="lp-in-canonized-form-lpc">LP in Canonized Form (LPC)</h3>
     <p>In LPC, The constraints are all <em>geq</em> in minimization problems, <em>leq</em> in maximization problems and the variables are all non-negative:</p>
     <p>
       \begin{align*}
-      min~ &#x26;\langle c, x \rangle \\
-      s.t~ &#x26; Ax &#x26;\geq b \\
-      &#x26; x &#x26;\geq 0 \\
-      \end{align*}
+      min~ &#x26;\langle c, x \rangle\\s.t~ &#x26; Ax &#x26;\geq b\\ &#x26; x &#x26;\geq 0\\\end{align*}
     </p>
     <h3 id="convert-between-commonn-forms">Convert between commonn forms</h3>
     <p>The above forms are equivalent and can be converted from one to another in <strong>Polynomial Time</strong>.</p>
@@ -433,45 +372,25 @@ The following claim holds: Given a system of linear constraints that defines the
     <p><strong>For Example</strong>, lets start from the given LP in general form:</p>
     <p>
       \begin{align*}
-      min~ &#x26; x_1 + x_2 + 2x_3 \\
-      s.t~ &#x26; 3x_1 + 2x_2 + x_3 &#x26;= 1 \\
-      &#x26; 5x_1 + x_2 - x_3 &#x26;\geq 3 \\
-      &#x26; x_1 \geq 0 \\
-      &#x26; x_2 \leq 0 \\
-      \end{align*}
+      min~ &#x26; x_1 + x_2 + 2x_3\\s.t~ &#x26; 3x_1 + 2x_2 + x_3 &#x26;= 1\\ &#x26; 5x_1 + x_2 - x_3 &#x26;\geq 3 \\ &#x26; x_1 \geq 0\\ &#x26; x_2 \leq 0\\\end{align*}
     </p>
     <p>To convert it to a LPS we first need to get rid of the variables without non-negativity constraints: $x_2, x_3$. Write $x_2 = x_2^+ - x_2^-$ and $x_3 = x_3^+ - x_3^-$, then add the constraints $x_2^+, x_2^-, x_3^+, x_3^- \geq 0$.</p>
     <p>
       \begin{align*}
-      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
-      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1 \\
-      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &#x26;\geq 3 \\
-      &#x26; x_2^+ - x_2^- &#x26;\leq 0 \\
-      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1\\ &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &#x26;\geq 3 \\ &#x26; x_2^+ - x_2^- &#x26;\leq 0\\ &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
       \end{align*}
     </p>
     <p>Now we need to make all of the constraints to be equalities. Introduce the slack variables $s_2, s_3$ and write the program as:</p>
     <p>
       \begin{align*}
-      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
-      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1 \\
-      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;= 3 \\
-      &#x26; x_2^+ - x_2^- + s_3 &#x26;= 0 \\
-      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;= 1\\ &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;= 3 \\ &#x26; x_2^+ - x_2^- + s_3 &#x26;= 0\\ &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
       \end{align*}
     </p>
     <p>We got a LPS! Notice though that we multiplied the number of variables.</p>
     <p>Now, to get a LPC we need to double each constraint:</p>
     <p>
       \begin{align*}
-      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
-      s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;\geq 1 \\
-      &#x26; -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &#x26;\geq -1 \\
-      &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;\geq 3 \\
-      &#x26; -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &#x26;\geq -3 \\
-      &#x26; x_2^+ - x_2^- + s_3 &#x26;\geq 0 \\
-      &#x26; -x_2^+ + x_2^- - s_3 &#x26;\geq 0 \\
-      &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
+      min~ &#x26; x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^-\\s.t~ &#x26; 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &#x26;\geq 1\\ &#x26; -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &#x26;\geq -1\\ &#x26; 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &#x26;\geq 3 \\ &#x26; -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &#x26;\geq -3 \\ &#x26; x_2^+ - x_2^- + s_3 &#x26;\geq 0\\ &#x26; -x_2^+ + x_2^- - s_3 &#x26;\geq 0\\ &#x26; x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
       \end{align*}
     </p>
     <h2 id="solution-set">Solution Set</h2>
@@ -488,11 +407,7 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>For example, below is a LP with feasible region $\phi$:</p>
     <p>
       \begin{align*}
-      max~ &#x26; x_1 + x_2 \\
-      s.t~ &#x26; 2x_1 - x_2 \geq 2 \\
-      &#x26; x_1 - x_2 \leq 1 \\
-      &#x26; x_1, x_2 \geq 0 \\
-      \end{align*}
+      max~ &#x26; x_1 + x_2\\s.t~ &#x26; 2x_1 - x_2 \geq 2\\ &#x26; x_1 - x_2 \leq 1\\ &#x26; x_1, x_2 \geq 0\\\end{align*}
     </p>
     <blockquote>
       <p>TODO: graphics</p>
@@ -502,11 +417,7 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>Geometrically speaking, this case arises when the feasible region is an unbounded polytop.</p>
     <p>
       \begin{align*}
-      max~ &#x26; x_1 + x_2 \\
-      s.t~ &#x26; 2x_1 - x_2 \leq 2 \\
-      &#x26; x_1 - x_2 \geq 1 \\
-      &#x26; x_1, x_2 \geq 0 \\
-      \end{align*}
+      max~ &#x26; x_1 + x_2\\s.t~ &#x26; 2x_1 - x_2 \leq 2\\ &#x26; x_1 - x_2 \geq 1\\ &#x26; x_1, x_2 \geq 0\\\end{align*}
     </p>
     <blockquote>
       <p>TODO: graphics</p>
@@ -516,12 +427,7 @@ The following claim holds: Given a system of linear constraints that defines the
     <p>Infinite number of optimial solutions arise when the polytop is not bounded but the set of optimal solutions is the same as one of the polytop's edges.</p>
     <p>
       \begin{align*}
-      max~ &#x26; x_1 + x_2 \\
-      s.t~ &#x26; 2x_1 - x_2 \leq 2 \\
-      &#x26; x_1 - x_2 \geq 1 \\
-      &#x26; x_1 + x_2 \leq 3 \\
-      &#x26; x_1, x_2 \geq 0 \\
-      \end{align*}
+      max~ &#x26; x_1 + x_2\\s.t~ &#x26; 2x_1 - x_2 \leq 2\\ &#x26; x_1 - x_2 \geq 1\\ &#x26; x_1 + x_2 \leq 3\\ &#x26; x_1, x_2 \geq 0\\\end{align*}
     </p>
     <blockquote>
       <p>TODO: graphics</p>

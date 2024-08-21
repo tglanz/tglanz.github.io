@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","quantum/common-objects","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"common-objects\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","quantum/common-objects","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"common-objects\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -56,24 +56,21 @@ $$
 **Pauli-X** is denoted by $X$ and defined by the matrix below. Intuitively, it is a mirroring along the $X$ axis.
 $$
 X = \begin{bmatrix}
-0 & 1 \\
-1 & 0
+0 & 1\\\\1 & 0
 \end{bmatrix}
 $$
 
 **Pauli-Y** is denoted by $Y$ and defined by the matrix below. Intuitively, it is a mirroring along the $Y$ axis.
 $$
 Y = \begin{bmatrix}
-0 & -i \\
-i & 0
+0 & -i\\\\i & 0
 \end{bmatrix}
 $$
 
 **Pauli-Z** is denoted by $Z$ and defined by the matrix below. Intuitively, it is a mirroring along the $Z$ axis.
 $$
 Z = \begin{bmatrix}
-1 & 0 \\
-0 & -1
+1 & 0\\\\0 & -1
 \end{bmatrix}
 $$
 
@@ -82,8 +79,7 @@ $$
 **Hadamard** is denoted by $H$ and defined by the matrix below.
 $$
 H = \frac{1}{\sqrt{2}} \begin{bmatrix}
-1 & 1 \\
-1 & -1
+1 & 1\\\\1 & -1
 \end{bmatrix}
 $$
 
@@ -92,8 +88,7 @@ $$
 **Phase(S, P)** is denoted by $S$ and defined by the matrix below.
 $$
 S = \begin{bmatrix}
-1 & 0 \\
-0 & i
+1 & 0\\\\0 & i
 \end{bmatrix}
 $$
 
@@ -102,8 +97,7 @@ $$
 **$\pi / 8$** is denoted by $T$ and defined by the matrix below.
 $$
 T = \begin{bmatrix}
-1 & 0 \\
-0 & e^{i \pi / 4}
+1 & 0\\\\0 & e^{i \pi / 4}
 \end{bmatrix}
 $$
 
@@ -112,18 +106,14 @@ $$
 **Controlled Not** a.k.a **CNOT** or **CX** is defined by the matrix below. The operation toggles the **target** qubit iff the **control** qubit is $\ket{0}$.
 $$
 CNOT = \begin{bmatrix}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 1 \\
-0 & 0 & 1 & 0
+1 & 0 & 0 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\\\0 & 0 & 1 & 0
 \end{bmatrix}
 $$
 
 The $CNOT$ is a controlled operation i.e. of the form
 $$
 \ket{0}\bra{0}\otimes\mathbb{1}_Y + \ket{1}\bra{1}\otimes\mathcal{U} = \begin{pmatrix}
-\mathbb{1}_Y & 0 \\
-0 & \mathcal{U}
+\mathbb{1}_Y & 0\\\\0 & \mathcal{U}
 \end{pmatrix}
 $$
 
@@ -137,10 +127,7 @@ $$
 **SWAP** is defined by the matrix below.
 $$
 SWAP = \begin{bmatrix}
-1 & 0 & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 1
+1 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
@@ -149,7 +136,7 @@ $$
 SWAP \ket{\phi \otimes \psi} = SWAP \ket{\psi \otimes \phi}
 $$
 
-There is an interesting relation between the $SWAP$ operation to the bell basis. It leaves all of them alone, except for $\ket{\phi^-}$ which it operates on it by $SWAP \ket{\phi^-} = -\ket{\phi^-}$.f:T12ab,<!doctype html>
+There is an interesting relation between the $SWAP$ operation to the bell basis. It leaves all of them alone, except for $\ket{\phi^-}$ which it operates on it by $SWAP \ket{\phi^-} = -\ket{\phi^-}$.f:T1250,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -206,8 +193,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Pauli-X</strong> is denoted by $X$ and defined by the matrix below. Intuitively, it is a mirroring along the $X$ axis.
       $$
       X = \begin{bmatrix}
-      0 &#x26; 1 \
-      1 &#x26; 0
+      0 &#x26; 1\\1 &#x26; 0
       \end{bmatrix}
       $$
     </p>
@@ -215,8 +201,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Pauli-Y</strong> is denoted by $Y$ and defined by the matrix below. Intuitively, it is a mirroring along the $Y$ axis.
       $$
       Y = \begin{bmatrix}
-      0 &#x26; -i \
-      i &#x26; 0
+      0 &#x26; -i\\i &#x26; 0
       \end{bmatrix}
       $$
     </p>
@@ -224,8 +209,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Pauli-Z</strong> is denoted by $Z$ and defined by the matrix below. Intuitively, it is a mirroring along the $Z$ axis.
       $$
       Z = \begin{bmatrix}
-      1 &#x26; 0 \
-      0 &#x26; -1
+      1 &#x26; 0\\0 &#x26; -1
       \end{bmatrix}
       $$
     </p>
@@ -234,8 +218,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Hadamard</strong> is denoted by $H$ and defined by the matrix below.
       $$
       H = \frac{1}{\sqrt{2}} \begin{bmatrix}
-      1 &#x26; 1 \
-      1 &#x26; -1
+      1 &#x26; 1\\1 &#x26; -1
       \end{bmatrix}
       $$
     </p>
@@ -244,8 +227,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Phase(S, P)</strong> is denoted by $S$ and defined by the matrix below.
       $$
       S = \begin{bmatrix}
-      1 &#x26; 0 \
-      0 &#x26; i
+      1 &#x26; 0\\0 &#x26; i
       \end{bmatrix}
       $$
     </p>
@@ -254,8 +236,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>$\pi / 8$</strong> is denoted by $T$ and defined by the matrix below.
       $$
       T = \begin{bmatrix}
-      1 &#x26; 0 \
-      0 &#x26; e^{i \pi / 4}
+      1 &#x26; 0\\0 &#x26; e^{i \pi / 4}
       \end{bmatrix}
       $$
     </p>
@@ -264,10 +245,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>Controlled Not</strong> a.k.a <strong>CNOT</strong> or <strong>CX</strong> is defined by the matrix below. The operation toggles the <strong>target</strong> qubit iff the <strong>control</strong> qubit is $\ket{0}$.
       $$
       CNOT = \begin{bmatrix}
-      1 &#x26; 0 &#x26; 0 &#x26; 0 \
-      0 &#x26; 1 &#x26; 0 &#x26; 0 \
-      0 &#x26; 0 &#x26; 0 &#x26; 1 \
-      0 &#x26; 0 &#x26; 1 &#x26; 0
+      1 &#x26; 0 &#x26; 0 &#x26; 0\\0 &#x26; 1 &#x26; 0 &#x26; 0\\0 &#x26; 0 &#x26; 0 &#x26; 1\\0 &#x26; 0 &#x26; 1 &#x26; 0
       \end{bmatrix}
       $$
     </p>
@@ -275,8 +253,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       The $CNOT$ is a controlled operation i.e. of the form
       $$
       \ket{0}\bra{0}\otimes\mathbb{1}_Y + \ket{1}\bra{1}\otimes\mathcal{U} = \begin{pmatrix}
-      \mathbb{1}_Y &#x26; 0 \
-      0 &#x26; \mathcal{U}
+      \mathbb{1}_Y &#x26; 0\\0 &#x26; \mathcal{U}
       \end{pmatrix}
       $$
     </p>
@@ -291,10 +268,7 @@ There is an interesting relation between the $SWAP$ operation to the bell basis.
       <strong>SWAP</strong> is defined by the matrix below.
       $$
       SWAP = \begin{bmatrix}
-      1 &#x26; 0 &#x26; 0 &#x26; 0 \
-      0 &#x26; 0 &#x26; 1 &#x26; 0 \
-      0 &#x26; 1 &#x26; 0 &#x26; 0 \
-      0 &#x26; 0 &#x26; 0 &#x26; 1
+      1 &#x26; 0 &#x26; 0 &#x26; 0\\0 &#x26; 0 &#x26; 1 &#x26; 0\\0 &#x26; 1 &#x26; 0 &#x26; 0\\0 &#x26; 0 &#x26; 0 &#x26; 1
       \end{bmatrix}
       $$
     </p>

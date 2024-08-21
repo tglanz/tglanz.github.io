@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","pdes/pinns","c"],{"children":["__PAGE__?{\"slug\":[\"pdes\",\"pinns\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","pdes/pinns","c"],{"children":["__PAGE__?{\"slug\":[\"pdes\",\"pinns\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -10,7 +10,7 @@ c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.
 4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
 9:null
 d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
-e:T5a6,
+e:T5a4,
 ## Introduction
 
 Standard Physics Informed Neural Networks (PINNs) considers PDEs of the following form:
@@ -51,10 +51,9 @@ Given the
 We define the Loss Function $L = MSE_u + MSE_f$ with:
 
 \begin{align*}
-    MSE_u &= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2 \\\\
-    MSE_f &= \frac{1}{N_f} \sum_{i=1}^{N_f}|f(t_f^i, x_f^i)|^2
+    MSE_u &= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2\\\\    MSE_f &= \frac{1}{N_f} \sum_{i=1}^{N_f}|f(t_f^i, x_f^i)|^2
 \end{align*}
-f:T835,<!doctype html>
+f:T82e,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -102,8 +101,7 @@ f:T835,<!doctype html>
     <p>We define the Loss Function $L = MSE_u + MSE_f$ with:</p>
     <p>
       \begin{align*}
-      MSE_u &#x26;= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2 \\
-      MSE_f &#x26;= \frac{1}{N_f} \sum_{i=1}^{N_f}|f(t_f^i, x_f^i)|^2
+      MSE_u &#x26;= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2\\ MSE_f &#x26;= \frac{1}{N_f} \sum_{i=1}^{N_f}|f(t_f^i, x_f^i)|^2
       \end{align*}
     </p>
   </body>

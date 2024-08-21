@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","ai/adversarial-search","c"],{"children":["__PAGE__?{\"slug\":[\"ai\",\"adversarial-search\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","ai/adversarial-search","c"],{"children":["__PAGE__?{\"slug\":[\"ai\",\"adversarial-search\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -10,7 +10,7 @@ c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.
 4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
 9:null
 d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
-e:T1276,
+e:T126c,
 A **competitive environment** is a multi-agent environment in which two or more adversarial agents have coflicting goals. There are multiple ways we can view a such environments, Here we will model adversarial agents with the techniques of adversarial game-tree search. 
 
 To introduce the topic we will restrict ourselves to **Two-player zero-sum games**.
@@ -86,17 +86,12 @@ The search approach we take is to keep track of the score after each decision in
 Formally:
 
 \begin{align*}
-Minmax(s) =& & \\\\
-  & Utility(s, MAX) & if ~ IsTerminal(s) \\\\
-  & \max_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
-  & \min_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
-\end{align*}
+Minmax(s) =& &\\\\  & Utility(s, MAX) & if ~ IsTerminal(s)\\\\  & \max_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX\\\\  & \min_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX\\\\\end{align*}
 
 Just computing the Minimax is not enought. Remember, we needed a search algorithm to tell MAX what is his optimal action to take. For this purpose, we need to keep track of the optimal move when computing the Minimax.
 
 ```python
-def MinimaxSearch(game, state) -> action \\\\
-  player = game.ToMove(state)
+def MinimaxSearch(game, state) -> action\\\\  player = game.ToMove(state)
   value, move = MaxValue(game, state, player)
   return move
 
@@ -123,7 +118,7 @@ TODO
 ## Alpha-Beta pruning
 
 TODO
-f:T1766,<!doctype html>
+f:T1747,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -160,15 +155,10 @@ f:T1766,<!doctype html>
     <p>Formally:</p>
     <p>
       \begin{align*}
-      Minmax(s) =&#x26; &#x26; \\
-      &#x26; Utility(s, MAX) &#x26; if ~ IsTerminal(s) \\
-      &#x26; \max_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX \\
-      &#x26; \min_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX \\
-      \end{align*}
+      Minmax(s) =&#x26; &#x26;\\ &#x26; Utility(s, MAX) &#x26; if ~ IsTerminal(s)\\ &#x26; \max_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX\\ &#x26; \min_{a \in Actions(s)}{Minimax(s, a)} &#x26; if ~ ToMove(s) = MAX\\\end{align*}
     </p>
     <p>Just computing the Minimax is not enought. Remember, we needed a search algorithm to tell MAX what is his optimal action to take. For this purpose, we need to keep track of the optimal move when computing the Minimax.</p>
-    <pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">MinimaxSearch</span>(<span class="hljs-params">game, state</span>) -> action \\\\
-  player = game.ToMove(state)
+    <pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">MinimaxSearch</span>(<span class="hljs-params">game, state</span>) -> action\\\\  player = game.ToMove(state)
   value, move = MaxValue(game, state, player)
   <span class="hljs-keyword">return</span> move
 

@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","quantum/pauli-matrices","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"pauli-matrices\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","quantum/pauli-matrices","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"pauli-matrices\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -10,15 +10,14 @@ c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.
 4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
 9:null
 d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
-e:Tace,
+e:Tb14,
 # Properties and definitions about the Pauli matrices
 
 ## Pauli I
 
 $$
 \sigma_0 = I = \begin{bmatrix}
-1 & 0 \\
-0 & 1
+1 & 0\\\\0 & 1
 \end{bmatrix}
 $$
 
@@ -33,8 +32,7 @@ $$
 $$
 \sigma_1 = \sigma_x = X =
 \begin{bmatrix}
-0 & 1 \\\\
-1 & 0
+0 & 1\\\\1 & 0
 \end{bmatrix}
 $$
 
@@ -48,17 +46,24 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ 1\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -1\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1\\\\1\end{pmatrix}\\\\\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1\\\\-1\end{pmatrix}
 \end{align*}
 $$
 
 ## Pauli Y
 
+
+$$
+\sigma_2 = \sigma_y = Y =
+\begin{bmatrix}
+0 & -i\\\\i & -0
+\end{bmatrix}
+$$
+
+
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ i\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -i\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1\\\\i\end{pmatrix}\\\\\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1\\\\-i\end{pmatrix}
 \end{align*}
 $$
 
@@ -72,8 +77,7 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ i\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -i\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1\\\\i\end{pmatrix}\\\\\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1\\\\-i\end{pmatrix}
 \end{align*}
 $$
 
@@ -82,8 +86,7 @@ $$
 $$
 \sigma_3 = \sigma_z = Z =
 \begin{bmatrix}
-1 & 0 \\\\
-0 & -1
+1 & 0\\\\0 & -1
 \end{bmatrix}
 $$
 
@@ -97,8 +100,7 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ 0\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}0 \\\\ 1\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1\\\\0\end{pmatrix}\\\\\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}0\\\\1\end{pmatrix}
 \end{align*}
 $$
 
@@ -123,9 +125,7 @@ we can use the completeness relation and obtain
 
 $$
 \begin{align*}
-A &= I_W A I_V \\
-  &= \sum_{i,j} \ket {w_j} \bra{w_j} A \ket {v_i} \bra {v_i} \\
-  &= \sum_{i,j} \bra{w_j} A \ket {v_i} \ket {w_j} \bra {v_i}
+A &= I_W A I_V\\\\  &= \sum_{i,j} \ket {w_j} \bra{w_j} A \ket {v_i} \bra {v_i}\\\\  &= \sum_{i,j} \bra{w_j} A \ket {v_i} \ket {w_j} \bra {v_i}
 \end{align*}
 $$
 
@@ -135,33 +135,29 @@ For intuition, below are the outer products of the **computational basis** $\ket
 
 $$
 \ket 0 \bra 0 = \begin{bmatrix}
-1 & 0 \\
-0 & 0
+1 & 0\\\\0 & 0
 \end{bmatrix}
 $$
 
 $$
 \ket 1 \bra 0 = \begin{bmatrix}
-0 & 0 \\
-1 & 0
+0 & 0\\\\1 & 0
 \end{bmatrix}
 $$
 
 $$
 \ket 0 \bra 1 = \begin{bmatrix}
-0 & 1 \\
-0 & 0
+0 & 1\\\\0 & 0
 \end{bmatrix}
 $$
 
 $$
 \ket 1 \bra 1 = \begin{bmatrix}
-0 & 0 \\
-0 & 1
+0 & 0\\\\0 & 1
 \end{bmatrix}
 $$
 
-Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ index. Therefore, a matrix whose values are $A_{ij}$ can be represented as a linear combination of the basis matrices that were produced by the outer product.f:T14e7,<!doctype html>
+Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ index. Therefore, a matrix whose values are $A_{ij}$ can be represented as a linear combination of the basis matrices that were produced by the outer product.f:T14dc,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -186,8 +182,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \sigma_0 = I = \begin{bmatrix}
-      1 &#x26; 0 \
-      0 &#x26; 1
+      1 &#x26; 0\\0 &#x26; 1
       \end{bmatrix}
       $$
     </p>
@@ -202,8 +197,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
       $$
       \sigma_1 = \sigma_x = X =
       \begin{bmatrix}
-      0 &#x26; 1 \\
-      1 &#x26; 0
+      0 &#x26; 1\\1 &#x26; 0
       \end{bmatrix}
       $$
     </p>
@@ -217,17 +211,23 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \begin{align*}
-      \lambda_1 = 1 <del>&#x26;;</del> u_1 = \begin{pmatrix}1 \\ 1\end{pmatrix} \\
-      \lambda_2 = -1 <del>&#x26;;</del> u_2 = \begin{pmatrix}1 \\ -1\end{pmatrix}
+      \lambda_1 = 1 ~~ &#x26;; ~~ u_1 = \begin{pmatrix}1\\1\end{pmatrix}\\\lambda_2 = -1 ~~ &#x26;; ~~ u_2 = \begin{pmatrix}1\\-1\end{pmatrix}
       \end{align*}
       $$
     </p>
     <h2 id="pauli-y">Pauli Y</h2>
     <p>
       $$
+      \sigma_2 = \sigma_y = Y =
+      \begin{bmatrix}
+      0 &#x26; -i\\i &#x26; -0
+      \end{bmatrix}
+      $$
+    </p>
+    <p>
+      $$
       \begin{align*}
-      \lambda_1 = 1 <del>&#x26;;</del> u_1 = \begin{pmatrix}1 \\ i\end{pmatrix} \\
-      \lambda_2 = -1 <del>&#x26;;</del> u_2 = \begin{pmatrix}1 \\ -i\end{pmatrix}
+      \lambda_1 = 1 ~~ &#x26;; ~~ u_1 = \begin{pmatrix}1\\i\end{pmatrix}\\\lambda_2 = -1 ~~ &#x26;; ~~ u_2 = \begin{pmatrix}1\\-i\end{pmatrix}
       \end{align*}
       $$
     </p>
@@ -241,8 +241,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \begin{align*}
-      \lambda_1 = 1 <del>&#x26;;</del> u_1 = \begin{pmatrix}1 \\ i\end{pmatrix} \\
-      \lambda_2 = -1 <del>&#x26;;</del> u_2 = \begin{pmatrix}1 \\ -i\end{pmatrix}
+      \lambda_1 = 1 ~~ &#x26;; ~~ u_1 = \begin{pmatrix}1\\i\end{pmatrix}\\\lambda_2 = -1 ~~ &#x26;; ~~ u_2 = \begin{pmatrix}1\\-i\end{pmatrix}
       \end{align*}
       $$
     </p>
@@ -251,8 +250,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
       $$
       \sigma_3 = \sigma_z = Z =
       \begin{bmatrix}
-      1 &#x26; 0 \\
-      0 &#x26; -1
+      1 &#x26; 0\\0 &#x26; -1
       \end{bmatrix}
       $$
     </p>
@@ -266,8 +264,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \begin{align*}
-      \lambda_1 = 1 <del>&#x26;;</del> u_1 = \begin{pmatrix}1 \\ 0\end{pmatrix} \\
-      \lambda_2 = -1 <del>&#x26;;</del> u_2 = \begin{pmatrix}0 \\ 1\end{pmatrix}
+      \lambda_1 = 1 ~~ &#x26;; ~~ u_1 = \begin{pmatrix}1\\0\end{pmatrix}\\\lambda_2 = -1 ~~ &#x26;; ~~ u_2 = \begin{pmatrix}0\\1\end{pmatrix}
       \end{align*}
       $$
     </p>
@@ -289,9 +286,7 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \begin{align*}
-      A &#x26;= I_W A I_V \
-      &#x26;= \sum_{i,j} \ket {w_j} \bra{w_j} A \ket {v_i} \bra {v_i} \
-      &#x26;= \sum_{i,j} \bra{w_j} A \ket {v_i} \ket {w_j} \bra {v_i}
+      A &#x26;= I_W A I_V\\ &#x26;= \sum_{i,j} \ket {w_j} \bra{w_j} A \ket {v_i} \bra {v_i}\\ &#x26;= \sum_{i,j} \bra{w_j} A \ket {v_i} \ket {w_j} \bra {v_i}
       \end{align*}
       $$
     </p>
@@ -300,32 +295,28 @@ Simply put $\ket i \bra j$ is a matrix with all zeros but a $1$ in the $i, j$ in
     <p>
       $$
       \ket 0 \bra 0 = \begin{bmatrix}
-      1 &#x26; 0 \
-      0 &#x26; 0
+      1 &#x26; 0\\0 &#x26; 0
       \end{bmatrix}
       $$
     </p>
     <p>
       $$
       \ket 1 \bra 0 = \begin{bmatrix}
-      0 &#x26; 0 \
-      1 &#x26; 0
+      0 &#x26; 0\\1 &#x26; 0
       \end{bmatrix}
       $$
     </p>
     <p>
       $$
       \ket 0 \bra 1 = \begin{bmatrix}
-      0 &#x26; 1 \
-      0 &#x26; 0
+      0 &#x26; 1\\0 &#x26; 0
       \end{bmatrix}
       $$
     </p>
     <p>
       $$
       \ket 1 \bra 1 = \begin{bmatrix}
-      0 &#x26; 0 \
-      0 &#x26; 1
+      0 &#x26; 0\\0 &#x26; 1
       \end{bmatrix}
       $$
     </p>

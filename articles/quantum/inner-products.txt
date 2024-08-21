@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["x8QEsbu5mkmQv2sgy2LI0",[[["",{"children":["articles",{"children":[["slug","quantum/inner-products","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"inner-products\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["FfKnuFY-8ENHfpyQHUAfL",[[["",{"children":["articles",{"children":[["slug","quantum/inner-products","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"inner-products\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -16,24 +16,18 @@ The inner product is a known topic. Here we will illustrate it from a different 
 Given the two kets:
 $$
 \ket\psi = \begin{pmatrix}
-\alpha_1 \\
-\vdots \\
-\alpha_n
+\alpha_1\\\\\vdots\\\\\alpha_n
 \end{pmatrix}
 ~~and~~
 \ket\phi = \begin{pmatrix}
-\beta_1 \\
-\vdots \\
-\beta_n
+\beta_1\\\\\vdots\\\\\beta_n
 \end{pmatrix}
 $$
 
 The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
 $$
 \braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
-\beta_1 \\
-\vdots \\
-\beta_n
+\beta_1\\\\\vdots\\\\\beta_n
 \end{pmatrix}
 =
 \sum_{i=1}^n \overline{\alpha_i} \beta_i
@@ -124,8 +118,7 @@ $$
 If in addition, the vectors in the set are unit vectors (norm 1) then the set is said to be **orthonormal** and it will be true that
 $$
 \braket{\psi_j|\psi_k} = \begin{cases}
-1 & j \neq k \\
-0 & j = k
+1 & j \neq k\\\\0 & j = k
 \end{cases}
 $$
 
@@ -145,7 +138,7 @@ The following facts for a square matrix $\mathcal{U}$ are equivalent
 
 - $\mathcal{U}$ is unitary (i.e. $\mathcal{U}^\dagger \mathcal{U} = 1 = \mathcal{U}\mathcal{U}^\dagger$)
 - The rows of $\mathcal{U}$ form an orthonormal basis
-- The columns of $\mathcal{U}$ form an orthonormal basisf:T16cc,<!doctype html>
+- The columns of $\mathcal{U}$ form an orthonormal basisf:T1695,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -154,12 +147,10 @@ The following facts for a square matrix $\mathcal{U}$ are equivalent
   <body>
     <nav class="toc">
       <ol class="toc-level toc-level-1">
-        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1-vdots-beta_nendpmatrix">The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1vdotsbeta_nendpmatrix">The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
 $$
 \braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
-\beta_1 \
-\vdots \
-\beta_n
+\beta_1\\\vdots\\\beta_n
 \end{pmatrix}</a></li>
       </ol>
     </nav>
@@ -168,25 +159,19 @@ $$
       Given the two kets:
       $$
       \ket\psi = \begin{pmatrix}
-      \alpha_1 \
-      \vdots \
-      \alpha_n
+      \alpha_1\\\vdots\\\alpha_n
       \end{pmatrix}
       <del>and</del>
       \ket\phi = \begin{pmatrix}
-      \beta_1 \
-      \vdots \
-      \beta_n
+      \beta_1\\\vdots\\\beta_n
       \end{pmatrix}
       $$
     </p>
-    <h1 id="the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1-vdots-beta_nendpmatrix">
+    <h1 id="the-inner-product-of-ketpsi-and-ketphi-is-the-scalar-defined-bybraketpsiphi--overlinealpha_1-cdots-overlinealpha_nbeginpmatrixbeta_1vdotsbeta_nendpmatrix">
       The inner product of $\ket\psi$ and $\ket\phi$ is the scalar defined by
       $$
       \braket{\psi|\phi} = (\overline{\alpha_1} \cdots \overline{\alpha_n})\begin{pmatrix}
-      \beta_1 \
-      \vdots \
-      \beta_n
+      \beta_1\\\vdots\\\beta_n
       \end{pmatrix}
     </h1>
     <p>
@@ -278,8 +263,7 @@ $$
       If in addition, the vectors in the set are unit vectors (norm 1) then the set is said to be <strong>orthonormal</strong> and it will be true that
       $$
       \braket{\psi_j|\psi_k} = \begin{cases}
-      1 &#x26; j \neq k \
-      0 &#x26; j = k
+      1 &#x26; j \neq k\\0 &#x26; j = k
       \end{cases}
       $$
     </p>
