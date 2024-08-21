@@ -29,7 +29,7 @@ $$
 $$
 \sigma_1 = \sigma_x = X =
 \begin{bmatrix}
-0 & 1 \\\\
+0 & 1 \\
 1 & 0
 \end{bmatrix}
 $$
@@ -44,17 +44,27 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ 1\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -1\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1 \\ 1\end{pmatrix} \\
+\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1 \\ -1\end{pmatrix}
 \end{align*}
 $$
 
 ## Pauli Y
 
+
+$$
+\sigma_2 = \sigma_y = Y =
+\begin{bmatrix}
+0 & -i \\
+i & -0
+\end{bmatrix}
+$$
+
+
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ i\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -i\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1 \\ i\end{pmatrix} \\
+\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1 \\ -i\end{pmatrix}
 \end{align*}
 $$
 
@@ -68,8 +78,8 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ i\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}1 \\\\ -i\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1 \\ i\end{pmatrix} \\
+\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}1 \\ -i\end{pmatrix}
 \end{align*}
 $$
 
@@ -78,7 +88,7 @@ $$
 $$
 \sigma_3 = \sigma_z = Z =
 \begin{bmatrix}
-1 & 0 \\\\
+1 & 0 \\
 0 & -1
 \end{bmatrix}
 $$
@@ -93,8 +103,8 @@ $$
 
 $$
 \begin{align*}
-\lambda_1 = 1 ~~&;~~ u_1 = \begin{pmatrix}1 \\\\ 0\end{pmatrix} \\\\
-\lambda_2 = -1 ~~&;~~ u_2 = \begin{pmatrix}0 \\\\ 1\end{pmatrix}
+\lambda_1 = 1 ~~ &; ~~ u_1 = \begin{pmatrix}1 \\ 0\end{pmatrix} \\
+\lambda_2 = -1 ~~ &; ~~ u_2 = \begin{pmatrix}0 \\ 1\end{pmatrix}
 \end{align*}
 $$
 

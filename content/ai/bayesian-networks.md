@@ -74,9 +74,9 @@ In general, we can reduce the joint distribution by iteratively invoking the **p
 
 $$
 \begin{align*}
-P(x_1, x_2, ..., x_n) &= P(x_n | x_1, x_2, ..., x_{n-1}) P(x_1, x_2, ..., x_{n-1}) \\\\
-  &= P(x_n | x_1, x_2, ..., x_{n-1}) P(x_{n-1} | x_1, x_2, ..., x_{n=2}) P(x_1, x_2, ..., x_{n-2}) \\\\
-  &= ... \\\\
+P(x_1, x_2, ..., x_n) &= P(x_n | x_1, x_2, ..., x_{n-1}) P(x_1, x_2, ..., x_{n-1}) \\
+  &= P(x_n | x_1, x_2, ..., x_{n-1}) P(x_{n-1} | x_1, x_2, ..., x_{n=2}) P(x_1, x_2, ..., x_{n-2}) \\
+  &= ... \\
   &= \Pi_{i=1}^{n} P(x_i | x_1, ..., x_{i-1})
 \end{align*}
 $$

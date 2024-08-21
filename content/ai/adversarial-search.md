@@ -83,16 +83,16 @@ The search approach we take is to keep track of the score after each decision in
 Formally:
 
 \begin{align*}
-Minmax(s) =& & \\\\
-  & Utility(s, MAX) & if ~ IsTerminal(s) \\\\
-  & \max_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
-  & \min_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\\\
+Minmax(s) =& & \\
+  & Utility(s, MAX) & if ~ IsTerminal(s) \\
+  & \max_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\
+  & \min_{a \in Actions(s)}{Minimax(s, a)} & if ~ ToMove(s) = MAX \\
 \end{align*}
 
 Just computing the Minimax is not enought. Remember, we needed a search algorithm to tell MAX what is his optimal action to take. For this purpose, we need to keep track of the optimal move when computing the Minimax.
 
 ```python
-def MinimaxSearch(game, state) -> action \\\\
+def MinimaxSearch(game, state) -> action \\
   player = game.ToMove(state)
   value, move = MaxValue(game, state, player)
   return move

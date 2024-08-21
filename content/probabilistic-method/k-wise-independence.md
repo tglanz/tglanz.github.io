@@ -115,10 +115,10 @@ $$
 Let's get to work then. We start by expanding the expressions:
 
 \begin{align*}
-&p(\alpha_0) = \sum_{i=0}^{k-1} a_i \alpha_0^i = v_0 \\\\
-&p(\alpha_1) = \sum_{i=0}^{k-1} a_i \alpha_1^i = v_1 \\\\
-&... \\\\
-&p(\alpha_{k-1}) = \sum_{i=0}^{k-1} a_i \alpha_{k-1}^i = v_{k-1} \\\\
+&p(\alpha_0) = \sum_{i=0}^{k-1} a_i \alpha_0^i = v_0 \\
+&p(\alpha_1) = \sum_{i=0}^{k-1} a_i \alpha_1^i = v_1 \\
+&... \\
+&p(\alpha_{k-1}) = \sum_{i=0}^{k-1} a_i \alpha_{k-1}^i = v_{k-1} \\
 \end{align*}
 
 Let $V$ be the matrix:
@@ -126,10 +126,10 @@ Let $V$ be the matrix:
 $$
 V = 
 \begin{pmatrix}
-\alpha_0^0 & \alpha_0^1 & ... & \alpha_0^{k-1} \\\\
-\alpha_1^0 & \alpha_1^1 & ... & \alpha_1^{k-1} \\\\
-\vdots & \vdots & \vdots & \vdots \\\\
-\alpha_{k-1}^0 & \alpha_{k-1}^1 & ... & \alpha_{k-1}^{k-1} \\\\
+\alpha_0^0 & \alpha_0^1 & ... & \alpha_0^{k-1} \\
+\alpha_1^0 & \alpha_1^1 & ... & \alpha_1^{k-1} \\
+\vdots & \vdots & \vdots & \vdots \\
+\alpha_{k-1}^0 & \alpha_{k-1}^1 & ... & \alpha_{k-1}^{k-1} \\
 \end{pmatrix}
 $$
 
@@ -158,8 +158,8 @@ $$
 By definition, $\{ a_i \}_{i=0}^{k-1}$ are uniform and independent variables so we get that
 
 \begin{align*}
-    Pr(p(\alpha) = v) =& Pr(Va = v) \\\\
-    =& Pr(a = V^{-1}v) = Pr(a = u) = \prod_{i=0}^{k-1} \frac{1}{N} \\\\
+    Pr(p(\alpha) = v) =& Pr(Va = v) \\
+    =& Pr(a = V^{-1}v) = Pr(a = u) = \prod_{i=0}^{k-1} \frac{1}{N} \\
     =& N^{k}
 \end{align*}
 

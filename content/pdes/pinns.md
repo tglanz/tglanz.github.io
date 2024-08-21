@@ -56,6 +56,6 @@ Given the
 We define the Loss Function $L = MSE_u + MSE_f$ with:
 
 \begin{align*}
-    MSE_u &= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2 \\\\
+    MSE_u &= \frac{1}{N_u} \sum_{i=1}^{N_u}|u(t_u^i, x_u^i)|^2 \\
     MSE_f &= \frac{1}{N_f} \sum_{i=1}^{N_f}|f(t_f^i, x_f^i)|^2
 \end{align*}

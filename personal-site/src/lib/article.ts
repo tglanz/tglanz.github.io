@@ -102,9 +102,16 @@ export async function readArticleInfo(filePath: string): Promise<ArticleInfo> {
 
 export async function readArticle(filePath: string): Promise<Article> {
   const articleContents = await fs.readFile(filePath);
+  
+
   const articleInfo = parseArticleInfo(filePath, articleContents);
 
   const articleMatter = matter(articleContents);
+
+  // "hack" so that we don't need to change the latex to have "\\\\" instead of "\\"
+  let content = articleMatter.content
+  content = content.replace(/\\\\$|\s\\\\\s/g, `\\\\\\\\`)
+  articleMatter.content = content
 
   const builder = unified();
   

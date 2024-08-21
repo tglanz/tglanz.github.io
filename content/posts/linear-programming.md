@@ -44,11 +44,11 @@ $$ 25x_1 + 32x_2 + 12x_3 \geq 350 $$
 More compactly, we can write it as a minimization problem subject to a system of linear inequalities
 
 \begin{align*}
-minimize~    & 50x_1 + 30x_2 + 60x_3 & \\\\
-subject~ to~ & 4x_1 + 5x_2 + 8x_3 &\geq 60 \\\\
-             & 10x_1 + 4x_2 + 7x_3 &\geq 70 \\\\
-             & 25x_1 + 32x_2 + 12x_3 &\geq 350 \\\\
-             & x_1, x_2, x_3 &\geq 0 \\\\
+minimize~    & 50x_1 + 30x_2 + 60x_3 & \\
+subject~ to~ & 4x_1 + 5x_2 + 8x_3 &\geq 60 \\
+             & 10x_1 + 4x_2 + 7x_3 &\geq 70 \\
+             & 25x_1 + 32x_2 + 12x_3 &\geq 350 \\
+             & x_1, x_2, x_3 &\geq 0 \\
 \end{align*}
 
 We have defined a Linear Program (LP) of **3 variables**, **6 constraints** and an **objective function**. The cosntraints $x_1, x_2, x_3 \geq 0$ are called non-negativity constraints. The set of points $\\{ (x_1, x_2, x_3) \in \mathbb{R}^3 \\}$ that fulfills the constraints is the set of **feasible solutions** or the **feasible region**. The feasible solution subset of points that achieve a minimum for the objective function are called **optimal solutions**.
@@ -68,9 +68,9 @@ A LP can be represented in **matrix form**. Let
 We can now write a LP as:
 
 \begin{align*}
-min/max~ &\langle c, x \rangle \\\\
-s.t~ & Ax &\lesseqgtr b \\\\
-     & x &\lessgtr 0 \\\\
+min/max~ &\langle c, x \rangle \\
+s.t~ & Ax &\lesseqgtr b \\
+     & x &\lessgtr 0 \\
 \end{align*}
 
 > From now on, we will allow ourselves focus on either minimization or maximization problems - Those are completely analogue to each other (simply by negation).
@@ -92,9 +92,9 @@ Because general form a LP have no coherent structure they makes them hard to wor
 In LPS, The constraints are all equalities and the variables are all non-negative:
 
 \begin{align*}
-min~ &\langle c, x \rangle \\\\
-s.t~ & Ax &= b \\\\
-     & x &\geq 0 \\\\
+min~ &\langle c, x \rangle \\
+s.t~ & Ax &= b \\
+     & x &\geq 0 \\
 \end{align*}
 
 ### LP in Canonized Form (LPC)
@@ -102,9 +102,9 @@ s.t~ & Ax &= b \\\\
 In LPC, The constraints are all *geq* in minimization problems, *leq* in maximization problems  and the variables are all non-negative:
 
 \begin{align*}
-min~ &\langle c, x \rangle \\\\
-s.t~ & Ax &\geq b \\\\
-     & x &\geq 0 \\\\
+min~ &\langle c, x \rangle \\
+s.t~ & Ax &\geq b \\
+     & x &\geq 0 \\
 \end{align*}
 
 ### Convert between commonn forms
@@ -123,30 +123,30 @@ To get a LPC from a given LPS
 **For Example**, lets start from the given LP in general form:
 
 \begin{align*}
-min~ & x_1 + x_2 + 2x_3 \\\\
-s.t~ & 3x_1 + 2x_2 + x_3 &= 1 \\\\
-     & 5x_1 + x_2 - x_3 &\geq 3  \\\\
-     & x_1 \geq 0 \\\\
-     & x_2 \leq 0 \\\\
+min~ & x_1 + x_2 + 2x_3 \\
+s.t~ & 3x_1 + 2x_2 + x_3 &= 1 \\
+     & 5x_1 + x_2 - x_3 &\geq 3  \\
+     & x_1 \geq 0 \\
+     & x_2 \leq 0 \\
 \end{align*}
 
 To convert it to a LPS we first need to get rid of the variables without non-negativity constraints: $x_2, x_3$. Write $x_2 = x_2^+ - x_2^-$ and $x_3 = x_3^+ - x_3^-$, then add the constraints $x_2^+, x_2^-, x_3^+, x_3^- \geq 0$.
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &\geq 3  \\\\
-     & x_2^+ - x_2^- &\leq 0 \\\\
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- &\geq 3  \\
+     & x_2^+ - x_2^- &\leq 0 \\
      & x_1, x_2^+, x_2^-, x_3^+, x_3^- \geq 0
 \end{align*}
 
 Now we need to make all of the constraints to be equalities. Introduce the slack variables $s_2, s_3$ and write the program as:
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &= 3  \\\\
-     & x_2^+ - x_2^- + s_3 &= 0 \\\\
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &= 1 \\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &= 3  \\
+     & x_2^+ - x_2^- + s_3 &= 0 \\
      & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
 \end{align*}
 
@@ -155,13 +155,13 @@ We got a LPS! Notice though that we multiplied the number of variables.
 Now, to get a LPC we need to double each constraint:
 
 \begin{align*}
-min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\\\
-s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &\geq 1 \\\\
-     & -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &\geq -1 \\\\
-     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &\geq 3  \\\\
-     & -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &\geq -3  \\\\
-     & x_2^+ - x_2^- + s_3 &\geq 0 \\\\
-     & -x_2^+ + x_2^- - s_3 &\geq 0 \\\\
+min~ & x_1 + x_2^+ - x_2^- + 2x_3^+ - 2x_3^- \\
+s.t~ & 3x_1 + x_2^+ - x_2^- + x_3^+ - x_3^- &\geq 1 \\
+     & -3x_1 - x_2^+ + x_2^- - x_3^+ + x_3^- &\geq -1 \\
+     & 5x_1 + x_2^+ - x_2^- - x_3^+ + x_3^- - s_2 &\geq 3  \\
+     & -5x_1 - x_2^+ + x_2^- + x_3^+ - x_3^- + s_2 &\geq -3  \\
+     & x_2^+ - x_2^- + s_3 &\geq 0 \\
+     & -x_2^+ + x_2^- - s_3 &\geq 0 \\
      & x_1, x_2^+, x_2^-, x_3^+, x_3^-, s_2, s_3 \geq 0
 \end{align*}
 
@@ -182,10 +182,10 @@ When the feasible region is empty there cannot be any feasible solution (and no 
 For example, below is a LP with feasible region $\phi$:
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \geq 2 \\\\
-     & x_1 - x_2 \leq 1 \\\\
-     & x_1, x_2 \geq 0 \\\\
+max~ & x_1 + x_2 \\
+s.t~ & 2x_1 - x_2 \geq 2 \\
+     & x_1 - x_2 \leq 1 \\
+     & x_1, x_2 \geq 0 \\
 \end{align*}
 
 > TODO: graphics
@@ -197,10 +197,10 @@ When the linear system is consistent, the objective function can be unbounded wi
 Geometrically speaking, this case arises when the feasible region is an unbounded polytop.
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \leq 2 \\\\
-     & x_1 - x_2 \geq 1 \\\\
-     & x_1, x_2 \geq 0 \\\\
+max~ & x_1 + x_2 \\
+s.t~ & 2x_1 - x_2 \leq 2 \\
+     & x_1 - x_2 \geq 1 \\
+     & x_1, x_2 \geq 0 \\
 \end{align*}
 
 > TODO: graphics
@@ -212,11 +212,11 @@ When the objective function is bounded with respect to it's constraints, the set
 Infinite number of optimial solutions arise when the polytop is not bounded but the set of optimal solutions is the same as one of the polytop's edges.
 
 \begin{align*}
-max~ & x_1 + x_2 \\\\
-s.t~ & 2x_1 - x_2 \leq 2 \\\\
-     & x_1 - x_2 \geq 1 \\\\
-     & x_1 + x_2 \leq 3 \\\\
-     & x_1, x_2 \geq 0 \\\\
+max~ & x_1 + x_2 \\
+s.t~ & 2x_1 - x_2 \leq 2 \\
+     & x_1 - x_2 \geq 1 \\
+     & x_1 + x_2 \leq 3 \\
+     & x_1, x_2 \geq 0 \\
 \end{align*}
 
 > TODO: graphics
