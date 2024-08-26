@@ -33,8 +33,10 @@ $$
 
 Hadadamard and $\pi/8$
 $$
-    HTH = R_x(\pi/4)
+    HTH = e^{i\alpha} R_x(\pi/4)
 $$
+
+
 
 ## Decomposition of single qubit gates (Corrolary 4.2)
 
