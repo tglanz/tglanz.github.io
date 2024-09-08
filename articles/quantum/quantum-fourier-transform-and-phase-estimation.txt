@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/379a2867f23cfb09.css","style",{"crossOrigin":""}]
-0:["ff9VkJIKnh77D02bIddcn",[[["",{"children":["articles",{"children":[["slug","quantum/quantum-fourier-transform-and-phase-estimation","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"quantum-fourier-transform-and-phase-estimation\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["MgLbnvzfPxpIkYdQwYiMA",[[["",{"children":["articles",{"children":[["slug","quantum/quantum-fourier-transform-and-phase-estimation","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"quantum-fourier-transform-and-phase-estimation\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/379a2867f23cfb09.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-0926e968f56c67e9.js"],""]
 7:I[6954,[],""]
@@ -10,8 +10,10 @@ c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.
 4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
 9:null
 d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
-e:T5dc,
+e:T1408,
 # Quantum Fourier Transform (QFT)
+
+## Definition
 
 The _quantum Fourier Transform_ on an orthonormal basis ${\ket0, \ket1, ..., \ket{N-1}}$ is the linear operator acting on the basis states as follows:
 $$
@@ -52,9 +54,84 @@ $$
 QFT\ket{00 ... 0} = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{N-1} \ket{k} = \frac{1}{2^{n/2}} \sum_{x_i \in \{0, 1\}} \ket{x_1 x_2 ... x_n}
 $$
 
----
+## Product Representation
 
-f:T8bd,<!doctype html>
+Let $n$ be some integer and the basis $\ket0, \ket1, \cdots, \ket{2^{n-1}}$ the computational basis for an $n$ qubit system.
+
+It is useful to express a basis state $\ket j$ using binary representation. Using binary representation we get that ${\ket j = \ket {j_1 j_2 \cdots j_n}}$ such that ${j = j_1 2^{n-1} + j_2 2^{n-2} + \cdots + j_n 2^0}$
+
+We will also use binary representation for fractions using the notation $0.j_l j_{l+1} ... j_m$ which indicate the binary fraction $j_l/2 + j_{l+1}/4 + \cdots + j_m / 2^{m - l + 1}$.
+
+The quantum fourier transform can be given the following _product representation_:
+$$
+\ket{j_1 j_2 ... j_n} \longrightarrow \frac{ 
+    (\ket{0} + e^{2\pi i 0.j_n}\ket{1}) + (\ket{0} + e^{2\pi i 0.j_{n-1} j_n}\ket{1}) + \cdots + (\ket{0} + e^{2\pi i 0.j_1j_2 \cdots j_n}\ket{1})
+}{2^{n/2}}
+$$
+
+_Proof:_
+
+By definition
+$$
+\ket{j} \longrightarrow \frac{1}{2^{n/2}} \sum_{k=0}^{2^n-1} e^{2\pi i jk/2^n} \ket{k}
+$$
+
+Using binary representation $\ket{k} = \ket{k_1 k_2 \cdots k_n}$ we get
+$$
+\frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 e^{2\pi i jk/2^n} \ket{k_1 k_2 \cdots k_n}
+$$
+
+Now, notice that because
+$$
+k/2^n =
+\frac{k_1 2^{n-1} + k_2 2^{n-2} + \cdots k_n 2^0}{2^n} =
+k_1 2^{-1} + k_2 2^{-2} + \cdots k_n 2^{-n} =
+\sum_{l=1}^n k_l 2^{-l}
+$$
+
+we can write
+$$
+\ket{j} \longrightarrow
+\frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 e^{2\pi i j (\sum_{l=1}^n k_l 2^{-l})} \ket{k_1 k_2 \cdots k_n}
+$$
+
+Observe that
+$$
+\ket{k_1 k_2 \cdots k_n} = \ket{k_1} \otimes \ket{k_2} \cdots \ket{k_n}
+$$
+
+therefore the above can be broken to
+$$
+\begin{align*}
+\ket{j} \longrightarrow&
+\frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l}\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \sum_{k_l=0}^1 e^{2 \pi i j k_l 2^{-l}} \ket{k_l}\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i j 2^{-l}} \ket{1}  \rbrack\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}  
+\end{align*}
+$$
+
+
+Let's look at the tensor product:
+
+
+$$
+\begin{align*}
+\bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
+=& \ket{0} + e^{2\pi i(j_1 2^{n-2} + j_22^{n-3}+\cdots+j_n2^{-1})}\\\\\otimes& \ket{0} + e^{2\pi i(j_1 2^{n-3} + j_22^{n-4}+\cdots+j_{n-1}2^{-1}+j_n2^{-2})}\\\\\otimes& \ket{0} + e^{2\pi i(j_1 2^{n-4} + j_22^{n-5}+\cdots+j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\\\otimes& \cdots
+\end{align*}
+$$
+
+Recall that $e^{2 \pi a} = 1$ forall positive $a$. So,
+$$
+\begin{align*}
+\bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
+=& \ket{0} + e^{2\pi i(a_1 +j_n2^{-1})}\\\\\otimes& \ket{0} + e^{2\pi i(a_2+j_{n-1}2^{-1}+j_n2^{-2})}\\\\\otimes& \ket{0} + e^{2\pi i(a_3+j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\\\otimes& \cdots\\\\=& \ket{0} + e^{2\pi i(j_n2^{-1})}\\\\\otimes& \ket{0} + e^{2\pi i(j_{n-1}2^{-1}+j_n2^{-2})}\\\\\otimes& \ket{0} + e^{2\pi i(j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\\\otimes& \cdots\\\\=& \ket{0} + e^{2\pi i 0.j_n}\\\\\otimes& \ket{0} + e^{2\pi i 0.j_{n-1}j_n}\\\\\otimes& \ket{0} + e^{2\pi i 0.j_{n-2}j_{n-1}j_n}\\\\\otimes& \cdots\\\\\otimes& \ket{0} + e^{2\pi i 0.j_1 j_2 \cdots j_n}\\\\\end{align*}
+$$
+
+Putting this back we get that
+$$
+\ket{j} \longrightarrow \frac{ 
+    (\ket{0} + e^{2\pi i 0.j_n}\ket{1}) + (\ket{0} + e^{2\pi i 0.j_{n-1} j_n}\ket{1}) + \cdots + (\ket{0} + e^{2\pi i 0.j_1j_2 \cdots j_n}\ket{1})
+}{2^{n/2}}
+$$f:T1ac6,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -63,10 +140,16 @@ f:T8bd,<!doctype html>
   <body>
     <nav class="toc">
       <ol class="toc-level toc-level-1">
-        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#quantum-fourier-transform-qft">Quantum Fourier Transform (QFT)</a></li>
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#quantum-fourier-transform-qft">Quantum Fourier Transform (QFT)</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#definition">Definition</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#product-representation">Product Representation</a></li>
+          </ol>
+        </li>
       </ol>
     </nav>
     <h1 id="quantum-fourier-transform-qft">Quantum Fourier Transform (QFT)</h1>
+    <h2 id="definition">Definition</h2>
     <p>
       The <em>quantum Fourier Transform</em> on an orthonormal basis ${\ket0, \ket1, ..., \ket{N-1}}$ is the linear operator acting on the basis states as follows:
       $$
@@ -101,7 +184,86 @@ f:T8bd,<!doctype html>
       QFT\ket{00 ... 0} = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{N-1} \ket{k} = \frac{1}{2^{n/2}} \sum_{x_i \in {0, 1}} \ket{x_1 x_2 ... x_n}
       $$
     </p>
-    <hr>
+    <h2 id="product-representation">Product Representation</h2>
+    <p>Let $n$ be some integer and the basis $\ket0, \ket1, \cdots, \ket{2^{n-1}}$ the computational basis for an $n$ qubit system.</p>
+    <p>It is useful to express a basis state $\ket j$ using binary representation. Using binary representation we get that ${\ket j = \ket {j_1 j_2 \cdots j_n}}$ such that ${j = j_1 2^{n-1} + j_2 2^{n-2} + \cdots + j_n 2^0}$</p>
+    <p>We will also use binary representation for fractions using the notation $0.j_l j_{l+1} ... j_m$ which indicate the binary fraction $j_l/2 + j_{l+1}/4 + \cdots + j_m / 2^{m - l + 1}$.</p>
+    <p>
+      The quantum fourier transform can be given the following <em>product representation</em>:
+      $$
+      \ket{j_1 j_2 ... j_n} \longrightarrow \frac{
+      (\ket{0} + e^{2\pi i 0.j_n}\ket{1}) + (\ket{0} + e^{2\pi i 0.j_{n-1} j_n}\ket{1}) + \cdots + (\ket{0} + e^{2\pi i 0.j_1j_2 \cdots j_n}\ket{1})
+      }{2^{n/2}}
+      $$
+    </p>
+    <p><em>Proof:</em></p>
+    <p>
+      By definition
+      $$
+      \ket{j} \longrightarrow \frac{1}{2^{n/2}} \sum_{k=0}^{2^n-1} e^{2\pi i jk/2^n} \ket{k}
+      $$
+    </p>
+    <p>
+      Using binary representation $\ket{k} = \ket{k_1 k_2 \cdots k_n}$ we get
+      $$
+      \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 e^{2\pi i jk/2^n} \ket{k_1 k_2 \cdots k_n}
+      $$
+    </p>
+    <p>
+      Now, notice that because
+      $$
+      k/2^n =
+      \frac{k_1 2^{n-1} + k_2 2^{n-2} + \cdots k_n 2^0}{2^n} =
+      k_1 2^{-1} + k_2 2^{-2} + \cdots k_n 2^{-n} =
+      \sum_{l=1}^n k_l 2^{-l}
+      $$
+    </p>
+    <p>
+      we can write
+      $$
+      \ket{j} \longrightarrow
+      \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 e^{2\pi i j (\sum_{l=1}^n k_l 2^{-l})} \ket{k_1 k_2 \cdots k_n}
+      $$
+    </p>
+    <p>
+      Observe that
+      $$
+      \ket{k_1 k_2 \cdots k_n} = \ket{k_1} \otimes \ket{k_2} \cdots \ket{k_n}
+      $$
+    </p>
+    <p>
+      therefore the above can be broken to
+      $$
+      \begin{align*}
+      \ket{j} \longrightarrow&#x26;
+      \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l}\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \sum_{k_l=0}^1 e^{2 \pi i j k_l 2^{-l}} \ket{k_l}\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i j 2^{-l}} \ket{1} \rbrack\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}<br>\end{align*}
+      $$
+    </p>
+    <p>Let's look at the tensor product:</p>
+    <p>
+      $$
+      \begin{align*}
+      \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
+      =&#x26; \ket{0} + e^{2\pi i(j_1 2^{n-2} + j_22^{n-3}+\cdots+j_n2^{-1})}\\\otimes&#x26; \ket{0} + e^{2\pi i(j_1 2^{n-3} + j_22^{n-4}+\cdots+j_{n-1}2^{-1}+j_n2^{-2})}\\\otimes&#x26; \ket{0} + e^{2\pi i(j_1 2^{n-4} + j_22^{n-5}+\cdots+j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\otimes&#x26; \cdots
+      \end{align*}
+      $$
+    </p>
+    <p>
+      Recall that $e^{2 \pi a} = 1$ forall positive $a$. So,
+      $$
+      \begin{align*}
+      \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
+      =&#x26; \ket{0} + e^{2\pi i(a_1 +j_n2^{-1})}\\\otimes&#x26; \ket{0} + e^{2\pi i(a_2+j_{n-1}2^{-1}+j_n2^{-2})}\\\otimes&#x26; \ket{0} + e^{2\pi i(a_3+j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\otimes&#x26; \cdots\\=&#x26; \ket{0} + e^{2\pi i(j_n2^{-1})}\\\otimes&#x26; \ket{0} + e^{2\pi i(j_{n-1}2^{-1}+j_n2^{-2})}\\\otimes&#x26; \ket{0} + e^{2\pi i(j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})}\\\otimes&#x26; \cdots\\=&#x26; \ket{0} + e^{2\pi i 0.j_n}\\\otimes&#x26; \ket{0} + e^{2\pi i 0.j_{n-1}j_n}\\\otimes&#x26; \ket{0} + e^{2\pi i 0.j_{n-2}j_{n-1}j_n}\\\otimes&#x26; \cdots\\\otimes&#x26; \ket{0} + e^{2\pi i 0.j_1 j_2 \cdots j_n}\\\end{align*}
+      $$
+    </p>
+    <p>
+      Putting this back we get that
+      $$
+      \ket{j} \longrightarrow \frac{
+      (\ket{0} + e^{2\pi i 0.j_n}\ket{1}) + (\ket{0} + e^{2\pi i 0.j_{n-1} j_n}\ket{1}) + \cdots + (\ket{0} + e^{2\pi i 0.j_1j_2 \cdots j_n}\ket{1})
+      }{2^{n/2}}
+      $$
+    </p>
   </body>
 </html>
 a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Quantum Fourier Transform and Phase Estimation"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Quantum_Computing","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Quantum Computing"}]}],["$","$Lb","1",{"href":"/tags/Quantum_Mechanics","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Quantum Mechanics"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]
