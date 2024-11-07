@@ -29,13 +29,11 @@ $$
 We will show that for any two basis states $\ket{j}, \ket{j'}$ it is true that the innert product ${\bra{j'} U^\dagger U \ket{j}}$ is $\delta_{j, j'}$ thus proving that $U^\dagger U = I$.
 
 So,
-$$
 \begin{align*}
 \bra{j'} U^\dagger U \ket{j} &= \bra{j'} (\frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} e^{-2\pi i j k/N}\ket{k}) \frac{1}{\sqrt{N}} \sum_{l=0}^{N-1} e^{2\pi i j l/N}\ket{l}) \ket{j} \\
 &= \bra{j'} (\frac{1}{N} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} e^{2\pi i j (l-k)/N} \delta_{k, l}) \ket{j} \\
 &= \bra{j'} \frac{N}{N} \ket{j} = \braket{j'|j} = \delta_{j',j} = 1
 \end{align*}
-$$
 
 Therefore $U^\dagger U = I$
 
@@ -99,7 +97,6 @@ $$
 $$
 
 therefore the above can be broken to
-$$
 \begin{align*}
 \ket{j} \longrightarrow&
 \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l} \\
@@ -107,13 +104,11 @@ $$
 =& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i j 2^{-l}} \ket{1}  \rbrack \\
 =& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}  
 \end{align*}
-$$
 
 
 Let's look at the tensor product:
 
 
-$$
 \begin{align*}
 \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
 =& \ket{0} + e^{2\pi i(j_1 2^{n-2} + j_22^{n-3}+\cdots+j_n2^{-1})} \\
@@ -121,10 +116,8 @@ $$
 \otimes& \ket{0} + e^{2\pi i(j_1 2^{n-4} + j_22^{n-5}+\cdots+j_{n-1}2^{-1}+j_{n-2}2^{-2}+j_n2^{-3})} \\
 \otimes& \cdots
 \end{align*}
-$$
 
 Recall that $e^{2 \pi a} = 1$ forall positive $a$. So,
-$$
 \begin{align*}
 \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
 =& \ket{0} + e^{2\pi i(a_1 +j_n2^{-1})} \\
@@ -141,7 +134,6 @@ $$
 \otimes& \cdots \\
 \otimes& \ket{0} + e^{2\pi i 0.j_1 j_2 \cdots j_n} \\
 \end{align*}
-$$
 
 Putting this back we get that
 $$
