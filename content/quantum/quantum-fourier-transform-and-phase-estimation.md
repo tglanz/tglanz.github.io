@@ -97,6 +97,7 @@ $$
 $$
 
 therefore the above can be broken to
+
 \begin{align*}
 \ket{j} \longrightarrow&
 \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l} \\
@@ -107,7 +108,6 @@ therefore the above can be broken to
 
 
 Let's look at the tensor product:
-
 
 \begin{align*}
 \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
