@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/66d0883758355d1f.css","style",{"crossOrigin":""}]
-0:["PrwyOGkWtyocbEqpUupQH",[[["",{"children":["articles",{"children":[["slug","quantum/quantum-fourier-transform-and-phase-estimation","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"quantum-fourier-transform-and-phase-estimation\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66d0883758355d1f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["gK8JV9rd7tjXLm759ImAW",[[["",{"children":["articles",{"children":[["slug","quantum/quantum-fourier-transform-and-phase-estimation","c"],{"children":["__PAGE__?{\"slug\":[\"quantum\",\"quantum-fourier-transform-and-phase-estimation\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66d0883758355d1f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-679af891320360de.js"],""]
 7:I[6954,[],""]
@@ -99,6 +99,7 @@ $$
 $$
 
 therefore the above can be broken to
+
 \begin{align*}
 \ket{j} \longrightarrow&
 \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l}\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \sum_{k_l=0}^1 e^{2 \pi i j k_l 2^{-l}} \ket{k_l}\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i j 2^{-l}} \ket{1}  \rbrack\\\\=& \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}  
@@ -106,7 +107,6 @@ therefore the above can be broken to
 
 
 Let's look at the tensor product:
-
 
 \begin{align*}
 \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}
@@ -123,7 +123,7 @@ $$
 \ket{j} \longrightarrow \frac{ 
     (\ket{0} + e^{2\pi i 0.j_n}\ket{1}) + (\ket{0} + e^{2\pi i 0.j_{n-1} j_n}\ket{1}) + \cdots + (\ket{0} + e^{2\pi i 0.j_1j_2 \cdots j_n}\ket{1})
 }{2^{n/2}}
-$$f:T1a7e,<!doctype html>
+$$f:T1a83,<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -221,8 +221,8 @@ $$f:T1a7e,<!doctype html>
       \ket{k_1 k_2 \cdots k_n} = \ket{k_1} \otimes \ket{k_2} \cdots \ket{k_n}
       $$
     </p>
+    <p>therefore the above can be broken to</p>
     <p>
-      therefore the above can be broken to
       \begin{align*}
       \ket{j} \longrightarrow&#x26;
       \frac{1}{2^{n/2}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \cdots \sum_{k_n=0}^1 \bigotimes_{l=1}^n e^{2\pi i j k_l 2^{-l}} \ket{k_l}\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \sum_{k_l=0}^1 e^{2 \pi i j k_l 2^{-l}} \ket{k_l}\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i j 2^{-l}} \ket{1} \rbrack\\=&#x26; \frac{1}{2^{n/2}} \bigotimes_{l=1}^n \lbrack \ket{0} + e^{2 \pi i (j_1^{n-1-l} + j_2^{n-2-l} + \cdots + j_n 2^{- l})} \ket{1}<br>\end{align*}
