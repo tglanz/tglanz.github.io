@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/66d0883758355d1f.css","style",{"crossOrigin":""}]
-0:["csQvCnJgaSR9YO5Okb3Qc",[[["",{"children":["articles",{"children":[["slug","posts/argocd","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"argocd\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66d0883758355d1f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["unFc_cxHuLzltpPwdriAt",[[["",{"children":["articles",{"children":[["slug","posts/argocd","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"argocd\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66d0883758355d1f.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
 6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-679af891320360de.js"],""]
 7:I[6954,[],""]
