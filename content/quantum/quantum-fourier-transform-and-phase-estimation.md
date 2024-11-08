@@ -29,11 +29,16 @@ $$
 We will show that for any two basis states $\ket{j}, \ket{j'}$ it is true that the innert product ${\bra{j'} U^\dagger U \ket{j}}$ is $\delta_{j, j'}$ thus proving that $U^\dagger U = I$.
 
 So,
+$$
 \begin{align*}
-\bra{j'} U^\dagger U \ket{j} &= \bra{j'} (\frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} e^{-2\pi i j k/N}\ket{k}) \frac{1}{\sqrt{N}} \sum_{l=0}^{N-1} e^{2\pi i j l/N}\ket{l}) \ket{j} \\
-&= \bra{j'} (\frac{1}{N} \sum_{k=0}^{N-1} \sum_{l=0}^{N-1} e^{2\pi i j (l-k)/N} \delta_{k, l}) \ket{j} \\
-&= \bra{j'} \frac{N}{N} \ket{j} = \braket{j'|j} = \delta_{j',j} = 1
+\bra{j'} U^\dagger U \ket{j} &=
+\bra{j'} U^\dagger \frac{1}{\sqrt{N}} \sum_{k=0}^{N-1} e^{2 \pi i jk/N} \ket{k} \tag{Definition} \\
+&= \bra{j'} \frac{1}{N} \sum_{k'=0}^{N-1} \sum_{k=0}^{N-1} e^{2 \pi i jk/N} e^{2 \pi i kk'}/N \ket{k'} \tag{Linearity} \\
+&= \bra{j'} \frac{1}{N} \sum_{k'=0}^{N-1} \sum_{k=0}^{N-1} e^{2 \pi i k(j - k')/N} \ket{k'} \\
+&= \bra{j'} \frac{1}{N} \sum_{k=0}^{N-1} \ket{j} \tag{$k'=j$} = \bra{j'} \frac{N}{N} \ket{j} \\
+&= \braket{j'|j}
 \end{align*}
+$$
 
 Therefore $U^\dagger U = I$
 
