@@ -7,7 +7,7 @@ tags:
 - Notes
 ---
 
-List streams
+List streams:
 
     aws kinesis list-streams
 
