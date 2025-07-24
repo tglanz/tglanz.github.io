@@ -1,0 +1,722 @@
+1:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/3cce890a78e1b9e6.css","style",{"crossOrigin":""}]
+0:["y-KQ4XLpVjS0mpw4CYW5h",[[["",{"children":["articles",{"children":[["slug","posts/postgres-cheatsheet","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"postgres-cheatsheet\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3cce890a78e1b9e6.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-a899d2522ee4bf8e.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e8ce0c Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/postgres-cheatsheet","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"postgres-cheatsheet\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/postgres-cheatsheet","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T2283,
+# PostgreSQL Cheatsheet
+
+Essential PostgreSQL commands and queries I use regularly. Focused on practical stuff you'll actually need.
+
+## Connecting & Basic Commands
+
+**Connect to PostgreSQL:**
+```bash
+psql -U username -d database_name          # Connect to specific database
+psql -U postgres                           # Connect as postgres user
+psql -h localhost -p 5432 -U user mydb     # Connect with host/port
+```
+
+**Essential psql commands:**
+```sql
+\?                      -- Show help
+\q                      -- Quit psql
+\l                      -- List all databases
+\c database_name        -- Connect to database
+\dt                     -- List tables in current database
+\d table_name           -- Describe table structure
+\du                     -- List users/roles
+\i script.sql           -- Execute SQL file
+```
+
+## Database Operations
+
+**Create and manage databases:**
+```sql
+CREATE DATABASE myproject;
+DROP DATABASE myproject;
+\c myproject            -- Switch to myproject database
+
+-- Create database with specific encoding
+CREATE DATABASE myapp 
+    WITH ENCODING 'UTF8' 
+    LC_COLLATE='en_US.UTF-8' 
+    LC_CTYPE='en_US.UTF-8';
+```
+
+## Table Operations
+
+**Create tables with common patterns:**
+```sql
+-- Basic table with common column types
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_active BOOLEAN DEFAULT true
+);
+
+-- Table with foreign key
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT,
+    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+**Modify existing tables:**
+```sql
+-- Add column
+ALTER TABLE users ADD COLUMN phone VARCHAR(20);
+
+-- Change column type
+ALTER TABLE users ALTER COLUMN name TYPE VARCHAR(150);
+
+-- Add constraint
+ALTER TABLE users ADD CONSTRAINT email_format 
+    CHECK (email ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
+
+-- Drop column
+ALTER TABLE users DROP COLUMN phone;
+```
+
+## CRUD Operations
+
+**Insert data:**
+```sql
+-- Single insert
+INSERT INTO users (email, name) 
+VALUES ('john@example.com', 'John Doe');
+
+-- Multiple inserts
+INSERT INTO users (email, name) VALUES 
+    ('alice@example.com', 'Alice Smith'),
+    ('bob@example.com', 'Bob Johnson');
+
+-- Insert and return data
+INSERT INTO users (email, name) 
+VALUES ('new@example.com', 'New User') 
+RETURNING id, created_at;
+```
+
+**Select data:**
+```sql
+-- Basic selects
+SELECT * FROM users;
+SELECT email, name FROM users WHERE is_active = true;
+
+-- With joins
+SELECT u.name, p.title 
+FROM users u 
+JOIN posts p ON u.id = p.user_id
+WHERE u.is_active = true;
+
+-- Pagination
+SELECT * FROM users ORDER BY id LIMIT 10 OFFSET 20;
+
+-- Count records
+SELECT COUNT(*) FROM users WHERE created_at >= '2024-01-01';
+```
+
+**Update data:**
+```sql
+-- Simple update
+UPDATE users SET name = 'Jane Doe' WHERE id = 1;
+
+-- Update with timestamp
+UPDATE users SET 
+    name = 'Updated Name',
+    updated_at = CURRENT_TIMESTAMP 
+WHERE email = 'user@example.com';
+
+-- Update with condition
+UPDATE posts SET title = 'Updated: ' || title 
+WHERE created_at < '2024-01-01';
+```
+
+**Delete data:**
+```sql
+-- Soft delete (recommended)
+UPDATE users SET is_active = false WHERE id = 1;
+
+-- Hard delete
+DELETE FROM users WHERE id = 1;
+
+-- Delete with join condition
+DELETE FROM posts 
+WHERE user_id IN (SELECT id FROM users WHERE is_active = false);
+```
+
+## User & Role Management
+
+**Create and manage users:**
+```sql
+-- Create user with password
+CREATE ROLE myapp_user WITH LOGIN PASSWORD 'secure_password';
+
+-- Create user with specific privileges
+CREATE ROLE app_readonly WITH LOGIN PASSWORD 'password'
+    CONNECTION LIMIT 10;
+
+-- Grant database access
+GRANT CONNECT ON DATABASE myproject TO myapp_user;
+GRANT USAGE ON SCHEMA public TO myapp_user;
+
+-- Grant table permissions
+GRANT SELECT, INSERT, UPDATE ON users TO app_user;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO app_readonly;
+
+-- Make user a superuser (be careful!)
+ALTER ROLE username CREATEDB CREATEROLE;
+```
+
+**Common role patterns:**
+```sql
+-- Read-only user for reports
+CREATE ROLE reports_user WITH LOGIN PASSWORD 'password';
+GRANT CONNECT ON DATABASE myproject TO reports_user;
+GRANT USAGE ON SCHEMA public TO reports_user;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO reports_user;
+
+-- Application user with limited permissions
+CREATE ROLE app_user WITH LOGIN PASSWORD 'password';
+GRANT CONNECT ON DATABASE myproject TO app_user;
+GRANT USAGE ON SCHEMA public TO app_user;
+GRANT SELECT, INSERT, UPDATE, DELETE ON users, posts TO app_user;
+GRANT USAGE ON ALL SEQUENCES IN SCHEMA public TO app_user;
+```
+
+## Indexes & Performance
+
+**Create indexes for better performance:**
+```sql
+-- Basic index
+CREATE INDEX idx_users_email ON users(email);
+
+-- Composite index
+CREATE INDEX idx_posts_user_created ON posts(user_id, created_at);
+
+-- Partial index (conditional)
+CREATE INDEX idx_active_users ON users(email) WHERE is_active = true;
+
+-- Check index usage
+SELECT indexname, indexdef FROM pg_indexes WHERE tablename = 'users';
+```
+
+## Common Queries & Patterns
+
+**Date/time queries:**
+```sql
+-- Records from last 7 days
+SELECT * FROM posts 
+WHERE created_at >= CURRENT_DATE - INTERVAL '7 days';
+
+-- Group by date
+SELECT DATE(created_at) as day, COUNT(*) 
+FROM posts 
+GROUP BY DATE(created_at) 
+ORDER BY day;
+
+-- Format timestamps
+SELECT name, TO_CHAR(created_at, 'YYYY-MM-DD HH24:MI') as formatted_date
+FROM users;
+```
+
+**String operations:**
+```sql
+-- Case-insensitive search
+SELECT * FROM users WHERE LOWER(name) LIKE '%john%';
+
+-- Pattern matching
+SELECT * FROM users WHERE email ~ '@gmail\.com$';
+
+-- String concatenation
+SELECT name || ' (' || email || ')' as display_name FROM users;
+```
+
+**Aggregations:**
+```sql
+-- Count posts per user
+SELECT u.name, COUNT(p.id) as post_count
+FROM users u
+LEFT JOIN posts p ON u.id = p.user_id
+GROUP BY u.id, u.name
+ORDER BY post_count DESC;
+
+-- Find duplicates
+SELECT email, COUNT(*) 
+FROM users 
+GROUP BY email 
+HAVING COUNT(*) > 1;
+```
+
+## JSON Operations (PostgreSQL specialty)
+
+**Working with JSON columns:**
+```sql
+-- Create table with JSON
+CREATE TABLE events (
+    id SERIAL PRIMARY KEY,
+    data JSONB NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert JSON data
+INSERT INTO events (data) VALUES 
+('{"type": "login", "user_id": 123, "ip": "192.168.1.1"}'),
+('{"type": "purchase", "user_id": 123, "amount": 29.99, "product": "book"}');
+
+-- Query JSON data
+SELECT * FROM events WHERE data->>'type' = 'login';
+SELECT * FROM events WHERE (data->>'user_id')::int = 123;
+SELECT data->'amount' as amount FROM events WHERE data ? 'amount';
+
+-- Create index on JSON field
+CREATE INDEX idx_events_type ON events USING GIN ((data->>'type'));
+```
+
+## Backup & Restore
+
+**Backup database:**
+```bash
+# Full database backup
+pg_dump -U postgres myproject > backup.sql
+
+# Compressed backup
+pg_dump -U postgres -Fc myproject > backup.dump
+
+# Schema only
+pg_dump -U postgres -s myproject > schema.sql
+
+# Data only
+pg_dump -U postgres -a myproject > data.sql
+```
+
+**Restore database:**
+```bash
+# From SQL file
+psql -U postgres -d myproject < backup.sql
+
+# From compressed dump
+pg_restore -U postgres -d myproject backup.dump
+
+# Create database and restore
+createdb -U postgres myproject_restored
+pg_restore -U postgres -d myproject_restored backup.dump
+```
+
+## Useful Maintenance Commands
+
+**Database maintenance:**
+```sql
+-- Check database size
+SELECT pg_size_pretty(pg_database_size('myproject'));
+
+-- Check table sizes
+SELECT 
+    tablename,
+    pg_size_pretty(pg_total_relation_size(tablename::regclass)) as size
+FROM pg_tables 
+WHERE schemaname = 'public'
+ORDER BY pg_total_relation_size(tablename::regclass) DESC;
+
+-- Update table statistics
+ANALYZE users;
+
+-- Reclaim space after deletes
+VACUUM users;
+
+-- Full vacuum (locks table)
+VACUUM FULL users;
+```
+
+**Monitor active connections:**
+```sql
+-- See current connections
+SELECT pid, usename, application_name, client_addr, state, query_start
+FROM pg_stat_activity 
+WHERE state = 'active';
+
+-- Kill a connection
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity 
+WHERE usename = 'problem_user';
+```
+
+## Environment Variables
+
+Set these in your shell or `.env` file:
+```bash
+export PGHOST=localhost
+export PGPORT=5432
+export PGUSER=myuser
+export PGPASSWORD=mypassword
+export PGDATABASE=myproject
+
+# Then just run: psql
+```
+
+## Connection String Examples
+
+```bash
+# For applications
+postgresql://username:password@host:port/database
+
+# With SSL
+postgresql://user:pass@host/db?sslmode=require
+
+# Local connection
+postgresql:///myproject?host=/var/run/postgresql
+```
+
+This covers the essential PostgreSQL operations you'll need for most web applications and data work.f:T6f65,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#postgresql-cheatsheet">PostgreSQL Cheatsheet</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#connecting--basic-commands">Connecting &#x26; Basic Commands</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#database-operations">Database Operations</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#table-operations">Table Operations</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#crud-operations">CRUD Operations</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#user--role-management">User &#x26; Role Management</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#indexes--performance">Indexes &#x26; Performance</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#common-queries--patterns">Common Queries &#x26; Patterns</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#json-operations-postgresql-specialty">JSON Operations (PostgreSQL specialty)</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#backup--restore">Backup &#x26; Restore</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#useful-maintenance-commands">Useful Maintenance Commands</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#environment-variables">Environment Variables</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#connection-string-examples">Connection String Examples</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="postgresql-cheatsheet">PostgreSQL Cheatsheet</h1>
+    <p>Essential PostgreSQL commands and queries I use regularly. Focused on practical stuff you'll actually need.</p>
+    <h2 id="connecting--basic-commands">Connecting &#x26; Basic Commands</h2>
+    <p><strong>Connect to PostgreSQL:</strong></p>
+    <pre><code class="hljs language-bash">psql -U username -d database_name          <span class="hljs-comment"># Connect to specific database</span>
+psql -U postgres                           <span class="hljs-comment"># Connect as postgres user</span>
+psql -h localhost -p 5432 -U user mydb     <span class="hljs-comment"># Connect with host/port</span>
+</code></pre>
+    <p><strong>Essential psql commands:</strong></p>
+    <pre><code class="hljs language-sql">\?                      <span class="hljs-comment">-- Show help</span>
+\q                      <span class="hljs-comment">-- Quit psql</span>
+\l                      <span class="hljs-comment">-- List all databases</span>
+\c database_name        <span class="hljs-comment">-- Connect to database</span>
+\dt                     <span class="hljs-comment">-- List tables in current database</span>
+\d table_name           <span class="hljs-comment">-- Describe table structure</span>
+\du                     <span class="hljs-comment">-- List users/roles</span>
+\i script.sql           <span class="hljs-comment">-- Execute SQL file</span>
+</code></pre>
+    <h2 id="database-operations">Database Operations</h2>
+    <p><strong>Create and manage databases:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-keyword">CREATE</span> DATABASE myproject;
+<span class="hljs-keyword">DROP</span> DATABASE myproject;
+\c myproject            <span class="hljs-comment">-- Switch to myproject database</span>
+
+<span class="hljs-comment">-- Create database with specific encoding</span>
+<span class="hljs-keyword">CREATE</span> DATABASE myapp 
+    <span class="hljs-keyword">WITH</span> ENCODING <span class="hljs-string">'UTF8'</span> 
+    LC_COLLATE<span class="hljs-operator">=</span><span class="hljs-string">'en_US.UTF-8'</span> 
+    LC_CTYPE<span class="hljs-operator">=</span><span class="hljs-string">'en_US.UTF-8'</span>;
+</code></pre>
+    <h2 id="table-operations">Table Operations</h2>
+    <p><strong>Create tables with common patterns:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Basic table with common column types</span>
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> users (
+    id SERIAL <span class="hljs-keyword">PRIMARY</span> KEY,
+    email <span class="hljs-type">VARCHAR</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">UNIQUE</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    name <span class="hljs-type">VARCHAR</span>(<span class="hljs-number">100</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    created_at <span class="hljs-type">TIMESTAMP</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span>,
+    updated_at <span class="hljs-type">TIMESTAMP</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span>,
+    is_active <span class="hljs-type">BOOLEAN</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-literal">true</span>
+);
+
+<span class="hljs-comment">-- Table with foreign key</span>
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> posts (
+    id SERIAL <span class="hljs-keyword">PRIMARY</span> KEY,
+    title <span class="hljs-type">VARCHAR</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    content TEXT,
+    user_id <span class="hljs-type">INTEGER</span> <span class="hljs-keyword">REFERENCES</span> users(id) <span class="hljs-keyword">ON</span> <span class="hljs-keyword">DELETE</span> CASCADE,
+    created_at <span class="hljs-type">TIMESTAMP</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span>
+);
+</code></pre>
+    <p><strong>Modify existing tables:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Add column</span>
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> users <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">COLUMN</span> phone <span class="hljs-type">VARCHAR</span>(<span class="hljs-number">20</span>);
+
+<span class="hljs-comment">-- Change column type</span>
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> users <span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">COLUMN</span> name TYPE <span class="hljs-type">VARCHAR</span>(<span class="hljs-number">150</span>);
+
+<span class="hljs-comment">-- Add constraint</span>
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> users <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> email_format 
+    <span class="hljs-keyword">CHECK</span> (email <span class="hljs-operator">~</span><span class="hljs-operator">*</span> <span class="hljs-string">'^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'</span>);
+
+<span class="hljs-comment">-- Drop column</span>
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> users <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">COLUMN</span> phone;
+</code></pre>
+    <h2 id="crud-operations">CRUD Operations</h2>
+    <p><strong>Insert data:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Single insert</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> users (email, name) 
+<span class="hljs-keyword">VALUES</span> (<span class="hljs-string">'john@example.com'</span>, <span class="hljs-string">'John Doe'</span>);
+
+<span class="hljs-comment">-- Multiple inserts</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> users (email, name) <span class="hljs-keyword">VALUES</span> 
+    (<span class="hljs-string">'alice@example.com'</span>, <span class="hljs-string">'Alice Smith'</span>),
+    (<span class="hljs-string">'bob@example.com'</span>, <span class="hljs-string">'Bob Johnson'</span>);
+
+<span class="hljs-comment">-- Insert and return data</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> users (email, name) 
+<span class="hljs-keyword">VALUES</span> (<span class="hljs-string">'new@example.com'</span>, <span class="hljs-string">'New User'</span>) 
+RETURNING id, created_at;
+</code></pre>
+    <p><strong>Select data:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Basic selects</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> users;
+<span class="hljs-keyword">SELECT</span> email, name <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> is_active <span class="hljs-operator">=</span> <span class="hljs-literal">true</span>;
+
+<span class="hljs-comment">-- With joins</span>
+<span class="hljs-keyword">SELECT</span> u.name, p.title 
+<span class="hljs-keyword">FROM</span> users u 
+<span class="hljs-keyword">JOIN</span> posts p <span class="hljs-keyword">ON</span> u.id <span class="hljs-operator">=</span> p.user_id
+<span class="hljs-keyword">WHERE</span> u.is_active <span class="hljs-operator">=</span> <span class="hljs-literal">true</span>;
+
+<span class="hljs-comment">-- Pagination</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> id LIMIT <span class="hljs-number">10</span> <span class="hljs-keyword">OFFSET</span> <span class="hljs-number">20</span>;
+
+<span class="hljs-comment">-- Count records</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-built_in">COUNT</span>(<span class="hljs-operator">*</span>) <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> created_at <span class="hljs-operator">>=</span> <span class="hljs-string">'2024-01-01'</span>;
+</code></pre>
+    <p><strong>Update data:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Simple update</span>
+<span class="hljs-keyword">UPDATE</span> users <span class="hljs-keyword">SET</span> name <span class="hljs-operator">=</span> <span class="hljs-string">'Jane Doe'</span> <span class="hljs-keyword">WHERE</span> id <span class="hljs-operator">=</span> <span class="hljs-number">1</span>;
+
+<span class="hljs-comment">-- Update with timestamp</span>
+<span class="hljs-keyword">UPDATE</span> users <span class="hljs-keyword">SET</span> 
+    name <span class="hljs-operator">=</span> <span class="hljs-string">'Updated Name'</span>,
+    updated_at <span class="hljs-operator">=</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span> 
+<span class="hljs-keyword">WHERE</span> email <span class="hljs-operator">=</span> <span class="hljs-string">'user@example.com'</span>;
+
+<span class="hljs-comment">-- Update with condition</span>
+<span class="hljs-keyword">UPDATE</span> posts <span class="hljs-keyword">SET</span> title <span class="hljs-operator">=</span> <span class="hljs-string">'Updated: '</span> <span class="hljs-operator">||</span> title 
+<span class="hljs-keyword">WHERE</span> created_at <span class="hljs-operator">&#x3C;</span> <span class="hljs-string">'2024-01-01'</span>;
+</code></pre>
+    <p><strong>Delete data:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Soft delete (recommended)</span>
+<span class="hljs-keyword">UPDATE</span> users <span class="hljs-keyword">SET</span> is_active <span class="hljs-operator">=</span> <span class="hljs-literal">false</span> <span class="hljs-keyword">WHERE</span> id <span class="hljs-operator">=</span> <span class="hljs-number">1</span>;
+
+<span class="hljs-comment">-- Hard delete</span>
+<span class="hljs-keyword">DELETE</span> <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> id <span class="hljs-operator">=</span> <span class="hljs-number">1</span>;
+
+<span class="hljs-comment">-- Delete with join condition</span>
+<span class="hljs-keyword">DELETE</span> <span class="hljs-keyword">FROM</span> posts 
+<span class="hljs-keyword">WHERE</span> user_id <span class="hljs-keyword">IN</span> (<span class="hljs-keyword">SELECT</span> id <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> is_active <span class="hljs-operator">=</span> <span class="hljs-literal">false</span>);
+</code></pre>
+    <h2 id="user--role-management">User &#x26; Role Management</h2>
+    <p><strong>Create and manage users:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Create user with password</span>
+<span class="hljs-keyword">CREATE</span> ROLE myapp_user <span class="hljs-keyword">WITH</span> LOGIN PASSWORD <span class="hljs-string">'secure_password'</span>;
+
+<span class="hljs-comment">-- Create user with specific privileges</span>
+<span class="hljs-keyword">CREATE</span> ROLE app_readonly <span class="hljs-keyword">WITH</span> LOGIN PASSWORD <span class="hljs-string">'password'</span>
+    CONNECTION LIMIT <span class="hljs-number">10</span>;
+
+<span class="hljs-comment">-- Grant database access</span>
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">CONNECT</span> <span class="hljs-keyword">ON</span> DATABASE myproject <span class="hljs-keyword">TO</span> myapp_user;
+<span class="hljs-keyword">GRANT</span> USAGE <span class="hljs-keyword">ON</span> SCHEMA public <span class="hljs-keyword">TO</span> myapp_user;
+
+<span class="hljs-comment">-- Grant table permissions</span>
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">SELECT</span>, <span class="hljs-keyword">INSERT</span>, <span class="hljs-keyword">UPDATE</span> <span class="hljs-keyword">ON</span> users <span class="hljs-keyword">TO</span> app_user;
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">ALL</span> TABLES <span class="hljs-keyword">IN</span> SCHEMA public <span class="hljs-keyword">TO</span> app_readonly;
+
+<span class="hljs-comment">-- Make user a superuser (be careful!)</span>
+<span class="hljs-keyword">ALTER</span> ROLE username CREATEDB CREATEROLE;
+</code></pre>
+    <p><strong>Common role patterns:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Read-only user for reports</span>
+<span class="hljs-keyword">CREATE</span> ROLE reports_user <span class="hljs-keyword">WITH</span> LOGIN PASSWORD <span class="hljs-string">'password'</span>;
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">CONNECT</span> <span class="hljs-keyword">ON</span> DATABASE myproject <span class="hljs-keyword">TO</span> reports_user;
+<span class="hljs-keyword">GRANT</span> USAGE <span class="hljs-keyword">ON</span> SCHEMA public <span class="hljs-keyword">TO</span> reports_user;
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">ON</span> <span class="hljs-keyword">ALL</span> TABLES <span class="hljs-keyword">IN</span> SCHEMA public <span class="hljs-keyword">TO</span> reports_user;
+
+<span class="hljs-comment">-- Application user with limited permissions</span>
+<span class="hljs-keyword">CREATE</span> ROLE app_user <span class="hljs-keyword">WITH</span> LOGIN PASSWORD <span class="hljs-string">'password'</span>;
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">CONNECT</span> <span class="hljs-keyword">ON</span> DATABASE myproject <span class="hljs-keyword">TO</span> app_user;
+<span class="hljs-keyword">GRANT</span> USAGE <span class="hljs-keyword">ON</span> SCHEMA public <span class="hljs-keyword">TO</span> app_user;
+<span class="hljs-keyword">GRANT</span> <span class="hljs-keyword">SELECT</span>, <span class="hljs-keyword">INSERT</span>, <span class="hljs-keyword">UPDATE</span>, <span class="hljs-keyword">DELETE</span> <span class="hljs-keyword">ON</span> users, posts <span class="hljs-keyword">TO</span> app_user;
+<span class="hljs-keyword">GRANT</span> USAGE <span class="hljs-keyword">ON</span> <span class="hljs-keyword">ALL</span> SEQUENCES <span class="hljs-keyword">IN</span> SCHEMA public <span class="hljs-keyword">TO</span> app_user;
+</code></pre>
+    <h2 id="indexes--performance">Indexes &#x26; Performance</h2>
+    <p><strong>Create indexes for better performance:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Basic index</span>
+<span class="hljs-keyword">CREATE</span> INDEX idx_users_email <span class="hljs-keyword">ON</span> users(email);
+
+<span class="hljs-comment">-- Composite index</span>
+<span class="hljs-keyword">CREATE</span> INDEX idx_posts_user_created <span class="hljs-keyword">ON</span> posts(user_id, created_at);
+
+<span class="hljs-comment">-- Partial index (conditional)</span>
+<span class="hljs-keyword">CREATE</span> INDEX idx_active_users <span class="hljs-keyword">ON</span> users(email) <span class="hljs-keyword">WHERE</span> is_active <span class="hljs-operator">=</span> <span class="hljs-literal">true</span>;
+
+<span class="hljs-comment">-- Check index usage</span>
+<span class="hljs-keyword">SELECT</span> indexname, indexdef <span class="hljs-keyword">FROM</span> pg_indexes <span class="hljs-keyword">WHERE</span> tablename <span class="hljs-operator">=</span> <span class="hljs-string">'users'</span>;
+</code></pre>
+    <h2 id="common-queries--patterns">Common Queries &#x26; Patterns</h2>
+    <p><strong>Date/time queries:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Records from last 7 days</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> posts 
+<span class="hljs-keyword">WHERE</span> created_at <span class="hljs-operator">>=</span> <span class="hljs-built_in">CURRENT_DATE</span> <span class="hljs-operator">-</span> <span class="hljs-type">INTERVAL</span> <span class="hljs-string">'7 days'</span>;
+
+<span class="hljs-comment">-- Group by date</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-type">DATE</span>(created_at) <span class="hljs-keyword">as</span> <span class="hljs-keyword">day</span>, <span class="hljs-built_in">COUNT</span>(<span class="hljs-operator">*</span>) 
+<span class="hljs-keyword">FROM</span> posts 
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> <span class="hljs-type">DATE</span>(created_at) 
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> <span class="hljs-keyword">day</span>;
+
+<span class="hljs-comment">-- Format timestamps</span>
+<span class="hljs-keyword">SELECT</span> name, TO_CHAR(created_at, <span class="hljs-string">'YYYY-MM-DD HH24:MI'</span>) <span class="hljs-keyword">as</span> formatted_date
+<span class="hljs-keyword">FROM</span> users;
+</code></pre>
+    <p><strong>String operations:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Case-insensitive search</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> <span class="hljs-built_in">LOWER</span>(name) <span class="hljs-keyword">LIKE</span> <span class="hljs-string">'%john%'</span>;
+
+<span class="hljs-comment">-- Pattern matching</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> users <span class="hljs-keyword">WHERE</span> email <span class="hljs-operator">~</span> <span class="hljs-string">'@gmail\.com$'</span>;
+
+<span class="hljs-comment">-- String concatenation</span>
+<span class="hljs-keyword">SELECT</span> name <span class="hljs-operator">||</span> <span class="hljs-string">' ('</span> <span class="hljs-operator">||</span> email <span class="hljs-operator">||</span> <span class="hljs-string">')'</span> <span class="hljs-keyword">as</span> display_name <span class="hljs-keyword">FROM</span> users;
+</code></pre>
+    <p><strong>Aggregations:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Count posts per user</span>
+<span class="hljs-keyword">SELECT</span> u.name, <span class="hljs-built_in">COUNT</span>(p.id) <span class="hljs-keyword">as</span> post_count
+<span class="hljs-keyword">FROM</span> users u
+<span class="hljs-keyword">LEFT</span> <span class="hljs-keyword">JOIN</span> posts p <span class="hljs-keyword">ON</span> u.id <span class="hljs-operator">=</span> p.user_id
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> u.id, u.name
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> post_count <span class="hljs-keyword">DESC</span>;
+
+<span class="hljs-comment">-- Find duplicates</span>
+<span class="hljs-keyword">SELECT</span> email, <span class="hljs-built_in">COUNT</span>(<span class="hljs-operator">*</span>) 
+<span class="hljs-keyword">FROM</span> users 
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> email 
+<span class="hljs-keyword">HAVING</span> <span class="hljs-built_in">COUNT</span>(<span class="hljs-operator">*</span>) <span class="hljs-operator">></span> <span class="hljs-number">1</span>;
+</code></pre>
+    <h2 id="json-operations-postgresql-specialty">JSON Operations (PostgreSQL specialty)</h2>
+    <p><strong>Working with JSON columns:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Create table with JSON</span>
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> events (
+    id SERIAL <span class="hljs-keyword">PRIMARY</span> KEY,
+    data JSONB <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">NULL</span>,
+    created_at <span class="hljs-type">TIMESTAMP</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-built_in">CURRENT_TIMESTAMP</span>
+);
+
+<span class="hljs-comment">-- Insert JSON data</span>
+<span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> events (data) <span class="hljs-keyword">VALUES</span> 
+(<span class="hljs-string">'{"type": "login", "user_id": 123, "ip": "192.168.1.1"}'</span>),
+(<span class="hljs-string">'{"type": "purchase", "user_id": 123, "amount": 29.99, "product": "book"}'</span>);
+
+<span class="hljs-comment">-- Query JSON data</span>
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> events <span class="hljs-keyword">WHERE</span> data<span class="hljs-operator">-</span><span class="hljs-operator">>></span><span class="hljs-string">'type'</span> <span class="hljs-operator">=</span> <span class="hljs-string">'login'</span>;
+<span class="hljs-keyword">SELECT</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">FROM</span> events <span class="hljs-keyword">WHERE</span> (data<span class="hljs-operator">-</span><span class="hljs-operator">>></span><span class="hljs-string">'user_id'</span>)::<span class="hljs-type">int</span> <span class="hljs-operator">=</span> <span class="hljs-number">123</span>;
+<span class="hljs-keyword">SELECT</span> data<span class="hljs-operator">-</span><span class="hljs-operator">></span><span class="hljs-string">'amount'</span> <span class="hljs-keyword">as</span> amount <span class="hljs-keyword">FROM</span> events <span class="hljs-keyword">WHERE</span> data ? <span class="hljs-string">'amount'</span>;
+
+<span class="hljs-comment">-- Create index on JSON field</span>
+<span class="hljs-keyword">CREATE</span> INDEX idx_events_type <span class="hljs-keyword">ON</span> events <span class="hljs-keyword">USING</span> GIN ((data<span class="hljs-operator">-</span><span class="hljs-operator">>></span><span class="hljs-string">'type'</span>));
+</code></pre>
+    <h2 id="backup--restore">Backup &#x26; Restore</h2>
+    <p><strong>Backup database:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># Full database backup</span>
+pg_dump -U postgres myproject > backup.sql
+
+<span class="hljs-comment"># Compressed backup</span>
+pg_dump -U postgres -Fc myproject > backup.dump
+
+<span class="hljs-comment"># Schema only</span>
+pg_dump -U postgres -s myproject > schema.sql
+
+<span class="hljs-comment"># Data only</span>
+pg_dump -U postgres -a myproject > data.sql
+</code></pre>
+    <p><strong>Restore database:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># From SQL file</span>
+psql -U postgres -d myproject &#x3C; backup.sql
+
+<span class="hljs-comment"># From compressed dump</span>
+pg_restore -U postgres -d myproject backup.dump
+
+<span class="hljs-comment"># Create database and restore</span>
+createdb -U postgres myproject_restored
+pg_restore -U postgres -d myproject_restored backup.dump
+</code></pre>
+    <h2 id="useful-maintenance-commands">Useful Maintenance Commands</h2>
+    <p><strong>Database maintenance:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- Check database size</span>
+<span class="hljs-keyword">SELECT</span> pg_size_pretty(pg_database_size(<span class="hljs-string">'myproject'</span>));
+
+<span class="hljs-comment">-- Check table sizes</span>
+<span class="hljs-keyword">SELECT</span> 
+    tablename,
+    pg_size_pretty(pg_total_relation_size(tablename::regclass)) <span class="hljs-keyword">as</span> size
+<span class="hljs-keyword">FROM</span> pg_tables 
+<span class="hljs-keyword">WHERE</span> schemaname <span class="hljs-operator">=</span> <span class="hljs-string">'public'</span>
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> pg_total_relation_size(tablename::regclass) <span class="hljs-keyword">DESC</span>;
+
+<span class="hljs-comment">-- Update table statistics</span>
+ANALYZE users;
+
+<span class="hljs-comment">-- Reclaim space after deletes</span>
+VACUUM users;
+
+<span class="hljs-comment">-- Full vacuum (locks table)</span>
+VACUUM <span class="hljs-keyword">FULL</span> users;
+</code></pre>
+    <p><strong>Monitor active connections:</strong></p>
+    <pre><code class="hljs language-sql"><span class="hljs-comment">-- See current connections</span>
+<span class="hljs-keyword">SELECT</span> pid, usename, application_name, client_addr, state, query_start
+<span class="hljs-keyword">FROM</span> pg_stat_activity 
+<span class="hljs-keyword">WHERE</span> state <span class="hljs-operator">=</span> <span class="hljs-string">'active'</span>;
+
+<span class="hljs-comment">-- Kill a connection</span>
+<span class="hljs-keyword">SELECT</span> pg_terminate_backend(pid) <span class="hljs-keyword">FROM</span> pg_stat_activity 
+<span class="hljs-keyword">WHERE</span> usename <span class="hljs-operator">=</span> <span class="hljs-string">'problem_user'</span>;
+</code></pre>
+    <h2 id="environment-variables">Environment Variables</h2>
+    <p>Set these in your shell or <code>.env</code> file:</p>
+    <pre><code class="hljs language-bash"><span class="hljs-built_in">export</span> PGHOST=localhost
+<span class="hljs-built_in">export</span> PGPORT=5432
+<span class="hljs-built_in">export</span> PGUSER=myuser
+<span class="hljs-built_in">export</span> PGPASSWORD=mypassword
+<span class="hljs-built_in">export</span> PGDATABASE=myproject
+
+<span class="hljs-comment"># Then just run: psql</span>
+</code></pre>
+    <h2 id="connection-string-examples">Connection String Examples</h2>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># For applications</span>
+postgresql://username:password@host:port/database
+
+<span class="hljs-comment"># With SSL</span>
+postgresql://user:pass@host/db?sslmode=require
+
+<span class="hljs-comment"># Local connection</span>
+postgresql:///myproject?host=/var/run/postgresql
+</code></pre>
+    <p>This covers the essential PostgreSQL operations you'll need for most web applications and data work.</p>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"PostgreSQL Cheatsheet"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/PostgreSQL","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"PostgreSQL"}]}],["$","$Lb","1",{"href":"/tags/Database","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Database"}]}],["$","$Lb","2",{"href":"/tags/SQL","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"SQL"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

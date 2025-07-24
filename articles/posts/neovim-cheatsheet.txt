@@ -1,0 +1,567 @@
+1:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/3cce890a78e1b9e6.css","style",{"crossOrigin":""}]
+0:["y-KQ4XLpVjS0mpw4CYW5h",[[["",{"children":["articles",{"children":[["slug","posts/neovim-cheatsheet","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"neovim-cheatsheet\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3cce890a78e1b9e6.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-a899d2522ee4bf8e.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e8ce0c Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/neovim-cheatsheet","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"neovim-cheatsheet\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/neovim-cheatsheet","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T2034,
+# Neovim Cheatsheet
+
+My go-to commands for Neovim that I actually use daily.
+
+## Getting Started
+
+**Launch Neovim**
+```bash
+nvim                    # Open in current directory
+nvim config.json        # Open specific file
+nvim app.js server.js   # Open multiple files in buffers
+```
+
+**Open files in different layouts**
+```bash
+nvim -p index.html style.css script.js  # Each file in its own tab
+nvim -o main.py utils.py                # Horizontal splits
+nvim -O client.go server.go             # Vertical splits
+```
+
+## Window Splits & Navigation
+
+**Creating splits:**
+```vim
+:split filename         # Horizontal split with file
+:vsplit filename        # Vertical split with file
+:sp                     # Horizontal split (same file)
+:vsp                    # Vertical split (same file)
+Ctrl+w s                # Horizontal split (same file)
+Ctrl+w v                # Vertical split (same file)
+```
+
+**Navigating between splits:**
+```vim
+Ctrl+w h                # Move to left split
+Ctrl+w j                # Move to bottom split
+Ctrl+w k                # Move to top split
+Ctrl+w l                # Move to right split
+Ctrl+w w                # Cycle through splits
+```
+
+**Resizing splits:**
+```vim
+Ctrl+w =                # Make all splits equal size
+Ctrl+w +                # Increase height
+Ctrl+w -                # Decrease height
+Ctrl+w >                # Increase width
+Ctrl+w <                # Decrease width
+:resize 20              # Set height to 20 lines
+:vertical resize 80     # Set width to 80 columns
+```
+
+**Closing splits:**
+```vim
+Ctrl+w q                # Close current split
+Ctrl+w o                # Close all splits except current
+:only                   # Same as Ctrl+w o
+```
+
+## Navigation & Buffers
+
+**Buffer management** (when you have multiple files open):
+```vim
+:buffers                # List all open buffers
+:b 2                    # Switch to buffer 2 (main.py)
+:bd                     # Close current buffer
+:bd!                    # Force close without saving
+```
+
+**Quick file switching:**
+```vim
+Ctrl+^                  # Switch to previous buffer
+:e routes.js            # Open/edit another file
+```
+
+## Marks
+
+**Setting and using marks:**
+```vim
+ma                      # Set mark 'a' at current position
+'a                      # Jump to mark 'a'
+`a                      # Jump to exact position of mark 'a'
+:marks                  # List all marks
+```
+
+**Automatic marks:**
+```vim
+''                      # Jump to previous position
+'.                      # Jump to last edit
+'^                      # Jump to last insert
+```
+
+**Example workflow:**
+1. `ma` - mark current function as 'a'
+2. Navigate elsewhere in file
+3. `'a` - quickly return to that function
+
+## Registers
+
+**Using registers (clipboard system):**
+```vim
+"ay                     # Copy to register 'a'
+"ap                     # Paste from register 'a'
+"Ay                     # Append to register 'a'
+:reg                    # Show all registers
+:reg a                  # Show register 'a' contents
+```
+
+**Special registers:**
+```vim
+"0p                     # Paste last yanked text (not deleted)
+"+y                     # Copy to system clipboard
+"+p                     # Paste from system clipboard
+"*y                     # Copy to selection clipboard (X11)
+```
+
+**Example workflow:**
+1. `"ay3dd` - delete 3 lines into register 'a'
+2. Navigate elsewhere
+3. `"ap` - paste those 3 lines
+
+## Text Selection & Ranges
+
+These ranges work with most commands (`:delete`, `:substitute`, etc.):
+
+| Range | What it selects | Example |
+|-------|----------------|---------|
+| `:5` | Line 5 only | `:5d` (delete line 5) |
+| `:5,10` | Lines 5 through 10 | `:5,10s/var/let/g` |
+| `:%` | Entire file | `:%s/TODO/DONE/g` |
+| `:.` | Current line | `:.s/foo/bar/` |
+| `:$` | Last line | `:$d` (delete last line) |
+| `:'<,'>` | Visually selected text | Select text, then `:'<,'>s/old/new/g` |
+| `:/function/` | Line matching pattern | `:/function/,/}/d` (delete function block) |
+
+## Search & Replace
+
+**Basic search:**
+```vim
+/import                 # Search forward for "import"
+?export                 # Search backward for "export"
+n                       # Next match
+N                       # Previous match
+```
+
+**Find and replace:**
+```vim
+:%s/var/let/g           # Replace all "var" with "let" in file
+:5,10s/console.log/logger.info/g  # Replace in lines 5-10 only
+:%s/TODO/DONE/gc        # Replace with confirmation for each
+:%s/\<old\>/new/g       # Replace whole word "old" with "new"
+```
+
+**Real examples I use:**
+```vim
+:%s/localhost:3000/api.example.com/g  # Update API endpoints
+:%s/== null/=== null/g                # Fix equality comparisons
+```
+
+## Command Line Tricks
+
+**Insert from registers in command mode:**
+```vim
+Ctrl+r "                # Insert unnamed register
+Ctrl+r a                # Insert register 'a'
+Ctrl+r +                # Insert system clipboard
+Ctrl+r %                # Insert current filename
+Ctrl+r /                # Insert last search pattern
+```
+
+**Example:** Type `:e ` then `Ctrl+r %` to edit file in same directory.
+
+**Other command line operations:**
+```vim
+:!ls -la                # Run shell command
+:!git status            # Check git status
+:r !date                # Insert current date/time
+:r !curl -s api.com/data | jq  # Insert API response
+:w !sudo tee %          # Save file as root (when you forgot sudo)
+```
+
+## External Commands
+
+**Filter text through external commands:**
+```vim
+:%!jq                   # Format entire file as JSON
+:%!sort                 # Sort all lines alphabetically
+:'<,'>!sort             # Sort only selected lines
+:%!prettier --stdin-filepath %  # Format with Prettier
+```
+
+**Real examples:**
+```vim
+:%!avro-tools tojson % | jq    # Convert Avro to formatted JSON
+:%!python -m json.tool         # Format JSON using Python
+:'<,'>!column -t               # Align selected columns
+```
+
+## Key Bindings & Configuration
+
+**Finding existing key mappings:**
+```vim
+:map                    # Show all mappings
+:nmap                   # Show normal mode mappings
+:imap                   # Show insert mode mappings
+:map <leader>           # Show all leader key mappings
+:verbose map <C-p>      # Show where Ctrl+P mapping was defined
+```
+
+**Creating custom mappings in your config:**
+```lua
+-- In ~/.config/nvim/init.lua
+vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = 'Save file' })
+vim.keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Move to left split' })
+vim.keymap.set('i', 'jk', '<Esc>', { desc = 'Exit insert mode' })
+vim.keymap.set('v', '<leader>s', ':sort<CR>', { desc = 'Sort selection' })
+```
+
+**Which-Key plugin (shows available keybindings):**
+```lua
+-- Add to your config
+require('which-key').register({
+  ['<leader>f'] = { name = '+file' },
+  ['<leader>g'] = { name = '+git' },
+  ['<leader>s'] = { name = '+search' },
+})
+```
+
+When you press `<leader>` and wait, Which-Key shows available completions.
+
+## Essential Movements
+
+```vim
+gg                      # Go to top of file
+G                       # Go to bottom of file
+0                       # Beginning of line (column 0)
+$                       # End of line
+w                       # Next word start
+b                       # Previous word start
+}                       # Next empty line (paragraph)
+{                       # Previous empty line
+15G                     # Go to line 15
+```
+
+## Quick Edits
+
+```vim
+dd                      # Delete current line
+3dd                     # Delete 3 lines starting from current
+yy                      # Copy current line
+5yy                     # Copy 5 lines
+p                       # Paste after cursor
+P                       # Paste before cursor
+u                       # Undo last change
+Ctrl+r                  # Redo
+.                       # Repeat last command
+```
+
+## Visual Mode
+
+```vim
+v                       # Character-wise visual
+V                       # Line-wise visual (select whole lines)
+Ctrl+v                  # Block visual (select columns)
+```
+
+**Example workflow:**
+1. `V` to enter line visual mode
+2. `5j` to select 5 lines down
+3. `:s/old/new/g` to replace in selection
+
+**Useful file operations:**
+```vim
+:w backup.js            # Save copy as backup.js
+:saveas config-new.json # Save current buffer with new name
+```f:T3ae0,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#neovim-cheatsheet">Neovim Cheatsheet</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#getting-started">Getting Started</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#window-splits--navigation">Window Splits &#x26; Navigation</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#navigation--buffers">Navigation &#x26; Buffers</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#marks">Marks</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#registers">Registers</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#text-selection--ranges">Text Selection &#x26; Ranges</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#search--replace">Search &#x26; Replace</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#command-line-tricks">Command Line Tricks</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#external-commands">External Commands</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#key-bindings--configuration">Key Bindings &#x26; Configuration</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#essential-movements">Essential Movements</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#quick-edits">Quick Edits</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#visual-mode">Visual Mode</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="neovim-cheatsheet">Neovim Cheatsheet</h1>
+    <p>My go-to commands for Neovim that I actually use daily.</p>
+    <h2 id="getting-started">Getting Started</h2>
+    <p><strong>Launch Neovim</strong></p>
+    <pre><code class="hljs language-bash">nvim                    <span class="hljs-comment"># Open in current directory</span>
+nvim config.json        <span class="hljs-comment"># Open specific file</span>
+nvim app.js server.js   <span class="hljs-comment"># Open multiple files in buffers</span>
+</code></pre>
+    <p><strong>Open files in different layouts</strong></p>
+    <pre><code class="hljs language-bash">nvim -p index.html style.css script.js  <span class="hljs-comment"># Each file in its own tab</span>
+nvim -o main.py utils.py                <span class="hljs-comment"># Horizontal splits</span>
+nvim -O client.go server.go             <span class="hljs-comment"># Vertical splits</span>
+</code></pre>
+    <h2 id="window-splits--navigation">Window Splits &#x26; Navigation</h2>
+    <p><strong>Creating splits:</strong></p>
+    <pre><code class="hljs language-vim">:split filename         # Horizontal split with file
+:vsplit filename        # Vertical split with file
+:sp                     # Horizontal split (same file)
+:vsp                    # Vertical split (same file)
+Ctrl+w s                # Horizontal split (same file)
+Ctrl+w v                # Vertical split (same file)
+</code></pre>
+    <p><strong>Navigating between splits:</strong></p>
+    <pre><code class="hljs language-vim">Ctrl+w h                # Move to left split
+Ctrl+w j                # Move to bottom split
+Ctrl+w k                # Move to top split
+Ctrl+w l                # Move to right split
+Ctrl+w w                # Cycle through splits
+</code></pre>
+    <p><strong>Resizing splits:</strong></p>
+    <pre><code class="hljs language-vim">Ctrl+w =                # Make all splits equal size
+Ctrl+w +                # Increase height
+Ctrl+w -                # Decrease height
+Ctrl+w >                # Increase width
+Ctrl+w &#x3C;                # Decrease width
+:resize 20              # Set height to 20 lines
+:vertical resize 80     # Set width to 80 columns
+</code></pre>
+    <p><strong>Closing splits:</strong></p>
+    <pre><code class="hljs language-vim">Ctrl+w q                # Close current split
+Ctrl+w o                # Close all splits except current
+:only                   # Same as Ctrl+w o
+</code></pre>
+    <h2 id="navigation--buffers">Navigation &#x26; Buffers</h2>
+    <p><strong>Buffer management</strong> (when you have multiple files open):</p>
+    <pre><code class="hljs language-vim">:buffers                # List all open buffers
+:b 2                    # Switch to buffer 2 (main.py)
+:bd                     # Close current buffer
+:bd!                    # Force close without saving
+</code></pre>
+    <p><strong>Quick file switching:</strong></p>
+    <pre><code class="hljs language-vim">Ctrl+^                  # Switch to previous buffer
+:e routes.js            # Open/edit another file
+</code></pre>
+    <h2 id="marks">Marks</h2>
+    <p><strong>Setting and using marks:</strong></p>
+    <pre><code class="hljs language-vim">ma                      # Set mark 'a' at current position
+'a                      # Jump to mark 'a'
+`a                      # Jump to exact position of mark 'a'
+:marks                  # List all marks
+</code></pre>
+    <p><strong>Automatic marks:</strong></p>
+    <pre><code class="hljs language-vim">''                      # Jump to previous position
+'.                      # Jump to last edit
+'^                      # Jump to last insert
+</code></pre>
+    <p><strong>Example workflow:</strong></p>
+    <ol>
+      <li><code>ma</code> - mark current function as 'a'</li>
+      <li>Navigate elsewhere in file</li>
+      <li><code>'a</code> - quickly return to that function</li>
+    </ol>
+    <h2 id="registers">Registers</h2>
+    <p><strong>Using registers (clipboard system):</strong></p>
+    <pre><code class="hljs language-vim">"ay                     # Copy to register 'a'
+"ap                     # Paste from register 'a'
+"Ay                     # Append to register 'a'
+:reg                    # Show all registers
+:reg a                  # Show register 'a' contents
+</code></pre>
+    <p><strong>Special registers:</strong></p>
+    <pre><code class="hljs language-vim">"0p                     # Paste last yanked text (not deleted)
+"+y                     # Copy to system clipboard
+"+p                     # Paste from system clipboard
+"*y                     # Copy to selection clipboard (X11)
+</code></pre>
+    <p><strong>Example workflow:</strong></p>
+    <ol>
+      <li><code>"ay3dd</code> - delete 3 lines into register 'a'</li>
+      <li>Navigate elsewhere</li>
+      <li><code>"ap</code> - paste those 3 lines</li>
+    </ol>
+    <h2 id="text-selection--ranges">Text Selection &#x26; Ranges</h2>
+    <p>These ranges work with most commands (<code>:delete</code>, <code>:substitute</code>, etc.):</p>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Range</th>
+            <th>What it selects</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>:5</code></td>
+            <td>Line 5 only</td>
+            <td><code>:5d</code> (delete line 5)</td>
+          </tr>
+          <tr>
+            <td><code>:5,10</code></td>
+            <td>Lines 5 through 10</td>
+            <td><code>:5,10s/var/let/g</code></td>
+          </tr>
+          <tr>
+            <td><code>:%</code></td>
+            <td>Entire file</td>
+            <td><code>:%s/TODO/DONE/g</code></td>
+          </tr>
+          <tr>
+            <td><code>:.</code></td>
+            <td>Current line</td>
+            <td><code>:.s/foo/bar/</code></td>
+          </tr>
+          <tr>
+            <td><code>:$</code></td>
+            <td>Last line</td>
+            <td><code>:$d</code> (delete last line)</td>
+          </tr>
+          <tr>
+            <td><code>:'&#x3C;,'></code></td>
+            <td>Visually selected text</td>
+            <td>Select text, then <code>:'&#x3C;,'>s/old/new/g</code></td>
+          </tr>
+          <tr>
+            <td><code>:/function/</code></td>
+            <td>Line matching pattern</td>
+            <td><code>:/function/,/}/d</code> (delete function block)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 id="search--replace">Search &#x26; Replace</h2>
+    <p><strong>Basic search:</strong></p>
+    <pre><code class="hljs language-vim">/import                 # Search forward for "import"
+?export                 # Search backward for "export"
+n                       # Next match
+N                       # Previous match
+</code></pre>
+    <p><strong>Find and replace:</strong></p>
+    <pre><code class="hljs language-vim">:%s/var/let/g           # Replace all "var" with "let" in file
+:5,10s/console.log/logger.info/g  # Replace in lines 5-10 only
+:%s/TODO/DONE/gc        # Replace with confirmation for each
+:%s/\&#x3C;old\>/new/g       # Replace whole word "old" with "new"
+</code></pre>
+    <p><strong>Real examples I use:</strong></p>
+    <pre><code class="hljs language-vim">:%s/localhost:3000/api.example.com/g  # Update API endpoints
+:%s/== null/=== null/g                # Fix equality comparisons
+</code></pre>
+    <h2 id="command-line-tricks">Command Line Tricks</h2>
+    <p><strong>Insert from registers in command mode:</strong></p>
+    <pre><code class="hljs language-vim">Ctrl+r "                # Insert unnamed register
+Ctrl+r a                # Insert register 'a'
+Ctrl+r +                # Insert system clipboard
+Ctrl+r %                # Insert current filename
+Ctrl+r /                # Insert last search pattern
+</code></pre>
+    <p><strong>Example:</strong> Type <code>:e </code>then <code>Ctrl+r %</code> to edit file in same directory.</p>
+    <p><strong>Other command line operations:</strong></p>
+    <pre><code class="hljs language-vim">:!ls -la                # Run shell command
+:!git status            # Check git status
+:r !date                # Insert current date/time
+:r !curl -s api.com/data | jq  # Insert API response
+:w !sudo tee %          # Save file as root (when you forgot sudo)
+</code></pre>
+    <h2 id="external-commands">External Commands</h2>
+    <p><strong>Filter text through external commands:</strong></p>
+    <pre><code class="hljs language-vim">:%!jq                   # Format entire file as JSON
+:%!sort                 # Sort all lines alphabetically
+:'&#x3C;,'>!sort             # Sort only selected lines
+:%!prettier --stdin-filepath %  # Format with Prettier
+</code></pre>
+    <p><strong>Real examples:</strong></p>
+    <pre><code class="hljs language-vim">:%!avro-tools tojson % | jq    # Convert Avro to formatted JSON
+:%!python -m json.tool         # Format JSON using Python
+:'&#x3C;,'>!column -t               # Align selected columns
+</code></pre>
+    <h2 id="key-bindings--configuration">Key Bindings &#x26; Configuration</h2>
+    <p><strong>Finding existing key mappings:</strong></p>
+    <pre><code class="hljs language-vim">:map                    # Show all mappings
+:nmap                   # Show normal mode mappings
+:imap                   # Show insert mode mappings
+:map &#x3C;leader>           # Show all leader key mappings
+:verbose map &#x3C;C-p>      # Show where Ctrl+P mapping was defined
+</code></pre>
+    <p><strong>Creating custom mappings in your config:</strong></p>
+    <pre><code class="hljs language-lua"><span class="hljs-comment">-- In ~/.config/nvim/init.lua</span>
+vim.keymap.set(<span class="hljs-string">'n'</span>, <span class="hljs-string">'&#x3C;leader>w'</span>, <span class="hljs-string">':w&#x3C;CR>'</span>, { desc = <span class="hljs-string">'Save file'</span> })
+vim.keymap.set(<span class="hljs-string">'n'</span>, <span class="hljs-string">'&#x3C;C-h>'</span>, <span class="hljs-string">'&#x3C;C-w>h'</span>, { desc = <span class="hljs-string">'Move to left split'</span> })
+vim.keymap.set(<span class="hljs-string">'i'</span>, <span class="hljs-string">'jk'</span>, <span class="hljs-string">'&#x3C;Esc>'</span>, { desc = <span class="hljs-string">'Exit insert mode'</span> })
+vim.keymap.set(<span class="hljs-string">'v'</span>, <span class="hljs-string">'&#x3C;leader>s'</span>, <span class="hljs-string">':sort&#x3C;CR>'</span>, { desc = <span class="hljs-string">'Sort selection'</span> })
+</code></pre>
+    <p><strong>Which-Key plugin (shows available keybindings):</strong></p>
+    <pre><code class="hljs language-lua"><span class="hljs-comment">-- Add to your config</span>
+<span class="hljs-built_in">require</span>(<span class="hljs-string">'which-key'</span>).register({
+  [<span class="hljs-string">'&#x3C;leader>f'</span>] = { name = <span class="hljs-string">'+file'</span> },
+  [<span class="hljs-string">'&#x3C;leader>g'</span>] = { name = <span class="hljs-string">'+git'</span> },
+  [<span class="hljs-string">'&#x3C;leader>s'</span>] = { name = <span class="hljs-string">'+search'</span> },
+})
+</code></pre>
+    <p>When you press <code>&#x3C;leader></code> and wait, Which-Key shows available completions.</p>
+    <h2 id="essential-movements">Essential Movements</h2>
+    <pre><code class="hljs language-vim">gg                      # Go to top of file
+G                       # Go to bottom of file
+0                       # Beginning of line (column 0)
+$                       # End of line
+w                       # Next word start
+b                       # Previous word start
+}                       # Next empty line (paragraph)
+{                       # Previous empty line
+15G                     # Go to line 15
+</code></pre>
+    <h2 id="quick-edits">Quick Edits</h2>
+    <pre><code class="hljs language-vim">dd                      # Delete current line
+3dd                     # Delete 3 lines starting from current
+yy                      # Copy current line
+5yy                     # Copy 5 lines
+p                       # Paste after cursor
+P                       # Paste before cursor
+u                       # Undo last change
+Ctrl+r                  # Redo
+.                       # Repeat last command
+</code></pre>
+    <h2 id="visual-mode">Visual Mode</h2>
+    <pre><code class="hljs language-vim">v                       # Character-wise visual
+V                       # Line-wise visual (select whole lines)
+Ctrl+v                  # Block visual (select columns)
+</code></pre>
+    <p><strong>Example workflow:</strong></p>
+    <ol>
+      <li><code>V</code> to enter line visual mode</li>
+      <li><code>5j</code> to select 5 lines down</li>
+      <li><code>:s/old/new/g</code> to replace in selection</li>
+    </ol>
+    <p><strong>Useful file operations:</strong></p>
+    <pre><code class="hljs language-vim">:w backup.js            # Save copy as backup.js
+:saveas config-new.json # Save current buffer with new name
+</code></pre>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Neovim Cheatsheet"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Neovim","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Neovim"}]}],["$","$Lb","1",{"href":"/tags/Editor","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Editor"}]}],["$","$Lb","2",{"href":"/tags/Vim","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Vim"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

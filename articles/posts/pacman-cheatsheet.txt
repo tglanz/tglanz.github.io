@@ -1,0 +1,382 @@
+1:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:HL["/_next/static/css/3cce890a78e1b9e6.css","style",{"crossOrigin":""}]
+0:["y-KQ4XLpVjS0mpw4CYW5h",[[["",{"children":["articles",{"children":[["slug","posts/pacman-cheatsheet","c"],{"children":["__PAGE__?{\"slug\":[\"posts\",\"pacman-cheatsheet\"]}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3cce890a78e1b9e6.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+5:HL["/_next/static/css/1cb3813e458884a4.css","style",{"crossOrigin":""}]
+6:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-a899d2522ee4bf8e.js"],""]
+7:I[6954,[],""]
+8:I[7264,[],""]
+b:I[8326,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],""]
+c:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z3:[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_e8ce0c Layout_body__oXsmr","children":[["$","header",null,{"className":"Layout_header__XC_Gv","children":["$","$L6",null,{}]}],["$","main",null,{"className":"Layout_main__luTTh","children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","articles","children",["slug","posts/pacman-cheatsheet","c"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"slug\":[\"posts\",\"pacman-cheatsheet\"]}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cb3813e458884a4.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["slug","posts/pacman-cheatsheet","c"],"styles":null}],"childPropSegment":"articles","styles":null}]}],["$","footer",null,{"children":["$","div",null,{"className":"Footer_container__Z8cUU","children":[["$","$Lb",null,{"href":"https://il.linkedin.com/in/tal-glanzman","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}],["$","$Lb",null,{"href":"https://github.com/tglanz","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 496 512","children":["$undefined",[["$","path","0",{"d":"$c","children":"$undefined"}]]],"className":"$undefined","style":{"color":"$undefined"},"height":25,"width":25,"xmlns":"http://www.w3.org/2000/svg"}]}]]}]}]]}]}],null]
+4:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Article"}],["$","meta","3",{"name":"description","content":"Personal site"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+9:null
+d:I[6222,["954","static/chunks/d3ac728e-1e5d8b71e3d43fec.js","326","static/chunks/326-dcee1ff54fa4f70c.js","496","static/chunks/app/articles/%5B...slug%5D/page-44f6caefb92fad34.js"],"ArticleContent"]
+e:T12d5,
+# Pacman Cheatsheet
+
+Essential pacman commands I actually use on Arch Linux. Focused on the practical stuff you need daily.
+
+## Installing Packages
+
+**Basic installation:**
+```bash
+pacman -S firefox           # Install Firefox
+pacman -S git vim neovim    # Install multiple packages
+pacman -S --needed base-devel  # Install only if not already installed
+```
+
+**Search before installing:**
+```bash
+pacman -Ss browser          # Search for packages containing "browser"
+pacman -Si firefox          # Show detailed info about Firefox
+```
+
+## Removing Packages
+
+**Complete package removal (most common):**
+```bash
+pacman -Rns firefox         # Remove Firefox + configs + unused deps
+```
+
+Breaking it down:
+- `R` = Remove operation
+- `n` = Remove configuration files
+- `s` = Remove unnecessary dependencies
+
+**Other removal options:**
+```bash
+pacman -R firefox           # Remove package only (keep deps)
+pacman -Rs firefox          # Remove package + unused dependencies
+pacman -Rn firefox          # Remove package + configuration files
+```
+
+**Real example:** Completely removing a desktop environment:
+```bash
+pacman -Rns gnome gnome-extra  # Remove GNOME and all related packages
+```
+
+## System Updates
+
+**Full system update:**
+```bash
+pacman -Syu                 # Update package database and upgrade all
+```
+
+**Update package database only:**
+```bash
+pacman -Sy                  # Refresh package database
+```
+
+**Upgrade installed packages only:**
+```bash
+pacman -Su                  # Upgrade without refreshing database
+```
+
+## Package Information & Search
+
+**Find information about packages:**
+```bash
+pacman -Q                   # List all installed packages
+pacman -Qs vim              # Search installed packages for "vim"
+pacman -Qi neovim           # Show info about installed neovim
+pacman -Ql neovim           # List files installed by neovim
+pacman -Qo /usr/bin/vim     # Which package owns this file?
+```
+
+**Search the repositories:**
+```bash
+pacman -Ss python           # Search repos for python packages
+pacman -Si python           # Show detailed info from repos
+```
+
+## Managing Orphaned Packages
+
+**Find orphaned packages (installed as deps but no longer needed):**
+```bash
+pacman -Qdt                 # List orphaned packages
+```
+
+**Remove all orphaned packages:**
+```bash
+pacman -Rns $(pacman -Qdtq) # Remove orphans (quiet output for piping)
+```
+
+**Example workflow:**
+1. `pacman -Qdt` - check what will be removed
+2. `pacman -Rns $(pacman -Qdtq)` - remove them if you agree
+
+## Package Cache Management
+
+**Clean package cache:**
+```bash
+pacman -Sc                  # Remove old packages from cache
+pacman -Scc                 # Remove ALL packages from cache (even installed)
+```
+
+**Check cache size:**
+```bash
+du -sh /var/cache/pacman/pkg/  # See how much space cache is using
+```
+
+## Common Workflows
+
+**Installing AUR helper (like yay):**
+```bash
+# First install base-devel and git if not already installed
+pacman -S --needed base-devel git
+
+# Then clone and install yay manually
+git clone https://aur.archlinux.org/yay.git
+cd yay && makepkg -si
+```
+
+**Before major system changes:**
+```bash
+pacman -Q > ~/installed-packages.txt  # Backup package list
+pacman -Qe > ~/explicitly-installed.txt  # Backup explicitly installed
+```
+
+**System maintenance routine:**
+```bash
+# Update system
+pacman -Syu
+
+# Clean orphans
+pacman -Rns $(pacman -Qdtq)
+
+# Clean cache
+pacman -Sc
+```
+
+## Troubleshooting
+
+**Fix corrupted package database:**
+```bash
+sudo rm /var/lib/pacman/db.lck  # Remove lock file if pacman is stuck
+pacman -Syy                     # Force refresh database
+```
+
+**Downgrade a package:**
+```bash
+pacman -U /var/cache/pacman/pkg/package-old-version.pkg.tar.xz
+```
+
+**Install from local package file:**
+```bash
+pacman -U package-1.0-1-x86_64.pkg.tar.xz  # Install local package file
+```
+
+**Check for partial upgrades (usually bad):**
+```bash
+pacman -Qk                      # Check package integrity
+```
+
+## Configuration
+
+**Main config:** `/etc/pacman.conf`
+
+**Useful config options:**
+```bash
+# Uncomment in /etc/pacman.conf for colored output
+Color
+
+# Show download progress
+VerbosePkgLists
+
+# Enable parallel downloads (add this line)
+ParallelDownloads = 3
+```
+
+## Useful Aliases
+
+Add these to your `~/.bashrc` or `~/.zshrc`:
+```bash
+alias pacs='pacman -Ss'         # Search packages
+alias paci='sudo pacman -S'     # Install package
+alias pacr='sudo pacman -Rns'   # Remove package completely  
+alias pacu='sudo pacman -Syu'   # Update system
+alias paco='pacman -Rns $(pacman -Qdtq)'  # Remove orphans
+```
+
+## Emergency Recovery
+
+**If you accidentally break your system:**
+```bash
+# Boot from Arch ISO and mount your system
+mount /dev/sdaX /mnt
+arch-chroot /mnt
+
+# Reinstall broken package
+pacman -S packagename
+
+# Or reinstall all packages (nuclear option)
+pacman -Qnq | pacman -S -
+```f:T2b57,<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="toc">
+      <ol class="toc-level toc-level-1">
+        <li class="toc-item toc-item-h1"><a class="toc-link toc-link-h1" href="#pacman-cheatsheet">Pacman Cheatsheet</a>
+          <ol class="toc-level toc-level-2">
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#installing-packages">Installing Packages</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#removing-packages">Removing Packages</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#system-updates">System Updates</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#package-information--search">Package Information &#x26; Search</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#managing-orphaned-packages">Managing Orphaned Packages</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#package-cache-management">Package Cache Management</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#common-workflows">Common Workflows</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#troubleshooting">Troubleshooting</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#configuration">Configuration</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#useful-aliases">Useful Aliases</a></li>
+            <li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#emergency-recovery">Emergency Recovery</a></li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <h1 id="pacman-cheatsheet">Pacman Cheatsheet</h1>
+    <p>Essential pacman commands I actually use on Arch Linux. Focused on the practical stuff you need daily.</p>
+    <h2 id="installing-packages">Installing Packages</h2>
+    <p><strong>Basic installation:</strong></p>
+    <pre><code class="hljs language-bash">pacman -S firefox           <span class="hljs-comment"># Install Firefox</span>
+pacman -S git vim neovim    <span class="hljs-comment"># Install multiple packages</span>
+pacman -S --needed base-devel  <span class="hljs-comment"># Install only if not already installed</span>
+</code></pre>
+    <p><strong>Search before installing:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Ss browser          <span class="hljs-comment"># Search for packages containing "browser"</span>
+pacman -Si firefox          <span class="hljs-comment"># Show detailed info about Firefox</span>
+</code></pre>
+    <h2 id="removing-packages">Removing Packages</h2>
+    <p><strong>Complete package removal (most common):</strong></p>
+    <pre><code class="hljs language-bash">pacman -Rns firefox         <span class="hljs-comment"># Remove Firefox + configs + unused deps</span>
+</code></pre>
+    <p>Breaking it down:</p>
+    <ul>
+      <li><code>R</code> = Remove operation</li>
+      <li><code>n</code> = Remove configuration files</li>
+      <li><code>s</code> = Remove unnecessary dependencies</li>
+    </ul>
+    <p><strong>Other removal options:</strong></p>
+    <pre><code class="hljs language-bash">pacman -R firefox           <span class="hljs-comment"># Remove package only (keep deps)</span>
+pacman -Rs firefox          <span class="hljs-comment"># Remove package + unused dependencies</span>
+pacman -Rn firefox          <span class="hljs-comment"># Remove package + configuration files</span>
+</code></pre>
+    <p><strong>Real example:</strong> Completely removing a desktop environment:</p>
+    <pre><code class="hljs language-bash">pacman -Rns gnome gnome-extra  <span class="hljs-comment"># Remove GNOME and all related packages</span>
+</code></pre>
+    <h2 id="system-updates">System Updates</h2>
+    <p><strong>Full system update:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Syu                 <span class="hljs-comment"># Update package database and upgrade all</span>
+</code></pre>
+    <p><strong>Update package database only:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Sy                  <span class="hljs-comment"># Refresh package database</span>
+</code></pre>
+    <p><strong>Upgrade installed packages only:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Su                  <span class="hljs-comment"># Upgrade without refreshing database</span>
+</code></pre>
+    <h2 id="package-information--search">Package Information &#x26; Search</h2>
+    <p><strong>Find information about packages:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Q                   <span class="hljs-comment"># List all installed packages</span>
+pacman -Qs vim              <span class="hljs-comment"># Search installed packages for "vim"</span>
+pacman -Qi neovim           <span class="hljs-comment"># Show info about installed neovim</span>
+pacman -Ql neovim           <span class="hljs-comment"># List files installed by neovim</span>
+pacman -Qo /usr/bin/vim     <span class="hljs-comment"># Which package owns this file?</span>
+</code></pre>
+    <p><strong>Search the repositories:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Ss python           <span class="hljs-comment"># Search repos for python packages</span>
+pacman -Si python           <span class="hljs-comment"># Show detailed info from repos</span>
+</code></pre>
+    <h2 id="managing-orphaned-packages">Managing Orphaned Packages</h2>
+    <p><strong>Find orphaned packages (installed as deps but no longer needed):</strong></p>
+    <pre><code class="hljs language-bash">pacman -Qdt                 <span class="hljs-comment"># List orphaned packages</span>
+</code></pre>
+    <p><strong>Remove all orphaned packages:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Rns $(pacman -Qdtq) <span class="hljs-comment"># Remove orphans (quiet output for piping)</span>
+</code></pre>
+    <p><strong>Example workflow:</strong></p>
+    <ol>
+      <li><code>pacman -Qdt</code> - check what will be removed</li>
+      <li><code>pacman -Rns $(pacman -Qdtq)</code> - remove them if you agree</li>
+    </ol>
+    <h2 id="package-cache-management">Package Cache Management</h2>
+    <p><strong>Clean package cache:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Sc                  <span class="hljs-comment"># Remove old packages from cache</span>
+pacman -Scc                 <span class="hljs-comment"># Remove ALL packages from cache (even installed)</span>
+</code></pre>
+    <p><strong>Check cache size:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-built_in">du</span> -sh /var/cache/pacman/pkg/  <span class="hljs-comment"># See how much space cache is using</span>
+</code></pre>
+    <h2 id="common-workflows">Common Workflows</h2>
+    <p><strong>Installing AUR helper (like yay):</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># First install base-devel and git if not already installed</span>
+pacman -S --needed base-devel git
+
+<span class="hljs-comment"># Then clone and install yay manually</span>
+git <span class="hljs-built_in">clone</span> https://aur.archlinux.org/yay.git
+<span class="hljs-built_in">cd</span> yay &#x26;&#x26; makepkg -si
+</code></pre>
+    <p><strong>Before major system changes:</strong></p>
+    <pre><code class="hljs language-bash">pacman -Q > ~/installed-packages.txt  <span class="hljs-comment"># Backup package list</span>
+pacman -Qe > ~/explicitly-installed.txt  <span class="hljs-comment"># Backup explicitly installed</span>
+</code></pre>
+    <p><strong>System maintenance routine:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># Update system</span>
+pacman -Syu
+
+<span class="hljs-comment"># Clean orphans</span>
+pacman -Rns $(pacman -Qdtq)
+
+<span class="hljs-comment"># Clean cache</span>
+pacman -Sc
+</code></pre>
+    <h2 id="troubleshooting">Troubleshooting</h2>
+    <p><strong>Fix corrupted package database:</strong></p>
+    <pre><code class="hljs language-bash">sudo <span class="hljs-built_in">rm</span> /var/lib/pacman/db.lck  <span class="hljs-comment"># Remove lock file if pacman is stuck</span>
+pacman -Syy                     <span class="hljs-comment"># Force refresh database</span>
+</code></pre>
+    <p><strong>Downgrade a package:</strong></p>
+    <pre><code class="hljs language-bash">pacman -U /var/cache/pacman/pkg/package-old-version.pkg.tar.xz
+</code></pre>
+    <p><strong>Install from local package file:</strong></p>
+    <pre><code class="hljs language-bash">pacman -U package-1.0-1-x86_64.pkg.tar.xz  <span class="hljs-comment"># Install local package file</span>
+</code></pre>
+    <p><strong>Check for partial upgrades (usually bad):</strong></p>
+    <pre><code class="hljs language-bash">pacman -Qk                      <span class="hljs-comment"># Check package integrity</span>
+</code></pre>
+    <h2 id="configuration">Configuration</h2>
+    <p><strong>Main config:</strong> <code>/etc/pacman.conf</code></p>
+    <p><strong>Useful config options:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># Uncomment in /etc/pacman.conf for colored output</span>
+Color
+
+<span class="hljs-comment"># Show download progress</span>
+VerbosePkgLists
+
+<span class="hljs-comment"># Enable parallel downloads (add this line)</span>
+ParallelDownloads = 3
+</code></pre>
+    <h2 id="useful-aliases">Useful Aliases</h2>
+    <p>Add these to your <code>~/.bashrc</code> or <code>~/.zshrc</code>:</p>
+    <pre><code class="hljs language-bash"><span class="hljs-built_in">alias</span> pacs=<span class="hljs-string">'pacman -Ss'</span>         <span class="hljs-comment"># Search packages</span>
+<span class="hljs-built_in">alias</span> paci=<span class="hljs-string">'sudo pacman -S'</span>     <span class="hljs-comment"># Install package</span>
+<span class="hljs-built_in">alias</span> pacr=<span class="hljs-string">'sudo pacman -Rns'</span>   <span class="hljs-comment"># Remove package completely  </span>
+<span class="hljs-built_in">alias</span> pacu=<span class="hljs-string">'sudo pacman -Syu'</span>   <span class="hljs-comment"># Update system</span>
+<span class="hljs-built_in">alias</span> paco=<span class="hljs-string">'pacman -Rns $(pacman -Qdtq)'</span>  <span class="hljs-comment"># Remove orphans</span>
+</code></pre>
+    <h2 id="emergency-recovery">Emergency Recovery</h2>
+    <p><strong>If you accidentally break your system:</strong></p>
+    <pre><code class="hljs language-bash"><span class="hljs-comment"># Boot from Arch ISO and mount your system</span>
+mount /dev/sdaX /mnt
+arch-chroot /mnt
+
+<span class="hljs-comment"># Reinstall broken package</span>
+pacman -S packagename
+
+<span class="hljs-comment"># Or reinstall all packages (nuclear option)</span>
+pacman -Qnq | pacman -S -
+</code></pre>
+  </body>
+</html>
+a:["$","div",null,{"className":"article-page_container__5yaZl","children":[["$","h1",null,{"children":"Pacman Cheatsheet"}],["$","div",null,{"className":"Taxonomy_container__C2Vdb","children":["$","div",null,{"className":"Taxonomy_values__yvK16","children":[["$","$Lb","0",{"href":"/tags/Pacman","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Pacman"}]}],["$","$Lb","1",{"href":"/tags/Archlinux","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Archlinux"}]}],["$","$Lb","2",{"href":"/tags/Package_Manager","children":["$","div",null,{"className":"Chip_container__q1AW2","children":"Package Manager"}]}]]}]}],["$","$Ld",null,{"content":{"raw":"$e","html":"$f"}}]]}]

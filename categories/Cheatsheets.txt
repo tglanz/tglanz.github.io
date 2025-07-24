@@ -1,6 +1,6 @@
 1:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:HL["/_next/static/css/3cce890a78e1b9e6.css","style",{"crossOrigin":""}]
-0:["dU9O7Y2Rc1nveN6gdXWze",[[["",{"children":["categories",{"children":[["category","Cheatsheets","d"],{"children":["__PAGE__?{\"category\":\"Cheatsheets\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3cce890a78e1b9e6.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
+0:["y-KQ4XLpVjS0mpw4CYW5h",[[["",{"children":["categories",{"children":[["category","Cheatsheets","d"],{"children":["__PAGE__?{\"category\":\"Cheatsheets\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3cce890a78e1b9e6.css","precedence":"next","crossOrigin":""}]],"$L4"]]]]
 5:I[5420,["326","static/chunks/326-dcee1ff54fa4f70c.js","185","static/chunks/app/layout-a899d2522ee4bf8e.js"],""]
 6:I[6954,[],""]
 7:I[7264,[],""]
