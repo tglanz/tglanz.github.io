@@ -1,7 +1,7 @@
 {
   "headline": {
     "title": "Tal Glanzman",
-    "subtitle": "Software Engineer",
+    "subtitle": "Software Research Engineer",
     "description": "I create software"
   },
   "index": {
@@ -14,7 +14,7 @@
     "github": "https://github.com/tglanz"
   },
   "highlights": {
-    "enabled": true,
+    "enabled": false,
     "count": 10
   },
   "content": {
